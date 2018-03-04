@@ -1,0 +1,133 @@
+§@ªÌ: gba356 (º¿§Q¼Ú) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] Q423
+®É¶¡: 2007/12/20 Thu 22:47:24
+
+
+    ¶â..°£¤FÃD¥Ø¥Îµü°¾¬ì¾Ç³y¦r¥~¡A
+
+    ³oÃD¾A¦X·í§@²Ä¤@ÃD Floyd-Warshall / Dijakstra ¡]¤ß¡^
+
+    Floyd-Warshall ©Î Dijakstra °ò¥»½m²ßÃD¡C
+
+
+[1m¤¤Ä¶¡G
+
+    ¡i MPI Maelstrom ¡j[m
+
+BIT has recently taken delivery of their new supercomputer, a 32 processor
+Apollo Odyssey distributed shared memory machine with a hierarchical
+communication subsystem. Valentine McKee's research advisor, Jack Swigert,
+has asked her to benchmark the new system.
+
+    BIT ³Ìªñ¦¬¨ì¤F¥L­Ìªº·sª±·N¨à¡A¤@¥x¤T¤Q¤G³B²z¾¹ªº¶W¯Å¹q¸£¡C³o¥x¹q¸£±Ä¥Î¤F¦W
+
+¥s¡uªüªiÃ¹¡Ð¶ø¼wÁÉ¡vªº°O¾ÐÅé¦@¥Î¤À°t§Þ³N¡A¨Ãµ²¦X¤F¶¥¯Å°T®§¶Ç»¼¨t²Î¡C
+
+    Valentine McKee ªº¬ã¨sÅU°Ý¡A Jack Swigert ¡A²{¦b¦¬¨ì©R¥O¹ï·s¨t²Î§@®Ä¯àµû
+
+¦ô¡C
+
+`How is Apollo's port of the Message Passing Interface (MPI) working out?''
+Swigert asked.
+
+ÈÐ·sªºªüªiÃ¹°T®§¶Ç»¼¤¶­±¹B§@ªº«ç»ò¼Ë¡HÈÐ
+
+``Not so well,'' Valentine replied. ``To do a broadcast of a message from one
+processor to all the other n-1 processors, they just do a sequence of n-1
+sends. That really serializes things and kills the performance.''
+
+ÈÐ¤£¤Ó§®­C¡AÈÐ Valentine µª¹D¡AÈÐ­n±N¤@­Ó°T®§±q¤@­Ó³B²z¾¹¼s¼½¨ì³Ñ¤Uªº n-1 ­Ó
+
+³B²z¾¹¡A§Ú­Ì»Ý­n§@¤@³s¦ê n-1 ¦¸¶Ç°e¡C¦Ó³o«o¥´Â_¤F¨t²Î­ì¥»ªº¤u§@¡CÈÐ
+
+
+``Is there anything you can do to fix that?''
+
+``Yes,'' smiled Valentine. ``There is. Once the first processor has sent the
+message to another, those two can then send messages to two other hosts at
+the same time. Then there will be four hosts that can send, and so on.''
+
+ÈÐ¨º¦³¤°»ò¤èªk¥i¥H­×´_ªº¶Ü¡HÈÐ
+
+ÈÐ¦³ªº¡AÈÐ¦o·L·L¤@¯º¡CÈÐªº½T¦³¡C·í¤@­Ó³B²z¾¹±N°T®§°e¨ì¥t¥~¤@­Ó®É¡A³o¨â­Ó¥i¥H
+
+¦P®Éµo°T®§µ¹¦A¥t¥~ªº¨â­Ó¡A¦]¦¹§Ú­Ì²{¦b¦³¥|­Óµo°TºÝ¤F¡A¨Ì¦¹Ãþ±À¡CÈÐ
+
+
+``Ah, so you can do the broadcast as a binary tree!''
+
+ÈÐ°Ú¡A¨º§Ú­Ì«K¥i¥H±N¥¦µø¬°¤G¤¸¾ð¨Ó¼s¼½°T¸¹¤F¡IÈÐ
+
+
+``Not really a binary tree -- there are some particular features of our
+network that we should exploit. The interface cards we have allow each
+processor to simultaneously send messages to any number of the other
+processors connected to it. However, the messages don't necessarily arrive at
+the destinations at the same time -- there is a communication cost involved.
+In general, we need to take into account the communication costs for each
+link in our network topologies and plan accordingly to minimize the total
+time required to do a broadcast.''
+
+ÈÐ¨Ã¤£§¹¥þ¬O¤G¤¸¾ð¡A³o¸Ì­±ÁÙ¦³§ó¦h"ºô¸ô"ªº©Ê½è­È±o§Ú­Ì¥h¶}µo¡C¦b³oºØ¤¶­±¥d¤U¡A
+
+¥¦¤¹³\§Ú­ÌÀþ¶¡±N°T®§¼s¼½¦Ü¥ô·N¼Æ¶qªº³B²z¾¹¡CµM¦Ó¡A³o¨Ç°T®§¨Ã¤£¬OÀþ¶¡©è¹F¥Øªº
+
+¦aªº¡A§Ú­ÌÁÙ»Ý­n¦Ò¼{¶Ç¼½°T®§ªºªá¶O¡C¤@¯ë¦Ó¨¥¡A§Ú­Ì»Ý­n±N³o¨Çªá¶O¯Ç¤J¦Ò¶q¡A
+
+¨Ã¨ú¥Î³Ì¤pªá¶Oªº¤èªk¨Ó§¹¦¨§Ú­Ìªº¼s¼½¡CÈÐ
+
+
+
+[1m¿é¤J[m
+
+    ¨Cµ§¿é¤J¥]§t¤@­Ó¥¿¾ã¼Æ n ¡Aªí¥ÜµÛºô¸ô¤¤ªº³B²z¾¹¼Æ¥Ø¡C±µ¤U¨Ó·|¦³¤@­Ó¤U¤T¨¤
+
+¯x°}¡A¥NªíµÛ³o­Óºô¸ôªº¬Û¾F¯x°}¥ª¤U¥b¡C½Ð±N³o­Óºô¸ôµø¬°µL¦Vªº¡A¥B
+
+A[i][j] ©M A[j][i] ¬Ûµ¥¡A A[i][i] = 0 ¡C¥t¥~¡A¿é¤J x ¥NªíµÛ¦¹¨âÂI¤£¬Û³s¡C
+
+    ¥H¿é¤J½d¨Ò¬°¨Ò¡A
+
+5              // ºô¸ô¤¤³B²z¾¹¼Æ¥Ø
+50
+30 5
+100 20 50
+10 x x 10
+
+ªí¥H¤U¬Û¾F¯x°}¡G
+
+    0   50  30  100 10
+
+    50  0   5   20  x
+
+    30  5   0   50  x
+
+    100 20  50  0   10
+
+    10  x   x   10  0
+
+
+
+[1m¿é¥X[m
+
+    ¹ï¨C¤@µ§¿é¤J¡A½Ð¿é¥X±q²Ä¤@³¡³B²z¾¹¼s¼½¶}©l¡A¦Ü©Ò¦³³B²z¾¹¦¬¨ì°T®§©Ò»Ý­nªº
+
+³Ì¤pÁ`®É¶¡¡C
+
+
+< Hint E >
+                                                                               [30m
+    Floyd-Warshall / Dijakstra ¡A»Ý­nª`·Nªº¬O¡A¤£¥i¥HÅý©w¸qªº INF ¬Û¥[¶W¹L int
+
+½d³ò¡C                                                                         [m
+
+
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gba356 from [m [1m61.231.54.38 (¤¤·Æ¤@µf)[m
+

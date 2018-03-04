@@ -1,0 +1,42 @@
+§@ªÌ: gba356 (º¿§Q¼Ú) ¯¸¤º: sa072686
+¼ÐÃD: [¶¢²á] §ì´ú¸ê¨ç¦¡
+®É¶¡: 2007/12/23 Sun 16:52:11
+
+
+¤µ¤Ñ¦b¤@­Ó©Çºô¯¸¬Ý¨ìªº¡A
+
+¥i¥H¥Î¨Ó±´´ú¸ê¸Ì­±¤@­Ó¾ã¼Æªº¥½¤T¦ì¤¸¡G
+
+/***************************
+ * Milk Judge (Valladolid) *
+ ***************************
+ * Stop the program in one of 8 possible ways, essentially
+ * giving back the 3 lowest bits of 'n', whatever n is.
+ **/
+void milkJudge( int n )
+{
+    switch( n & 7 )
+    {
+        case 0: exit( 0 );                             // Wrong Answer
+        case 1: assert( false );                       // SIGABRT
+        case 2: *( int* )( n - n ) = 0;                // SIGSEGV
+        case 3: n /= ( n - 3 );                        // SIGFPE
+        case 4: while( 1 );                            // Time Limit Exceeded
+        case 5: while( 1 ) malloc( 1024 * 1024 );      // Memory Limit Exceeded
+        case 6: malloc( 32 * 1024 * 1024 ); while(1);  // 32MB + TLE
+        case 7: while( 1 ) printf( "." );              // Output Limit Exceeded
+    }
+}
+
+¥i±¤²{¦b RE ³£¤£µ¹ Signal ¤FXD
+
+
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gba356 from [m [1m125.232.238.80 (¤¤·Æ¤@µf)[m
+

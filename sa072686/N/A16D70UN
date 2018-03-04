@@ -1,0 +1,169 @@
+§@ªÌ: DJWS (...) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10472
+®É¶¡: 2010/11/05 Fri 12:11:03
+
+³o­Ó«°¥«¦³ N ­Ó¸ô¤f¡A
+²{¦b§A­n±q¤@­Ó¸ô¤fªá¿ú·f¨®¨ì¥t¤@­Ó¸ô¤f¡A³~¤¤¥i¥H¦b¸ô¤fÂà¨®¡C
+§A©Ò­n¦Ò¼{ªº¬O®É¶¡»Pª÷¿ú¡C
+
+¥i¥H§¤ªº¨®ºØ¦³¥|ºØ¡G
+
+Name    Type   ®É³t     °_¸õ¡]³Ì§C®ø¶O¡^¡@Äò¸õ¡@¡@¡@¡@¡@¡@¨ì¨®©Ò»Ýµ¥«Ý®É¶¡
+¤T½ü¨®  ¤H¤O   10 km/h  5  ¤¸ / «e 1 km   2  ¤¸ / per km  2 min
+¹q°Ê¨®¡@¾÷°Ê   30 km/h  20 ¤¸ / «e 2 km   10 ¤¸ / per km  3 min
+­pµ{¨®  ¾÷°Ê   50 km/h  20 ¤¸ / «e 2 km   16 ¤¸ / per km  10 min
+¤½¨®    ¾÷°Ê   40 km/h  2  ¤¸ / «e 5 km   1  ¤¸ / per km  30 min
+
+¹D¸ô¤@¦@¦³¤TºØ¡G
+
+¤H¤O¨®¹D¸ô N¡B¾÷°Ê¨®¹D¸ô M¡B¤H¤O¨®/¾÷°Ê¨®³£±o³q¦æ¹D¸ô A¡C
+¹D¸ô³£¬OÂù¦V³q¦æªº¡C¨âÂI¶¡¥i¯à¦³¦h±ø¸ô©M¦hºØ¸ô¡C
+
+¿é¤J¡G
+
+²Ä¤@¦æ¬O¸ô¤f¼Æ N (<=100) »P¹D¸ô¼Æ M (<=N*N, >=0)
+²Ä¤G¦æ¬O°_ÂI»P²×ÂI¡C¡]¸ô¤f½s¸¹0 ~ N-1¡^
+²Ä¤T¦æ¤§«á¬OM±ø¹D¸ô¡A
+¨C¤@¦æ¨Ì§Ç¬O°_ÂI¡B²×ÂI¡Bªø«×(<=20¾ã¼Æ)¡B¹D¸ôÃþ§O(N/M/A)¡C
+
+¿é¥X¡G
+
+²Ä¤@¦æCase#1¡C
+²Ä¤G¦æ¦L¥X³Ì§Ö¸ô½uªº¶}¾P»P®É¶¡¡C­Y¦³¦h±ø®É¶¡³Ì¤Ö¸ô½u¡A«h¦A¿ï¶}¾P³Ì¤Öªº¡C
+²Ä¤T¦æ¦L¥X³Ì¬Ù¸ô½uªº¶}¾P»P®É¶¡¡C­Y¦³¦h±ø¶}¾P³Ì¤Ö¸ô½u¡A«h¦A¿ï®É¶¡³Ì¤Öªº¡C
+­Y¤£¯à¨ì¹F¡A¨â­Ó³£¦LUNREACHABLE¡C
+
+¶}¾P¬O¾ã¼Æ¡C®É¶¡¨ú¤p¼Æ¨â¦ì¡C
+
+
+¸Ñªk¤U¤@­¶...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+³o¤@ÃDªºµ{¦¡µ²ºc«Ü½ÆÂø
+
+­n¥Î¨â­Ó adjacency lists ¤À§O°O¿ý¤H¤O¸ô½u©M¾÷°Ê¸ô½u¡A§Ú¬O³o¼Ë¶}ªº¡C
+
+    // adj[0] ¬O¤H¤O¡Aadj[1] ¬O¾÷°Ê¡C
+    struct Road {int j, length;} adj[2][100][10000];
+    int size[2][100];
+
+
+µM«á­n¶}¤@­Óªí®æ°O¿ý¥|ºØ¨®¤lªº¦UºØ­È¡A§Ú¬O³o¼Ë¶}ªº¡G
+
+    const int car_type[4] = {0, 1, 1, 1};
+    const double speed[4] = {10, 30, 50, 40};
+    const double fare_cost[4] = {5, 20, 20, 2};
+    const double fare_time[4] = {1, 2, 2, 5};
+    const double jump_cost[4] = {2, 10, 16, 1};
+    const double wait_time[4] = {2, 3, 10, 30};
+
+
+
+±µ¤U¨Ó¬Oºtºâªk¡C¤j­ì«h¬O³Ìµu¸ô®|¡A¤£¹L²Ó¸`«ÜÁcº¾¡C
+
+¦³¤@­Ó­«­nªº²Ó¸`¬O¡]sample data´ú¤£¥X¨Óªº¡^¡G
+
+¨®¤l¶}©l¸õ¿ö¤§«á´NÅÜ±o«Ü¶Q¡C
+
+¦³®É­Ô¬°¤F§ó¬Ù¿ú¡A¥i¥H§¤¨ì¤@¥b©¿µM¤U¨®¡AµM«á¦Aµ¥¤@¦¸¨®¡A
+
+´Nºâµ¥ªº¨®ÁÙ¬O¸ò­è­è¦P¤@ºØ¨®¡C·íµM¤]¥i¥Hµø±¡ªp¤£¤U¨®Ä~Äò§¤¡C
+
+³o´Nªí¥Ü¡A·í§Ú­Ì­pºâ³Ìµu¸ô®|®É¡A
+
+¥²¶·­n¬ö¿ý²{¦b§¤ªº¨®¤l¡A¦Û±q±q¤W¨®¤§«á¨ì©³¶}¤F¦h»·¡A
+
+³o¼Ë¤~¯à§PÂ_¦³¨S¦³¸õ¿ö¡A¤~¯àºâ¥X¥¿½Tªº¶}¾P¡A¤~¯à§ä¥X³Ì¤pªº¶}¾P¡C
+
+©Ò¥Hª¬ºA±o¶}¦¨ d[¸`ÂI¼Æ][¨®ºØ¼Æ][¶ZÂ÷] ³o»ò¦h¤~¦æ¡A
+
+ªí¥Ü±q°_ÂI¨ì¹F¬Y¸`ÂI¡A¥Ø«e·fªº¨®¬O­þ¤@ºØ¡A¥H¤Î³o¥x¨®¶}¤F¦h»·¡C
+
+§Ú­Ìµo²{¤½¨®¬O 5km ¤~¶}©l¸õ¿ö¡A5km ¬O©Ò¦³¨®ºØ·í¤¤¶ZÂ÷³Ì¤jªº¡A
+
+©Ò¥Hª¬ºA¥i¥H¶}¦¨ d[0~99][0~3][0~5]¡A¤]´N¬O d[100][4][5+1]¡C
+
+¡]³oÃäÁ¿ªº¤£¤Ó²M·¡¡A¥i¯à­n½Ð¦U¦ì¦h·Q·Q¡C¡^
+
+
+
+±µ¤U¨Ó¬O¹ê§@¡C
+
+¤@¶}©l§Ú¥Î dijkstra ¹ê§@¡Aµ²ªGµo²{§Ú·Q¿ù¤F¡CÃzÃø¼gªº¡C
+
+©ó¬O§Ú§ï¥Îª¬ºAªÅ¶¡·j´M¨Ó°µ¡A¨Ã¥B«Ø¥ß¤@­Ó priority queue¡C
+
+¸`ÂI³]­p¦¨³o¼Ë¡G
+
+    struct Node {
+        int i;          // ©è¹Fªº¸ô¤f
+        double time;    // ®É¶¡
+        int cost;       // ¶}¾P
+        int car;        // ¨®ºØ
+        int drive;      // ¥Ø«e·fªº³o¥x¨®¶}¤F¦h»·
+    };
+
+³o­Ó°ÝÃD­n¨D¨âºØ¸ô½u¡A¤@ºØ¬O³Ì§Ö¸ô½u¡A¤@ºØ¬O³Ì¬Ù¸ô½u¡A
+
+¨ä¹ê¥u®t¦b priority queue ªº±Æ§Ç¤èªk¤£¤@¼Ë¦Ó¤w¡C
+
+©Ò¥H§Ú´N¼g¤F¨â¤ä¤ñ¸û¨ç¦¡µ¹priority queue¨Ó¥Î¡]C++ªºpq¬O¥Ñ¤j±Æ¨ì¤p¡^¡G
+
+
+struct cmpTime {
+    bool operator()(const Node& a, const Node& b) const {
+        return a.time > b.time || a.time == b.time && a.cost > b.cost;
+    }
+};
+
+struct cmpCost {
+    bool operator()(const Node& a, const Node& b) const {
+        return a.cost > b.cost || a.cost == b.cost && a.time > b.time;
+    }
+};
+
+
+ª¬ºAªÅ¶¡·j¯Á´N¼g¦¨³o¼Ë¡G
+
+    template <class cmp>
+    bool UCS()
+    {
+        priority_queue<Node, vector<Node>, cmp> q;
+        .......
+    }
+
+³o­Ó»yªk«Ü¤Ö¨£¡A©Ò¥H¯S§O¤¶²Ð¤@¤U¡C
+
+±µ¤U¨Ó´NÂ²³æ¤F¡A§â¥|ºØ°_ÂI¶ë¤Jqueue¡AµM«áºCºCpop¡A
+
+¨C¦¸pop¡A´N¹Á¸Õ·f¥|ºØ¨®¡A¹Á¸Õ·f¨ì¦U­Ó¾FÂI¡A¨Ã¹Á¸Õ´«¨®/¤£´«¨®¡C
+
+¤j­P¤W´N¬O¦p¦¹¤F¡C
+
+¥u­n¦³¼Ý¤O´N¯à¼g¥X¨Ó¡C
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by DJWS from [m [1m59.115.153.175 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mDJWS [;33m§ï[m@[m2010/11/05 Fri 19:48:31[m

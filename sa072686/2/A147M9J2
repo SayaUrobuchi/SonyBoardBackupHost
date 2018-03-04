@@ -1,0 +1,89 @@
+§@ªÌ: newmoon (¹Ú·Q¤§¤ë) ¯¸¤º: sa072686
+¼ÐÃD: [­É©ñ] ACM:10194(???)
+®É¶¡: 2008/07/14 Mon 18:11:46
+
+¶W¼É¤OªºÃD¥Ø
+
+ACM³s¤£¤W¥h,·s¬õ¤]³s¤£¤W¥h,­É©ñ¤@¤U
+
+#include<stdio.h>
+#include<algorithm>
+#include<string.h>
+int t,i,j,k,n,m,va,vb,ga,gb;
+char s[1000];
+struct data{
+    char name[40];
+    int b,c,d,e,f,g,h,i;
+    bool operator<(data ha)const{
+        if(b>ha.b)return 1;
+        else if(b==ha.b){
+            if(d>ha.d)return 1;
+            else if(d==ha.d){
+                if(g>ha.g)return 1;
+                else if(g==ha.g){
+                    if(h>ha.h)return 1;
+                    else if(h==ha.h){
+                        if(c>ha.c)return 1;
+                        else if(c==ha.c){
+                            if(strcmp(name,ha.name)<0)return 1;
+                        }
+                    }
+                }
+            }
+        }
+        return 0;
+    }
+}team[40];
+main(){
+    scanf("%d",&t);
+    gets(s);
+    while(t--){
+        gets(s);
+        puts(s);
+        scanf("%d",&n);
+        gets(s);
+        for(i=0;i<n;i++)gets(team[i].name);
+        scanf("%d",&m);
+        gets(s);
+        while(m--){
+            gets(s);
+            for(j=0;s[j]!='#';j++);
+            s[j]=0;
+            for(va=0;strcmp(s,team[va].name)!=0;va++);
+            for(i=j+1;s[i]!='#';i++);
+            s[i]=0;
+            for(vb=0;strcmp(s+i+1,team[vb].name)!=0;vb++);
+            for(k=j;s[k]!='@';k++);
+            s[k]=0;
+            sscanf(s+j+1,"%d",&ga);
+            sscanf(s+k+1,"%d",&gb);
+            team[va].c++,team[vb].c++;
+            if(ga>gb)team[va].d++,team[vb].f++;
+            else if(ga==gb)team[va].e++,team[vb].e++;
+            else team[va].f++,team[vb].d++;
+            team[va].h+=ga,team[vb].h+=gb;
+            team[va].i+=gb,team[vb].i+=ga;
+        }
+        for(i=0;i<n;i++){
+            team[i].g=team[i].h-team[i].i;
+            team[i].b=team[i].d*3+team[i].e;
+        }
+        std::sort(team,team+n);
+        for(i=0;i<n;i++){
+            printf("%d) %s %dp, %dg (%d-%d-%d), %dgd
+(%d-%d)\n",i+1,team[i].name,team[i].b,team[i].c,team[i].d,team[i].e,team[i].f,team[i].g,team[i].h,team[i].i);
+
+team[i].b=team[i].c=team[i].d=team[i].e=team[i].f=team[i].g=team[i].h=team[i].i=0;
+        }
+    }
+}
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by newmoon from [m [1m163.32.78.61 (°ª¶¯¤@¤¤)[m
+
+¡÷ [36mkelvin [31m±À[m:§A¥i¥H©ñ®ü®¦ª©!!                                       0714 21:03
+£p [1;30mgodgunman [0;36mÂà[m:¨ì [seanwu] ¬ÝªO¡A¤_ 2008/07/14 Mon 21:25:35 [m
+¡÷ [36mcsftwpt [31m±À[m:«Ü¦³¹D²z                                              0714 22:39

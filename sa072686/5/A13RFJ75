@@ -1,0 +1,197 @@
+§@ªÌ: sa072686 (ÅÜ²Â¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 390
+®É¶¡: 2008/02/17 Sun 13:00:11
+
+
+                       390  Letter Sequence Analysis
+
+Cryptographic analysis makes extensive use of the frequency with which
+letters and letter sequences occur in a language. If an encrypted text is
+known to be in english, for example, a great deal can be learned from the
+fact that the letters E, L, N, R, S, and T are the most common ones used in
+written english. Even more can be learned if common letter pairs, triplets,
+etc. are known.
+
+±K½X¾Çªº¤ÀªR¨Ï±oÃö©ó¦r¥À»P¦r¦êªº¥X²{ÀW²vªº¹B¥ÎÅÜ¼s¤F¡CÁ|¨Ò¦Ó¨¥¡A¤@¥÷­^¤å¤å¥ó
+
+³Ì±`¥X²{ªº³æ¦r¬° E¡AL¡AN¡AR¡AS ©M T¡C¬Æ¦Ü¬O¨â­Ó¦r¥À¡B¤T­Ó¦r¥À©Î§óªøªº¦r¦ê¤¤¡A
+
+¸û±`¥X²{ªº¤]¤w³Qµo±¸¡C
+
+For this problem you are to write a program which accepts as input a text
+file of unspecified length and performs letter sequence analysis on the text.
+The program will report the five most frequent letter sequences for each set
+of sequences from one to five letters. That is it will report the individual
+characters which occur with the five highest frequencies, the pairs of
+characters which occur with the five highest frequencies, and so on up to the
+letter sequences of five characters which occur with the five highest
+frequencies.
+
+³o¦bÃD§A±o¼g­Óµ{¦¡±µ¨ü¤@¥÷¤å¥ó§@¬°¿é¤J¡AµM«á¤ÀªR¨Ã¦^³ø¦r¦êªº¥X²{ÀW²v¡C
+
+³o­Óµ{¦¡±N¦^³ø¤À§Oªø«×¤@¦Ü¤­ªº¦r¦ê¤¤¡A³Ì°ªªº¤­ºØÀW²v¡C§Y¡A¦^³ø³Ì°ªªº¤­ºØÀW²v
+
+¤À§O¬O­þ¨Ç³æ¿W¥X²{ªº¦r¥À¡B¦¨Âù¥X²{ªº¦r¥À¡B¡K¡A¨ì¤­­Ó³sÄòªº¦r¥À¡C
+
+The program should consider contiguous sequences of alphabetic characters
+only, and case should be ignored (e.g. an `a' is the same as an `A'). A
+report should be produced using the format shown in the example at the end of
+this problem description. For each sequence length from one to five, the
+report should list the sequences in descending order of frequency. If there
+are several sequences with the same frequency then all sequences should be
+listed in alphabetical order as shown (list all sequences in upper case).
+Finally, if there are less than five distinct frequencies for a particular
+sequence length, simply report as many distinct frequency lists as possible.
+Print a blank line between two analises.
+
+³oµ{¦¡¥u¦Ò¼{³sÄòªº¦r¥À¡A¥B¤j¤p¼gµø¬°¬Û¦P¡C¦^³ø®æ¦¡¥²¶·¦p©³¤Uªº½d¨Ò©Ò¥Ü¡A
+
+¹ï©óªø«×¤@¨ì¤­ªº¦r¦ê¡A¥²¶·¥H»¼´î¶¶§Ç¦C¥X³Ì°ªªº¤­­ÓÀW²v¤Î¾Ö¦³³o¨ÇÀW²vªº¦r¦ê¡C
+
+¦Ó¥X²{ÀW²v¬Û¦Pªº¦r¦êÀ³¨Ì¦r¨å¶¶§Ç¤@¤@¦C¥X¡A¨Ã¥B©Ò¦³¦r¦ê¬Ò»Ý¥H¤j¼g¦r¥Àªí¥Ü¡C
+
+³Ì«á¡A¦pªG¤£¦PªºÀW²v¤£¨¬¤­ºØ¡A«h¦C¥X¶È¦³ªº§Y¥i¡C¨â¥÷¤ÀªR³ø§i¤¤¥²¶·¦³¤@ªÅ¥Õ¦C¡C
+
+Examples
+
+When a text file containing simply the line ``Peter Piper Picks Pickles!'' is
+used as input, the output should appear as shown here:
+
+¦pªG¥H³æ¤@¦æ "Peter Piper Picks Pickles!" ¬°¿é¤J¡A¿é¥X¥²¶·¦p¤U¡G
+
+Analysis for Letter Sequences of Length 1
+-----------------------------------------
+Frequency = 5, Sequence(s) = (P)
+Frequency = 4, Sequence(s) = (E)
+Frequency = 3, Sequence(s) = (I)
+Frequency = 2, Sequence(s) = (C,K,R,S)
+Frequency = 1, Sequence(s) = (L,T)
+
+Analysis for Letter Sequences of Length 2
+-----------------------------------------
+Frequency = 3, Sequence(s) = (PI)
+Frequency = 2, Sequence(s) = (CK,ER,IC,PE)
+Frequency = 1, Sequence(s) = (ES,ET,IP,KL,KS,LE,TE)
+
+Analysis for Letter Sequences of Length 3
+-----------------------------------------
+Frequency = 2, Sequence(s) = (ICK,PIC)
+Frequency = 1, Sequence(s) = (CKL,CKS,ETE,IPE,KLE,LES,PER,PET,PIP,TER)
+
+Analysis for Letter Sequences of Length 4
+-----------------------------------------
+Frequency = 2, Sequence(s) = (PICK)
+Frequency = 1, Sequence(s) = (CKLE,ETER,ICKL,ICKS,IPER,KLES,PETE,PIPE)
+
+Analysis for Letter Sequences of Length 5
+-----------------------------------------
+Frequency = 1, Sequence(s) = (CKLES,ICKLE,PETER,PICKL,PICKS,PIPER)
+
+When the first three paragraphs of this problem description are used as
+input, the output should appear as shown here:
+
+¦pªG¥ÎÃD¥Ø±Ô­zªº«e¤T¬q¬°¿é¤J¡A«h¿é¥X»Ý¬°¦p¤U©Ò¥Ü¡G¡]µù¤@¡^
+
+Analysis for Letter Sequences of Length 1
+-----------------------------------------
+Frequency = 201, Sequence(s) = (E)
+Frequency = 112, Sequence(s) = (T)
+Frequency = 96, Sequence(s) = (S)
+Frequency = 90, Sequence(s) = (R)
+Frequency = 84, Sequence(s) = (N)
+
+Analysis for Letter Sequences of Length 2
+-----------------------------------------
+Frequency = 37, Sequence(s) = (TH)
+Frequency = 33, Sequence(s) = (EN)
+Frequency = 27, Sequence(s) = (HE)
+Frequency = 24, Sequence(s) = (RE)
+Frequency = 23, Sequence(s) = (NC)
+
+Analysis for Letter Sequences of Length 3
+-----------------------------------------
+Frequency = 24, Sequence(s) = (THE)
+Frequency = 21, Sequence(s) = (ENC,EQU,QUE,UEN)
+Frequency = 12, Sequence(s) = (NCE,SEQ,TER)
+Frequency = 9, Sequence(s) = (CES,FRE,IVE,LET,REQ,TTE)
+Frequency = 8, Sequence(s) = (ETT,FIV)
+
+Analysis for Letter Sequences of Length 4
+-----------------------------------------
+Frequency = 21, Sequence(s) = (EQUE,QUEN)
+Frequency = 20, Sequence(s) = (UENC)
+Frequency = 12, Sequence(s) = (ENCE,SEQU)
+Frequency = 9, Sequence(s) = (FREQ,NCES,REQU)
+Frequency = 8, Sequence(s) = (ETTE,FIVE,LETT,TTER)
+
+Analysis for Letter Sequences of Length 5
+-----------------------------------------
+Frequency = 21, Sequence(s) = (EQUEN)
+Frequency = 20, Sequence(s) = (QUENC)
+Frequency = 12, Sequence(s) = (SEQUE,UENCE)
+Frequency = 9, Sequence(s) = (ENCES,FREQU,REQUE)
+Frequency = 8, Sequence(s) = (ETTER,LETTE)
+
+*µù¤@¡G¦©°£ÃD¦W¤£ºâ¡A§Úªº AC CODE §â³oÃDÃD¥Ø±Ô­z¨º¤T¬q¡]¤]´N¬O¨ìEXAMPLE¤§«e¡^
+
+§@¬°¿é¤J¡A¥X¨Óªºµª®×¬O¡G
+
+Analysis for Letter Sequences of Length 1
+-----------------------------------------
+Frequency = 206, Sequence(s) = (E)
+Frequency = 115, Sequence(s) = (T)
+Frequency = 98, Sequence(s) = (S)
+Frequency = 91, Sequence(s) = (R)
+Frequency = 89, Sequence(s) = (N)
+
+Analysis for Letter Sequences of Length 2
+-----------------------------------------
+Frequency = 37, Sequence(s) = (TH)
+Frequency = 34, Sequence(s) = (EN)
+Frequency = 27, Sequence(s) = (HE)
+Frequency = 24, Sequence(s) = (RE)
+Frequency = 23, Sequence(s) = (NC)
+
+Analysis for Letter Sequences of Length 3
+-----------------------------------------
+Frequency = 24, Sequence(s) = (THE)
+Frequency = 21, Sequence(s) = (ENC,EQU,QUE,UEN)
+Frequency = 12, Sequence(s) = (NCE,SEQ,TER)
+Frequency = 9, Sequence(s) = (CES,FRE,IVE,LET,REQ,TTE)
+Frequency = 8, Sequence(s) = (ETT,FIV)
+
+Analysis for Letter Sequences of Length 4
+-----------------------------------------
+Frequency = 21, Sequence(s) = (EQUE,QUEN)
+Frequency = 20, Sequence(s) = (UENC)
+Frequency = 12, Sequence(s) = (ENCE,SEQU)
+Frequency = 9, Sequence(s) = (FREQ,NCES,REQU)
+Frequency = 8, Sequence(s) = (ETTE,FIVE,LETT,TTER)
+
+Analysis for Letter Sequences of Length 5
+-----------------------------------------
+Frequency = 21, Sequence(s) = (EQUEN)
+Frequency = 20, Sequence(s) = (QUENC)
+Frequency = 12, Sequence(s) = (SEQUE,UENCE)
+Frequency = 9, Sequence(s) = (ENCES,FREQU,REQUE)
+Frequency = 8, Sequence(s) = (ETTER,LETTE)
+
+ÁöµM¤£¤Ó¤@¼Ë¡A¦ý¤´¥i¥HAC¡C²q¬OÃD¥Ø±Ô­z¦³§ï¡A¥i¬O½d¨Ò§Ñ¤F§ï¡C
+
+¸Ñªk¬ÝTLE¤H¼Æ¼É¤OÀ³¥i¡C
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡¶ [1;30msa072686 [;33m§ï[m@[m2008/02/17 Sun 13:00:43[m
+¡÷ [36mseanwu [31m±À[m:§Úºâªº¤]¬O89                                           0217 13:57

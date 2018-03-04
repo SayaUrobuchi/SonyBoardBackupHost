@@ -1,0 +1,36 @@
+§@ªÌ: seanwu (Ãø¨ìªü«ó¿ù¤F«§?!) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]580
+®É¶¡: 2007/02/15 Thu 10:07:44
+
+
+Problem:
+
+      ¦³¤@­Óªø«×¬° n¡A¥u¥Ñ U, L ²Õ¦¨¡A°Ý¨ä¤¤§t¦³³sÄò¤T­Ó U ªº¦r¦ê¦³´XºØ¡H
+
+  ¨Ò¦p¡G
+
+  n=1:                  0
+  n=2:                  0
+  n=3: UUU              1
+  n=4: UUUL LUUU UUUU   3
+
+  n=0 ªí¥Üµ²§ô
+
+Example Input:
+2
+4
+5
+0
+
+Example Output:
+0
+3
+8
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m210.71.102.5 (¤pÅ@¤h°ª¤¤¹q±Ð)[m
+

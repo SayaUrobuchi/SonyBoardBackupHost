@@ -1,0 +1,89 @@
+§@ªÌ: gba356 (º¿§Q¼Ú) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 112
+®É¶¡: 2007/12/29 Sat 21:29:17
+
+
+ÁöµM¾ÇªøºëµØ°Ï¸Ì­±¦³¸Ô¸Ñ¤F¡A
+
+ÁÙ¬O¤p¤p¸É¥R¤@¤UÅª¤Jªº¤p§Þ¥©¡]¤p¤pÁn¡^
+
+
+    1. ¦³ÃöªÅ¥Õ©M´«¦æªº³¡¤À¡A¥i¥H¨Ï¥Î scanf("%c") / cin>>c ª½±µ©¿²¤¡A«Ü¦w¥þªº¡C
+
+    2. ²Ä¤@­Ó¾ã¼Æ¥i¥H¥Î scanf("%d") / cin>>n¡] n ¬°¾ã¼Æ ¡^ª½±µÅª¤J¡A¦ý¬O¸`ÂI¤¤
+
+ªº¼Æ¦r­n¦Û¤v¥Î¦r¤¸§PÂ_¡A¦]¬°¼Æ¦r©M¥ª¬A¸¹¥i¯àºò³sµÛ¡C¥t¥~¡A­t¼Æ»Ý¯Ç¤J¦Ò¶q¡C
+
+    3. ¦³Ãö¥i¯à·|¤£¤p¤ß¦Y¨ì¬A¸¹ªº°ÝÃD¡A¥i¥H¥Î ungetc( ) ³B²z¡G
+
+¥H¤U¬O ungetc() ªº¨ç¦¡­ì«¬¡G
+
+[1m    int ungetc ( int character, FILE * stream );    [m
+
+    ¤]´N¬O»¡¡A¥u­n¤£¤p¤ßÅª¨ì¥ª¬A¸¹¡A«K¥i¥H³o¼Ë¥á¦^ input ¡A´N¦n¹³¨SÅª¨ì¹L¡G
+
+[1m    ungetc( '(',stdin );    [m
+
+
+µM«á¡A¥H¤U¬O§Úªº»¼°j¦¡§@¥Î¡G  ¡Õ Hint PageDown ¡Ö
+
+
+
+
+    bool TreeRead( int current_sum );
+
+    Åª¤J¤@­Ó¥ª¬A¸¹°_ÂI¡A¥k¬A¸¹µ²§ôªº¤l¾ð¡A¨Ã¦^¶Ç¤@¥¬ªL­Èªí¨ä¬O§_¬°ªÅ¾ð¡C
+
+    ¦]¦¹§PÂ_¤@¸`ÂI¬O§_¬°¸­¡A«h§PÂ_¨ä¥ª¤l¾ð©M¥k¤l¾ð¬O§_³£¬OªÅ¾ð´N¥i¥H¤F¡]ÂIÀY¡^
+
+    ³o¼Ë¤@¨Ó¤@¤Á³£ÅÜªº«Ü´r§Ö¤FXD
+
+
+¥H¤U¸`¿ý World of Seven - Method to Solve ªº common mistake »¡©ú¡G
+
+ 112 - Tree Summing (with help from: Andras Bizco)
+
+You must determine whether in a binary tree of integers, there exists a
+root-to-leaf path whose nodes sum to a given integer. This is naturally can
+be solved using tree recursion, just beware of the common mistakes below
+
+Common Mistake:
+
+1. "0 ()" is false since "an empty tree has no root-to-leaf paths, any query
+as to whether a path exists whose sum is a specified integer in an empty tree
+must be answered negatively".
+
+    1. ¹ï "0 ()" À³¿é¥X "no" ¦]¬° ÈÐ¤@­ÓªÅ¾ð¨S¦³®Ú¨ì¸­ªº¸ô®|ÈÐ¡A¦]¦¹¥ô¦óªÅ¾ð
+
+¦³Ãöªº¸ß°Ý³£À³¿é¥X "no" ¡C
+
+
+2. "-1 (-1()())" is true because the value can be negative
+
+    2. ¹ï "-1 (-1()())" À³¿é¥X "yes" ¡A¦]¬°¸`ÂI¤Wªº¼Æ­È¥i¯à¬°­t¡C
+
+
+3. "77 (77(1()())())" is false because even though we have equal value 77=77
+in the root, this value is not a full root-to-leaf path.
+
+    3. ¹ï "77 (77(1()())())" À³¿é¥X "no" ¡A¦]¬°ÁöµM§Ú­Ì¦b®Ú¸`ÂI¤W¦³ 77=77 ¡A
+
+¦ý³o¨Ã¤£¬O¤@±ø®Ú¨ì¸­¸ô®|¡C
+
+
+4. "-77 (-77()())" is true, be careful with input parsing
+
+    4. ¹ï "-77 (-77()())" À³¿é¥X "yes" ¡A½Ð¤p¤ßªº§¹¦¨ parsing ¡C
+
+
+
+
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gba356 from [m [1m218.161.127.117 (¤¤·Æ¤@µf)[m
+

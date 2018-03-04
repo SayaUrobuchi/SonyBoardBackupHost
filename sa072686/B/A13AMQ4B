@@ -1,0 +1,51 @@
+§@ªÌ: zenixls2 (¤B¤B¥m¥m) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10299
+®É¶¡: 2007/07/29 Sun 00:02:19
+
+TLE°Ú
+¤£ª¾¬°¤°»ò
+#include<iostream>
+#include<math.h>
+using namespace std;
+bool p[100000]={0};
+int k[10000]={0};
+int i,j,t=0;
+
+int main()
+{
+    for(i=2;i<=1000;i++){if(p[i]==0)for(j=i*i;j<100000;j+=i)p[j]=1;}
+    for(i=2;i<100000;i++)if(p[i]==0){k[t]=i;t++;}
+    while(1)
+    {
+        long/* long*/ a,su=1;
+        cin>>a;
+        if(a==1){cout<<"0\n";continue;}
+        if(a==0)break;
+        j=0;
+        for(i=0;k[i]<=sqrt(a)&&i<t;i++)
+            if(a%k[i]==0)
+            {
+                a/=k[i];
+                while(a%k[i]==0)
+                {
+                    a/=k[i];
+                    su*=k[i];
+                 }
+                su*=k[i]-1;
+             }
+        su*=a-1;
+        cout<<su<<"\n";
+    }
+    return 0;
+}
+
+¡ôAC code
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m220.142.101.47 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mzenixls2 [;33m§ï[m@[m2007/07/29 Sun 11:32:39[m
+¡¶ [1;30mzenixls2 [;33m§ï[m@[m2007/07/29 Sun 11:51:31[m

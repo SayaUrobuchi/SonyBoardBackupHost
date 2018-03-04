@@ -1,0 +1,38 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10331
+®É¶¡: 2007/11/11 Sun 16:27:03
+
+10331 - The Flyover Construction
+
+¦b¤@­Ó«°¥«¤¤¦³¤@¨Ç¤u§@¦aÂI, ¦í¦b³o­Ó«°¥«ªº¤H·Q­n±q¬Y­Ó¦aÂI«e©¹¥t¤@­Ó¦aÂI®É
+
+³£·|±Ä¨ú³Ìµu¸ô®|¨Ó²¾°Ê, ¦pªG³Ìµu¸ô®|¤£¥u¤@±ø, «h¥ô¦ó¤@±ø³£¥i¥H(³£·|¦³¤H¨«)
+
+¦]¦¹, ¦b³o­Ó«°¥«¤¤¨C±ø¹D¸ôªº¬y¶q¬O¥i¥H­pºâ¥X¨Óªº, ½Ð§ä¥X¬y¶q³Ì¤jªº¹D¸ô
+
+
+¥H­ìÃD¥Ø¤¤ªº¹Ï¬°¨Ò, ¨â¦aÂI¶¡³Ìµu¸ô®|©Ò»Ý¸g¹Lªº¹D¸ô
+
+AB: AB  or  AC-CD-DB      Á`­p¨C±ø¹D¸ô³Q¸g¹Lªº¦¸¼Æ
+AC: AC
+AD: AC-CD                       AB: 1
+BC: BD-DC                       BD: 3
+BD: BD                          DC: 4
+CD: CD                          CA: 3
+
+¬G³Ì¦h¦¸ªº¹D¸ô¬° CD
+
+
+<Hint  E>
+[30;40m  ¥ý¥HFloydºâ¥X¥ô¨âÂI¶¡ªº³Ìµu¸ôªø«×, ¦A­pºâ¨C¤@±ø¹D¸ô¤W³q¹Lªº¸ô®|¼Æ[m
+[30;40m  ¹ï¨C±ø¹D¸ô(u,v), ªTÁ|©Ò¦³ªºÂI¹ï(i,j), ÀË¬d¬O§_¦³                 [m
+[30;40m  i->u->v->j = shortest(i,j), ¦pªG¦³§Y§ä¨ì¤@±ø¸ô®|³q¹L(u,v)        [m
+[30;40m  ³o¼Ë½ÆÂø«×¬O O(V^3+EV^2), ¥i¥H¦A­°¤£¹L¥H³oÃD¨Ó»¡¨S¥²­n           [m
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-142.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+

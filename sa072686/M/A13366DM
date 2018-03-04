@@ -1,0 +1,71 @@
+§@ªÌ: seanwu (2,2-¤G¥Ò°ò¤þÖJ) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]10600
+®É¶¡: 2007/04/28 Sat 17:53:58
+
+µ¹¤@­Ó¹ÏG¨D¨ä second-best MST
+
+second-best MST¬°¤@­Óweight_sum³Ì¤p
+
+¥B¤£¥þµ¥©ó(§¹¥þ¬Û¦PªºÃä) MSTªºspanning tree
+
+
+
+
+
+
+
+
+
+
+
+´£¥Ü--
+
+
+
+
+
+
+¤ñ¸ûÂ²³æªº¤èªk¬O¥ý¥Í¦¨MST¡A±q¹ÏG®³±¼¤@±øÄÝ©óMSTªºÃä
+
+¹ï³Ñ¤Uªº¹Ï§Î°µMST'(second)¡A¦]MST¦@¦³(V-1)­ÓÃä¡A¬G»Ý°µV-1¦¸
+
+³o¨ÇMST'¤¤³Ì¤pªº§Y¬O second-best MST
+
+¥ÎKruskal¬° O(VE lgE) => O(V^3 lgV)
+
+¥Î³o­Ó´N¥i¥H¹L¡A¦Ó¥B¦W¦¸¤£®t
+
+
+
+§Ú±À±oªº¸û¨Î¤èªk¬°(¦]¬°Ãi¡A¨S°µ)
+
+1. ¥Í¦¨ MST  O(ElgV)
+
+2. °µ¥X¥ô¨âÂI¤§¶¡¡AªuµÛMSTªº¸ô®|¡A·|¨«¨ìªº³Ì¤jÃämax_weight[i][j]
+
+   ³o¥i¥H¹ï¨C­ÓÂI¥HBFS©¹¥~±À¥X¡ABFS¬°O(V)
+
+   ¦@¬° O(V^2)
+
+3. ¦bG¤W§ä¤@¤£ÄÝ©óMSTªºÃäuv¡A­Y­n¦bMST¤¤¥[¤W³o­ÓÃä¡A
+
+   «hu,v¥²»Ý¤£³s³q­n¤ÁÂ_¡A¦Ó¤Á±¼ªº­È¶V¤j«h³o¼Ë¥Í¦¨ªºMST'³Ì¤p
+
+   ¬G¿ï¾Ü¤Á±¼¦b 2. ¨D±oªº max_weight[u][v]
+
+   MST' ªº¦¨¥»§Y¬° MSTªº¦¨¥» + uv_weight - max_weight[i][j]
+
+   ¸Õ¨C­ÓÃä¿ï¥X³Ì¤pªÌ§Y¬°second-best MSTªº¦¨¥»
+
+   ¦@¬° O(E)
+
+Á`®É¶¡¬° O(ElgV+V^2+E) => O(V^2 lgV)
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m140.122.61.82 (¥xÆW·öº~¤j¾Ç)[m
+

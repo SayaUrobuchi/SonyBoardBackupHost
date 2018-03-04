@@ -1,0 +1,34 @@
+§@ªÌ: zenixls2 (zzzz) ¯¸¤º: sa072686
+¼ÐÃD: [¾Ç³N]NTUJ 0110
+®É¶¡: 2009/07/15 Wed 11:38:46
+
+for (variable = A; variable != B; variable += C)statement;
+
+variable type: k-bit unsigned integer
+
+¿é¤JA,B,C,k
+
+¿é¥Xstatement¶]ªº¦¸¼Æ
+
+
+
+-------
+¶}unsigned long long ¡AµM«á°µ¤£©w¤èµ{¸Ñ
+
+±À¾É¦p¤U:
+A+Cy=(2^k)(x)+B
+
+=>  (2^k)(-x)+Cy=B-A
+
+¦³´X­Ó¸Ó¦ºªº¦a¤è­nª`·N
+
+°²¦p§A¥Î¦ì¤¸¹Bºâ¨ú2^k¡A°O±oÂà«¬ºA
+
+¹ï©óC==0¡A°O±o¤À¶}°Q½×
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m59.113.58.181 (¤¤·Æ¤@µf)[m
+

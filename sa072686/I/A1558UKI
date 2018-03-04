@@ -1,0 +1,35 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¾Ç³N] NTUJ 0058
+®É¶¡: 2009/07/08 Wed 18:53:06
+
+¡° ¥»¤åÂà¿ý¦Û [Pointer] ¬ÝªO
+
+§@ªÌ: Pointer (Pointer) ¯¸¤º: Pointer
+¼ÐÃD: [¾Ç³N] NTUJ 0058
+®É¶¡: 2008/08/06 Wed 19:35:44
+
+µ¹ n ­ÓÂIªº¦ì¸m¡A¥H¤Î½d³ò m¡A»Ý¦b¬Y¨ÇÂI¤WÂ\©ñ¬YºØªF¦è¡A¥i¥H cover ±¼¥|©P
+
+¶ZÂ÷ m ¥H¤ºªºÂI¡A¸Õ¨D cover ©Ò¦³ÂI©Ò»ÝÂ\©ñ³Ì¤Ö¼Æ¶q¬°¦ó¡C
+
+¥ý±Æ§Ç«áªTÁ|¹L¥h¡A¥Î DP ¥[¤W¤@ÂI greedy ¥i¥H½u©Ê®É¶¡§¹¦¨¡C
+
+¥Hª¬ºA dp[n] ¥Nªí cover 1~n ©Ò»ÝªºªF¦è¼Æ¡A«h­Y­n cover ÂI i¡A
+
+¥i¥ý greedy §ä«e­±Â÷ i ³Ì»·¦ý¥i¥H cover ¤§ªºÂI j¡A
+
+Â\©ñ¦b j ¤§«á¦A¬Ý¯à°÷ cover ¨ì«e­±­þ¨ÇÂI¡A³]ÂI k ¬O cover ªº·¥­­¡A
+
+¨ú k-1 ªº¸Ñ +1 §Y¬°©Ò¨D¡C¤£Ãøª¾¹D­Y m ­ÓÂI¥i¥H cover «e n ­ÓÂI¡A
+
+«h m ­Ó¤]¥²¥i¥H cover «e n-1 ­ÓÂI¡A©Ò¥H¥i¥H greedy ¨ú¤§¡A¦]¦¹¬°½u©Ê¡C
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by Pointer from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mPointer [31m±À[m:¬ðµMÄ±±o®Ú¥»¨S¥²­ndp¡Agreedy¨ú§¹´N¦n¤F¡K§Ú¦n®zOrz     0807 09:21
+£p [1;30msa072686 [0;36mÂà[m:±q [Pointer] ¬ÝªO¡A¤_ 2009/07/08 Wed 18:53:06 [m

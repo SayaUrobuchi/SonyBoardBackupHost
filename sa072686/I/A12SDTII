@@ -1,0 +1,26 @@
+§@ªÌ: Zero (³Ç¬¥¬OÁo©úªº¾÷¾¹¤H) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] 10018
+®É¶¡: 2007/02/05 Mon 17:18:10
+
+¡° ¤Þ­z¡mzenixls2 (zenix)¡n¤§»Ê¨¥¡G
+> ¥ÎDev C++½sÄ¶
+> °ò¥»¤W¨S°ÝÃD
+> À³¸Ó¬O¢Ï¢Ñ¢Ûªº½sÄ¶¾¹¤Ó¦ÑÂÂ¤F
+¥H«e¥i¥H¬d¨ì¸ê®Æ¡A¥i¬O²{¦b§ä¤£¨ì
+
+¤£¹LstrrevÀ³¸Ó¥»¨Ó´N¤£¬O¼Ð·Çªº¨ç¦¡...
+¹³¬O
+VS.net 2005¤¤strrev³Q¼Ð°O¬°deprecated
+XCode 2.4.1¤§¤¤ªº g++ 4.0.1(Apple version) ªº string.h ¤]®³±¼ strrev ¤F
+
+©Ò¥HÀ³¸Ó¬O¤Ó·s¤~¨S¦³? XD
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by Zero from [m [1m220.132.154.47 (³Ç¬¥ªº¾÷¾¹½¦Ån)[m
+
+¡÷ [36msa072686 [31m±À[m:¦P·P¡Along long³£¯à¥¿±`¤F¡AdevCÁÙ¬OÄêªº¡K§Ú«ü%lld    0205 18:38
+¡÷ [36mgloompisces [31m±À[m:¨C¦¸¸I¨ì%lld§Ú³£ª½±µÂàcin¤F..                     0205 21:47
+¡÷ [36mAikoSenoo [31m±À[m:long long ¦b DevC­n¥Î%I64d                          0727 00:29

@@ -1,0 +1,147 @@
+§@ªÌ: sa072686 (sa072686) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 535
+®É¶¡: 2008/01/30 Wed 15:22:08
+
+´X¦óÃD¡I¦]¬°³ºµM±À±o¥X¤½¦¡¡A·P°Ê¤§¾l´Npo¤@¤U¡K
+
+Ãø«×¡H³s§Ú³£¸Ñ±o¥X¨Ó¡A·íµM¤£·|¤ÓÃø¡K
+
+----
+
+Globetrotter
+
+As a member of an ACM programming team you'll soon find yourself always
+traveling around the world: Z Êrich, Philadelphia, San Jos Á, Atlanta,...
+from 1999 on the Contest Finals even will be on a different continent each
+year, so one day you might get to Japan or Australia.
+
+¨­¬°¤@­Ó ACM ¶¤¥îªº¤@­û¡A§Aµo²{§AÁ`¬O®È¦æ©ó¥@¬É¦U¦a¡G Z Êrich¡BPhiladelphia¡B
+San Jos Á¡BAtlan ¡Kµ¥µ¥¡C±q 1999 ¦~°_¡A§A¬Æ¦Ü·|µo²{¨C¦~¨MÁÉªº¦aÂI³£¦b¤£¦Pªº
+¤j³°¤W¡C©Ò¥H¤]³\¦³¤@¤Ñ¡A§A¥²¶·¨ì¤é¥»©Î¬O¿D¬w¥h¡C
+
+At the contest site it would be interesting to know how many miles you are
+away from home. For this sake, your job is to write a program to compute the
+geographical distance between two given locations on the Earth's surface.
+
+§A¹ï©ó¤ñÁÉ¦aÂI¨s³ºÂ÷®a¦h»·«Ü·P¿³½ì¡C¦]¦¹¡A§A·Q¼g¤@­Óµ{¦¡­pºâ¦b¦a²yªí­±¤W¡A
+¨â­Ó¤£¦P¦aÂI¦b¦a²z¤Wªº¶ZÂ÷¬°¦ó¡C
+
+We assume that the Earth is a perfect sphere with a radius of exactly 6378
+km. The geographical distance between A and B is the length of the geodetic
+line segment connecting A and B.
+
+§Ú­Ì°²³]¦a²y¬O­Ó¥b®| 6378 ¤½¨½ªº§¹¬ü¶ê²yÅé¡CA ©M B ¨âÂI¶¡ªº¦a²z¶ZÂ÷¬°¦a²y¤W
+©Ò´ú¶q¥X¨Óªº½u¬qªºªø«×¡C
+
+The geodetic line segment between two points on a sphere is the shortest
+connecting curve lying entirely in the surface of the sphere.
+
+³o²yÅé¤W¨âÂI¶¡ªº´ú¶q¶ZÂ÷¬°¤@«ê¸¨¦b²y­±¤Wªº¦±½u¡C
+
+The value of pi (£k) is approximately 3.141592653589793.
+
+¶ê©P²v¬ù¬° 3.141592653589793¡C
+
+Input Specification
+
+¿é¤J
+
+The input file will consist of two parts: a list of cities and a list of
+queries.
+
+¿é¤JÀÉ¥]§t¨â­Ó³¡¥÷¡G«°¥«¦Cªí¥H¤Î¸ß°Ý¦Cªí¡C
+
+City List
+
+The city list consists of up to 100 lines, one line per city. Each line will
+contain a string ci and two real numbers lati and longi, representing the
+city name, its latitude and its longitude, respectively.
+
+«°¥«¦Cªí³Ì¦h¤@¦Ê¦æ¡A¤@­Ó«°¥«¤@¦æ¡C¨C¦æ¦³¤@­Ó¦r¦ê ci ¥H¤Î¨â­Ó¹ê¼Æ lati ©M
+longi¡Aªí¥Ü«°¥«ªº¦W¦r¡A½n«×©M¸g«×¡C
+
+The city name will be shorter than 30 characters and will not contain
+white-space characters. The latitude will be between -90 (South Pole) and +90
+(North Pole). The longitude will be between -180 and +180 where negative
+numbers denote locations west of the meridian and positive numbers denote
+locations east of the meridian. (The meridian passes through Greenwich,
+London.)
+
+«°¥«ªº¦W¦r±Nµu©ó 30 ­Ó¦r¤¸¡A¨Ã¥B¤£·|¥]§tªÅ¥Õ¦r¤¸¡C½n½u¦b -90 «×¡]«n·¥¡^
+¨ì +90 «×¡]¥_·¥¡^¤§¶¡¡A¸g«×«h¦b -180 «×¦Ü +180 «×¤§¶¡¡A­t¼Æ¥Nªí¦b°ê»Ú´«¤é½u
+¦èÃä¡A¥¿¼Æ«hªí¥Ü¦b°ê»Ú´«¤é½uªFÃä¡]°ê»Ú´«¤é½u³q¹L­^°ê­Û´°®æªL«Âªv¤Ñ¤å»O¡^¡C
+
+The city list will be terminated by a line consisting of a single ``#".
+
+«°¥«¦Cªí±N¥H¶È¥]§t¤@ '#' ¦r¤¸ªº¤@¦C¬°µ²§ô¡C
+
+Query List
+
+Each line will contain two city names A and B.
+
+¨C¦æ¥]§t¨â­Ó«°¥«¦W A ©M B¡C
+
+The query list will be terminated by the line ``# #".
+
+¸ß°Ý¦Cªí±N¥H¤@¦æ "# #" ¬°µ²§ô¡C
+
+Output Specification
+For each query, print a line saying ``A - B" where A and B are replaced by
+the city names. Then print a line saying ``x km" where x is replaced by the
+geographical distance (in km) between the two cities, rounded to the nearest
+integer.
+
+¹ï©ó¨C¤@­Ó¸ß°Ý¡A¿é¥X¤@¦æ "A - B"¡AA ©M B «h¥N´«¬°«°¥«ªº¦W¦r¡C±µ¤U¨Ó¿é¥X¤@¦æ
+
+"x km"¡Ax «h¥N´«¬°¨â«°¥«¦a²z¤Wªº¶ZÂ÷¡]¥H km ¬°³æ¦ì¡^¡A¥|±Ë¤­¤J¨ì¾ã¼Æ¦ì¡C
+
+If one of the cities in the query didn't occur in the city list, print a line
+saying ``Unknown" instead.
+
+¦pªG¸ß°Ý¤¤¦³¥ô¤@«°¥«¨Ã¥¼¦b«°¥«¦Cªí¤¤¥X²{¡A«h¿é¥X¤@¦æ "Unknown"¡C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- ¤À¹j½u ----
+
+
+
+
+
+
+
+§Úªº¤èªk¬O¥ýºâ¥X¨C­Ó«°¥«ªº®y¼Ð¡A¦A¥Hª½½u¶ZÂ÷¤½¦¡±o¨ì¶ZÂ÷¡C
+
+«h±N¨â«°¥«³s¨ì²y¤ß¡A±N¨â«°¥«µø¬°¦b¦P¤@¶ê¤W¡A¥H²y¥b®|¬°¶ê¥b®|¡A
+
+¥H¾l©¶¤½¦¡°t¦X¨âÂIª½½u¶ZÂ÷¨D±o¨¤«×¡A¦A¥H¦¹­pºâ¶ê©·ªø«h¥i±o¸Ñ¡C
+
+¦Ü©ó®y¼Ð¡A¥H½n«×¥i¨D±oz®y¼Ð¡A¥H¤Î¸Ó½n½uªº¥b®|¡C¤§«á¥i¥Ñ¸g«×¤@¦¸¨D±ox, y¡C
+
+¹Lµ{¥u­n·|´«ºâ©·«×¡B·|¶ZÂ÷¤½¦¡¡B·|¥Î¤Ï¤T¨¤¨ç¼Æ¤S·|¾l©¶¤½¦¡´N¥i¸Ñ¤F¡C
+
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+

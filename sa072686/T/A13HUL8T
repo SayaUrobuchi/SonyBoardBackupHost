@@ -1,0 +1,90 @@
+§@ªÌ: sa072686 (¦pªG¥i¥Hªº¸Ü¡A§Ú·Q¡K)
+¼ÐÃD: [Âà¿ý] [µ{³]] cout¤§¹B¥Î(C++)
+®É¶¡: 2007/10/24 Wed 22:22:21
+
+¡° ¥»¤åÂà¿ý¦Û [TFcis10] ¬ÝªO
+
+§@ªÌ: zenixls2 (¤B¤B¥m¥m) ¯¸¤º: TFcis10
+¼ÐÃD: [µ{³]] cout¤§¹B¥Î(C++)
+®É¶¡: 2007/10/24 Wed 22:20:48
+
+[1;31;40m¤p¼ÆÂI¿é¥X[m
+cout¦bC++¤¤¤º©wªººë·Ç«×¬O¤p¼ÆÂI«á6¦ì
+¥B¦Û°Ê§R°£§À¼ÆµL¥Îªº0
+¨Ï¥Îprecision()¦¨­û¨ç¼Æ¥i°µ¨ä¥L³]©w
+ex
+cout.precision(3);
+
+¨Ïcout±Nºë½T«×§ï¦¨3
+¨ä®Ä¤O·|¤@ª½«ùÄò¨ì­«·s³]©w
+¥B¤´·|¦Û°Ê±N§À¼Æ0§R°£
+
+/*------ex:---------*/
+#include<iostream>
+using namespace std;
+main()
+{
+    double s=3.33
+    cout.precision(3);
+    cout<<s;
+    system("pause");
+}
+
+·|¿é¥X3.3
+
+­Y­n¼Æ¥X§À¼Æ0
+¥i¦bcout.precision«e¥[¤W
+cout.setf(ios::fixed);
+ÁÙ¦³¤@ºØ¦Ñ¦¡ªº¼gªk
+¬O
+cout.setf(ios::showpoint);
+¤£¹L¦bDev C++¸Ìprecision()§¨ªº¦ì¼Æ­n¦A¥[1
+¤~·|Åã¥Ü¨ì©Ò­nªº¦ì¼Æ(¦]¬°¥]§t¤p¼ÆÂI)
+
+[1;31;40m¶i¦ì¨îªº³B²z[m
+
+C++¤º©w¦³dec(¤Q¶i¦ì),hex(16¶i¦ì),oct(8¶i¦ì)
+¨Ï¥Î¤èªk¦³¥H¤U2ºØ
+ex
+
+int s=17;
+hex(cout);
+cout<<s;
+
+or
+
+int s=17;
+cout<<oct<<s;
+
+²Ä¤@­Ó·|¿é¥X11
+²Ä¤G­Ó·|¿é¥X21
+
+¦³¤@ÂI­nª`·Nªº¬O¥¦¥u¯àÂà´«¾ã¼ÆÃþ«¬ªº(¦plong long¡Bint)
+
+[1;31;40mÄæ¼e¤§½Õ¾ã[m
+
+¦³¤@ÃþªºÃD¥Ø·|¥s§A±N¿é¥X¦V¥kn®æ¹ï»ô
+¥i¥Î
+cout.width(n);
+³B²z¡A±N¤§¥[©ó­n¿é¥Xªº¨º¤@¦æªº«e¤@¦æ(¦]¬°¨ä®Ä¤O¥u¦³¤@¦æ)
+
+°²¦p­n±N¤¤¶¡¦]¦V¥k¹ï»ôªºªÅ¥Õ¶ñº¡
+¥i¦A¥[cout.fill('¦r¤¸');
+ex:
+cout.width(5);
+cout.fill('*');
+cout<<1234<<endl;
+
+·|¿é¥X
+*1234
+
+³o¨Ç´NÀ³¸Ó°÷¼gACM¤F
+¦n¦n¥[ªo§a!
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m220.142.106.235 (¤¤·Æ¤@µf)[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [TFcis10] ¬ÝªO¡A¤_ 2007/10/24 Wed 22:22:21 [m

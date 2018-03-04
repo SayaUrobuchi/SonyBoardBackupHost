@@ -1,0 +1,73 @@
+§@ªÌ: zenixls2 (´cÆF°h´²) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 340
+®É¶¡: 2007/06/30 Sat 20:32:10
+
+ÁöµM°£¿ù°£¤F¤@­Ó±ß¤W«oÁÙ¬OWA
+°Q½×ª©¤Wªº´ú¸ê³£¸Õ¹L¤F
+All pass
+¤£ª¾½Ö¥i¥HÀ°¦£debug
+«ö¤jE¥Hdebug
+[30;40m
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,i,j,k=0;
+    bool check;
+    char b[1001],c[1001],d[1001];
+    while(1)
+    {
+        cin>>a;
+        if(cin.fail()||a==0)break;
+        k++;
+        for(i=0;i<a;i++)cin>>b[i];
+        cout<<"Game "<<k<<":\n";
+        while(1)
+        {
+            for(i=0;i<a;i++)d[i]=0;
+            check=1;
+            for(i=0;i<a;i++)
+            {
+                cin>>c[i];
+                if(c[i]!=48)check=0;
+            }
+            if(check==1)break;
+            for(i=0;i<a;i++)
+            {
+                if(b[i]==c[i]){d[i]=1;}
+                else for(j=0;j<a;j++)
+                {
+                    if(b[i]==c[j]&&d[j]==0)
+                    {
+                        d[j]=2;break;
+                    }
+                }
+            }
+            int ka=0,kb=0;
+            for(i=0;i<a;i++)
+            {
+                if(d[i]==1)ka++;
+                else if(d[i]==2)kb++;
+            }
+            cout<<"    ("<<ka<<","<<kb<<")\n";
+        }
+    }
+    return 0;
+}
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m218.165.111.234 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mzenixls2 [;33m§ï[m@[m2007/06/30 Sat 20:34:00[m
+¡÷ [36mseanwu [31m±À[m:±±¨î½X¤£¯à¦h¦æ¨Ï¥Î°Õ                                   0630 20:46
+¡÷ [36mseanwu [33m»¡[m:§c...¬°¤°»ò¦³else for³oºØ¼gªk«¨...XD                   0630 20:53
+¡÷ [36msa072686 [31m±À[m:else for.. ¨º¥u¬O¨S´«¦æ¤Uªº²£ª«½}¤FXD                0630 21:02
+¡÷ [36msa072686 [31m±À[m:¡]¸Ü»¡¤jE¯u¯àdebug¶Ü¡K|||¡^                          0630 21:03
+¡÷ [36msilentvow [31m±À[m:<-- ÁÙÆZ±`¥Îelse forªº XD                           0701 11:04
+¡÷ [36mchensc [31m±À[m:else for «Üäú¤ß¡A§Aªº programming style ­þ¸Ì¥h¤F¡H     0701 21:42
+¡÷ [36msa072686 [31m±À[m:else for ³o´N¬O°ÕXD                                  0702 01:22

@@ -1,0 +1,57 @@
+§@ªÌ: sa072686 (TFCis 97th¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]10070
+®É¶¡: 2006/07/27 Thu 20:18:58
+
+¦³ÂI·Ðªº¤j¼ÆÃD¡Awa«Ü¤[¡A¥i¬O¨ä¹ê¤£¤ÓÃø
+
+¨S¤¤Ä¶¡A¤pÂ½¤@¤U
+
+µ¹§A¤@­Ó¦~¥÷¡A§PÂ_¬O§_¬°leap/huluculu/bulukulu¡]§¡¥H¤p¼g¿é¥X¡^ year
+
+§PÂ_ªº¤è¦¡¬°¡G
+
+¦~¥÷¬°4ªº­¿¼Æ¥B¤£¬°100ªº­¿¼ÆªÌ¬°leap year¡]400¤§­¿¼Æ¨Ò¥~¡A¥¦¬Oleap year¡^
+
+­Y¦~¥÷¬°15¤§­¿¼Æ«h¬°huluculu
+
+­Y¦~¥÷¬°55¤§­¿¼Æ¥B¬°leap year«h¬°bulukulu
+
+­Y¥H¤W¬Ò«D«h¬°ordinary year
+
+¼Æ¦r°£¤F¤j©ó2000¥H¥~¡A¦³¥i¯à«D±`¤j¡A¨S¦³¥ô¦ó¤@ºØÅÜ¼Æ«¬ºA¯à¦s¤J¥¦
+
+·¥©öwa¡]¬Ý³oÃDªºac¤H¼Æ©Mwa¤H¼Æ´Nª¾¹D¤F¡^
+
+»Ý­nª`·Nªº¦a¤è¦p¤U¡G
+
+¤@¡Bª`·Nbulukulu¬O¥Îk¦Ó¤£¹³huluculu¬O¥Îc
+
+¤G¡Bbulukuluªº«e´£¬Oleap year¤~ºâ
+
+¤T¡B»Ý¥Î¤j¼Æ¡A¦ì¼Æ©w¨ì1500°÷¥Î¡A¦ý1000¤£°÷
+
+¥|¡Bª`·NÀu¥ý¤W¬Ohuluculu>bulukulu
+
+¸Ñªk¡G½Ð§O¥Î¤j¼Æ°£ªk¨ú¾l
+
+½Ð¥Î¼Æ¾Ç¤è¦¡§PÂ_¬O§_¾ã°£
+
+--
+
+TFCis 97th¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mchensc [31m±À[m:¥Îstring¸Ñ¤£¬O§ó§Ö¡A´N¤£¥Î©w¤j¤p¤F¡H                   0727 23:02
+¡÷ [36mPG [31m±À[m:SA¼gC                                                      0727 23:27
+¡÷ [36metetet91 [31m±À[m:±j¡C                                                 0727 23:29
+¡÷ [36msa072686 [31m±À[m:STRING¡H¦r¦ê¤£¤]­n¶}°}¦C¦s¶Ü||| §Ú¬O¥Î%SÅª¨S¿ù       0728 00:23
+¡÷ [36mchensc [31m±À[m:³á³á¡K¬ðµM§Ñ±¼ SA ¬O¼g C ªº¡CXD                        0728 13:43
+¡÷ [36msa072686 [31m±À[m:ºâ¬OC ONLYªº¡KXD                                     0728 14:16

@@ -1,0 +1,26 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11319
+®É¶¡: 2007/10/21 Sun 12:04:13
+
+11319  Stupid Sequence
+
+µ¹§A¤@­Ó¦³1500­Ó¼Æªº¼Æ¦CA(x)¡A¨C­Ó¼Æ«OÃÒ¥i¥H¥ÎC/C++ªº unsigned long long Àx¦s
+
+°Ý¬O§_¦s¦b¤@­Ó6¦¸¦h¶µ¦¡f(x)¨Ï±o f(x)=A(x) (1<=x<=1500)
+
+¨Ã¥Bf(x)ªº²Äi¦¸¶µªº«Y¼Æai¡A»Ý¦³0<=ai<=1000
+
+¦pªG¦s¦b¡A½Ð¿é¥Xai(0<=i<=6)
+
+
+//À³¸Ó»¡¬Otfcis¤JªÀ¦Ò±À¨ç¦¡ÃDªº1,2,3,4,787ªº±j¤Æª©¥»..
+
+<Hint  E>
+[30;40m  §Q¥ÎA(1)~A(7)¸Ñ¥X¦h¶µ¦¡(¥Îºc³yªº§a:P)¡A¦A§PÂ_¬O§_²Å¦X      [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-139.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+

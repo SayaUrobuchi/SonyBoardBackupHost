@@ -1,0 +1,71 @@
+§@ªÌ: sa072686 (TFCis 97th¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]429
+®É¶¡: 2006/07/29 Sat 22:58:20
+
+¨£°­ªºbfsÃD
+
+429
+
+Word Transformation
+
+
+Last update on
+Sat Jul 29 14:35:36 UTC 2006
+
+
+Judge Host Address System CPU
+H0 acm.uva.es Linux version 2.4.18-27.7.x Pentium III
+
+
+Back to  Volume IV:   contents
+
+
+
+ Ranklist   (Best Accepted or Presentation Error from each author)
+ CPU Time Memory Author Source Date (UTC) ID   (host)
+1 0:00.021 64  12542 C 2002/08/14-14:32:44.396 1020393   (H0)
+2 0:00.027 64  11557 C++ 2006/07/29-14:35:34.853 4774504   (H0)
+
+¡]·íµM¤£¬O¥u¦³¨â¤H|||¡^
+
+¦Ñ¹ê»¡§Ú¤]¤£ª¾¹D§Ú«ç»ò¿ì¨ìªº|||
+
+³o»ò­È±o¬ö©À´N¤j­PÁ¿¤@¤U¤èªk¦n¤F
+
+­º¥ý¬O¦r¨åÅªªk
+
+¥t¶}¤@°}¦C¦sµ²ªG¥Î
+
+¹ï¨C¦¸Åª¤Jªº¦r¦ês¬Ò·j´M¤@¦¸«e­±©Ò¦³¦r¦ê
+
+¨Ã±Nªø«×¬Û¦P¤S¥u®t¤@¦r¤¸ªº¦r¦êa¤§½s¸¹¦s¤J°}¦C¤¤
+
+¥ç¦P®É©ó¦r¦êa³B±N¦r¦ês¤§½s¸¹¦s¤J°}¦C¤¤
+
+¦p¦¹Åª§¹¦r¨å¦P®É¥ç¤w¦s§¹©Ò¦³¦r¦ê©M¨ä¥¦¥u®t¤@¦r¤¸¦r¦ê¤§½s¸¹
+
+¥H¦¹°µbfs¨Ã¥t¶}¤@°}¦C¬ö¿ý¸Ó¦r¦ê¬O§_¤w¦s¦b©óbfsªº¬ö¿ý¤¤
+
+¡]ÁöµM§Ú´N¦]³o°}¦CÂk¹sªº¦a¤è©ñ¿ù¡Awa¤F´X¦¸|||¡^
+
+°µbfs®É¦]¬°©Ò¦³¥u®t¤@¦r¤¸¤§¦r¦ê½s¸¹¬Ò¤w¦³¬ö¿ý
+
+¬G¥u»Ý°µ°}¦Cªº·h²¾§Y¥i
+
+¦b°}¦C·h²¾®É¥ý¦æ§PÂ_¬Ûµ¥¤w´ú¹L¤£·|¤ñ¸û§Ö
+
+¤èªk¤j­P¦p¤W¡A§Ú¤]¤£ª¾¹D§Ö¦b­þ¸Ì|||
+
+--
+
+TFCis 97th¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+

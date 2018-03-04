@@ -1,0 +1,41 @@
+§@ªÌ: seanwu (Blindest) ¯¸¤º: seanwu
+¼ÐÃD: [ACM]466
+®É¶¡: 2006/11/02 Thu 20:45:32
+
+
+...¤@ÃäºVµÛÁä½L ¤@Ãä¯dµÛ»ó¤ôªº©ü¨I·P«_ª¬ºA¤]·|¹L°Ú...
+
+
+¨S¤¤Ä¶ Â½¡G
+
+Input: µ¹¤@¼Æn¤Î2­Ón*n¯x°}
+
+Output:§PÂ_²Ä¤@­Ó¯x°}¸g¥Ñ¥H¤U¤èªk¬O§_¯àµ¥©ó²Ä¤G­Ó¯x°}
+
+¶¶¦ì 1 Preservation: ®Ú¥»´N¤@¼Ë = ="
+     2 (X«×) Degree Rotation: ±ÛÂà 90, 180, 270«×
+     3 Vertical Reflection: ««ª½Â½Âà(¤W¤UÂ½)
+     4 Combination: ¥ýÂ½Âà¦A¥[±ÛÂà
+     5 Improper: °µ¤£¨ì
+
+¶}°}¦CµwÂà§a...
+
+ª`·N³Ì«á¤@²Õ´ú¸ê¡G
+  2
+  .. XX  => Pattern 7 was rotated 180 degrees.
+  XX ..   (¶¶¦ì ±ÛÂà>Â½Âà)
+
+
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m218.187.28.9 (¤Ó¶§¯«¹q«H)[m
+
+¡÷ [36msa072686 [31m±À[m:¶â¡H§Úµo²{³o½gªº¤é´ÁÂ\¦b³o¦ì¸m©Ç©Çªº¡K /*¦³ÂÎ¡H*/    1103 22:28
+¡÷ [36mseanwu [33m»¡[m:Âà¸üªº¸Ü¤é´Á¤£ÅÜ                                       1103 22:37
+¡÷ [36msa072686 [31m±À[m:­ì¨Ó¬OÂà¸ü¤å                                         1103 23:50
+¡÷ [36msa072686 [31m±À[m:0.000sec AC¡K¶â¡A®tÂI¯uªº¼gwas combination¡K         1104 09:33

@@ -1,0 +1,58 @@
+§@ªÌ: SKYLY (´ÂµÛ¥Ø¼ÐÁÚ¶i¡C) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10959 - The Party, Part I
+®É¶¡: 2008/05/11 Sun 15:25:43
+
+ACM 10959 - The Party, Part I
+
+Ãø©ö«×¡G4
+
+ÃD¥Ø¡G
+
+    ­ì¤å¡Ghttp://icpcres.ecs.baylor.edu/onlinejudge/external/109/10959.html
+
+    ¤¤Ä¶¡G¸Ô¨£ Lucky Cat ªº ACM ¶é¦a
+          ( http://luckycat.kshs.kh.edu.tw/homework/q10959.htm )
+
+¿é¤J¡G ¸Ô¨£¤¤Ä¶¡C
+
+¿é¥X¡G ¸Ô¨£¤¤Ä¶¡C
+
+´£¥Ü¡G ¼s«×Àu¥ý·j´M (BFS) ¡F ¥Ñ¥D¤H¶}©l¤@¼h¼h¦V¥~ÂX®i¡C
+
+
+
+¸Ô¸Ñ¡G
+
+    ³oÃD¬O¼Ð·Çªº BFS ÃD¥Ø¡A·ÓÃD¥Ø±Ô­z§â¥D¤H·í§@¶}ÀY¡AµM«á¤@¼h¤@¼hªº¦V¥~ÂX®i¡C
+
+§Úªº°µªk¬O¶}¤@­Ó°O¿ý¼s«× (¦b³oÃD§Y¬°­n¨Dªº Don Giovanni number) ªº¾ã¼ÆÅÜ¼Æ¡A
+
+µM«á¨C¥~ÂX®i¤U¤@¼h¡A¥¦ªº¼s«×´N¬O¤W¤@¼hªº¼s«×¥[¤@¡A¨Ã¦b visit ¨C¤@ÂI®É±N¨ä¼s«×
+
+°O¿ý¨ì¤@­Ó°O¿ý°}¦C¤¤¡A¦p¦¹³o¯ë¡A·í BFS ¨«³Xµ²§ô«á¡A¨C¤@­Ó¤H¦b¬ö¿ý°}¦C¤¤©Ò¹ïÀ³
+
+¨ìªº­È¡A§Y¬°¥Lªº Don Giovanni number ¡C
+
+    ³oÃD¨Ï¥Î BFS «ê«ê²Å¦XÃD¥Øªº©w¸q¡A§Y¡u©M Don Giovanni number ¬O n ªº¤H¸õ¹L
+
+»R¡y¥B¨S¦³©M Don Giovanni number ¤ñ n ¤pªº¤H¸õ¹L»Rªº¤H¡z¡A¥L­Ìªº Don Giovanni
+
+number ¬O n+1¡v¦Ó¦]¬° BFS ¨«³Xªº¯S©Ê¡A¬Y¤@­Ó¸`ÂI¥²©w·|¦b¸ò Don Giovanni number
+
+¬° m ªº¤H¸õ¹L»R«e¡A¥ý¸ò Don Giovanni number ¬° n ªº¤H¸õ¹L ( m ¡Ù n ) ¡A¬G¤£¥Î
+
+¾á¤ß¦³³oºØ½Ä¬ðªº±¡ªpµo¥Í¡C
+
+
+¹ê»Ú°õ¦æ®É¶¡¡G 0.000 sec.
+
+Rank¡G 10 / 409
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by SKYLY from [m [1m123-194-150-166.dynamic.kbronet.com.tw (¨S¦³¬G¶m)[m
+

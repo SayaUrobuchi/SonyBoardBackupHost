@@ -1,0 +1,21 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11272
+®É¶¡: 2007/09/09 Sun 23:02:19
+
+11273 Summing the Lengths of the Longest Increasing Subsequence of Permutations
+
+w¬O¤@­Ó§Ç¦C¡A©w¸qLIS(w)¬°wªºLISªø«×¡A
+
+µ¹§AN¡A³]w¬°1~Nªº©Ò¦³±Æ¦C¡A°Ý¹ï©Ò¦³ªºw¡ALIS(w)ªºÁ`©M¬°¦h¤Ö
+
+¿é¥X«e¤­­Ó¼Æ¦r
+
+
+//ÃD¦W¯uªø xD
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m203.68.21.160 (¨S¦³¬G¶m)[m
+

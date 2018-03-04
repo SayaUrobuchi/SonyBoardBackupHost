@@ -1,0 +1,41 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¾Ç³N] ACM 11408 Accepted
+®É¶¡: 2009/07/08 Wed 17:57:17
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@ptt2.cc
+¼ÐÃD: [¾Ç³N] ACM 11408 Accepted
+®É¶¡: 2009/07/08 Wed 17:49:11
+
+§@ªÌ: sa072686 (sa) ¬ÝªO: sa072686
+¼ÐÃD: [¾Ç³N] ACM 11408 Accepted
+®É¶¡: Sat Jul  4 18:29:22 2009
+
+¤S¶Ã©ñÀË¬d½XÃz¬µ¤F¡K¤£µMÁÙ®¼»´ÃP
+
+Â½Ä¶¤@¤U
+
+µ¹¨â¼Æ a, b ¸Õ¨D a, b ¤§¶¡¡]§t a, b¡^¦@¦³´X­Ó DePrime
+
+©w¸q¬O¡A¸Ó¼Æªº©Ò¦³½è¦]¼Æ©M¬°½è¼Æ
+
+
+
+¤@Áy DP ¼Ë¡A¥ý¿zªk§ä½è¼Æ¶¶«K°O¿ý¨C­Ó¦X¼Æ³Q­þ­Ó½è¼Æ¿z¥h
+
+µM«á DP ºâ±q 1 ~ n ¦@¦³´X­Ó DePrime
+
+¸ô¤W´N¬O DP ºâºâ¬Ý¡A³] n ³Q i ¿z¥h¡A«h n / i ­Y¤£¾ã°£ i
+
+«h n ½è¦]¼Æ©M¬° n/i ¤§½è¦]¼Æ©M¡A¥[¤W i
+
+§_«h´N¬O n/i ¤§½è¦]¼Æ©M¡A©Ò¥H¤@¸ô DP ¤U¥h´N¬O¤F
+
+DPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDPDP
+
+--
+¡° µo«H¯¸: §å½ð½ð¨ß(ptt2.cc) 
+¡» From: 203.204.38.30
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 17:57:17 [m

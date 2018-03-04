@@ -1,0 +1,56 @@
+§@ªÌ: zenixls2 (zenix) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10018
+®É¶¡: 2007/02/03 Sat 11:12:02
+
+#include<iostream>
+#include<cstdlib>
+#include<ctype.h>
+using namespace std;
+int main()
+{
+     long long a,b;
+     char c[10];
+     int k,i,j;
+     cin>>k;
+     while(k)
+     {
+     a=0;b=1;j=0;
+     for(i=0;i<=10;i++){c[i]=0;}
+     cin>>c;
+     long long pi=atol(c);
+     if(cin.fail())break;
+     while(a!=b||pi==b)
+     {
+         a = atol(c);
+         strrev(c);//¥Î¤ÏÂà¦r¦êªº¤è¦¡¤ñ¸û¦n³B²z
+         b = atol(c);
+         itoa(a+b,c,10);//§â¼Æ¦rÂà¦^¦r¦ê
+         j++;
+     }
+     cout<<j-1<<" "<<a<<"\n";
+     k--;
+     }
+     return 0;
+}
+        ¯àÀ°§Ú°£¿ù´NÀ°§a!
+        ³oÃD§Ú¦bVC++½sÄ¶¨S°ÝÃD¡A¦ý¶Ç¨ìACM¤W«o»¡§ÚCompile Error¡C
+        ¤£ª¾¬°¤°»ò¡A³Ìªñ³£«ÜÃøAccept ­ü~~
+58004---------------------------------------------------
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m218.165.110.198 (¤¤·Æ¤@µf)[m
+
+¡÷ [36mchensc [31m±À[m:#include <ctype.h> -> #include <cctype> ... try it     0203 11:56
+¡÷ [36msa072686 [31m±À[m:VC¤£¤Ó·Ç¡K¦³¨Ç¨ç¦¡¦bVC¯à¥Î¡AACM·|CE                  0203 12:08
+¡÷ [36msa072686 [31m±À[m:¤£¹L³o¨Çfunction§Ú¤]¤£·|°Ú¡K                         0203 12:09
+¡÷ [36mZero [31m±À[m:§Ú¨S°O¿ùACM¤£¯à¥Îitoa                                    0203 14:22
+¡÷ [36mZero [31m±À[m:¨S°O¿ùªº¸Ü*                                              0203 14:22
+¡÷ [36mZero [31m±À[m:©Ò¥H§Ú³£¥Îstringstream (°k~)                             0203 14:22
+¡÷ [36msa072686 [31m±À[m:¥Îsprintf¹ÀXD                                        0203 15:56
+¡÷ [36mpioneerlike [31m±À[m:±À¼Ó¤W~*                                          0203 16:42
+¡÷ [36msa072686 [31m±À[m:­è¬Ý¤F¤@¤UÃD¥Ø¡K¨ä¹ê¤@¶}©l¼Æ¦rÂàstring«á´Nª½±µ°µ¤F¡K 0203 18:11
+¡÷ [36msa072686 [31m±À[m:¤]¤£¥Î¦AÂà¨ÓÂà¥h¤F                                   0203 18:11
+¡÷ [36mpioneerlike [31m±À[m:strrev()?                                         0203 22:24

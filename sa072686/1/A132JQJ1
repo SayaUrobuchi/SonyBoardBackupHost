@@ -1,0 +1,113 @@
+§@ªÌ: seanwu (2,2-¤G¥Ò°ò¤þÖJ) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]10267
+®É¶¡: 2007/04/21 Sat 18:39:37
+
+Q10267¡G ¹Ï§Î½s¿è¾¹
+
+Problem
+
+¦³­ÓÂ²³æªº¹Ï§Î½s¿è¾¹¯à³B²z¤@­ÓM*NµeªO(1<=M,N<=250)¡C µeªO¤Wªº¨C­Ó¹³¯À¦U¦³
+¦Û¤vªºÃC¦â¡C¹Ï§Î«h¨Ì¦¹µeªO¤Wªº¹Ï®×¿é¥X¡C
+
+½Ð¼g¤@­Óµ{¦¡¨Ó¼ÒÀÀ³o­Ó½s¿è¾¹¡C
+
+
+Input
+
+¿é¤J¥]§t¤@¨Ç½s¿è¾¹ªº«ü¥O¡A¨C­Ó«ü¥O¤@¦C¡C¨C¦C«ü¥O¥H¤@­Ó¤j¼g­^¤å¦r¥À¶}ÀY¡C¦pªG
+³o­Ó«ü¥O§t¦³ÃB¥~ªº°Ñ¼Æ¡A©Ò¦³ªº°Ñ¼Æ¬Ò·|¥]§t¦b³o¤@¦C¤¤¥B¤§¶¡¥HªÅ¥Õ¤À¹j¡C
+
+°Ñ¼Æ¥i¯à¨Ò¦p¡G
+¹³¯ÀÂIªº®y¼Ð¡G§t¦³¨â­Ó¾ã¼Æ¡A²Ä¤@­Ó¼Æ¬É©ó1¡ãM¤§¶¡¡Aªí¸ÓÂIªº¦æ®y¼Ð¡F²Ä¤G­Ó¼Æ¬É
+¡@¡@©ó1¡ãN¤§¶¡¡Aªí¸ÓÂIªº¦C®y¼Ð¡C
+ÃC¦â¡G¥H¤@­Ó¤j¼gªº­^¤å¦r¥À¥Nªí¡C
+ÀÉ¦W¡G²Å¦XMSDOS 8.3 (¥DÀÉ¦W³Ìªø8¦r¤¸¡AªþÀÉ¦W³Ìªø3¦r¤¸)¡C
+
+½s¿è¾¹»Ý³B²z¥H¤Uªº«ü¥O
+
+I M N            «Ø¥ß¤@±iM*Nªº¹Ï¡C©Ò¦³ªºÂI¬Ò¶î¦¨¥Õ¦â(O)¡C
+
+C                ²M°£³o±i¹Ï¡C¹Ïªº¤j¤p¤£ÅÜ¡A©Ò¦³ªºÂI¬Ò¶î¦¨¥Õ¦â(O)¡C
+
+L X Y C          ±NÂI(X,Y)¶î¦¨ÃC¦âC¡C
+
+V X Y1 Y2 C      ±N¸Ó««ª½½u¬q(¦b²ÄX¦æ¦b²ÄY1,Y2¨â¦C¤§¶¡)¶î¦¨ÃC¦âC¡C
+
+H X1 X2 Y C      ±N¸Ó¤ô¥­½u¬q(¦b²ÄY¦C¦b²ÄX1,X2¨â¦æ¤§¶¡)¶î¦¨ÃC¦âC¡C
+
+K X1 Y1 X2 Y2 C  ±N¸Óªø¤è§Î(¥H(X1,Y1)¬°¥ª¤W¨¤¡A(X2,Y2)¬°¥k¤U¨¤)¶ñ¦¨ÃC¦âC¡C
+
+F X Y C          ±N¸Ó°Ï°ìR¶ñº¡¬°ÃC¦âC¡C°Ï°ìRªº©w¸q¦p¤U¡G
+                 ÂI(X,Y)ÄÝ©óR¡C¥t¥~¹ï©ó¨ä¥¦ªºÂI­Y¥B°ß­Y¸ÓÂI»PÂI(X,Y)¦³¬Û¦P
+¡@¡@¡@¡@¡@¡@¡@¡@ ªºÃC¦â¥B»P¬Y¤@ÄÝ©óRªºÂI¦³¤½¦@Ãä¡A«h¸ÓÂIÄÝ©óR¡C
+
+S Name           ¥HÀÉ¦WName¿é¥X³o±i¹Ï¡C
+
+X                µ²§ô½s¿è¾¹µ{¦¡¡C
+
+
+Output
+
+¨C·í¹J¨ì S Name «ü¥O®É¡A§AÀ³¸Ó¿é¥XÀÉ¦WName¡A©³¤U±µµÛ¤@¦C¤@¦C¿é¥XµeªO¤Wªº¹Ï
+§Î¡A¨C¦C¥]§tµeªO¤W¸Ó¦Cªº¹³¯ÀÃC¦â¡A½Ð°Ñ¦ÒSample Output¡C
+
+Errors
+
+¦pªG¦C­º¥X²{¤FI,C,L,V,H,K,F,S,X¥H¥~ªº¦r¥À¡A½Ð©¿²¤³o¤@¾ã¦Cª½±µ¸õ¦Ü¤U¤@¦C
+«ü¥O¡C¨ä¥¦ªº¨Ò¥~ªpª¬¦b¥»°ÝÃD¤¤¤£·|¥X²{¡C
+
+Sample Input
+
+I 5 6
+L 2 3 A
+S one.bmp
+G 2 3 J
+F 3 3 J
+V 2 3 4 W
+H 3 4 2 Z
+S two.bmp
+X
+
+
+Sample Output
+
+one.bmp
+OOOOO
+OOOOO
+OAOOO
+OOOOO
+OOOOO
+OOOOO
+two.bmp
+JJJJJ
+JJZZJ
+JWJJJ
+JWJJJ
+JJJJJ
+JJJJJ
+
+
+
+
+
+-
+³o¸Ì¬O´£¥Ü
+
+1. F¤£¯à¥Îdfs°µflood-fill...250*250«OÃÒ·|Äê(RE)..½Ð·R¥Îbfs
+
+2. °ÝÃD½Ð¥J²Ó¾\Åª....¤£­n§âX,Y§Ë¤Ï¤§Ãþªº...|||
+
+3. ¨Ò¥~Error¤£­n§Ñ°O
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-160.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+
+¡÷ [36mseanwu [33m»¡[m:Â½Ä¶§¹¤~µo²{¦Û¤v¤Ó¶¢...|||                             0421 18:41
+¡÷ [36mseanwu [33m»¡[m:¶â..ÁÙ¦³ÂI¼Ë¤lhttp://w9.loxa.com/seanwu/ACM/q10267.htm 0421 19:13
+¡÷ [36msa072686 [31m±À[m:Â½±o¤£¿ù§r §ë½ZLucky¿ß§aXDD ¦ý°Q½×ªO¦³¤H´£¨ì         0421 20:26
+¡÷ [36msa072686 [31m±À[m:¥Îfloodfill¬O¤£·|Äêªº¡K¤£¹L¥¼ÃÒ¹ê                    0421 20:26

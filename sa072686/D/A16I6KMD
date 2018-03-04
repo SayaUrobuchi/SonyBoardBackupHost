@@ -1,0 +1,32 @@
+§@ªÌ: DJWS (...) ¯¸¤º: sa072686
+¼ÐÃD: Re: [Âà¿ý] [µ§°O] 10941 Accepted
+®É¶¡: 2010/12/30 Thu 13:28:19
+
+¡° ¤Þ­z¡msa072686 (AC Island ¶}µo¤¤)¡n¤§»Ê¨¥¡G
+> ±Æ§ÇµM«á¥[ prunning¡Bqueue size 800¡Bªì©l¨â¦r¦êªø«× 2000¡Bnodes 300000¡C
+> ¡° ¤Þ­z¡msa072686 (½Ä¤@µo¥x¤j¸ê¤u¡I)¡n¤§»Ê¨¥¡G
+> > µ¹¨â­Ó¦r¦ê¥H¤Î¤@­Ó¦r¦ê¶°¦X¡A¸Õ¨D¦b³o¨â¦r¦êªº§À¤Ú±µ¤W¦r¦ê¶°¦X¤¤ªº¥ô·N¼Æ¥Ø¦r¦ê«á
+> > ¯à§_¦¨¬°¬Û¦P¦r¦ê¡A¯àªº¸Ü¿é¥X³Ì¤p¨BÆJ¼Æ¡C
+> > ¶} Trie ¥[ BFS¡A¥H¨â¦r¦ê¶¡ªº¡u®t²§¡v§@¬°ª¬ºA¡C
+¤¶²Ð¤@­Ó¦n¥Îªº¤u¨ã
+
+struct cmp_str {
+    bool operator()(char const* a, char const* b) {
+        return strcmp(a, b) < 0;
+    }
+};
+
+set<char*, cmp_str> visit;
+
+¦³¤F³o­Ó§A¥i¥H¤Ö¼g100¦æ¡C
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by DJWS from [m [1m220.137.22.143 (¤¤·Æ¤@µf)[m
+
+¡÷ [36myuscvscv [31m±À[m:set<string> XD                                       1230 16:09
+¡÷ [36mskg [31m±À[m:STL??                                                     1230 20:11
+¡÷ [36myuscvscv [31m±À[m:¬O°ÚXD                                               1230 22:22
+¡÷ [36mDJWS [31m±À[m:¦]¬°¦r¦ê³£¤w¸g¦s¨ì°}¦C¸Ì¤F  ©Ò¥H¥Îchar*´N°÷¤F¡@¬ÙªÅ¶¡¡I  0105 01:03

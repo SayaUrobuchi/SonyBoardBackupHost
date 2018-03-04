@@ -1,0 +1,84 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¶Ã¨Ó] 724 Accepted
+®É¶¡: 2009/07/08 Wed 18:04:00
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Re: [¶Ã¨Ó] 724 Accepted
+®É¶¡: 2009/07/08 Wed 18:03:24
+
+§@ªÌ: gba356 (º¿§Q¼Ú) ¯¸¤º: sa072686
+¼ÐÃD: Re: [¶Ã¨Ó] 724 Accepted
+®É¶¡: 2008/03/29 Sat 13:04:52
+
+¡° ¤Þ­z¡msa072686 ( )¡n¤§»Ê¨¥¡G
+> ¨S¦³¿é¤J¡A¦ý¬O§Aªºµ{¦¡­n¯à¿é¥X¦Û¨­¡AÁÙ­n¯à¿é¥X¦Û¨­ªº¤ÏÂà¡C
+> ¤£¹LÃD¥Ø¥Ø«e¦³°ÝÃD¡A¥H¤U¬OAC code¡C
+> main(){};
+> ¯f¤F¡K
+
+¿é¥X¦Û¨­ªºµ{¦¡¦n¹³¥s°µ Quine ¡A
+
+ºô¸ô¤W¦³º¡¦h½d¨Òªº¡A³oÃä´£¨Ñ¤@­Ó¡G
+
+#include<stdio.h>
+char *a[] = {"\"};\n\n",
+    "main() {\n",
+    "  int i=0; char *b;\n",
+    "  printf(\"#include<stdio.h>\\nchar *a[] = {\\\"\");\n",
+    "  while(*a[i]) {\n",
+    "    for(b=a[i];*b;b++)\n",
+    "      switch(*b) {\n",
+    "         case '\\n': printf(\"\\\\n\"); break;\n",
+    "         case '\\\\': case '\\\"': putchar('\\\\'); \n",
+    "         default: putchar(*b);\n",
+    "      } \n",
+    "    printf(\"\\\",\\n\\t\\\"\"); \n",
+    "    i++;\n",
+    "  }\n",
+    "  i=0;\n",
+    "  while(*a[i]) {printf(a[i]);i++;}\n",
+    "}\n",
+    ""};
+
+main() {
+  int i=0; char *b;
+  printf("#include<stdio.h>\nchar *a[] = {\"");
+  while(*a[i]) {
+    for(b=a[i];*b;b++)
+      switch(*b) {
+         case '\n': printf("\\n"); break;
+         case '\\': case '\"': putchar('\\');
+         default: putchar(*b);
+      }
+    printf("\",\n\t\"");
+    i++;
+  }
+  i=0;
+  while(*a[i]) {printf(a[i]);i++;}
+}
+
+
+¯u¬OÀu¬ü¡C
+
+
+
+
+--
+
+[m[1;33m¡¹silkworm [37;44m ¨Ó¸òªÌ¤@°_³Û¡G¤j¯º~¸ôXD [m
+
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40mgba356      	  		      	[1;30mfrom_[;32;40m218.167.103.99(HiNet)[m
+¡÷ [36mgba356 [31m±À[m¡G³oÃä¦³«Ü¦h¡G                                            08/03/29
+¡÷ [36mgba356 [31m±À[m¡G    http://www.nyx.org/%7Egthompso/quine.htm            08/03/29
+¡÷ [36msa072686 [31m±À[m¡G³á³á¡A­ì¨Ó¦³°Ú¡A§Ú³£¦Û¤v·Q¦Û¤v¼gXD                    08/03/29
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:04:00 [m

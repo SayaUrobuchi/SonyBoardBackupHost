@@ -1,0 +1,103 @@
+§@ªÌ: sa072686 (°g¤WACM¡HXD) ¯¸¤º: sa072686
+¼ÐÃD: [µ§°O]QSORT
+®É¶¡: 2006/07/14 Fri 16:34:43
+
+#include<stdlib.h>
+
+int abc(const void *x,const void *y)
+{
+    if(*(«¬ºA*)x<*(«¬ºA*)y)
+    {
+        return -1;
+    }
+}
+
+qsort(ary,size,sizeof(«¬ºA),abc);
+
+return -1®É·|±N«e­±ªºÂ\¦b«e­±
+
+return 1®É·|±N«á­±ªºÂ\¦b«e­±
+
+©Ò¥H²{¦b¬O¥Ñ¤p¨ì¤j±Æ§Ç
+
+§â¤j©ó¤p©ó´«±¼´NÅÜ¦¨¥Ñ¤j¨ì¤p¤F
+
+x©My¤¬½Õ¤]¥i¥H¡K
+
+Â²³æ¦a»¡¡A¥O*(int*)x=a¡A*(int*)y=b
+
+¦^¶Ç-1ªí¥Üa­nÂ\¦bb«e­±
+
+¦^¶Ç1ªí¥Üa­nÂ\¦bb«á­±
+
+¦]¦¹­Ya<b®Éreturn -1
+
+ªí¥Üa<b®Éa©ñb«á­±¡]a¤ñ¸û¤p¡A©Ò¥H¥Ñ¤p±Æ¨ì¤j¡^
+
+­Y¬Oa>b®Éreturn -1
+
+ªí¥Üa>b®Éa©ñb«á­±¡]a¤ñ¸û¤j¡A©Ò¥H¥Ñ¤j±Æ¨ì¤p¡^
+
+¦^¶Ç0«hªí¥Üºû«ù­ìª¬
+
+¥æ´«ªº¦¡¤l¥i¥H¦Û©w
+
+©Ò¥H³s¦r¦ê³£¥i¥H®³¨Ó¥æ´«¡K
+
+¥Îµ²ºc«h¥i¥H¤@¦¸¥æ´««Ü¦h­Ó
+
+¨Ò¦p¦r¦ê¥[¤W¾ã¼Æªº±Æ§Ç
+
+typedef struct abc
+{
+    int a;
+    char b[10];
+}abc;
+
+abc k[100];
+
+int abcc(const void *x,const void *y)
+{
+    if((*(abc*)x).a<(*(abc*)y).a)
+    {
+        return -1;
+    }
+    else if((*(abc*)x).a==(*(abc*)y).a)
+    {
+        int p;
+        for(p=0;p<strlen((*(abc*)x).z)&&p<strlen(*(abc*)y).z;p++)
+        {
+            if((*(abc*)x).z[p]<(*(abc*)y).z[p])
+            {
+                return -1;
+            }
+            else if((*(abc*)x).z[p]>(*(abc*)y).z[p])
+            {
+                return 1;
+            }
+        }
+        return 0;
+    }
+    else
+    {
+        return 1;
+    }
+}
+
+qsort(k,100,sizeof(abc),abcc);
+
+--
+
+TFCis 97th¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡¶ [1;30msa072686 [;33m§ï[m@[m2006/07/17 Mon 20:18:09[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2006/08/07 Mon 17:09:58[m

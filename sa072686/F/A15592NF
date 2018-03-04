@@ -1,0 +1,98 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤)
+¼ÐÃD: [Âà¿ý] [¤¤Ä¶] ACM# 702
+®É¶¡: 2009/07/08 Wed 20:02:55
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Re: [¤¤Ä¶] ACM# 702
+®É¶¡: 2009/07/08 Wed 20:02:30
+
+§@ªÌ: sa072686 ( ) ¯¸¤º: Programming
+¼ÐÃD: Re: [¤¤Ä¶] ACM# 702
+®É¶¡: 2008/03/31 Mon 17:37:21
+
+·PÁÂªO¥DªºÂ½Ä¶¡C
+
+³oÃD­n¥ÎDP¡AÂ²³æ¦a»¡¬O¬Ý¬Y¤@¸s¤H¤¤¡A¥H¬Y¤@¤H±Æ³Ì«e­±ªº©Ò¦³±¡§Î¡A³£¯àµø¬°¬Û¦P¡C
+
+¦]¬°¦pªG¬Û¹ï°ª«×³£¬O¤@¼Ëªº¡A¨º»ò¤£ºÞ¹ê»Ú°ª«×®t¦p¦ó¡A±Æªk³£·|§¹¥þ¤@¼Ë¡C
+
+¦]¦¹¡A¥Hdp[n][m][d]°O¿ý¦³n­Ó¤H¤ñ²Ä¤@­Ó¸G¡B¦³m­Ó¤H¤ñ²Ä¤@­Ó°ª¡B¤U¤@­Ó
+
+­n§ä¤ñ¸û¸Gªº¡A©Î¬O¤ñ¸û°ªªº¡C«hª¾¡AÂà²¾¤è¦¡¤W­Y­n§ä¤ñ¸û¸Gªº¡A
+
+¨º»òªTÁ|0¨ìn-1¡A°²³]¬Oi¡A«hª¾¤ñ¥L¸Gªº¦³n-i­Ó¤H¡A¦Ó¤ñ¥L°ªªº¦³m+i-1­Ó¡A
+
+µM«á¤U¤@­Ó­n§ä¤ñ¸û°ªªº¡C
+
+­Y­n¤ñ¸û°ªªº¡A«hªTÁ|0¨ìm-1¡A«hª¾¤ñ¥L¸Gªº¦³n+i­Ó¡A¤ñ¥L°ªªº¦³m-i-1­Ó¡C
+
+µM«á¤U¤@­Ó­n§ä¤ñ¸û¸Gªº¡C
+
+¦pªG¥u¦³¤@­Ó¤H¡]n == m == 0¡^«h­È¬°1¡C
+
+¦pªGn<0©Îm<0µª®×¤]¬O1¡A³o¼Ë¥i¥H¾×±¼¤@¨Ç¯S®í±¡§Î¡C
+
+ª`·Nµ¹ªº¦pªG¶¤ªø³Ì¸G¡A«h¥H²Ä¤G­Ó¤H¶}©l¡Aª½±µ¸õ¹L¶¤ªø¡C¦Ó²Ä¤G­Ó¤H­nÂ\²Ä¤T¸G¡A
+
+µM«á¤U¤@­Ó§ä¤ñ¸û¸Gªº¡C
+
+°O±o¨Ï¥Îlong long
+
+¡° ¤Þ­z¡mAikoSenoo (µ¾Ál¡EÂÅ¬¥)¡n¤§»Ê¨¥¡G
+> The Vindictive Coach
+> The coach of a football team, after suffering for years the adverse comments
+> of the media about his tactics, decides to take his revenge by presenting his
+> players in a line-up in such a way that the TV cameras would be compelled to
+> zigzag in a ridiculous bobbing motion, by alternating taller and shorter
+> players. However, the team captain objects that he must be the first of the
+> line by protocolary reasons,and that he wants to be seen in the best possible
+> light: that is, he should not have a taller colleague nest to him unless
+> there is no alternative (everyone else is taller than him). Even in this
+> case, the height difference should be as small as possible, while maintaining
+> the zigzag arrangement of the line.
+>     ¤@­Ó¨¬²y¶¤ªº±Ð½m¦b¾D¨ü¦n´X¦~¹ï©ó¥L©Ò¥Î¾Ô³Nªº­t­±µû»ù¤§«á¡A¥L¨M©w­n¦w±Æ¥Lªº²y
+> ­û±Æ¦¨¤@­Ó¯S§Oªº¶¤¥î¢w¢w¤£°±¦a¥æ´À°ª¸Gªº²y­û¢w¢w¥Î¦¹¨Ó³ø´_¡C³o­Ó¯S§Oªº¶¤¥î·|¨Ï
+> ±o³o¨Ç¹qµø´CÅéªº¬Û¾÷©MÄá¼v¾÷¥²¶·­n¤@ª½°µ¥i¯ºªº¤W¤U¨Ó¦^ªº°Ê§@¡CµM¦Ó¡A³o­Ó¶¤¥îªº
+> ¶¤ªø©Úµ´³o¼Ë´£Ä³¡A¦]¬°¤@¨Ç¨ó©w¹Lªº­ì¦]¡A¥L¥²¶·¬O¶¤¥îªº²Ä¤@­Ó¡A¦Ó¥B¡G¥L§Æ±æ¯à°÷
+> ¦b³Ì¦nªºÁâ¥ú¿O¦ì¸m¡C´«¦Ó¨¥¤§¡A¥L¨º¸s¤£¯à¦³¤H¤ñ¥L°ª¡A°£«D¨S¦³´À¥N¤è®×(¤]´N¬O¨ä
+> ¥L¤H³£¤ñ¥L°ª)¡C¦ý´Nºâ¬O¦b³o¼Ëªº±¡ªp¤§¤U¡A¨­°ª®tÁÙ¬OÀ³¸Ó­nºÉ¥i¯à¦a¤p¡A¦P®É¤]­n
+> «O«ù¶¤¥îªº°ª°ª§C§Cª¬ºA¡C
+> With this condition the coach addresses an expert in computation (i.e. you)
+> to help him find the number of different alignments he may make, knowing that
+> all players have a different height. They are always numbered by stature
+> starting by 1 as the shortest one. Of course the number of players may be
+> arbitrary, provided it does not exceed 22.
+> ¦b³o¼Ëªº±¡ªp¤U¡A³o¦W±Ð½m¼g«Hµ¹¤F¤@­Ó­pºâªº±M®a(´«¥y¸Ü»¡´N¬O§A)¨ÓÀ°¥L§ä¥X¥LÀ³¸Ó
+> ­n§â¶¤¥î±Æ¦¨´X­Ó¤£¦Pªº¦C¶¤¡C¨C­Ó²y­ûªº¨­°ª³£¤£¦P¡A©Ò¦³²y­ûªº¨­°ª³£¬O±q1¶}©l(¤]
+> ´N¬O³Ì¸Gªº¤@­Ó)¡A¤£¹L·íµM°Õ¡A²y­ûªºÁ`¼Æ¬O¥ô·Nªº¡A¤£¹L¤£·|¶W¹L22¡C
+> Input
+> It is a set of lines, each of which contains two positive integers N and m
+> separated by a blank space.  represents the number of players in the line-up
+> and m the captain's number, who as told is always the first of the line.
+> ¦b¨Cµ§´ú¸ê¤§¤¤³£·|¥]§t¨â­Ó¥¿¾ã¼ÆN©Mm¡A¤¤¶¡¥Î¤@­ÓªÅ¥Õ¹j¶}¡C¥¦­Ì¥Nªíªº·N¸q¤À§O¬°
+> ²y­ûÁ`¼Æ»P¶¤ªøªº¸¹½X(´N¬O¨º­Ó»¡­n¦b¶¤¥î³Ì«e­±ªº¨º¤@­Ó¤H)
+> Output
+> For every line of the input a line with positive integer indicating the
+> number of possible alignments under the above conditions.
+> °w¹ï¨C¤@²Õ¿é¤J¡A½Ð¿é¥X©Ò¦³¥i¯àªº¸Ñ¡C
+> Sample Input
+> 3 1
+> 3 3
+> 4 1
+> Sample Output
+> 1
+> 1
+> 1
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40msa072686                        [1;30mfrom_[;32;40m140.122.61.173(¥xÆW®v½d¤j¾Ç)[m
+[33m¡÷[1;30mMo[mdi[1mfy:[m sa072686 [34mat[m [36m2008/03/31 Mon 18:52:29[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 20:02:55 [m

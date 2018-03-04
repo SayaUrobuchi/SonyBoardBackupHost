@@ -1,0 +1,49 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¾Ç³N] ACM 11504 Accepted
+®É¶¡: 2009/07/30 Thu 16:30:16
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@ptt2.cc
+¼ÐÃD: [¾Ç³N] ACM 11504 Accepted
+®É¶¡: 2009/07/30 Thu 16:26:03
+
+§@ªÌ: sa072686 (sa) ¬ÝªO: sa072686
+¼ÐÃD: [¾Ç³N] ACM 11504 Accepted
+®É¶¡: Thu Jul 30 16:24:42 2009
+
+¬Ý¦ü¸£´Ý¡A¨ä¹ê®¼Ãø¹L¡K¾¾¤£¬O«Ü sad °Õ
+
+Â½Ä¶¤@¤U
+
+µ¹ n, m ¥Nªí¦³ n ¶ô°©µP¡A«á­± m ¦æ¨C¦æ¨â¼Æ x, y ¥NªíºV¤U x «h y ·|¸òµÛ­Ë
+
+°Ý³Ì¤ÖºV¤U´X¶ô¥i¥H¥þ­Ë
+
+
+
+¬Ý¦ü¸£´Ý¹ï§a¡H¡K
+
+¥Ñ©ó¥i¯à¦³ cycle (¨Æ¹ê¤W¤]±Æ±o¥X¨Ó) ©Ò¥H¥u¬Ý¤J«×¬O¤£¦æªº
+
+¤£µM§Ú¥Î dfs ºVÁ`¦æ¤F§a¡H¥i¬OÁÙ­n¤p¤ßÀô¡K°²³] 1->2->3->1 ¬O­ÓÀô
+
+ºV­Ë 4 «h 2 ¸òµÛ­Ë¡A¨º¦pªGÀô°Oªº¬OºV­Ë 1 µª®×´N·|ÅÜºV¨â¶ô¡K¦]¬° 2 ¤£­«ÂÐºV
+
+¦pªGÅý 2 ¤]­«ÂÐ¥hºVÅÜ n^2, n <= 100000 ¤£·|¹Lªº¡K
+
+¤£¹L¡A¥ýºV­Ë©Ò¦³¤J«× 0 ªºÁ`¬O¤£·|¿ù¡A«hª¾³Ñ¤U©Ò¦³¥¼ºV­Ë¦ý¤J«×¤£¬° 0 ªº
+
+´N§â¥¦­Ì¤]ºV±¼¡A³o¨Ç¤@©w¬OÀô¡A³o¼Ë´N¤£·|ºâ¿ù¤F
+
+¤]´N¬O­Y¦s¦b¥i¥H±q§O¶ôºV¶i¤@­ÓÀô«oºV¤£¥X¨Óªº±¡§Î·|¥ý³Q¹LÂo±¼
+
+¤~¤£·|¤@­ÓÀô¥u¯d¤U¤@­Ó root ¦b¨ºÃä¡A¦pªGºV¶iªºÂI¤£¬O root ´N·í³õ¦º¦b¨º¸Ì
+
+
+--
+¡° µo«H¯¸: §å½ð½ð¨ß(ptt2.cc) 
+¡» From: 210.70.137.244
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/30 Thu 16:30:16 [m
+¡÷ [36msa072686 [31m±À[m:°Ú¡K§Ú¸£´Ý¡A·PÁÂ shik «ü¥X¤Ï¨Ò¡K³o½g´N§O¬Ý¤FXD       0730 21:13

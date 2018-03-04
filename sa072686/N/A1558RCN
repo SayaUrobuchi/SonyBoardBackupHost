@@ -1,0 +1,70 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [µ§°O] 462 Accepted
+®É¶¡: 2009/07/08 Wed 17:57:28
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: [µ§°O] 462 Accepted
+®É¶¡: 2009/07/08 Wed 17:50:30
+
+§@ªÌ: sa072686 (¬°¥¼¨ÓçE¸ô) ¯¸¤º: sa072686
+¼ÐÃD: [µ§°O] 462 Accepted
+®É¶¡: 2008/02/14 Thu 20:25:48
+
+
+¾ôµP­p¤Àªk¡C³W«h¦p¤U
+
+   1.  Each ace counts 4 points. Each king counts 3 points. Each queen counts
+2 points. Each jack counts one point.
+   2. Subtract a point for any king of a suit in which the hand holds no
+other cards.
+   3. Subtract a point for any queen in a suit in which the hand holds only
+zero or one other cards.
+   4. Subtract a point for any jack in a suit in which the hand holds only
+zero, one, or two other cards.
+   5. Add a point for each suit in which the hand contains exactly two cards.
+   6. Add two points for each suit in which the hand contains exactly one
+card.
+   7. Add two points for each suit in which the hand contains no cards.
+
+¤@¡BAºâ¥|ÂI¡AKºâ¤TÂI¡AQºâ¨âÂI¡AJºâ¤@ÂI¡C
+¤G¡B­Y¬Yªá¦â¥u¦³¤@±iK¡A¦©¤@¤À
+¤T¡B­Y¬Yªá¦â¥u¦³¤@±iQ¡A¨ä¥¦µP¦b¤@±i¥H¤º¡A¦©¤@¤À¡C
+¥|¡B­Y¬Yªá¦â¥u¦³¤@±iJ¡A¨ä¥¦µP¦b¨â±i¥H¤º¡A¦©¤@¤À¡C
+¤­¡B­Y¬Yªá¦â«ê¦³¨â±iµP¡A¥[¤@¤À¡C
+¤»¡B­Y¬Yªá¦â¥u¦³¤@±iµP¡A¥[¨â¤À¡C
+¤C¡B­Y¬Yªá¦â¨SµP¡A¥[¨â¤À¡C
+
+A suit is stopped if it contains an ace, or if it contains a king and at
+least one other card, or if it contains a queen and at least two other cards.
+
+¦pªG¤@­Óªá¦â¥u¦³¤@±iA¡A©Î¬O¦³¤@±iK©M¦Ü¤Ö¤@±i¨ä¥¦µP¡A©Î¬O¦³¤@±iQ¥B¦Ü¤Ö
+
+¦³¨â±i¨ä¥¦µP¡A«h¦¹ªá¦âstopped
+
+    *  If the hand evaluates to fewer than 14 points, then the player must
+pass.
+    * One may open bidding in a suit if the hand evaluates to 14 or more
+points. Bidding is always opened in one of the suits with the most cards.
+    * One may open bidding in ``no trump'' if the hand evaluates to 16 or
+more points ignoring rules 5, 6, and 7 and if all four suits are stopped. A
+no trump bid is always preferred over a suit bid when both are possible.
+
+¦pªG¤âµPÂI¼Æ¤p©ó14¡A«hPASS
+
+¦pªG¤âµPÂI¼Æ¤j©óµ¥©ó14¡A«h¿ï³Ì¦h±iªºªá¦â¡C
+
+¦pªG¤âµPÂI¼Æ±Æ°£³W«h¤­¡B¤»©M¤C¡A¤´¤j©óµ¥©ó16¡A¥B¥|­Óªá¦â¬Òstopped
+
+«hºÙno trump¡C¨Ã¥B¦pªG»P¨ä¥¦±¡§Î¤@°_¥X²{¡Ano trump¥Ã»·Àu¥ý¡C
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40msa072686      	  		      	[1;30mfrom_[;32;40m203.204.38.30(©M«H¶W´CÅé)[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 17:57:28 [m

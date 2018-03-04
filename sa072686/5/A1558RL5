@@ -1,0 +1,61 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [µ§°O] 848 Accepted
+®É¶¡: 2009/07/08 Wed 18:02:13
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: [µ§°O] 848 Accepted
+®É¶¡: 2009/07/08 Wed 18:00:50
+
+§@ªÌ: sa072686 (±æ¦V¥¼¨Ó¡C) ¯¸¤º: sa072686
+¼ÐÃD: [µ§°O] 848 Accepted
+®É¶¡: 2008/03/05 Wed 15:15:08
+
+¼g¤F¥b¤Ñ¥H¤W¡C
+
+µ¹¤@¤å¥ó±N¨C¤@¦æ³z¹L¦X¨Ö©Î¥´Â_§Ë¦¨³Ì±µªñ72¦r¤¸«o¤S¤£¶W¹L¡A¨Ã¥B­n¨Ï¥Î¥H¤Uªº³W«h¡C
+
+    * A new line may be started anywhere there is a space in the input. If a
+new line is started, there will be no trailing blanks at the end of the
+previous line or at the beginning of the new line.
+
+·sªº¤@¦æ¥i¥H¦b input ¤¤¥ô·N¤@­Ó¦³ space ªº¦a¤è¶}©l¡A¨Ã¥B¶}©l¤@­Ó·sªº¤@¦æ«á¡A
+
+­ì¥»¨º¦æ¤£¯à¦³µ²§ÀªÅ¥Õ¡B·sªº¨º¦æ¤£±o¦³¶}ÀYªÅ¥Õ¡C
+
+    * A line break in the input may be eliminated in the output, provided it
+is not at the end of a blank or empty line and is not followed by a space or
+another line break. If a line break is eliminated, it is replaced by a space.
+
+input ¤¤ªº´«¦æ¦b¥¦¤£¬°¤@ªø«× 0 ªº¤@¦æ©Î¥u§tªÅ¥Õªº¤@¦æ¡A¨Ã¥B¥¦ªº¤U¤@¦æ²Ä¤@
+
+­Ó¦r¤¸¤£¬OªÅ¥Õ¡B¦Ó¥B¤£¬Oªø«× 0 ªº¤@¦æ®É¡A«h¥¦¥i¥H³Q®³±¼¡C¦pªG¤@­Ó´«¦æ³Q®³±¼¡A
+
+«h­n¥H¤@­ÓªÅ¥Õ¨ú¥N¥¦­ì¥»ªº¦ì¸m¡C
+
+    * Spaces never appear at the end of a line.
+
+¿é¥X®É¡A¦æ¥½¤£±o¿é¥X¥ô¦óªÅ¥Õ¡C
+
+    * If a sequence of characters longer than 72 characters appears without a
+space or line break, it appears by itself on a line.
+
+¦pªG¦³¤@¦r¦êªø«×¤j©ó 72 ¥B¨S¦³ªÅ¥Õ©Î´«¦æ¡A«h¿é¥X¦b³æ¿W¤@¦æ¡C
+
+ª`·N²Ä¤@¦æ¬°ªÅ¥Õ¡AµM«áªø©ó72ªº«e­±¦pªG¦³ªÅ¥Õ¡A­n¥ýªÅ¤@¦æ¡BµM«á¥h§À¤§«á¿é¥X¡C
+
+¦æ¥½ªÅ¥Õ¦b¿é¥X¤§«e¤£¯à°÷±N¨äµø¬°¬O¯u¥¿ªº¦æ¥½ªÅ¥Õ¡A¦]¬°¦pªG¦X¨Ö¤U­±´X¦æ¡A
+
+¥¦´N¤£¬O¦æ¥½ªÅ¥Õ¤F¡C
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40msa072686                        [1;30mfrom_[;32;40m210.70.137.244(¥x«n¤@¤¤)[m
+[33m¡÷[1;30mMo[mdi[1mfy:[m sa072686 [34mat[m [36m2008/03/05 Wed 16:00:19[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:02:13 [m

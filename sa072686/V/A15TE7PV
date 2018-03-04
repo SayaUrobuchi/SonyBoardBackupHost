@@ -1,0 +1,38 @@
+§@ªÌ: suhorng (»{¯u) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11081 ´Xµ§¤p´ú¸ê
+®É¶¡: 2010/04/28 Wed 01:30:39
+
+Input:
+11
+abbba baaab abab
+aba bab abab
+ab ba abab
+abbc bbec abce
+ab ab ab
+abb bbc abc
+z abb ab
+abc abc abc
+abbcd bccde abcde
+abbbbc c abc
+abcdedcba edcbabcde abdeab
+
+Output:
+76
+9
+1
+4
+4
+4
+2
+8
+18
+8
+22
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by suhorng from [m [1m140.122.45.34 (¥xÆW®v½d¤j¾Ç)[m
+

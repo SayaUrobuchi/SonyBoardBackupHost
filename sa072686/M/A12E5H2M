@@ -1,0 +1,48 @@
+§@ªÌ: sa072686 («n¤@¤¤97¯Å¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]417
+®É¶¡: 2006/08/16 Wed 10:40:04
+
+²×©ó¹L¤F¡A³oÃD¦n¦h¤H³£¦³
+
+¨ä¹ê¥Î¼É¤O«ØªíÁÙÆZ¦n¼gªº|||
+
+¶}­Ó83682*6ªº¤Gºû¦r¤¸°}¦Cµw«Ø
+
+¦A¥Îstrcmp°tbinary search
+
+¦³­Ó¦n³B¬O¤£¦Xªk¦r¦ê¦b¸Ì­±·|§ä¤£¨ì¡A§ä¤£¨ì´N¿é¥X0
+
+0.010sec´N§¹¦¨¤F
+
+¥Î¦¹ªk½Ð°O¿ý¦U¦r¦êªø«×±q²Ä´X­Ó¨ì²Ä´X­Ó
+
+§_«h¹³z·|¥X¿ù¡A¹³chensc¦bstrcmp¬O¤ñz¤pªº¡Azero¤~¤ñz¤j
+
+¦]¬°°}¦C¬O¨Ìªø«×»¼¼Wªº¡A©Ò¥H¤@¶}©l¦pªG´N§ä¨ìchensc
+
+¨º¥u·|©¹«áÄ~Äò§ä¡A©Ò¥H¥²§ä¤£¨ìªø«×¬°1ªº
+
+§Y¨Ï¤@¶}©l§ä¨ìzero¡A¤]¤£¥i¯à¶]¨ì«e­±¥h
+
+¡]ÁöµMchensc©Mzero³£¬O¤£¦Xªk¦r¦ê|||¡^
+
+¤£µM´N¥Îstructªºqsort¡A¤£¹L°O¿ý¤U¨Ó·|¤ñ¸û§Ö
+
+//«e­±»¡§Ú¦ÛÅÊªº¨â¤H²×©ó¦³¾÷·|¥X³õ¤F¡AÁöµM³oÃD¨S¤j¼g
+
+--
+
+TFcis 97th¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mZero [31m±À[m:..... ©Ò¥H§ÚÁÙ¬O¨S¥X²{ªüXD                               0816 11:16
+¡÷ [36mchensc [31m±À[m:§Ú¤]¬O¤£¦Xªkªº¡K><"                                    0816 15:08
+¡÷ [36msa072686 [31m±À[m:¡]¨Æ¹ê¤W§Ú¦Û¤v¤]¤£¦Xªk|||¡^                          0816 18:28

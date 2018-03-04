@@ -1,0 +1,54 @@
+§@ªÌ: DJWS (...) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] 10510
+®É¶¡: 2010/11/04 Thu 13:08:39
+
+À´¤F! ½Ð®e³\§Ú¸ÕµÛ´«¥y¸Ü¦A»¡¤@¹M!
+
+¨Ï¥Î DFS ¡A·|¹J¨ì¤TºØ±¡§Î¡G
+
+¤@¡B (i, j) ¬O cross edge ©Î forward edge¡G
+
+    tree edge ©M back edge ­è¦nºc¦¨¥P¤H´x¥þ³¡ªºÃä¡A
+    ©Ò¥H¤£·|¦³ cross edge »P forward edge¡C
+    ¦pªG¦³ªº¸Ü¡A´Nªí¥Ü¤£¬O¥P¤H´x¡C
+
+    ¹ê§@®É¡A¥i§Q¥Î DFS stack §PÂ_¡A
+    ¦pªG j ¤£¦b stack ¤S¤w¸g«ô³X¹L¡]¤]´N¬O j ¤w¸g±q stack ¼u¥X¨Ó¤F¡^¡A
+    «hªí¥Ü (i, j) ¤@©w¬O cross edge ©Î forward edge¡C
+
+¤G¡B (i, j) ¬O back edge¡G
+
+    ¦pªG±q i ´N¤w¸g¦³¸ô¥i¥H¨«¦^¨ì i ªº¯ª¥ý¡]¤]¬O·|¸g¹L¨ä¥Lªºback edge¡^¡A
+    ¦¹®É j ¤S¨«¦^¨ì i ªº¯ª¥ý¡Aªí¥ÜÀô­«Å|¡A¤£¬O¥P¤H´x¡C
+
+    ½d¨Ò¤@¡G12 23 34 45 56 62 53!       [1;30m// i = 5 and j = 3[m
+    ½d¨Ò¤G¡G12 23 34 45 51! 53!         [1;30m// «ç»ò¦n¹³¦b¼g´ÑÃÐ...[m
+
+    ¹ê§@®É¡A²Ö¥[ i ¦^¨ì¯ª¥ýªº¸ô¦³´X±ø¡A¥u¯à¬O«ê¦n¤@±ø¡C
+    ¥i§Q¥ÎÃö¸`ÂIºtºâªkªº­ì²z¡A°O¿ý i ¥i¨ì¹Fªº³Ì°ª¯ª¥ý¡C
+
+¤T¡B (i, j) ¬O tree edge¡G
+
+    »P 2. ªº·§©À«Ü¹³¡A¤£¹L­n¦b DFS ªº¦^·¹¶¥¬q¤~¯à§PÂ_¡C
+    ¦pªG±q i ´N¤w¸g¦³¸ô¥i¥H¨«¦^¨ì i ªº¯ª¥ý¡A
+    ¦¹®É j ¤S¦³¸ô¨«¦^¨ì i ªº¯ª¥ý¡Aªí¥ÜÀô­«Å|¡A¤£¬O¥P¤H´x¡C
+
+    ½d¨Ò¤@¡G12 23 34 45 56! 67! 72! 58! 89! 91!     [1;30m// i = 5 and j = 8[m
+    ½d¨Ò¤G¡G12 23 34 45 51! 58! 89! 91!             [1;30m// ¦P¤W[m
+
+    ¹ê§@®É¡A²Ö¥[ i ¦^¨ì¯ª¥ýªº¸ô¦³´X±ø¡A¥u¯à¬O«ê¦n¤@±ø¡C©M¡]¤G¡^¤@°_²Ö¥[¡C
+    ¥i§Q¥ÎÃö¸`ÂIºtºâªkªº­ì²z¡A°O¿ý i ¥i¨ì¹Fªº³Ì°ª¯ª¥ý¡C
+
+
+DFS µ²§ô¤§«á¡A
+³Ì«á­n§PÂ_ DFS ¬O§_¯à¶¶§Q¨«¨ì¹Ï¤W©Ò¦³ÂI¡C
+
+ªþµù¡G¾ð®Ú¤£¥Î¨«¨ì¯ª¥ý¡A­n·í°µ¨Ò¥~³B²z¡C¾ð®ÚÀH«K«ç¼Ë³£¦n¡C
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by DJWS from [m [1m59.115.154.175 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mDJWS [;33m§ï[m@[m2010/11/04 Thu 13:38:17[m
+¡÷ [36mDJWS [33m»¡[m:§Ñ¤F»¡...³o­Óºtºâªk¸ò tarjan's scc algorithm ¨S¦³Ãö«Y... 1104 13:46

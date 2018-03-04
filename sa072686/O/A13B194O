@@ -1,0 +1,86 @@
+§@ªÌ: zenixls2 (¤B¤B¥m¥m) ¯¸¤º: sa072686
+¼ÐÃD: [µo°Ý] 195
+®É¶¡: 2007/08/01 Wed 23:05:13
+
+ÁÙ¬OTLE
+³oÃÒ©ú¨ä´ú¸ê¦r¦ê­«½Æ©Ê°ª
+½Ö¥i¥H§i¶D§Ú«ç»ò¦b¹Bºâ¹Lµ{¤¤½ð±¼¤£¦X(­«½Æ)?
+#include<iostream>
+#include<string.h>
+using namespace std;
+int i,d=0,x[123]={0};
+char t[2001]={0},g[2001]={0},no[2001]={0};
+bool f[2001];
+void dfs(int k)
+{
+    int j;
+    for(j=0;t[j]!='\0';j++)
+    {
+        if(f[j]==0)//ÀË¬d¨«¹L¨S
+        {
+            g[k]=t[j];
+            f[j]=1;
+            dfs(k+1);
+            f[j]=0;
+        }
+    }
+    if(k==d)//compare(¿ù¤F)
+    {
+        for(j=k;j>=0;j--)
+            if(g[j]!=no[j])
+            {
+                for(j=0;j<=k;j++)
+                {
+                    cout<<g[j];
+                    no[j]=g[j];
+                }
+                cout<<"\n";
+                break;
+            }
+    }
+}
+int main()
+{
+    for(i='A';i<='Z';i++)//«Øªí
+    {
+        x[i]=d;
+        x[i+32]=d+1;
+        d+=2;
+    }
+    int n;
+    int j;
+    cin>>n;
+    cin.get();
+    while(n)
+    {
+        cin.getline(t,2000);
+        d=strlen(t)-1;
+        for(i=1;i<=d;i++)
+            for(j=i;j>=0;j--)
+            {
+                if(x[t[j]]<x[t[j-1]])t[j]^=t[j-1]^=t[j]^=t[j-1];
+                else break;
+            }//bubble sort
+        for(i=0;i<2001;i++){f[i]=0;g[i]=0;}
+        dfs(0);
+        n--;
+    }
+    return 0;
+}
+
+
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m220.142.106.216 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mzenixls2 [;33m§ï[m@[m2007/08/01 Wed 23:05:52[m
+¡÷ [36mPG [31m±À[m:ÀË¬d¤@¤U§AªºCODE¦³¨S¦³BUG                                  0801 23:19
+¡÷ [36mPG [33m»¡[m:¦]¬°³oÃD¤£»Ý­n¯S®í§Þ¥©´N¥i¥H»´ÃPAC                         0801 23:19
+¡¶ [1;30mzenixls2 [;33m§ï[m@[m2007/08/01 Wed 23:30:35[m
+¡÷ [36mgloompisces [31m±À[m:³o­Ó¦³¹Lsample I/O¶Ü?                             0801 23:53
+¡¶ [1;30mzenixls2 [;33m§ï[m@[m2007/08/02 Thu 13:17:20[m

@@ -1,0 +1,27 @@
+§@ªÌ: gloompisces (Àþ¶¡©M¥Ã»·) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11269
+®É¶¡: 2007/09/06 Thu 17:39:15
+
+11269 - Setting Problems
+
+¦³n(n<=20)­Ó¤u§@
+
+¹ï©ó²Äi­Ó¡AA°µ»Ý­nAi¤ÀÄÁ¡AB°µ»Ý­nBi¤ÀÄÁ¡A¥BA§¹¦¨¥Lªº³¡¤À«áB¤~¯à¶}©l
+
+²Ä¤@¦æ¬On
+
+±µµÛ¬O A1,A2,...,An
+
+¦A¨Ó¬O B1,B2,...,Bn    (1<=Ai,Bi<=100)
+
+°Ý§A³Ì¤Ö­n¦h¤[¨â­Ó¤H¤~¯à§¹¦¨©Ò¦³ªº¤u§@
+
+<Hint>      [30m    TSP?(not sure) or the method similar to 10905  [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.116.142.91 (¤£¥¢±Ñ¤j¾Ç)[m
+
+¡÷ [36mseanwu [31m±À[m:¥H¶°¦X°µDP(´N¬O«Ü¹³TSPªº¨º­Ó°Õ)¶]2¬í¦h...              0908 22:08

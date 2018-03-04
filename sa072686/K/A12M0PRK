@@ -1,0 +1,30 @@
+§@ªÌ: csftwpt (Eric) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM]474
+®É¶¡: 2006/11/19 Sun 20:40:39
+
+e = floor(log10(2) * n + 1);
+
+a = 10^e / 2^n
+log2(a) = log2(10^e) - n*log2(2);
+log2(a) = e * log2(10) - n;
+log2(a) = e / log10(2) - n;
+
+x.xxx = a = 2^(e / log10(2) - n);
+y = -e;
+
+
+-
+
+
+Accepted    0.088   Minimum     VacationClub
+                           C++     474 - Heads / Tails Probability
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by csftwpt from [m [1m61.62.56.117 (©Ò¥H¤º¯S)[m
+
+¡÷ [36mseanwu [31m±À[m:­ø...­ì¨Ó¬O³o¼Ë ¤§«e©Èlog¤ÓºC³£¤£´±¥Î¡A¬Ý¨ÓÀ³¸Ó¬OÁÙ¦n  1119 22:13
+¡÷ [36mcsftwpt [31m±À[m:¯u±j¤j, ¬Ý¨Ó¾Çªø§A¬O¼Æ¾Ç±jªÌ >////<                   1119 22:14
+¡÷ [36msa072686 [31m±À[m:Ê¨¡A§Ú¬O¼Æ¾Ç¥Õ·ö                                     1119 22:17

@@ -1,0 +1,85 @@
+§@ªÌ: DJWS (...) ¯¸¤º: sa072686
+¼ÐÃD: Re: ¤@¯ë¹Ï¤Ç°tªºÃD¥Ø???
+®É¶¡: 2008/11/09 Sun 23:36:35
+
+§Ú­è¤]¼g¥X¤F¤@ª©
+¥i¬O§Ú»{¬°§Ú³o¬qµ{¦¡½X¬O¿ùªº
+¥u¬O¹B®ð¦n¥i¥HAC¦Ó¤w
+
+#include <iostream>
+#include <sstream>
+using namespace std;
+
+    int N;
+    bool map[500][500], m[500][500], v[500];
+    int p[500];
+
+int DFS(int i) {
+    if (v[i]) return false;
+    v[i] = true;
+    for (int j=0; j<N; ++j)
+        if (i != j && map[i][j] && p[j] != i && !v[j] && !m[i][j]) {
+            m[i][j] = true;
+            v[j] = true;
+            if (p[j] == -1 || DFS(p[j])) {
+                p[i] = j; p[j] = i;
+                return 1;
+            }
+            v[j] = false;
+        }
+    v[i] = false;
+    return 0;
+}
+
+int match() {
+    memset(p, -1, sizeof(p));
+
+    int c = 0;
+    for (int i=0; i<N; ++i)
+        if (p[i] == -1) {
+            memset(v, false, sizeof(v));
+            memset(m, false, sizeof(m));
+            for (int j=0; j<N; ++j) m[j][i] = true;
+            if (DFS(i)) c++;
+        }
+    return c;
+}
+
+int main() {
+    cin >> N;
+
+    int a, b;
+    while (cin >> a >> b) {
+        a--; b--;
+        map[a][b] = map[b][a] = true;
+    }
+
+    int n = match();
+    cout << n * 2 << endl;
+
+    memset(v, false, sizeof(v));
+    for (int i=0; i<N; ++i)
+        if (p[i] != -1 && !v[i]) {
+            cout << i+1 << ' ' << p[i]+1 << endl;
+            v[i] = v[p[i]] = true;
+        }
+    return 0;
+}
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by DJWS from [m [1m220.137.131.251 (¤¤·Æ¤@µf)[m
+
+¡÷ [36mseanwu [31m±À[m:µ¥¤@¤U¡A§Ú¥u¬Ý¨ìdfs¦Ó¤w?                               1110 21:07
+¡÷ [36mseanwu [33m»¡[m:¬Ý°_¨Ó¬O¤£·|WA¡A¦ý¤£±Æ°£TLEªº¥i¯à©Ê..                  1110 21:12
+¡÷ [36mDJWS [31m±À[m:¦b§Ú¬Ý¨Ó¬O¤£¥¿½Tªº  ¥t¥~³o¤@¤ä¬OO(V^4)                   1110 23:35
+¡÷ [36mDJWS [31m±À[m:µ{¦¡½Xªº½T¥u¦³DFS  ¤£¹L³o¬O§@¹ú¤~¦³¿ìªk¼g¦¨³o»òºëÂ² XD   1110 23:36
+¡÷ [36mseanwu [31m±À[m:¤£´N¬O§ä¼W¼s¸ô¦Ó¤w¶Ü..§ä¨ìªº¸Ü´N·|¹ï¤£¬O?              1111 19:03
+¡÷ [36mseanwu [33m»¡[m:³á¨S¨Æ¡A§Ú¬Ý¨ìv[i]=false¨º¦æ¤F                         1111 19:03
+¡÷ [36mseanwu [33m»¡[m:³o­Ó¥Î¦b¤G¤À¹Ï¡AÀ³¸Ó·|¹ï                               1111 19:05
+¡÷ [36mseanwu [31m±À[m:§c...¼Ó¤W¨â¼Ó³âÁÉ¡A½ÐµLµø = =+                         1111 19:07
+¡÷ [36mseanwu [33m»¡[m:§âm[i][j]=true®³±¼¡A´N¬O¹ïªº¤F¡A¤£¹L·|TLE              1111 19:09
+¡÷ [36mDJWS [31m±À[m:¹ï§r...®³±¼¬O¥¿½Tªº  ¦ý¬O·|ÅÜ¦¨O(V!)                     1111 20:10

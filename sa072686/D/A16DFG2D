@@ -1,0 +1,36 @@
+§@ªÌ: DJWS (...) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10072
+®É¶¡: 2010/11/08 Mon 17:18:05
+
+¦³ N ­Óª±®a¡A
+
+¥þ³¡¦³¤TºØÂ¾·~¡A¥s°µ batsman  bowling  all-rounder¡C
+
+¨C­Ó¤H¤À§O¦³¤T­Ó¯à¤O­È Batting Bowling Fielding¡C
+
+¤@­Óª±®a­Y§ë¤J¯S©wÂ¾·~¡A«h¥Lªº±j«×¥i¥H³o¼Ë­pºâ¡G
+
+§ë¤Jbatsman¡G0.8 * Batting + 0.2 * Fielding
+
+§ë¤Jbowler¡G0.7 * Bowling + 0.1 * Batting + 0.2 * Fielding
+
+§ë¤Jall-rounder¡G0.4 * Batting + 0.4 * Bowling + 0.2 * Fielding
+
+¡]ºâ¥X¨Óªº±j«×­n°¨¤W¥|±Ë¤­¤J¡C¡^
+
+¡]¤]´N¬O»¡³o¤T­ÓÂ¾·~¦³ÂI¬ÛÃö©Ê¡C¡^
+
+²{¦b­n¥X¹Î¤F¡A³o¹Î­n¦³a­Óbatsman¡Bb­Óbowling¡Bc­Óall-rounder¡C
+
+±q N ­Ó¤H¤§¤¤¬D¿ï a+b+c ­Óª±®a¥X¨Ó¡C
+
+½ÐÅý¾ãÅé±j«×Á`©M³Ì°ª¡C¥ô·N¤@ºØ²Õ¦X¬Ò¥i¡C
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by DJWS from [m [1m220.137.21.25 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mDJWS [;33m§ï[m@[m2010/11/08 Mon 20:25:15[m
+¡¶ [1;30mDJWS [;33m§ï[m@[m2010/11/08 Mon 20:50:29[m

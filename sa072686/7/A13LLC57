@@ -1,0 +1,51 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ÃD¥Ø] NPSC
+®É¶¡: 2007/12/08 Sat 22:56:38
+
+ÀH«K¸É¤@¤U
+
+¡° ¤Þ­z¡msilentvow (It's funny, Peter)¡n¤§»Ê¨¥¡G
+> ¡° ¤Þ­z¡msa072686 (·¥¤j¦a¡C)¡n¤§»Ê¨¥¡G
+> > PB
+> > µ¹±jªÌ¸É¥R§a¡K¤£·|¼g¡C
+
+°²³]¨ä¤¤¨â­Óµ¥¦¡ a+bx=c+dy¡A¤Æ¦¨ bx-dy=c-a¡A
+
+«hx,yªº¤@²Õ¸Ñ(x0,y0)¡A¥i¥H³y±o¥X¨Ó (¦¹ªO¤W"¤£©w¤èµ{"¤@¤å)
+
+«h³q¸Ñ¥i¥H¼g¦¨Ãö©ót­Ó°Ñ¼Æ¦¡ x=x0+z*t, y=y0-z*t (z¬O¦h¤Ö¡A¦Û¤v±À..)
+
+x=x0+z*t ¥N¤J a+bx¡Aµ²ºc¤W¬O¤@­Ó·sªºa'+b'x¡A»P¤U¤@¦¡Áp¥ß¡A¦A©¹¤U¸Ñ..
+
+> ¤pªº¼Æ¾Ç«D±`¤£¦n xD ¯dµ¹¼Æ¾Ç²Õ¸Ñ
+> > PC
+> > ¨S¼g¹L¡C¬Ý°_¨Ó¬O BFS¡H
+> Flood-fill by DFS or BFS
+> ¥|Ãä¬Ò°ª©ó­ìÂI³B´N©ñÀ°®ú, ¤£°÷«hImpossible.
+> ·j©Ò¦³ÂI¦ÜÀ°®ú¤§³Ìµu¸ô®|, ¨ú¨ä¤¤³ÌªøªÌ¿é¥X.
+
+¤Ó®z¤F¡A¨Ì©Ý¾ë¶¶§ÇDP¡A´NO(N^2)¤F
+
+> > PD
+> > ¨S¼g¹L¡CÅ¥»¡¬OÂ²³æ¦r¦êÃD¡A¤£¹L strcat ·|¾É­P TLE
+> ·ÓÃD¥Ø»¡ªº§@´N¬O¤F, ¦r¦ê¨ç¦¡·|±qÀY¶]¨ì§À«OÃÒ¬O¦Û¨ú·À¤` ...
+
+Ãö©ó³oºØ[    ]¿ù»~...°Ñ¨£¦¹¤å
+
+http://tatzao.blogspot.com/2007/11/shlemiel.html
+
+§Ú»{¬°c¸Ì­±ªºstrcat¤j·§´N¬O¹³¥L¼gªº¨º¼Ë¡A
+
+²¦³ºc¸Ì­±ªºstrcat¨S¦³¶Ç¤J¸ò¦r¦êªø«×¦³Ãöªº¥ô¦ó°Ñ¼Æ
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-154.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+
+¡÷ [36mchensc [31m±À[m:³á¨º­Óblog¯u¤£¿ù¡A­q°_¨Ó¥ý¡C                           1208 23:00
+¡÷ [36mgloompisces [31m±À[m:pb,¥Ñ©óÃD¥Ø­­©w¨ä¤¤¤@­Ó<=20¡A©Ò¥H¥Îbrute force´N  1208 23:43
+¡÷ [36mgloompisces [33m»¡[m:¥i¥H¤F¡A¤£¥Î¥Î¹D¤£©w¤èµ{                          1208 23:43
+¡÷ [36mMacaca [31m±À[m:<==¼É¤O¸Ñ                                              1208 23:50

@@ -1,0 +1,128 @@
+§@ªÌ: sa072686 (¥u­ã¦¨¥\¡A¤£³\¥¢±Ñ¡C) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 158
+®É¶¡: 2007/12/03 Mon 13:55:07
+
+¤S¬O½ÆÂøÃø¼g³Â·Ð¥[¤W³±ÀIªº¤@ÃD¡K³oªþªñªºÃD¥Ø³£³o¼Ë¶ÜÊ¨
+
+Â½Ä¶¤@¤U¡C
+
+§Ú­Ì±`±`¦b¤é¾ú¤W¶Ã¼g¶Ãµeªº¡A¨Ó°O¿ý¤@¨Ç¤é±`¥Í¬¡¤¤ªº¨Æ¥ó¡C
+
+¤ñ¦p»¡­þ¤Ñ¦³µ{³]ÄvÁÉ¤§Ãþªº¡C¦ý¦³¤@¨Ç¤ñ¸û­«­nªº¨Æ¥ó¡A¨Ò¦p¦P¦ñªº¥Í¤é¡B
+
+µ²±B¬ö©À¤é¤@Ãþªº´N¤ñ¸û­«­n¡A¥²¶·¨c°O¡C
+
+¼g­Óµ{¦¡´£¨Ñ³o¼ËªºªA°È¡C¿é¤J·|§i¶D§A¤µ¦~¬O´X¦~¡]½d³ò±q 1901 ¦Ü 1999¡^
+
+©Ò¦³¦~¥÷¬° 4 ªº­¿¼Æªº³£¬O¶|¦~¡A¦³¤G¤ë¤G¤Q¤E¤é¡C
+
+¿é¤Jªº²Ä¤@¦æµ¹§A¦~¥÷¡A¦A¨Óµ¹§A¤@¨Ç¤é´Á¡C
+
+¦pªG¶}ÀY¬O A ªí¥Ü¬O©P¦~¬ö©À¤é¡]anniversaries¡^¡C
+
+±µ¤U¨Ó·|¦³¤T­Ó¼Æ¦r D¡BM¡BP ¥Nªí´X¤é¡B´X¤ë¥H¤Î
+
+­«­nµ{«×¡]1 ¦Ü 7¡^¡Aªí¥Ü¦b³o­Ó¤é¤lªº´X¤Ñ«e´N±o¶}©l·Ç³Æ¡C
+
+³Ì«á¬O³o©P¦~¬ö©À¤éªº¦WºÙ¡A³o¨Ç¤§¶¡·|¥H¤@­Ó©Î¥H¤WªÅ¥Õ¹j¶}¡C
+
+©P¦~¬ö©À¤éªº¦WºÙ¬O±q²Ä¤@­Ó«DªÅ¥Õ¦r¤¸¶}©lºâ°_¡Aª½¨ì¦æ¥½¡C
+
+¤@­Ó¤é´Á·|¥H d ¶}ÀY¡A±µµÛ¬O´X¤é©M´X¤ë¡C
+
+©Ò¦³ªº©P¦~¬ö©À¤é³£·|¥X²{¦b¤é´Á¤§«e¡A¨Ã¥B¨S¦³¥ô¤@¦æªø«×Á`©M·|¶W¹L 255¡C
+
+¥H¥]§t¤@­Ó '#' ¤§¤@¦C¬°¿é¤Jµ²§ô¡C
+
+¿é¥X·|¤À¦¨¦n´X­Ó°Ï¶ô¡A¨C­Ó¤é´Á¤@­Ó°Ï¶ô¡C¨C­Ó°Ï¶ô·|¥]§t¤é´Á¥H¤Î»Ý­n·Ç³Æªº¨Æ¥ó
+
+¿é¥Xªº D ©M M ¥²¶·¾a¥k¹ï»ô¥Bªø«× 3¡AµM«á¬O¬Û¹ï­«­n©Ê¡C¦pªG¬O·í¤éµo¥Íªº¨Æ¥ó¡A
+
+«h¦p¤U¿é¥X¡F¨ä¾lªº­Y¬O¦b©ú¤Ñ«h­«­n«×¤£ÅÜ¡A§_«h­«­n«×´î¤@¡A¡K
+
+³Ì«á¬Ý­«­n«×¦h¤Ö´N¿é¥X´X­Ó '*'¡C
+
+If several events are scheduled for the same day,
+order them by relative importance (number of stars).
+
+¦pªG¦³¼Æ­Ó¨Æ¥ó¥²¶·¦b¦P¤@¤Ñ³W¹º¡A«h¨Ì¨ä¬Û¹ï­«­n©Ê¿é¥X¡]§Y¬P¬P¼Æ¡^
+
+¦pªG¤´µM¬Û¦P¡A«h¨Ì¨ä¦b INPUT ªº¶¶§Ç¿é¥X¡C¸Ô²Ó®æ¦¡½Ð¨£ sample¡C¨C­Ó°Ï¶ô¶¡
+
+¥H¤@ªÅ¥Õ¦C¤À¹j¤§¡C
+
+---- ¤À¹j½u ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+·PÁÂ°Q½×ªO¡C
+
+°µªk¡G
+
+¤@¡B§â·í¤éµo¥Íªº¨Æ¨Ì¿é¤J¶¶§Ç¿é¥X¤§¡C
+
+¤G¡B§â·í¤é¶··Ç³Æ¤§¨Æ¨Ì¬Û¹ï­«­n©Ê¥Ñ¤j¦Ü¤p¿é¥X¤§¡C
+
+¤T¡B­Y¬Û¹ï­«­n©Ê¬Û¦P¡A«h¨Ì³Ñ¾l¤Ñ¼Æ¥ý«á¥Ñ¤p¦Ü¤j¿é¥X¤§¡C
+
+¯S§Oªþ¤W­ì¤å¨º¬q¬O§Ú¤§«e·|¿ù·Nªº¡A·Ó°Q½×ªOªº»¡ªk
+
+¬O¥ý±Æ­«­n©Ê¦A±Æ¤é´Á¡K
+
+µM«á¤p¤ß¦]¬°³æ¦r anniversaries ¬O©P¦~¬ö©À¤é¡A¨C¦~³£·|µo¥Í
+
+©Ò¥H¡A¦³¥i¯à¸ó¨ì©ú¦~¥h¡K
+
+·í¤Ñªº³ÌÀu¥ý¡A¤£¹L¦]¬°©Ò¿×ªº­«­n©Ê¬O¶·­n¦b´X¤Ñ«e¶}©l·Ç³Æ
+
+¦]¦¹»P·í¤Ñµo¥Íªº¨Æ­«­n»P§_§¹¥þµLÃö¡C·í¤Ñªº¨Æ½Ð¨Ì¿é¤J¶¶§Ç¿é¥X¡C
+
+¨ä¾l«h¬O¥Ñ­«­n©Ê¥h±Æ¦C¡A¬Û¦PªÌ¤~¨Ì³Ñ¾l¤Ñ¼Æ¡C
+
+¦pªG¨S¥bÁû¬P´N¤£¥Î¿é¥X¡C
+
+³oÃD«Ü®e©ö·|¿ù·N¡A¤×¨ä³o³¡¥÷«Ü®e©ö¬Ý¦¨¥ý¨Ì¤é´Á¦A¨Ì¬Û¹ï­«­n©Ê
+
+°Q½×ªO­ì¤å¦p¤U¡G
+
+1. all anniversaries that happen today, order by input stream (not
+importance!)
+2. Then, all other anniversaries that has a number of display stars > 0,
+order them first by decending number of stars, then ascending number of days
+apart if the stars are the same.
+3. Keep in mind that anniversaries wraps around years.
+
+­^¤å®tÂI¡]¹³§Ú¡K¡^ÁÙ§â²Ä¤@ÂI¬Ý¦¨¤£­«­n¡A©Ò¥H¨S¥hºÞ¥¦Ê¨
+
+¤£¹Lªº½T·Ó³o¼Ë°µ´N¥i¥H¹L¤F¡K
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m192.168.4.74 (¥x¯T¤@¤¤)[m
+

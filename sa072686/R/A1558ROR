@@ -1,0 +1,143 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¶Ã¨Ó] 724 Accepted
+®É¶¡: 2009/07/08 Wed 18:04:00
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Re: [¶Ã¨Ó] 724 Accepted
+®É¶¡: 2009/07/08 Wed 18:03:25
+
+§@ªÌ: sa072686 ( ) ¯¸¤º: sa072686
+¼ÐÃD: Re: [¶Ã¨Ó] 724 Accepted
+®É¶¡: 2008/03/29 Sat 13:16:20
+
+§Úªºªø³o¼Ë
+
+#include <stdio.h>
+#include <string.h>
+
+char *p, *ptr;
+char buf[100000];
+
+void write(char *s)
+{
+    strcpy(buf, s);
+    p = buf + strlen(buf);
+    for(ptr=s; *ptr; ptr++)
+    {
+        if(*ptr == '"')
+        {
+            *(p++) = '\\';
+            *(p++) = '"';
+        }
+        else if(*ptr == '\\')
+        {
+            *(p++) = '\\';
+            *(p++) = '\\';
+        }
+        else if(*ptr == '\n')
+        {
+            *(p++) = '\\';
+            *(p++) = 'n';
+        }
+        else if(*ptr == '\t')
+        {
+            *(p++) = '\\';
+            *(p++) = 't';
+        }
+        else
+        {
+            *(p++) = *ptr;
+        }
+    }
+    strcpy(p, "\");\n\trev();\n\treturn 0;\n}\n");
+    p += strlen(p);
+    *p = 0;
+    printf("%s", buf);
+}
+
+void rev()
+{
+    for(ptr=buf+strlen(buf)-2; ptr>=buf; ptr--)
+    {
+        putchar(*ptr);
+    }
+    putchar('\n');
+}
+
+int main()
+{
+    write("#include <stdio.h>\n#include <string.h>\n\nchar *p, *ptr;\nchar
+buf[100000];\n\nvoid write(char *s)\n{\n\tstrcpy(buf, s);\n\tp = buf +
+strlen(buf);\n\tfor(ptr=s; *ptr; ptr++)\n\t{\n\t\tif(*ptr ==
+'\"')\n\t\t{\n\t\t\t*(p++) = '\\\\';\n\t\t\t*(p++) = '\"';\n\t\t}\n\t\telse
+if(*ptr == '\\\\')\n\t\t{\n\t\t\t*(p++) = '\\\\';\n\t\t\t*(p++) =
+'\\\\';\n\t\t}\n\t\telse if(*ptr == '\\n')\n\t\t{\n\t\t\t*(p++) =
+'\\\\';\n\t\t\t*(p++) = 'n';\n\t\t}\n\t\telse if(*ptr ==
+'\\t')\n\t\t{\n\t\t\t*(p++) = '\\\\';\n\t\t\t*(p++) =
+'t';\n\t\t}\n\t\telse\n\t\t{\n\t\t\t*(p++) = *ptr;\n\t\t}\n\t}\n\tstrcpy(p,
+\"\\\");\\n\\trev();\\n\\treturn 0;\\n}\\n\");\n\tp += strlen(p);\n\t*p =
+0;\n\tprintf(\"%s\", buf);\n}\n\nvoid rev()\n{\n\tfor(ptr=buf+strlen(buf)-2;
+ptr>=buf; ptr--)\n\t{\n\t\tputchar(*ptr);\n\t}\n\tputchar('\\n');\n}\n\nint
+main()\n{\n\twrite(\"");
+    rev();
+    return 0;
+}
+
+¤£¹L²{¦b¤W¶Çªºcode¥²¶·¤£¿é¥X¥ô¦óªF¦è¤~·|AC¡]¯ù¡^
+
+¡° ¤Þ­z¡mgba356 (º¿§Q¼Ú)¡n¤§»Ê¨¥¡G
+> ¡° ¤Þ­z¡msa072686 ( )¡n¤§»Ê¨¥¡G
+> > ¨S¦³¿é¤J¡A¦ý¬O§Aªºµ{¦¡­n¯à¿é¥X¦Û¨­¡AÁÙ­n¯à¿é¥X¦Û¨­ªº¤ÏÂà¡C
+> > ¤£¹LÃD¥Ø¥Ø«e¦³°ÝÃD¡A¥H¤U¬OAC code¡C
+> > main(){};
+> > ¯f¤F¡K
+> ¿é¥X¦Û¨­ªºµ{¦¡¦n¹³¥s°µ Quine ¡A
+> ºô¸ô¤W¦³º¡¦h½d¨Òªº¡A³oÃä´£¨Ñ¤@­Ó¡G
+> #include<stdio.h>
+> char *a[] = {"\"};\n\n",
+>     "main() {\n",
+>     "  int i=0; char *b;\n",
+>     "  printf(\"#include<stdio.h>\\nchar *a[] = {\\\"\");\n",
+>     "  while(*a[i]) {\n",
+>     "    for(b=a[i];*b;b++)\n",
+>     "      switch(*b) {\n",
+>     "         case '\\n': printf(\"\\\\n\"); break;\n",
+>     "         case '\\\\': case '\\\"': putchar('\\\\'); \n",
+>     "         default: putchar(*b);\n",
+>     "      } \n",
+>     "    printf(\"\\\",\\n\\t\\\"\"); \n",
+>     "    i++;\n",
+>     "  }\n",
+>     "  i=0;\n",
+>     "  while(*a[i]) {printf(a[i]);i++;}\n",
+>     "}\n",
+>     ""};
+> main() {
+>   int i=0; char *b;
+>   printf("#include<stdio.h>\nchar *a[] = {\"");
+>   while(*a[i]) {
+>     for(b=a[i];*b;b++)
+>       switch(*b) {
+>          case '\n': printf("\\n"); break;
+>          case '\\': case '\"': putchar('\\');
+>          default: putchar(*b);
+>       }
+>     printf("\",\n\t\"");
+>     i++;
+>   }
+>   i=0;
+>   while(*a[i]) {printf(a[i]);i++;}
+> }
+> ¯u¬OÀu¬ü¡C
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40msa072686      	  		      	[1;30mfrom_[;32;40m140.122.61.173(¥xÆW®v½d¤j¾Ç)[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:04:00 [m

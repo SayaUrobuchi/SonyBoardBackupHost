@@ -1,0 +1,39 @@
+§@ªÌ: gloompisces (°¸°}«B¡A°¸º¸·|¤Ñ´¸) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11569
+®É¶¡: 2008/12/28 Sun 00:00:57
+
+11569 - Lovely Hint
+
+µ¹§A¤º§t¤j¼g¦r¥Àªº¤@¦æ¦r
+
+§A¬D¥X©Ò¦³ªº¤j¼g¦r¥À«á¡A­«·s±Æ§Ç¡A¨Ã½á¤©¨C­Ó¦r¥À¤@­Ó­È (A=1,B=2,C=3, ¨Ì¦¹Ãþ±À)
+
+love string ªº©w¸q¬O : ¨â­Ó¬Û¾Fªº¦r¥À Z1 Z2  , ¦³ 5*Z1 <= 4*Z2
+
+°Ý§A³Ìªøªº love string ¥¦ªºªø«×¬O¦h¤Ö¡A¥B¦³´XºØ¥i¯àªº²Õ¦X
+
+
+Sample Input
+
+2
+HELLO.
+I AM JAY.
+
+Sample Output
+
+4 1
+4 2
+
+Explanation
+
+For the first case, we can get the lovely string EHLO.
+For the second case, we can get AIMY and AJMY.
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.112.252.58 (¥x¥_«Ò°ê¤j¾Ç)[m
+

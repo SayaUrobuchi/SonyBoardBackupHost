@@ -1,0 +1,49 @@
+§@ªÌ: gloompisces (Àþ¶¡©M¥Ã»·) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM]10210
+®É¶¡: 2007/07/12 Thu 16:57:56
+
+¡° ¤Þ­z¡mseanwu (Blindest)¡n¤§»Ê¨¥¡G
+> ·Ð§r!
+> §O¬Ý¨º±i¹ÏÁÙ¦³¤¤Ä¶....Åo­ù¤K­öªº
+> °ò¥»¤W´N¬O°Ý¡G¦b£GBNM¤¤ªºNMÃä¤W¨ú¤@ÂIA¡A¦ÓAB¬°©w­È
+> °Ý³ÌªøªºNM¬O¦h¤Ö¡A¨ä¤¤¡çBNM, ¡çNBM, ¡çNMB¬°©w­È
+> ¥O £\¡×¡çBNM, £]¡×¡çNMB, £^¡×¡çNBM, £c¡×¡çABN
+> ¥Î¥¿©¶«ß¡A¥i±o
+>   y¡×NM¡×AB¡Ñ¡esin£c/sin£\¡Ïsin(£^-£c)/sin£]¡f
+> ¨D·¥¤j­È¥Ody/d£c¡×0¡A¸Ñ±o (¦n°Õ¡A§Ú¥Î·L¤Àµw·F...)
+>   £c¡×arctan¡e(sin£]/sin£\¡Ðcos£^)/sin£^¡f
+> ¥N¦^y¡A§Y±o¡C
+> [1;38m§Ú«ÜºÃ´b¬°¦ó­n¥Î¼Æ¾Ç²Å¸¹¾ã¦º¦Û¤v
+> ¨ä¹ê¡A¤@¤Á­ì©ó LaTeX ªº¯u¶Ç§r![m
+
+
+·L¤À...§Úªº¤Ñ
+
+´£¨Ñ¥t¤@­Ó¤ñ¸û¥­©öªñ¤Hªº¸Ñªk
+
+³]ABªø¬°x (¥Îx1,y1,x2,y2¥i»´ÃP¨D±ox¤§­È)¡A£\¡×¡çBNM, £]¡×¡çNMB, £c¡×¡çBAN
+
+¥Ñ©óMAN¦@½u¡A©Ò¥H¡çBAM¡×180-£c
+
+®Ú¾Ú¥¿©¶©w²z±o BN / sin£c = AB / sin£\
+
+©Ò¥H BN = AB * sin£c / sin£\ ....(1)
+
+¦A¥Î¤@¦¸¥¿©¶©w²z MN / sin(180-£\-£]) = BN / sin£]
+
+©Ò¥H MN = BN * sin(180-£\-£]) / sin£]
+
+¥N¤J(1),MN  = AB * sin£c * sin(180-£\-£]) / ( sin£\ * sin£] )
+
+¥kÃä¨º¨Ç°£¤F sin£c ¥~³£¬O©w­È¡A©Ò¥H¬°¤FÅýMN³Ì¤j¡Asin£c¤]­n³Ì¤j¡A§Ysin£c=1
+
+©Ò¥H£c=90
+
+MN = AM + AN = AB*cot£\ + AB*cot£] = x*(cot£\ + cot£])
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.116.143.47 (¤£¥¢±Ñ¤j¾Ç)[m
+

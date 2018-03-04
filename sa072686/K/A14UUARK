@@ -1,0 +1,41 @@
+§@ªÌ: aytawgf (ooxx) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] 11341
+®É¶¡: 2009/04/22 Wed 22:36:36
+
+
+
+³oÃD¥i¥H¥ÎDP¸Ñ
+
+¥H score[i][j] ¥Nªí§âj¤p®É¤À°tµ¹«ei­Ó¬ì¥Ø®É  ¤À¼Æªº³Ì¤j­È
+
+­Y¤À°tj¤p®É·|¦Ü¤Ö¦³¤@Áû³Q·í±¼ªº¸Ü
+
+³] score[i][j] ¬°-1
+
+¹ï¨C­Ó³Ì¤j­È  ³]¤@­Ó°j°é
+
+//¥Îx[n][m]°O¿ý¿é¤Jªº¤À¼Æ x[i][0] ¤@«ß³]0
+
+maxn=-1;
+
+for(k=0 ; k<=j ; k++){
+    if(score[i-1][j-k]>-1 && x[i][k]>4 && score[i-1][j-k]+x[i][k]>maxn){
+        maxn=score[i-1][j-k]+x[i][k];
+    }
+    score[i][j]=maxn;
+}
+
+³Ì«á score[n][m] / n §Y¬°µª®×  //­Y¬°-1 «h¿é¥X¤£¥i¯à
+
+
+µM«á³oÃD·|¦³¯BÂI¼Æ»~®t  ºâ¦n¥­§¡«á°O±o¥[¤@­Ó·¥¤p¼Æ
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by aytawgf from [m [1m221-169-13-170.static.seed.net.tw (ºØ¤l¹q«H)[m
+
+¡¶ [1;30maytawgf [;33m§ï[m@[m2009/04/22 Wed 22:38:17[m
+¡÷ [36mTommy [31m±À[m:³o¬O©¼±o¥´¼²²y¨ºÃD¶ÜXD                                  0517 15:24

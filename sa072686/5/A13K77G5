@@ -1,0 +1,98 @@
+§@ªÌ: sa072686 (ÃÀ³N) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 929
+®É¶¡: 2007/11/21 Wed 10:55:00
+
+«ÜÃø¼gªº¤@ÃD°Ú¡K«Ü®e©ö TLE¡A¬Q¤Ñ´«¤F¨âºØ¤èªk³£¨S¹L¡K
+
+«á¨Óª¦°Q½×ªOµo²{¡AªO¤WÁ¿ªº¨âºØ¤èªk¥¿¦n´N¬O¬Q¤Ñ¥Îªº¨âºØ¡Kµ²ªG³£¬O¼g¬µ¡K
+
+Â½Ä¶¤@¤U¡C
+
+µ¹§A n ©M m¡]1 <= n¡Am <= 999¡^¥Nªí°g®c¤j¤p¡A±µµÛ n ¦C¦³ m ­Ó«ê³Q¤@­ÓªÅ¥Õ
+
+©Ò¹j¶}ªº¼Æ¦r¡A¥Nªí¨«¨ì¨º¤@®æ¤Wªº cost¡Ccost ¤¶©ó 0 ¨ì 9 ¤§¶¡¡C±q¡]1¡A1¡^
+
+¥Xµo¡A¨C¦¸¥u¯à¨«ªF¦è«n¥_¥|­Ó¤è¦V¡A¨D¨«¨ì¡]n¡Am¡^ªº³Ì¤pªá¶O¬°¦ó¡H
+
+/* Ä¶µù¡Gwa ¤F¼Æ¦¸´N¦]¬°§Ñ¤F¥[¤W²Ä¤@®æªºªá¶O¡K½Ðª`·N¡Csample µ¹ 0 ©Ò¥H¨S®t */
+
+
+
+---- ¤À¹j½u ----
+
+
+
+
+
+
+
+·PÁÂ°Q½×ªO¤Wªº±jªÌ­Ì¡C¥H¤U¬O§Ú·Qªº¨âºØ¤èªk¡A«á¨ÓªO¤WÃÒ©ú³£·|¹L
+
+¥u¬O¤@ºØ³Q§Ú¼gÃa¡A¤@ºØ­nÀu¤Æ IO¡K¶â¡A©Ò¥H¥u¾Ç¨ìÀu¤Æ IO¡H
+
+¤£Ãø·Q¨ì¥Î BFS ªº¸Ü·|«ÜÃø«OÃÒ³Ìµu¡K¤£¹L¥Ñ©ó­«µøªº¬O cost ¦Ó¤£¬O shortest
+
+¦]¦¹¡A¦pªG±N queue §ï¦¨ priority queue ¬O¤£¬O´N¥i¥H«OÃÒ cost ³Ì¤p©O¡H
+
+¶â¡A³o¼Ë´Nºt¤Æ¦¨ dijkstra with heap ¤F¡C¤£¹L°Q½×ªO»¡¥Î STL heap ©M
+
+STL priority queue ·| TLE¡A¦]¦¹½Ð¨Ä¨Ä¦Û¤v¼g¡K¶â¡C
+
+³o¼Ë¡Adijkstra with heap ¦pªG IO ¦³¥Î string ªº¸Ü¡K¬ù¦b 2.3 ¦Ü 2.5s ¯B°Ê
+
+¦pªG heap ªº¦V¤W¡B¦V¤U½Õ¾ã´«¥Î°j°é°µ¦Ó¤£¥Î»¼°j¡A·|ÄÆ¦b 2.1 ¦Ü 2.3s
+
+¤£¹L¤§«e¦³¸ÕµÛ°O¿ý¨C­ÓÂI¦b priority queue ¤¤ªº¦ì¸m¡AµM«á§ó°Ê«áª½±µ¹ï¥¦
+
+°µ¦V¤W½Õ¾ã¡A¤£¹L¥ú°O¿ý´N·|¾É­P TLE¡K¦]¦¹ª½±µ¤£ºÞ¤T¤C¤G¤Q¤@ push ·|¤ñ¸û¦n¡C
+
+IO ¤W¡K¥Ñ©ó³£¬O¤@­Ó¦ì¼Æªº¼Æ¦r¡A¤S«ê³Q¤@­ÓªÅ¥Õ¤À¹j¡A¨C¦C¤S«ê m ­Ó
+
+¦]¦¹¥H string ªº§Î¦¡Åª¤J¡A¦A¨ú°¸¼Æ­Ó¦r¤¸§Y¥i¡C§_«h dijkstra ·| TLE¡C
+
+heap ªº¤j¤p¨Ï¥Î 450000 ´N¥i¥H¹L¤F¡C
+
+¥t¥~¤@ºØ¤è¦¡¬O§Q¥ÎÃþ¦üÀôª¬ªº¦î¦C¡K´N·Q¡A¤Ï¥¿¥u¦³¤QºØ¼Æ¦r¡A0 ¨ì 9¡C
+
+¨º»ò¥i¥H¥h«ä¦Ò¬Ý¬Ý¡K¯à§Q¥Î³oÂIÀu¤Æ¤°»ò¡H«á¨Ó·Q¨ì¡A¦b¨Ï¥Î priority queue
+
+ªº®É­Ô¦pªG¥Î heap ¥h°µ¡A¨º»ò¨C¦¸¨ú¥X¨Óªº¤@©w³Ì¤p¡K¤S¥[¤W¥hªº¼Æ¦r³Ì¤j 9 ¦Ó¤w
+
+¦]¦¹¡A¨C¦¸ priority queue ¤¤¥²¥u¦s¦b 10 ºØ¼Æ¦r¡K©Ò¥H¡A´N¤£­n¥Î heap °µ
+
+priority queue ¤F¡A´«¥Î 10 ­Ó queue ¥h¹ê§@ priority queue¡K
+
+¥Î cost % 10 ¨Ó§PÂ_­n©ñ­þ¤@­Ó queue¡AµM«á´N¥ÎÃþ¦ü©óÀôª¬ queue ªº¤è¦¡¥h¶]
+
+³o¼Ë¥u­n O(1) ªº®É¶¡«K¥i¥H°µ´¡¤J¤F¡A¤ñ°_ heap ªº O(log n) ªº´¡¤J®É¶¡­n¦n±o¦h
+
+§ï¼g priority queue «á¡A¥Ñ©ó©È mem ªá¤Ó¥û¡A¥ÎÃìµ²¦ê¦C¹ê§@µ²ªG¡G0.57s
+
+«á¨Ó¥Î°}¦C¡A±N 10 ­Ó queue ¶}¨ì 450000¡]300000 ·| re¡^¡A0.33s
+
+¤£¹L¡K³o¸Ì§Q¥Î¦¹ªkªº°ª³t¡A¹ê´ú¤F¤@¤U¨âºØ IO ªº®t¶Z
+
+¨Ï¥Î scanf()¡G1.06s
+
+¨Ï¥Î gets()¡G0.33s
+
+¥Ñ¦¹¥i¨£¡A¨âºØ IO ¤è¦¡¬Û®t¬Æ¤j¡K
+
+¦pªG¤@ª½ wa ªº¡A¥i¥H¸Õ¸Õ¦a¹Ï¤j¤p¬° 1 * 1 ®Éªº±¡§Î¡H
+
+¤]½Ðª`·N§â²Ä¤@®æªº cost ºâ¶i¥h¡Ksample ªº²Ä¤@®æ¬O 0¡A©Ò¥H¨S®t¡K¥i¬O­nºâ¡C
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m210.70.137.244 (¥x«n¤@¤¤Â¶¤@°é¦^¨Ó)[m
+
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/11/21 Wed 12:14:35[m

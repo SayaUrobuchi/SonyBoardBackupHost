@@ -1,0 +1,99 @@
+§@ªÌ: sa072686 («n¤@¤¤¤E¤C¯Å¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] DPÃD
+®É¶¡: 2006/12/08 Fri 21:21:36
+
+·PÁÂcs >///<
+
+Done    711    Dividing Up
+Done    10081  Tight Words
+Done    10482  The Candyman Can
+Done    10549  Russian Dolls
+Done    10558  A Brief Gerrymander
+Done    10201  Advantures in Moving Part IV
+Done    10154  Weights and Measures
+Done    10259  Hippity Hopscotch
+Done    10261  Ferry Loading
+Done    10280  Old Wine into New Bottles
+        10379  Pit Stop Strategy
+        10529  Dumb Bones
+Done    10559  Blocks
+Done    10593  Kites
+Done    10599  Robots (II)
+Done    10604  Chemical Reaction
+Done    10617  Again Palindrome
+Done    10635  Prince and Princess
+Done    10645  Menu
+Done    10690  Expression Again
+Done    10721  Bar Codes
+Done    10723  Cyborg Genes
+Done    10739  String to Palindrome
+Done    10755  Garbage Heap
+Done    10759  Dice Throwing
+Done    10817  Headmaster's Headache
+Done    10819  Trouble of 13-Dots
+Done    10827  Maximum Sum on a Torus
+Done    10860  Many a Little Makes a Mickel
+Done    10874  Segments
+Done    10913  Walking on a Grid
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Åµ{³]±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mZero [31m±À[m:CS XD                                                    1208 21:23
+¡÷ [36msa072686 [31m±À[m:¦n¤H>///<                                            1208 21:27
+¡÷ [36mDarkKnight [31m±À[m:10549 À³¸Ó¤£¯à¥Î DP °µ....ÁÙ¦³¥L¤Öµ¹¤F«Ü¦h¦nª±ªº   1210 20:43
+¡÷ [36mcsftwpt [31m±À[m:§Ú¨S¬Ý¨ì²M³æ¤¤¦³ 10549, ¥t¥~³o¬O uva board ¤Wªº       1210 22:41
+¡÷ [36msa072686 [31m±À[m:¦³¬Ý¨ì10549XDDD ¤£¹L³oÃD¨S¤°»ò·Qªk Ê¨rz              1211 12:51
+¡¶ [1;30msa072686 [;33m§ï[m@[m2006/12/11 Mon 18:17:23[m
+¡÷ [36msa072686 [31m±À[m:487ÃD¸Ì­±¥u¦³¤@ÃD¦³¦bªí¤¤¡KÊ¨rz                      1211 18:17
+¡÷ [36mcsftwpt [31m±À[m:Ê¨  ­ì¨Ó²M³æ¨S¦³±Æ§Ç¹L  ¯«¸g¯f                        1211 20:02
+¡÷ [36msa072686 [31m±À[m:¼g­Óµ{¦¡±Æ >///<                                     1211 20:14
+¡¶ [1;30msa072686 [;33m§ï[m@[m2006/12/12 Tue 07:45:39[m
+¡÷ [36msa072686 [31m±À[m:¹ï¤F¡A10549¦³¬Y¥~°ê¤H»¡¬ODP¸g¨åÃD                    1212 07:48
+¡÷ [36mcsftwpt [31m±À[m:¨ºÁÙ¯u©êºp, ±Æ¦W¤@¤T¦W¬O DarkKnight ¸ò§Ú              1212 10:21
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/03/15 Thu 10:03:17[m
+£p [1;30mben196888 [0;36mÂà[m:¨ì [ben196888] ¬ÝªO¡A¤_ 2007/06/08 Fri 03:23:22 [m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/03 Mon 20:23:55[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/05 Wed 18:38:48[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/07 Fri 11:21:44[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/10 Mon 07:42:54[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/10 Mon 08:57:02[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/10 Mon 10:42:06[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/10 Mon 11:57:19[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/11 Tue 10:02:51[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/11 Tue 10:30:17[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/12 Wed 10:06:43[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/12 Wed 16:05:59[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/12 Wed 20:53:36[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/13 Thu 09:07:35[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/09/14 Fri 07:50:26[m
+£p [1;30mdevilqxect [0;36mÂà[m:¨ì [devilqxect] ¬ÝªO¡A¤_ 2007/10/14 Sun 02:40:54 [m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/11/22 Thu 09:47:30[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/12/05 Wed 15:37:18[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/12/06 Thu 15:47:07[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/12/07 Fri 09:42:13[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2007/12/11 Tue 12:20:13[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2008/03/03 Mon 18:58:31[m
+£p [1;30maytawgf [0;36mÂà[m:¨ì [¬YÁôÂÃ] ¬ÝªO¡A¤_ 2008/04/27 Sun 22:27:25 [m
+£p [1;30myuscvscv [0;36mÂà[m:¨ì [yuscvscv] ¬ÝªO¡A¤_ 2009/01/01 Thu 14:09:31 [m
+£p [1;30myves1204 [0;36mÂà[m:¨ì [yves1204] ¬ÝªO¡A¤_ 2009/04/28 Tue 13:01:03 [m
+£p [1;30mt52101t [0;36mÂà[m:¨ì [t52101t] ¬ÝªO¡A¤_ 2009/05/07 Thu 00:04:33 [m
+¡÷ [36mbrucehsu [31m±À[m:­ÉÂà                                                 0922 18:06
+£p [1;30mbrucehsu [0;36mÂà[m:¨ì [brucehsu] ¬ÝªO¡A¤_ 2009/09/22 Tue 18:07:14 [m
+£p [1;30mcjack [0;36mÂà[m:¨ì [cjack] ¬ÝªO¡A¤_ 2009/12/05 Sat 01:29:03 [m
+£p [1;30mtxs [0;36mÂà[m:¨ì [txs] ¬ÝªO¡A¤_ 2010/07/29 Thu 12:23:16 [m
+¡÷ [36msb283 [31m±À[m:ru,45j03                                                1007 12:58
+¡÷ [36msb283 [31m±À[m:­ÉÂà~                                                   1007 12:58
+£p [1;30msb283 [0;36mÂà[m:¨ì [sb283] ¬ÝªO¡A¤_ 2010/10/07 Thu 12:58:22 [m
+£p [1;30mhkhs7821 [0;36mÂà[m:¨ì [hkhs7821] ¬ÝªO¡A¤_ 2011/11/20 Sun 09:41:19 [m
+£p [1;30malfar01 [0;36mÂà[m:¨ì [alfar01] ¬ÝªO¡A¤_ 2012/01/16 Mon 22:37:21 [m

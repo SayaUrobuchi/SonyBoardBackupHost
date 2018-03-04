@@ -1,0 +1,51 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¾Ç³N] ACM 11437 Accepted
+®É¶¡: 2009/07/11 Sat 14:40:17
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@ptt2.cc
+¼ÐÃD: [¾Ç³N] ACM 11437 Accepted
+®É¶¡: 2009/07/11 Sat 14:39:42
+
+§@ªÌ: sa072686 (sa) ¬ÝªO: sa072686
+¼ÐÃD: [¾Ç³N] ACM 11437 Accepted
+®É¶¡: Sat Jul 11 14:37:22 2009
+
+¤£¬O«ÜÃø¦ý¬O¦³¨Ç³Â·Ðªº¼Æ¾ÇÃD
+
+Â½Ä¶¤@¤U
+
+http://uva.onlinejudge.org/external/114/p11437.jpg
+
+¦p¤W¹Ï¡A¤T¨¤§ÎABC¡ABCÃä¤W¦³D¡ACAÃä¤W¦³E¡AABÃä¤W¦³F
+
+¨Ï±oBD=2DC, CE=2EA, AF=2FB¡A³s AD, BE, CF «á
+
+³] AD ¥æ BE ©ó P¡ABE ¥æ CF ©ó Q¡ACF ¥æ AD ©ó R
+
+µ¹ A, B, C ¤TÂI®y¼Ð¡A¨D¤T¨¤§Î PQR ­±¿n
+
+
+
+¥H¦V¶q¨Ó°µ´N¤£·|¤ÓÃø¡ABD=2DC¡A¬GD=B+BC¡A¨Ì¦¹Ãþ±À
+
+­Y AB ¥æ CD ©óÂI P¡A«h P = A + (AB) * abs((ACxAB) / (ABxCD))
+
+ª¾¤TÂI«á¥H¦æ¦C¦¡¥i¨D­±¿n¡A©Î¨D¨â¦V¶q¦A¥~¿n°£¥H¤G¥ç¥i
+
+       1   ¢x px  qx  rx  px ¢x
+AREA = - ¢x¢x   ¢®  ¢®  ¢®   ¢x¢x
+       2   ¢x py  qy  ry  py ¢x
+
+or
+
+1/2 * abs(PQ x QR)
+
+
+
+--
+¡° µo«H¯¸: §å½ð½ð¨ß(ptt2.cc) 
+¡» From: 203.204.38.30
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/11 Sat 14:40:17 [m

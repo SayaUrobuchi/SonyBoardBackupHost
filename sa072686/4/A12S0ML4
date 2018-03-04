@@ -1,0 +1,61 @@
+§@ªÌ: ben196888 («Ø¹q98¯ÅGPS) ¯¸¤º: sa072686
+¼ÐÃD: [µo°Ý] Â²³æªº100= =
+®É¶¡: 2007/01/31 Wed 14:26:05
+
+¬°¤°»ò§Úµª®×¤@ª½¿ùOrz
+¾Çªø¥i¥HÀ°­Ó¦£¶Ü??
+¤p§Ì¥ýÁÂ¤F(Áù°`)
+
+#include<stdio.h>
+#include<stdlib.h>
+int cycle_length(int n)
+{
+int length=1;
+    do
+{
+    if(n%2==1)n=3*n+1;
+    if(n%2==0)n=n/2;
+        length++;
+}
+while(n!=1);
+return length;
+}
+
+
+int main()
+{
+int i,j,oi,oj,max=0,n,k;
+    scanf("%d %d",&oi,&oj);
+    if(oj<oi)
+    {
+       j=oi;
+       i=oj;
+    }
+    else
+    {
+       i=oi;
+       j=oj;
+    }
+    for(k=i;k<=j;k++)
+    {
+    n=cycle_length(k);
+    if(n>max)max=n;
+    }
+    printf("%d %d %d\n",oi,oj,max);
+    system("pause");
+    return 0;
+}
+
+--
+[1;33;46m¡¹renhao [37;45m ¥s§Ú°ê¤ý>////< [m
+[1;33;41m¡¸renhao [34;47m ¤¯»¨¤k¤ý>////< [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by ben196888 from [m [1m219-70-253-181.twt1.com.tw (¨S¦³¬G¶m)[m
+
+¡÷ [36mpioneerlike [31m±À[m:¬°¤°»ò¦³pause?                                    0131 16:36
+¡÷ [36mcsftwpt [31m±À[m:¬Oªw´µ­C >//////<                                     0131 16:54
+¡÷ [36mben196888 [31m±À[m:¦Û¤v´ú¸Õ¥Î= =||  ¤@ª½WA  Orz                        0131 17:00

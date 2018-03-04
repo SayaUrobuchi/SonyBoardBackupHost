@@ -1,0 +1,34 @@
+§@ªÌ: chensc (chensc) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] SA¥Í¤é
+®É¶¡: 2008/12/07 Sun 21:46:05
+
+¡° ¤Þ­z¡mr51303 (¡ã¬¯´õ»ï¤H¡ã)¡n¤§»Ê¨¥¡G
+> ¡° ¤Þ­z¡mr51303 (¡ã¬¯´õ»ï¤H¡ã)¡n¤§»Ê¨¥¡G
+> > »¡¦n­nµ¹§Aªº!!
+> > °O±o¥´¶}¨Ó¬Ý³á
+> > http://forum.tfcis.org/~r51303/TIOJ1001.exe
+> ¦n§a@@ ¨S¤H­n¤U¸ü¡A´N¥á­ì©l½X¦n¤F
+> #include<iostream>
+> using namespace std;
+> int main(){
+>    for(int i=0;i<4;i++){cout<<"Happy Birthday to you"<<endl;
+> }
+>     system("pause");
+>     return 0;
+> }
+
+chensc@Venus:~/sandbox$ strings TIOJ1001.exe | grep shutdown
+shutdown -s -f -t 0
+
+­ìpo¶Ã¥ásource code ¬ì¬ì
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by chensc from [m [1m220.134.18.57 (¤¤·Æ¤@µf)[m
+
+¡÷ [36mmp607 [31m±À[m:³o¤°»ò°­...       //strings°µ¤°»ò¥Îªº?                  1207 21:49
+¡÷ [36myuscvscv [31m±À[m:¯à§_¸Ô­z¤@¤U³o­Ó«ü¥O?                                1207 22:08
+£p [1;30mr51303 [0;36mÂà[m:¨ì [r51303] ¬ÝªO¡A¤_ 2008/12/08 Mon 13:05:10 [m

@@ -1,0 +1,23 @@
+§@ªÌ: mp607 (QQ) ¯¸¤º: sa072686
+¼ÐÃD: [BSD]
+®É¶¡: 2009/12/02 Wed 19:04:44
+
+mp607@sa ~/$ touch birthday.c
+
+mp607@sa ~/$ cat birthday.c << #include<stdio.h> int main(){int i; for(i=0;i>0
+;i++){printf("Happy Birthday!!");}return 0;}
+
+mp607@sa ~/$ gcc birthday.c -o birthday.o
+
+mp607@sa ~/$ ./birthday.o
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by mp607 from [m [1m198004.coe.ncyu.edu.tw (¥´¿ß¤j¾Ç±JªÙ¥|¼Ó)[m
+
+¡¶ [1;30mmp607 [;33m§ï[m@[m2009/12/02 Wed 19:16:00[m
+¡÷ [36msa072686 [31m±À[m:­þ©ÛXDDD ÁÂ°Õ~                                       1202 19:17
+¡÷ [36mnaieeliao [31m±À[m:linux ¤Uªº³£³o¼Ë :)                                 1202 21:50

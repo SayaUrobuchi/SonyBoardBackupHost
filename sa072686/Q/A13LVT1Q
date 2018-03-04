@@ -1,0 +1,112 @@
+§@ªÌ: sa072686 (µL¤îºÉªºWA) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 173
+®É¶¡: 2007/12/12 Wed 22:46:18
+
+¶â¡KÃø¼gÃøÀ´ªº¤@ÃD¡C§Y¨ÏÀ´¤F¦³ªº¦a¤è¤]«ÜÃø§PÂ_¡K
+
+Â½Ä¶¤@¤U¡C
+
+²{¦b¦³¨â¤äµ{¦¡ Paskill ©M Lisper ¦bºô¸ô¤W¶]µÛ¡C
+
+¨C¨ì¤@­Ó¸`ÂI¡APaskill ´N·|¹ï¨º¸`ÂI°Ê¤â¸}¡A½ò¤W³o¸`ÂIªºµ{¦¡´N·|³Q¤Ï½sÄ¶¦Ó¦º¡C
+
+¦Ó Lisper «h·|¨Ï¨C­Ó¸`ÂIÃa±¼¥H­P¤£¯à¦A¨«¡CµM¦Ó¡APaskill ·|°O±o¥L¨ì¹L­þ¨Ç¸`ÂI
+
+¦]¦¹¤£·|¦A¨«¶i¥h¡C¦pªG¥L­Ì¨«¨ì¦P¤@­Ó¸`ÂI«h·|¦PÂk©óºÉ¡C¥u­n¨ä¤¤¤@­Ó¡]©Î¨âªÌ¡^
+
+°±¤F¤U¨Ó¡A¨º»ò¾ã­Ó²¾°Ê´N·|°±¤U¨Ó¡C¦pªG¨S¦³¸`ÂI¥i¥H¨«¤F´N·|°±¤U¡C
+
+¨â¤äµ{¦¡²¾°Ê³t«×¬Ûµ¥¡C¨C­Ó¸`ÂI³£³Q¼Ð¤W¤j¼g¦r¥À A ¨ì Z ¨Ó¤À¿ë¡C
+
+¦b²¾°Ê®É¡APaskill ·|±q¥Ø«e¸`ÂI¶}©l¨Ì¦r¨å¶¶§Ç©¹¤jªÌ·j´M¡ALisper «h¤Ï¤§¡C
+
+¦pªG Paskill §ä¨ì©³¤F¡A«h±qÀY§ä¡FLisper §ä¨ìÀY¤F«h±q§À¦A¶}©l¡C
+
+¦pªG¦³¶W¹L¤@­Ó¨Æ¥ó¡A«h Paskill ªºÀu¥ý¿é¥X¡C
+
+¿é¤J¦³³\¦h¦C¡C¨C¦C¥Nªí¤@­Óºô¸ô¥H¤Î¨â¤äµ{¦¡ªº¥XµoÂI¡C¤@­Óºô¸ô¥Ñ¥yÂI . µ²§ô
+
+¤¤¶¡¦³³\¦h¸`ÂI¥H¤Î»P¸Ó¸`ÂI¬Û³sªºÂI¡A¥H ; ¤À¹j¤£¦PªºÂI¡C¨C­ÓÂI¶}ÀY¬O¸ÓÂIªº
+
+¥Nªí¦r¥À¡A¤@­Ó«_¸¹ : «á³s±µ¤@­Ó©Î¦h­Ó¬Û³sªºÂI¡C¥ô¨âÂI³s±µªºÃä¦Ü¤Ö¥X²{¤@¦¸¡C
+
+Ãä¬OÂù¦Vªº¡A¦]¦¹¤£¤@©w¨C­Ó¸`ÂI³£·|³Q´y­z¨ì¡C¥yÂI«á¬O Paskill ªº¥XµoÂI
+
+µM«á¬O Lisper ªº¡C¨S¦³¥ô¦ó¤@¦æ·|¶W¹L 255 ­Ó¦r¤¸¡A¿é¤J¥H¤@¦C¥]§t # ªº¬°µ²§ô¡C
+
+¨C²Õ´ú¸ê¿é¥X¤@¦C¡C¨C¦C¥]§tµ²§ô®Éªº¨Æ¥ó¥H¤Îµo¥Íªº¸`ÂI¡Cµ²§ô¨Æ¥ó¥]§t¥H¤U¤TªÌ
+
+¨ä¤¤¤§¤@©Î¤G¡G
+
+    * Lisper destroyed in node ?
+    * {Paskill/Lisper} trapped in node ?
+    * Both annihilated in node ?
+
+
+
+
+
+
+
+==== ¤À¹j½u ====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÃD¥ØÁ¿±o¦³¨Ç¶Ã¡C³o¸Ì¾ã²z¤@¤U­«ÂI¡G
+
+¤@¡BPaskill ¨«¹LªºÂI½ò¨ì·|¦º¡A¥i¬O¥¦¦Û¤vª¾¹D¨«¹LªºÂI¡A©Ò¥H¥u¦³ Lisper
+
+    ¤£ª¾¹D¡A¥i¯à¦]¦¹¦º¥h¡C¦Ó Lisper ¨«¹Lªº¥u¬OÃa±¼¤£¯à¦A¨«½}¤F¡C
+
+¤G¡B²¾°Ê¬O¦P¨Bªº¡C©Ò¥H§Y¨Ï¥ý§PÂ_ Paskill ªº²¾°Ê¡ALisper ¥¿½òµÛªº¸`ÂI
+
+    ¤]¤w¸gÃa¤F¡C¬G¦b Paskill ³Q§x¦íªº¦P®É¡ALisper ¤]¥i¯à¦P®É³Q§x¦í
+
+    ©ÎªÌ¦º¥h¡A¬Æ¦Ü¨«¨ì³Q§x¦íªº Paskill ©Ò¦b¸`ÂI¦Ó¦PÂk©óºÉ¡C
+
+¤T¡B¦PÂk©óºÉ¤£ºâ¬O½ò¨ì Paskill ³]¤Uªº³´¨À¦Ó¦º¡A¦]¦¹¨âºØ°T®§¥u¯à¾Ü¤@¡C
+
+¥|¡B¬O¦³¥i¯à¤@¶}©l´N½ò¦b¦P¤@¸`ÂI¤Wªº¡C
+
+
+¦]¦¹¡K
+
+
+¤@¡B¤@¶}©l½ò¦b¦P¤@¸`ÂI¤W¡A«h¨âªÌ¦PÂk©óºÉ¡A¦ý¨Ó¤£¤Î³Q§x¦í¡C
+
+¤G¡BÂù¤è¬Ò²¾°Êªº¦P®É¦PÂk©óºÉªº¸Ü¡A«h¤£¥i¯à³Q§x¦í¡C¦ý¥i¯à Paskill ³Q§x¦í
+
+    ¥i¬O Lisper ½ò¨ì¥¦¡C¦]¦¹ Paskill ³Q§x»P¦PÂk©óºÉ¥i¥H¦P®Éµo¥Í¡C
+
+¤T¡B¤£ºÞ¥ô¦ó±¡§Î¡A¥u­n Paskill ³Q§x¦í¤@©w¥ý¿é¥X¡C
+
+¥|¡B¥ô¤@¨Æ¥óµo¥Í«á§Y°±¤î¡C¦ý Paskill ³Q§x¤§«á§O§Ñ¤F§PÂ_ Lisper ¦P¤@¦^¦Xªº±¡§Î
+
+    ¦]¬°¡A½T»{ Paskill ³Q§x®É Lisper ¤]¥¿¦P¨B¦æ°Ê¡C
+
+¤­¡B¨S¦³¥ô¤@¨Æ¥óµo¥Í®É¡A«hÂù¤è¬ÒÄ~Äò©¹¤U¨«¡C
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+

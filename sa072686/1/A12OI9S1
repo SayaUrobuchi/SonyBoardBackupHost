@@ -1,0 +1,30 @@
+§@ªÌ: shaform (Shaform) ¯¸¤º: sa072686
+¼ÐÃD: Re: [¶¢²á] ACM 488
+®É¶¡: 2006/12/20 Wed 17:45:16
+
+·PÄ±¼g ACM ¹ê¦b¬O¤£¾A¦X¥Î C++ ......
+OOP, template...¥þ³£´X¥GµL¥ÎªZ¤§¦a
+¤£¹L C ©M C++ ¦³¤Ó¦h²Ó·L®t¶Z¤F¡A¦b¾Ç¦n C++ «e¤S¤£´±¾Ç C (·|²V¦b¤@°_)
+¬° STL ®¾¦^¤@¤U¦WÅA¡G
+¤§«e¥Î iostream + STL ¸Ñ 488 ªº®É¶¡¡G
+0.388s
+¥h±¼  ios_base::unitbuf (UVA ªºÂÂg++­n¥Î ios:: ) (¾Ú»¡°¸º¸·|¦³À¸¼@©Ê®ÄªG¡H)
+0.328s
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by shaform from [m [1m125.229.23.156 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mshaform [;33m§ï[m@[m2006/12/20 Wed 17:48:30[m
+¡¶ [1;30mshaform [;33m§ï[m@[m2006/12/20 Wed 17:52:39[m
+¡÷ [36mZero [31m±À[m:¦n¼F®`¡A«ç»ò°µ¨ìªºXD                                     1220 20:07
+¡÷ [36mZero [31m±À[m:¤£¹LOOP¦b¼gºô¸ô¬y°ÝÃD«Ü¦n¥Î...                           1220 20:07
+¡÷ [36mcsftwpt [31m±À[m:OOP @@|||                                             1220 20:13
+¡÷ [36mZero [31m±À[m:OOPs XD                                                  1220 20:34
+¡÷ [36msa072686 [31m±À[m:XDDD ¬O¤£¤Ó¾A¦X¨S¿ù STL¾Ú»¡«Ü¤è«K ¤£¹L©È·|Ãi±¼       1220 21:11
+¡÷ [36mchensc [31m±À[m:STL ¥»¨Ó´N«Ü¤è«K¤F...¤£¹L§Ú´N¬OÃi±¼¤Forz               1220 23:11
+¡÷ [36msa072686 [31m±À[m:·Q«O¯d¤âÃz°Ú¡K¹³§Ú¥Îqsort¡K                          1220 23:22
+¡÷ [36mshaform [31m±À[m:¨ä¹ê¤£¹L¬O¶}¤@­Ó¦r¦ê¥Î°j°é«Ø¥ß«eªi + reverse()        1221 17:33
+¡÷ [36mshaform [31m±À[m:\                                                     1221 18:08

@@ -1,0 +1,89 @@
+§@ªÌ: sa072686 («n¤@¤¤¤E¤C¯Å¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: Re: [µo°Ý] Â²³æªº100= =
+®É¶¡: 2007/01/31 Wed 18:07:48
+
+
+¡° ¤Þ­z¡mben196888 («Ø¹q98¯ÅGPS)¡n¤§»Ê¨¥¡G
+> ¬°¤°»ò§Úµª®×¤@ª½¿ùOrz
+> ¾Çªø¥i¥HÀ°­Ó¦£¶Ü??
+> ¤p§Ì¥ýÁÂ¤F(Áù°`)
+
+¨S°ÝÃD
+
+> #include<stdio.h>
+> #include<stdlib.h>
+> int cycle_length(int n)
+> {
+> int length=1;
+>     do
+> {
+>     if(n%2==1)n=3*n+1;
+>     if(n%2==0)n=n/2;
+
+³o¦æ¤£¥Îelse if¦³³y¦¨length¿ù»~¥i¯à¡A3n+1¥²¬°°¸¼Æªº¡K
+
+©Ò¥H¦pªGn¬O©_¼Æ¡A°µ§¹3n+1«á·|ÅÜ°¸¼Æ¡K´N·|¦A°µ¤@¦¸¡A¥i¬Olength¥u¥[¤@
+
+>         length++;
+> }
+> while(n!=1);
+
+¥Îdo¡Kwhile¦³¿ùªº¥i¯à¡A³oÃDµ¹§A1ªº¸Ülength¦n¹³­n1
+
+¤£¹L³oÂI«O¯d¡K¤£¬O«Ü½T©w
+
+> return length;
+> }
+> int main()
+> {
+> int i,j,oi,oj,max=0,n,k;
+>     scanf("%d %d",&oi,&oj);
+
+¨S¦³¥Î¦hºØÅª¤JÃ­Ãz
+
+>     if(oj<oi)
+>     {
+>        j=oi;
+>        i=oj;
+>     }
+>     else
+>     {
+>        i=oi;
+>        j=oj;
+>     }
+>     for(k=i;k<=j;k++)
+>     {
+>     n=cycle_length(k);
+>     if(n>max)max=n;
+
+maxªºªì©l­È¡K§ï¦¨¦h­«Åª¤J«á­n¨C¦¸Åª¤J³£Âk¹s
+
+>     }
+>     printf("%d %d %d\n",oi,oj,max);
+>     system("pause");
+
+system()·|¾É­Prestricted functionªº¼Ë¤l¡A¥Îscanf(" ")§a
+
+¤W¶Ç¤F¤£·|¿ù¡A¦Û¤v´ú®É¤]¤£·|¤Ó§Ö¶]±¼
+
+>     return 0;
+> }
+
+¤j­P¦p¦¹¡A¦³µL¿ùº|¤£´±½T©w
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Åµ{³]±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mben196888 [31m±À[m:OK¤F À³¸Ó¬O¦]¬°else ifªº°ÝÃD  ÁÂÁÂ¾Çªø              0131 18:31
+¡÷ [36mben196888 [31m±À[m:Orz  ÁÙ¬OWA = =|||                                  0131 18:46
+¡÷ [36mben196888 [31m±À[m:Orz...µ²ªG¬Osystem("pause")®`§ÚOrz...               0131 18:58

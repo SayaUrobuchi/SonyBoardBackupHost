@@ -1,0 +1,35 @@
+§@ªÌ: chensc («n¤@¸ê°T98¯Å®`²Û¾Ç§Ì) ¯¸¤º: sa072686
+¼ÐÃD: [µ§°O] Q111
+®É¶¡: 2006/08/05 Sat 23:08:03
+
+­Épo¤@¤U :)
+
+--
+
+Please note that what is given in the input is the position of the i-th event
+in the chronological order, for example, in your input:
+
+10
+3 1 2 4 9 5 10 6 8 7
+2 10 1 3 8 4 9 5 7 6
+
+that means that in the correct order, event 1 is in the 3rd position, event 2
+is in the first position..., like this:
+
+2 3 1 4 6 8 10 9 5 7
+
+and the order of the order of the student is then:
+
+3 1 4 6 8 10 9 5 7 2, and the LCS of that is 9 - (3 1 4 6 8 10 9 5 7)
+
+--
+
+¥Î»y«ÜÂ²³æ¡A´N¤£¥ÎÂ½Ä¶¤F¡C
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by chensc from [m [1m59.113.5.32 (¤¤·Æ¤@µf)[m
+
+¡÷ [36msa072686 [31m±À[m:µ{³]ªºªF¦è³£Åwªï¡]¨ä¹ê´Nºâ¤£¬O¤]Åwªï°ÕXD¡^           0805 23:22

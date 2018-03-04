@@ -1,0 +1,61 @@
+§@ªÌ: newmoon (¶¯¤¤ªº­Ë·°°­) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] ;help 617
+®É¶¡: 2007/11/10 Sat 23:02:54
+
+¹ê¦b§ä¤£¨ì¿ù¦b­þ
+´N¥á¨ì³o¸ÌÀ°¦£¬Ý¤@¤U§a
+
+#include<stdio.h>
+#include<math.h>
+int t,n,i,j,an,c,b[10][5];
+double a[10];
+main(){
+    while(scanf("%d",&n)&&n!=-1){
+        t++;
+        for(i=c=0;i<n;i++){
+            scanf("%lf",&a[i]);
+            for(j=0;j<3;j++)scanf("%d",&b[i][j]);
+            b[i][3]=b[i][1]+b[i][2]+b[i][0];
+            b[i][4]=b[i][0]+b[i][1];
+        }
+        printf("Case %d: ",t);
+        if(n==0){
+            printf("30-60\n");
+            continue;
+        }
+        for(i=30,an=0;i<=61;i++){
+            for(j=0;i!=61&&j<n;j++){
+
+if(a[j]*3600/i-floor((a[j]*3600/i/b[j][3]))*b[j][3]>b[j][4])break;
+            }
+            if(j<n){
+                if(an!=0){
+                    if(c!=0)printf(", ");
+                    if(i-1==an)printf("%d",an);
+                    else printf("%d-%d",an,i-1);
+                    c=1;
+                    an=0;
+                }
+            }
+            else{
+                if(an==0)an=i;
+            }
+        }
+        if(c==0)puts("No acceptable speeds.");
+        else puts("");
+    }
+}
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by newmoon from [m [1m124.8.172.26 (ºÖº¸¼¯¨F©Tºô)[m
+
+¡÷ [36msa072686 [31m±À[m:¦b floor() ¸Ì­±¨º­Ó¹Bºâ¦¡«á­±¥[¤W 0.000001 §Y¥i AC   1111 09:15
+¡÷ [36msa072686 [31m±À[m:µ²½×¡K¦n¹³¤S¬O»~®t¡H                                 1111 09:15
+¡÷ [36mnewmoon [31m±À[m:¶ã~~ÁÂÁÂ                                              1111 22:41
+¡÷ [36msa072686 [31m±À[m:¬O»¡¤§«e§Ú¥H¬°§A¬O¾Ç§ÌXD ¤µ¤Ñ°Ý¹L©¼±o¤F¡]¯ù¡^        1112 01:00
+¡÷ [36mnewmoon [31m±À[m:¾Ú©¼±o»¡§Ú­Ì¨£¹L                                      1112 13:16
+¡÷ [36msa072686 [31m±À[m:TOI®É¤@°_¨ü¹L°V¤£¬O¶ÜXD                              1112 14:15

@@ -1,0 +1,31 @@
+§@ªÌ: DJWS (...) ¯¸¤º: sa072686
+¼ÐÃD: [°ÝÃD] min-cost max-flow ­n«ç»òºâ?
+®É¶¡: 2008/08/15 Fri 16:02:29
+
+¤j®a¦n§Ú¤S¨Ó°Ý°ÝÃD¤F :)
+
+¤§«e§Ú¦b®Ñ¤W¬Ý¨ì»¡
+­n§ämin-cost max-flow
+¬O¥ÎDijkstra's Algorithm¤@ª½§ä¥Ø«e¦¨¥»³Ì¤p¡]¤£¬O¬y¶q³Ì¤p¡^ªºargumenting path
+¤£ª¾¹D³o¼Ë§@¥¿¤£¥¿½T¡H
+
+¥t¥~·Q°Ýªº¬O
+³o­Óºtºâªk¦³¦WºÙ¶Ü¡H
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by DJWS from [m [1m220.137.75.96 (¤¤·Æ¤@µf)[m
+
+¡÷ [36msa072686 [31m±À[m:Dijkstra­n¥Îlabelªº¤è¦¡³B²z­tÃä¡A¤£µM¥Îbellman-ford  0815 21:12
+¡÷ [36msa072686 [31m±À[m:ACM board¬d10594 data flow ¦³¤@¥÷code¥i¥H°Ñ¦Ò        0815 21:13
+¡÷ [36msa072686 [31m±À[m:¤£µMbellman-fordªº®Ä²v¤£¨¬¥H¸Ñ³oÃDXD                 0815 21:13
+¡÷ [36mDJWS [31m±À[m:ÁA¸Ñ¤F  ¨º§Ú±o¥ý¥h¬ã¨s¤@¤Ulabel¬O¤°»ò  ÁÂÁÂ§A°Õ :)       0815 22:16
+¡÷ [36mDJWS [31m±À[m:§Ú§âcode§ì¤U¨Ó¤F  ­ì¨Ócode¤¤ªºlabel¬O«üedge reweighting  0817 10:55
+¡÷ [36mDJWS [31m±À[m:¥t¥~...³ocode¤]¼gªº¤£«ç¤Íµ½  ¦³«Ü¦h¨ú¥©ªº¦a¤è (= =")     0817 10:56
+¡÷ [36msa072686 [31m±À[m:·j´M¤@¤U¤]¦³¨ä¥¦ª©¥»ªºmcmf¡A§Ú§Ñ¤F¬O¬ã¨s­þª©¤FXD     0817 12:27
+¡÷ [36msa072686 [31m±À[m:¤§«e¬O§â¥¦¦L¤U¨Ó¡Aªá¤F¦n¤[¤~¬ÝÀ´¡K¥i¬O²{¦b§Ñ¤FXD     0817 12:28
+¡÷ [36mDJWS [31m±À[m:§Ú¤~­è¬Ý§¹¤£¤[  ¤£¦p§Ú¨Ó¾ã²z¤@¤U¦n¤F                     0817 22:01
+¡÷ [36msa072686 [31m±À[m:¾¾¡A¦n°Ú¡A¤Ó·PÁÂ¤F¡I                                 0817 22:09
+¡÷ [36mkub [31m±À[m:Labeling Procedure??                                      0818 15:57

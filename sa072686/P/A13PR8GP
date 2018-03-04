@@ -1,0 +1,378 @@
+§@ªÌ: sa072686 (­C¡A¤T¬ì¤£¤Î®æ¡I) ¯¸¤º: sa072686
+¼ÐÃD: [ÃD¥Ø] ¤ÀÃþ
+®É¶¡: 2008/01/28 Mon 17:36:25
+
+­ø¡B¥|³B§äªº¡K¡]¦½¡^¾ã½g®³¹L¨ÓÀ³¸Ó¨SÃö«Y§a¡H
+
+­ì«Ê¤£°Êªº¸Ü¡A¦b­þÂà¤]´N«Ü©ú¥Õ¤F¡A¶â¡K
+
+----
+
+ §@ªÌ  DJY (¶Â¦â°{¹q)                                       ¯¸¤º  ICE_Program
+ ¼ÐÃD  [Âà¶K]acmÃD¥Ø¤ÀÃþ
+ ®É¶¡  Mon Oct 20 20:14:53 2003
+
+
+------------------------------------------------------------
+Graph Theory:
+------------------------------------------------------------
+- Topological Sorting:
+  00200 Rare Order      Find the correct ordering of an alphabet
+  10305 Ordering Tasks      Provide some ordering of tasks
+
+- Trees
+  00112 Tree Summing        Navigate through a LISP encoded binary tree
+  00115 Climbing Trees      Figure out the relationships between people
+  00122 Trees on the level  Produce level-order traversals of binary trees
+  00615 Is It A Tree?       Determine whether or not the graph is a tree
+  10308 Roads in the North  Find the longest distance (diameter) of a tree.
+
+- Eulerian Graphs
+  00117 The Postal Worker...    Minimize a cost tour for a postman
+                (Simplified Chinese Postman problem)
+- Cycles
+  00125 Numbering Paths     Count number of paths in a directed graph
+  00626 Ecosystem       Find/Print all cycles of size 3
+
+- Polygon Intersection
+  00137 Polygons        Find the XOR of two polygon areas
+
+- Maximum Flow
+  00563 Crimewave       Solve the escape problem
+
+- Minimum Spanning Trees
+  10307 Killing Aliens in Bor.. Find least cost way to assimilate all
+
+------------------------------------------------------------
+Dynamic Programming:
+------------------------------------------------------------
+
+- Memotization
+  00101 The 3n + 1 Problem      Find the size of the longest sequence
+  00371 Ackermann Functions     Find the size of the longest sequence
+  00547 DDF             Output the longest Decimal-Digit Factor
+
+- Longest Asc/Desc Subsequence
+  00103 Stacking Boxes          Find the longest desc. subsequence in n-dims.
+  00111 History Grading         Find marks for a chronologic ordering question
+
+- Longest Common Subsequence
+  00531 Compromise          Find the LCS for two texts
+
+- 1D Minimize/Maximize
+  00222 Budget Travel           Minimize the cost of a road trip
+
+- 2D Minimize/Maximize
+  00104 Arbitrage           Find a successful arbitrage sequence
+  00108 Maximum Sum         Find the sub-rectangle with largest sum
+  00116 Unidirectional TSP      Find the minimal path through a 2D field
+  00585 Triangles           Find the largest triangle in a trianglular field
+  00590 Always on the run       Find the minimum cost for flying city to city
+  00526 String Distance & Transform...  Find the string distance and path
+  10285 Longest Run on a Snowboard  Find the longest snowboarding path in a 2D
+field
+  10306 E-coins             Find minimum number of 2D coins to get certain sum
+
+- Change Making
+  00147 Dollars             Count # of ways to make change
+
+------------------------------------------------------------
+Modelling/Simulation:
+------------------------------------------------------------
+- Object State Modelling
+  00102 The Blocks Problem      Manipulation of blocks with robot arm
+
+- Planar World Modelling
+  00114 Simulation Wizardry     Simulate a idealized pinball machine
+  00118 Mutant Flatworld Explorers  Simulate robots moving on a plane
+  00407 Gears on a Board        Simulate gears on a plane
+  00411 Centipede Collisions        Simulate centipedes on a plane
+  00824 Coast Tracker           Simulate coastal robots on a plane
+
+- Geometric Structure Modelling
+  00201 Squares             Count the number of squares in a grid
+  00209 Triangular Vertices     Model triangular coordinates
+
+- Record Keeping / Bookkeeping
+  00119 Greedy Gift Givers      Keep track of everyone's net gain/loss
+  00123 Searching Quickly       Keep track of keywords in titles of books
+  00139 Telephone Tangles       Keep track of telephone bill
+  00145 Gondwanaland Telecom        Keep track of telephone bill
+  00405 Message Routing         Keep track of where routing goes
+  00603 Parking Lot         Keep track of cars in a parking lot
+  00645 File Mapping            Print out a file directory
+
+- Josephus Rings
+  00130 Roman Roulette          Find the survivor
+  00133 The Dole Queue          Find the order of selected people
+  00144 Student Grants          Find the order of students getting grants
+  00151 Power Crisis            Find the step such that a certain region
+surviv
+es
+
+- Card Games
+  00127 "Accordian" Patience        Simulate Accordian Patience (Solitaire)
+  00131 The Psychic Poker Player    Determine the best Poker hand
+  00451 Poker Solitaire         Evaluate some Poker hands
+  00462 Bridge Hand Evaluator       Evaluate some Bridge hands and suggest a
+mo
+ve
+  00635 Clock Solitaire         Count winning Clock solitaire games
+
+- Board Games
+  00141 The Spot Game           Figure out who wins the Spot game
+  00633 A Chess Knight          Figure out how many moves for a dynamic knight
+  00647 Chutes and Ladders      Figure out who wins a game of Chutes and
+Ladder
+s
+  10284 Chessboard in FEN       Figure out number of unattacked squares
+
+- Parsing:
+  00134 Loglan-A logical Language   Check to see if sentences are in the
+gramma
+r
+  00171 Car Trialling           Check to see if sentence is valid instruction
+  00620 Cellular Structure      Identify the type of organism.
+  00622 Grammar Evaluation      Evaluate/Parse a [+,*,(,)] math expression
+
+- Calendar/Time Modelling
+  00150 Double Time         Convert between two calendars
+  00419 Matching Meetings       Find suitable meeting times for department
+
+- Sports Games
+  00584 Bowling             Calculate a bowling game score
+
+- Data Type Modelling
+  00540 Team Queue          Implement a efficient TeamQueue (buddy system)
+
+- Print/Font Formatting
+  00403 Postscript          Implement "fonts" with formatting
+  00416 LED Test            Determine if there is a valid LED countdown
+  00426 Fifth Bank of Swamp County  Output the bank record sorted in 3 columns
+  00433 Bank (Not Quite O.C.R)      Check LED version of bank number
+
+- Text Manipulation
+  00373 Romulan Spelling        Fix some spelling mistakes
+  00444 Encoder and Decoder     Encode/Decode according to certain rules
+  00464 Sentence/Phrase Generator   Generate phrases according to grammar
+rules
+  00625 Compression         Compress some source code
+  00628 Passwords           Rule replacement
+  00641 Do the Untwist          Untwist an encrypted string
+
+- Assembler Modelling
+  00448 OOPS!               Convert hexcode to assembly code
+
+------------------------------------------------------------
+Arithmetic:
+------------------------------------------------------------
+- Fractions
+  00202 Repeating Decimals      Figure out length of repeat period of fraction
+  00834 Continued Fractions     Convert fraction to a continued fraction
+
+- Pythagorean Triples
+  00106 Fermat vs. Pythagoras       Generating/Counting Pythagorean triples
+
+- Additive/Multiplicative Series
+  00107 The Cat in the Hat      Calculate the number of cats in the hat
+  00138 Street Numbers          Find special house numbers
+  10302 Summation of Polynomials    Find the sum of the first N cubes
+
+- Exponentiation/Logarithms
+  00113 Power of Cryptography       Find integer roots of large numbers
+  00545 Heads               Find 2^-n = x.xxxE-y for large n
+
+- Polynomials
+  00126 The Errant Physicist        Multiply polynomials of x and y
+  00586 Instant Complexity      Calculate the complexity of a program
+
+- Long Division/Multiplication
+  00128 Software CRC            Calculate the CRC value for a string of
+text(di
+vide)
+  00550 Multiplcation by Rotation   Find shortest factor with
+rotamult-property
+  00465 Overflow            Determine whether numbers overflow an int
+
+- Combinatorics:
+  00135 No Rectangles           Find a suitable block design
+  00146 ID Codes            Find the next permutation
+  00153 Permalex            Convert between indices and words sorted in lex.
+or
+der
+  00580 Critical Mass           Count number of binary strings with 3
+consecuiv
+e 1's
+  00527 The partition of a cake     Count the number of partitions made by
+cake
+ cutting
+  10294 Arif in Dhaka (First Love pt2)  Count the number of necklace/bracelets
+of size N with T colors
+  10303 How Many Trees?         Count the number of binary trees (Catalan
+numbe
+rs)
+
+- Primes/Factorization
+  00136 Ugly Numbers            Find the 1500th ugly number factors(2,3,5)
+  00583 Prime Factors           List the prime factorization of a number
+effici
+ently
+  10311 Goldbach and Euler      Determine if a number is sum of 2 primes
+
+- Probability
+  00542 France '98          Figure out the probability that a team will win
+  10288 Coupons             Figure out probability that you will win
+
+- Number Bases
+  00619 Numerical Speaking      Convert between words and numeric index
+
+- Partitioning
+  00668 Parliament          Find maximum distinct partition product
+
+------------------------------------------------------------
+Direct:
+------------------------------------------------------------
+- Counting:
+  00102 Ecological Bin Packing      Find minimum number of bottles to move
+  00154 Recycling           Find station that minimizes items moving
+  00278 Chess               Count number of non attacking pieces
+  00413 Up and Down Sequences       Count the number of up and down runs
+  00613 Numbers that Count      Find out if numbers are self-inventorying
+  00637 Booklet Printing        Figure out which pages go where in a fold-over
+booklet
+  00696 How Many Knights        Find max # of knights to place on n*m board
+  10293 Word Length and Frequency   Count length and freq of words
+  10300 Ecological Premium      Count premiums for farmers
+
+
+- Sorting:
+  00110 Meta-Loopless Sorts     Produce Pascal programs that do sorting
+  00120 Stacks of Flapjacks     Sort a stack of flapjacks using flips
+  00514 Rails               Sort a train using a station
+  00538 Balancing Bank Accounts     Figure out who owes who what
+  00612 DNA Sorting         Sort some DNA based on some trait
+  00632 Compression (II)        Perform a Burrows Wheel Transform
+
+- Recursion
+  00155 All Squares         Count number of squares surrounding a point
+  00432 Modern Art          Generate some modern triangular art
+
+- Palindromes
+  00401 Palindromes         Determine the type of the word
+
+- String manipulation/comparision
+  00644 Immediate Decodability      Determine if the code set is immediately
+de
+codable
+
+------------------------------------------------------------
+Geometry:
+------------------------------------------------------------
+- Z-Buffering
+  00105 The Skyline Problem     Construct a skyline vector
+  00142 Mouse Clicks            Determine which windows was clicked
+
+- Convex Hulls
+  00109 SCUD Busters            Determine regions with power after a war
+  00132 Bumpy Objects           Find a stable position for shapes
+
+- Circles
+  00121 Pipe Fitters            Calculate the most pipes that can fit
+  00149 Forests             Determine viewable trees in an infinite forest
+  10301 Rings and Glue          Determine number of intersecting circles
+
+- Points in Polygons
+  00143 Orchard Trees           Determine numbers of points in triangles
+  00634 Polygon             Determine if a point is in a polygon
+
+- Distance
+  00152 Tree's a Crowd          Generate a histogram of tree distances
+  10310 Dog and Gopher          Find out if the golpher can get to hole
+
+- Art Gallery Problem
+  00588 Video Surveillance      Determine if a camera can see all walls
+
+- Spheres/Globes
+  00535 Globetrotter            Find distance between two points on earth
+
+- Polar/Azimuth Coordinates
+  00404 Radar Scopes            Figure out warnings for planes using radar
+
+- Area of polygons
+  00428 Swamp County Roofs      Calculate area of trapezoidal roof tiles
+
+- Pure Geometry
+  10283 The Kissing Circles     Determine areas associated with circles in
+circ
+les
+  10286 Trouble with a Pentagon     Find the length of largest square in a
+pent
+agon
+  10287 Gifts in a Hexagon Box      Fit circles inside a regular hexagonal box
+
+- Center of gravity
+  10291 Cut the Legs            Cut a table so that it balances
+
+- Line intersection
+  00834 Water Falls         Figure out where water will land
+
+----------------------------------------------------------------------
+Searching:
+----------------------------------------------------------------------
+- Constraint Satisfaction
+  00124 Following Orders        Find all consistent orderings
+  00129 Krypton Factor          Find special "hard" sequences
+
+- Brute Force Searching (no pruning)
+  00140 Bandwidth           Check all 8! sequences
+  00418 Molecules           Find the largest molecule that can be made
+  00565 Pizza Anyone?           Satisfy all topping requests if possible
+  00616 Coconuts, Revisited     Find the maximum number of people on island.
+  00629 Test                Find all "non different" sets
+  00638 Finding Rectangles      Find all rectangles in alphabetical order
+
+- Search with pruning
+  00624 CD              Find set of songs which fit best on tape
+  10309 Turn the Light Off      Find min. # of pushes to turn off lights
+
+- Anagrams
+  00148 Anagram Checker         Find possible anagram sentences from
+dictionary
+  00630 Anagrams(II)            Find possible anagrams for words
+  00642 Word Amalgamation       Find possible anagrams for words
+
+- Word Searches
+  00581 Word Search Wonder      Find words in a grid
+  00409 Excuses, Excuses!       Find key "excuses" in a sentences
+  00425 Enigmatic Encryption        Find the password from a text
+  00604 The Boggle Game         Find matching words in 2 Boggle boards
+
+- Greedy Algorithms
+  00410 Balance Station         Minimize Imbalance for a centrifuge
+
+
+00100-00155
+
+
+
+--
+¢~ùô®v¤j¸ê°T¡C¥Õ¦â±¡°gùò¢s¢w ¡ó Origin : snow.ice.ntnu.edu.tw
+¢uùö¡÷ 140.122.77.49¡öù÷¢¢¢w ¡¸ From   : rise.dorm1.ntnu.edu.tw
+¢u¡÷ cong ±À¡G¢Ò¢Ý¢Û¢Ý·PÁÂ¡ã¡ã¡ã
+ 03/10/21
+
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mducksteven [31m±À[m:ºÃ ­ì¨Ó¦³³o­Ó XDD                                  0128 19:51

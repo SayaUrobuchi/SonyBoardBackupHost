@@ -1,0 +1,87 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¤¤Ä¶] ACM Q10033 Interpreter
+®É¶¡: 2009/07/08 Wed 18:47:00
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [¤¤Ä¶] ACM Q10033 Interpreter
+®É¶¡: 2009/07/08 Wed 18:44:26
+
+§@ªÌ: sa072686 (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [¤¤Ä¶] ACM Q10033 Interpreter
+®É¶¡: 2009/07/08 Wed 18:36:35
+
+¡° ¥»¤åÂà¿ý¦Û [Programming] ¬ÝªO
+
+§@ªÌ: AikoSenoo (¥Í©Rªº·N¸q¬O¸g¾ú) ¯¸¤º: Programming
+¼ÐÃD: [¤¤Ä¶] ACM Q10033 Interpreter
+®É¶¡: 2009/03/07 Sat 11:09:35
+
+[1;32mACM Q10033- Interpreter[m
+
+¦³¤@¥x¹q¸£¦³10­Óregisters¥B¥¦ªºRAM¦³1000­Ówords¡A¦Ó¨C¤@­Óregister©M¨C¤@¬qRAM¤§
+¤¤³£¦³¤@­Ó¤T¦ìªº¾ã¼Æ(¤¶©ó0©M999¤§¶¡¡A¥]§t0©M999)¡C³o¥x¹q¸£ªº«ü¥O(Instructions)
+³Q½s½X¦¨¤@­Ó¤T¦ìªº¾ã¼Æ¡AÀx¦s¦bRAM¤§¤¤¡C¨ä½s½Xªº¤è¦¡¦p¤U¡G
+
+    ¡E100 ¥Nªí°±¤î
+    ¡E2dn ¥Nªí§âregister dªº­È³]¦¨n ( 0<= n <= 9)
+    ¡E3dn ¥Nªí§âregister dªº­È¥[¤Wn
+    ¡E4dn ¥Nªí§âregister dªº­È­¼¤Wn
+    ¡E5ds ¥Nªí§âregister dªº­È³]¦¨register sªº­È
+    ¡E6ds ¥Nªí§âregister dªº­È¥[¤Wregister sªº­È
+    ¡E7ds¥Nªí§âregister dªº­È­¼¤Wregister sªº­È
+    ¡E8da¥Nªí§âregister dªº­È³]¦¨RAM[register a]ªº­È
+    ¡E9sa¥Nªí§âRAM[register a]ªº­È§ï¦¨register sªº­È
+    ¡E0ds¦pªGregister sªº­È¤£¬°0¡A«h¦^¨ìRAM[register a]
+    // Ä¶µù¡G¤W¤èRAM[register a]¥Nªí²Ä(register aªº­È)¬qRAM
+
+©Ò¦³registerªº­È¤@¶}©l³£¬O000¡ARAM³Ìªìªº­È¥i±qInput±oª¾¡A²Ä¤@­Ó«ü¥O·|³Q©ñ¦b
+RAM[0]¡A¨ä¾lÃþ±À¡C¦b¹Bºâ¹Lµ{¤¤­Y¦³¶W¹L1000ªº¼Æ¡A«h¨ú¨ä°£¥H1000ªº¾l¼Æ¡C
+
+
+[1;33mInput[m
+
+    ¿é¤Jªº²Ä¤@¦æ¥]¬A¤@­Ó³æ¤@ªº¾ã¼Æ¡A¥Nªí¦³´X²Õ´ú¸Õ¸ê®Æ¡A¦¹¦æ¤U¤è·|¦³¤@¦æªÅ¥Õ¡A¨C
+¨â²Õ´ú¸ê¤§¶¡¥ç¦³¤@¦æªÅ¥Õ¡C
+    ¨C²Õ´ú¸Õ¸ê®Æ·|¦³¼Æ¦æ(³Ì¦h1000¦æ)¡A¥NªíRAM¤§¤¤ªº¸ê®Æ¡A¦pªG¨S¦³¯S§Oµ¹¤©¸Ó¬q
+RAMªº¸ê®Æ¡A«h¸Ó¬qRAMªº¸ê®Æ§Y¬°000¡C
+
+[1;33mOutput[m
+
+¨C¨âµ§¿é¥X¤§¶¡¦³¤@¦æªÅ¥Õ¡C
+    ¿é¥X¥u¥]§t¤@­Ó¥¿¾ã¼Æ¡A¥Nªí±q¶}©l¨ìµ²§ô¡A¦¹¥x¹q¸£°õ¦æ¤F¦h¤Ö­Ó«ü¥O¡C§A¥i¥H°²
+³]°õ¦æ¤@©w·|µ²§ô¡A¥B°õ¦æªº¦¸¼Æ¤£·|¶W¹Lintªº½d³ò¡C
+
+
+[1;33mSample Input[m
+1
+
+299
+492
+495
+399
+492
+495
+399
+283
+279
+689
+078
+100
+000
+000
+000
+
+[1;33mSample Output[m
+16
+[m
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40mAikoSenoo                  [1;30mfrom_[;32;40m114.32.0.42(HiNet)[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:47:00 [m

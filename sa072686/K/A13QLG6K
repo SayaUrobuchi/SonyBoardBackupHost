@@ -1,0 +1,108 @@
+§@ªÌ: sa072686 (ÅÜ²Â¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 387
+®É¶¡: 2008/02/07 Thu 16:27:00
+
+
+The goal of this problem is to write a program which will take from 1 to 5
+puzzle pieces such as those shown below and arrange them, if possible, to
+form a square. An example set of pieces is shown here.
+
+³o­Ó°ÝÃDªº¥Ø¼Ð¬O¼g­Óµ{¦¡¡A±N 1 ¨ì 5 ­Ó¿n¤ì¶ô±Æ¦¨¥¿¤è§Î¡C¥H¤U¬O­Ó¨Ò¤l¡G
+
+              ¢i          ¢i
+  ¢i¢i¢i      ¢i    ¢i    ¢i
+  ¢i  ¢i    ¢i¢i    ¢i    ¢i¢i
+              ¢i
+    ¢Ï        ¢Ð¡@¡@¢Ñ¡@¡@¢Ò
+
+
+The pieces cannot be rotated or flipped from their original orientation in an
+attempt to form a square from the set. All of the pieces must be used to form
+the square. There may be more than one possible solution for a set of pieces,
+and not every arrangement will work even with a set for which a solution can
+be found. Examples using the above set of pieces are shown here.
+
+³o¨Ç¿n¤ì¶ô¤£±o±ÛÂà»PÂ½Âà¡A¥B¨C¤@¶ô³£­n¥Î¨ì¡C¤@²Õ¿n¤ì¶ô¥i¯à¦³³\¦hºØ±Æªk¡A
+
+¤]¥i¯à±Æ¤£¥X¨Ó¡C¥H¤Uªº½d¨Ò±N¨Ï¥Î¤W­zªº¿n¤ì¶ô¡C
+
+                  ¢Ï¢Ï¢Ï¢Ð              ¢Ï¢Ï¢Ï¢Ð
+                  ¢Ï¢Ñ¢Ï¢Ð  ¢Ò          ¢Ï¢Ò¢Ï¢Ð
+                  ¢®¢Ñ¢Ð¢Ð  ¢Ò¡@¡@¡@¡@¡@¢Ñ¢Ò¢Ð¢Ð
+                  ¢®¢®¢®¢Ð  ¢Ò¢Ò        ¢Ñ¢Ò¢Ò¢Ð
+
+
+Input
+
+The input file for this program contains several puzzles (i.e. sets of puzzle
+pieces) to be solved. The first line of the file is the number of pieces in
+the first puzzle. Each piece is then specified by listing a single line with
+two integers, the number of rows and columns in the piece, followed by one or
+more lines which specify the shape of the piece. The shape specification
+consists of `0' and `1' characters, with the `1' characters indicating the
+solid shape of the puzzle (the `0' characters are merely placeholders). For
+example, piece `A' above would be specified as follows:
+
+¿é¤J¥]§t³\¦h«Ý¸Ñ´ú¸Õ¸ê®Æ¡C¨C²Õ²Ä¤@¦æ§i¶D§A³o²Õ¦³´X¶ô¿n¤ì¡A±µ¤U¨Ó¬O¨C¤@¶ôªº
+
+´y­z¡C¨C¶ô²Ä¤@¦æ¦³¨â­Ó¾ã¼Æ¡A¥Nªí³o¶ô¤j¤p¬°´X¦C¡B´X¦æ¡A±µ¤U¨Ó¬°¸Ó¿n¤ì¶ôªº¥~§Î¡C
+
+¥~§Î¥]§t '0' ©M '1'¡A'1' ¥Nªí¿n¤ìªº³¡¥÷¡A'0' ¥u¬O¶ñ¥RªÅ¥Õ³¡¥÷¥Î¡C¨Ò¦p¤W­zªº
+
+¿n¤ì¶ô¢Ï±N·|¥Î¥H¤Uªº§Î¦¡¡G
+
+2 3
+111
+101
+
+The pieces should be numbered by the order they are encountered in the
+puzzle. That is, the first piece in a puzzle is piece #1, the next is piece
+#2, etc. All pieces may be assumed to be valid and no larger than 4 rows by 4
+columns.
+
+³o¨Ç¿n¤ì¶ô±N¨Ì¥¦­Ì¦b¿é¤J¤¤¥X²{ªº¶¶§Ç½s¸¹¡C²Ä¤@¶ô¬O#1¡A¤U¤@¶ô¬O#2¡A¡K¨Ì¦¹Ãþ±À¡C
+
+¨C¶ô³£±N¬O¦Xªkªº¡A¨Ã¥B¤£·|¤j©ó 4 * 4¡C
+
+The line following the final line of the last piece contains the number of
+pieces in the next puzzle, again followed by the puzzle pieces and so on. The
+end of the input file is indicated by a zero in place of the number of puzzle
+pieces.
+
+­Y¦³¤@²Õ¿n¤ì¶ô¼Æ¬° 0¡A«hªí¥Ü¿é¤Jµ²§ô¡A¨Ã¥B³o²Õ¤£»Ý­n³B²z¡C
+
+Output
+
+Your program should report a solution, if one is possible, in the format
+shown by the examples below. A 4-row by 4-column square should be created,
+with each piece occupying its location in the solution. The solid portions of
+piece #1 should be replaced with `1' characters, of piece #2 with `2'
+characters, etc. The solutions for each puzzle should be separated by a
+single blank line.
+
+§Aªºµ{¦¡»Ý¦p½d¨Ò¤@¯ë¦^³ø¤@ºØ¥i¯àªº¸Ñ¡A¨Ï±o¯à±N©Ò¦³¿n¤ì±Æ¦¨¤@ 4 * 4 ¤j¤pªº
+
+¤è§Î¡C²Ä¤@¶ô©ÒÂ\©ñªº¦a¤è±N­n¿é¥X '1'¡A²Ä¤G¶ô«h¬° '2'¡A¨Ì¦¹Ãþ±À¡C¨C²Õ´ú¸Õ¸ê®Æ
+
+¶¡»Ý¥H¤@ªÅ¥Õ¦C¹j¶}¡C
+
+If there are multiple solutions, any of them is acceptable. For puzzles which
+have no possible solution simply report ``No solution possible''.
+
+¦pªG¦³¦h²Õ¸Ñ¡A¥ô¤@¬Ò¥i¡C¦pªGµL¸Ñ¡A«h¦^³ø "No solution possible"¡C
+
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mseanwu [31m±À[m:§Ú§ï¤F951ªºcode¥h¶Ç¥¦..                                0211 17:33

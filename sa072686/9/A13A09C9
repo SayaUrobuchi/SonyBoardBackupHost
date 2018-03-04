@@ -1,0 +1,34 @@
+§@ªÌ: Tommy (Tommy) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] 11088
+®É¶¡: 2007/07/19 Thu 16:28:30
+
+¡° ¤Þ­z¡mseanwu (®ü®¦µL)¡n¤§»Ê¨¥¡G
+> ¦³N­Ó¤H­n°Ñ¥[NPSC¡A¨C­Ó¤H¦³¥¦ªº±j«×­È
+> ¤T­Ó¤H²Õ¤@¶¤¡AÁ`©M»Ý>=20¡A°Ý³Ì¦h¥i¤À´X¶¤
+> <Hint  E>
+> [30;40m  ­­²`DFS+cut:limit_max=min{sum/20,N/3}  [m
+
+Alternative Solve method:
+
+§ân­Ó¤H±Æ§Ç(¤pto¤j),¦pªGn%3,§â0..n%3-1³£®³±¼
+¥Î³Ñ¤Uªº¶]3-nested for-loop brute force
+§Y¥iAC
+
+//[38;1m¸Ü»¡§ÚDFS·|TLE­C= =[m
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by Tommy from [m [1m220.129.140.47 (¤¤·Æ¤@µf)[m
+
+¡¶ [1;30mTommy [;33m§ï[m@[m2007/07/19 Thu 16:40:02[m
+¡÷ [36mseanwu [31m±À[m:§Úªº¬O­­²`¸Ì­±©ñ for^3                                 0719 16:59
+¡÷ [36mgodgunman [31m±À[m:±Æ§Ç«á­­²`dfs, ²Ä¤@¤H®³³Ì¤j, ¤G¤T±q«á­±®³, ´N¹L¤F   0719 20:10
+¡÷ [36mgodgunman [31m±À[m:§Ú¼gªk­ì¥»¸ò¤@¼Ó¤@¼Ë, ¦ý¬O«á¨Ó¤ÓÁà´N§ï±¼ XDDD       0719 20:11
+¡÷ [36mseanwu [31m±À[m:§Ú±Æ§Ç«á·|ÅÜºC = =                                     0719 20:17
+¡÷ [36mTommy [31m±À[m:½¼¦Ì¬O²{¨­DFS/                                          0720 11:01
+¡÷ [36msa072686 [31m±À[m:ÅU¦W«ä¸q¤@¤U´Nª¾¹D¤FXD                               0720 11:14
+¡÷ [36mTommy [31m±À[m:¦n§a...¦n²`¶ø= =                                        0720 12:17
+¡÷ [36mgodgunman [31m±À[m:½Ö¥s§A¤W½Ò¦bºÎÄ±                                    0720 19:26
+¡÷ [36mTommy [31m±À[m:¾¾~§A¤£»¡§ÚÁÙ§Ñ°O§Ú¤W½Ò¦bºÎÄ±­CXDDDDD                   0721 12:26
+¡÷ [36mTommy [31m±À[m:¨ä¹ê§Ú¤w¸g·Q¥X¨Ó¤F°ÕXDD                                 0721 12:26

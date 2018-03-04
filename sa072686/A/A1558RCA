@@ -1,0 +1,62 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [µ§°O] 618 Accepted
+®É¶¡: 2009/07/08 Wed 17:57:23
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: [µ§°O] 618 Accepted
+®É¶¡: 2009/07/08 Wed 17:50:01
+
+§@ªÌ: sa072686 (¬°¥¼¨ÓçE¸ô) ¯¸¤º: sa072686
+¼ÐÃD: [µ§°O] 618 Accepted
+®É¶¡: 2008/02/12 Tue 22:02:10
+
+¥d¤F¤@¤Ñ¦h¡K²×©ó°Ú¡C
+
+µ¹¿Ã¹õ©M¥|­Óµøµ¡¤j¤p¡A°Ý¥i¤£¥i¯à±N¥|­Óµøµ¡³z¹L·h²¾©ÎÁY©ñ¨Ó¦ûº¡¾ã­Ó¿Ã¹õ¡H
+
+·h²¾®É¥²¶·Åýµøµ¡ºû«ù¥þ³¡³£¦b¥i¨£½d³ò¡A¤j¤p»Ý¬°¾ã¼Æ¥B¥u¯àµ¥¤ñ¨ÒÁY©ñ¡C
+
+¥H¤UÂà¸ü¦Û°Q½×ªO¡G
+
+// Rs, Cs is row and column of the screen
+// R[i], C[i] represents window[i] : (R[i],C[i])
+int Rs, Cs, R[4], C[4];
+
+// is it possible to fill the screen(r,c)?
+bool rec(int used, int r, int c){
+   if the dimension(r,c) is negative, forget it
+   if one of the dimension(r,c) is 0,
+      check the used mask, return true if all are used
+
+   for all window i that has not been used yet:
+      resize window[i] to fit the column c if possible,
+         then try to fill the rest, return true if success
+      resize window[i] to fit the row r if possible,
+         then try to fill the rest, return true if success
+
+   if used mask is empty
+      resize the first window[0] to it's minimum dimension(rr,cc) using gcd
+      for i = 1 until (rr*i > Rs || cc*i > Cs) :
+         resize window[0] is resized to window[0] * i
+         for window j : 1..3 do
+            place window[j] to the right of window[0] if possible,
+               then try to fill the rest, return true if success
+            place window[j] to the bottom of window[0] if possible,
+               then try to fill the rest, return true if success
+
+   return false;
+}
+
+·Qªk¡G»¼°j¡A¨C¦¸¸m¤J¤@©Î¨â­Óµøµ¡¡AµM«á±N¿Ã¹õ¤Á¦¨§ó¤pªº¯x§Î³B²z¡C
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40msa072686      	  		      	[1;30mfrom_[;32;40m203.204.38.30(©M«H¶W´CÅé)[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 17:57:23 [m

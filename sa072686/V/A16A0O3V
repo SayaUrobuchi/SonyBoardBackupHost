@@ -1,0 +1,48 @@
+§@ªÌ: yuscvscv («n¤@¦Ê¯Å±Ð¾Ç¤p¥i³½) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11081
+®É¶¡: 2010/09/27 Mon 17:14:39
+
+Discription
+
+µ¹ 3 ­Ó¥u§t¤p¼g¦r¥Àªº¦r¦ê¡C
+
+§A¥²¶·ºâ¥X¦³´XºØ¤èªk¥i¥H¥Î«e¨â­Ó¦r¦êªº¤l§Ç¦Cºc³y¥X²Ä3­Ó¦r¦ê¡C
+
+
+¦b¹ï¤@­Ó¦r¦ê§R°£ 0­Ó¥H¤W(§t)ªº¦r¥À¥H«á¡A§Ú­Ì¥i¥H±o¨ì¥L­Ì¤l§Ç¦C¡C
+
+Á|­Ó¨Ò¤l¨Ó»¡¡A "a", "b", "c", "ab", "ac", "bc", ©M "abc" ³£¬O "abc"ªº¤l§Ç¦C¡C
+
+¤@­Ó¤l§Ç¦C¥i¥H¬OªÅ¦r¦ê¡C
+
+
+²{¦b°²³]¦³ "abc" ©M "de" ¨â­Ó¦r¦ê¡C
+
+¸g¹L¤@µf²Õ¦X¡A
+
+§A¥i¥H±o¨ì "abcde", "abdce", "abdec", "adbce", "adbec", "adebc", "dabce",
+"dabec", "daebc" ©M "deabc"¡C
+
+
+
+Input
+
+²Ä¤@¦æ¦³¤@­Ó¾ã¼Æ T (0 < T < 271) ªí¥Ü¦³´Xµ§´ú¸ê¡C
+
+¨Cµ§´ú¸ê§t 3 ­Ó¥u¦³¤p¼g¦r¥Àªº¦r¦ê¡A¦r¦êªø«×¬Ò¦ì©ó 1 ~ 60 ¤§¶¡¡C
+
+
+
+Output
+
+¹ï¨Cµ§´ú¸ê¿é¥X¤@­Ó¾ã¼Æ¡A
+ªí¥Ü¦³¦h¤ÖºØ¤èªk¥i¥H¥Î¤W­zªº¤èªk§â«e¨â­Ó¦r¦êºc³y¦¨²Ä¤T­Ó¡C
+
+µª®×¥i¯à·|¬Û·í¤j¡A§A¥²¶·¿é¥X µª®×%10007¡C
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by yuscvscv from [m [1m302pc45.c302.tnfsh.tn.edu.tw (¥x¯T¤@¤¤®áÆF¾j)[m
+

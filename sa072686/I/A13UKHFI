@@ -1,0 +1,120 @@
+з@к╠: kub (Terry) п╕д║: sa072686
+╝╨├D: Re: [░▌├D] ├Ўйєoptimal substructure
+о╔╢б: 2008/03/26 Wed 20:39:45
+
+
+  мЁ╡M╖Qиь╛╟к°иS╗ббuиCеx╡o╣q╝tи╤└│к║│╠дj╣q╢qи╧з_ж│╖еннбv
+
+  │o┬Iз┌жAеh░▌еL...йч┴┬><
+
+  е¤░▓│]ж│╖еннжnдF
+
+б@│o├Dз┌е╗и╙─▒▒oеiе╬greedyб@ж¤лси╙дSдгд╙╜TйwдFб@ньж]жpдU
+
+
+
+
+
+
+  нIе]░▌├Dж│ит║╪(иф╣ъж│л▄жh║╪░╒  з┌мO╗бдё╕√▒`игк║к║и║ит║╪)
+
+  ▓─д@║╪мO fractional knapsack problem    ---(a)
+
+           ╕╤кkмOgreedy
+
+  ▓─дG║╪мO 0/1 knapsack problem           ---(b)
+
+           ╕╤кkмODP (дглO├╥╜╞┬°л╫бAж]м░мONPC)
+
+
+
+
+
+
+
+  нш╢}йl╖Qе╬greeyбAж]м░─▒▒o│o├D╡o╣q╝tмO(a)
+
+б@ж¤иф╣ъ├Dе╪мO╗ббuиC│цжь╡o╣q╢qк║cost XXXбv
+
+б@нл┬IмOбuиC│цжьбvб@б@д]┤NмO╣q╢qмOд@н╙│цжьбBитн╙│цжьбBдTн╙│цжь...│o╝╦о│
+
+  ┤Nдгпро│fractionдFнCб@б@й╥еHgreedyжn╣│╖|п}е\?
+
+  ж╙еB├Dе╪й·┼удгмO0/1 knapsack problemб@б@й╥еHнnDPк║╕▄╗╝░j┤Nнnж█дv╖QдF
+
+  лфж╥жpдU
+
+
+
+
+
+  N1F1+N2F2+...+NAFA = B     й╥иDм░min(N1C1+N2C2+...+NACA)б@б@
+
+  ифддбG
+
+     Ni: ▓─ i ╝t╡o╣qж╕╝╞
+
+     Ci: ▓─ i ╝t╡o╣qд@ж╕к║ cost
+
+     Fi: ▓─ i ╝t╡o╣qд@ж╕й╥▓ге═к║╣q╢q
+
+  нnзP┬_мOз_жsжb optimal substructure иф╣ъ│oд@├DеiеH┴|д@н╙и╥дl
+
+  A = 3
+
+  F1 = 1
+
+  F2 = 2
+
+  F3 = 5
+
+  C1 = 0.5
+
+  C2 = 2
+
+  C3 = 5
+
+  B = 11
+
+  │╠дpк║ cost мO итн╙ F3 + д@н╙ F1, cost мO 10.5
+
+  ж│ optimal substructureкэе▄
+
+  ▒¤иD iбAпр▒q i - 1 дзлeк║╡ко╫┤ъеXи╙
+
+  ╖э╡Mдзлeк║ i-1 │гзфиь optimal solution
+
+  ж╙еB▓╒еXи╙к║ i д]╖|мO optimal solution
+
+  ж¤мOеH│oн╙и╥дl
+
+  ░▓жpз┌иD B/2 = 5.5
+
+  B/2 = 5.5 к║ optimal solution └│╕╙мO д@н╙ F3 + д@н╙ F1 = 5.5
+
+  ┴Ў╡Mжh▓ге═дF 0.5 к║╣q╢q    ж¤ежк║╜T▓┼жXнnиD
+
+  ж¤дгиг▒o│oитн╙ B/2к║ optimal solution ▓╒еXи╙к║ B=11 ╖|мO│╠и╬╕╤
+
+  ж]м░│o╝╦▓╒еXи╙к║╕╤мO 11
+
+  ж¤│╠и╬╕╤лoмOитн╙ F3 + д@н╙ F1
+
+  й╥еH┤N║тежж│нл┬╨к║дl░▌├D  д]л▄├°о│и╙░╡ DP    ж▄д╓з┌╖Qдгдjиь
+
+
+
+
+  PS.б@╜╨░▌лч╗Є▒└дхзrб@б@│o├ф╕Єpttдгд@╝╦жnдг▓▀║DQQ
+
+
+
+--
+[1m               [42mвq[40mвwвб                  в~вwвwвwвwвwвwвwвб[m
+[1m               вx  вx[1mе[mxл[1mnд@д[mдбDп[1m┴езд[mpп[1m╕[mб¤[1msony.TFcis.orgвx  вx[m
+[1m                   вввwвwвwвwвwвwвwвwвwвг              вввw[42mвq[m
+[1m               by kub from [m [1m140.115.52.48 (ддебдj╛╟)[m
+
+б╢ [1;30mkub [;33mзя[m@[m2008/03/26 Wed 20:41:10[m
+бў [36msa072686 [31m▒└[m:┐щдJ%                                                0326 20:47
+бў [36mkub [32mtrying[m:trying                                                0326 20:53

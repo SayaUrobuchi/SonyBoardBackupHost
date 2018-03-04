@@ -1,0 +1,53 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] 301
+®É¶¡: 2007/10/29 Mon 10:51:37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---¤º¦³¸Ñªk---
+
+
+
+
+
+¶â...§ÚªºDFS¬O (x¬O¥Ø«e®³¨ì­þ¤@­Ó)
+
+int dfs(int x)
+   for( i=x+1; i<n; i++ )
+      dfs(i) //¦pªG¥i¥H®³i, ´N¦A§ä¤U¤@­Ó
+
+³o¼Ë¬O0.640¬í
+
+
+µM«á°µ¤@¤U·¥¤j­È°ÅªK, ¥ý¨Ì¤H¼Æ±Æ§Ç¦n, µM«áºâ¥Xrest[i]=²Äi¨ì²Än-1­ÓaskªºÁ`¤H¼Æ
+
+rest[i]ªº·N«ä¬O, ±qi¶}©l®³, §Y¨Ï±µ¤U¨Óªºask³£¤£½Ä¬ð, ³Ì¦h¤]¥u¯à®³¨ìrest[i]
+
+©Ò¥H¦³ if(now+rest[x]<=max) return 0; , ³o¼Ëcut«á´N¬O 0.020¬í¤F
+
+
+³Ì«á, ÁÙ¥i¥H°µlimit-cut, ¦pªG¨C­Ó¸ô¬q³£º¡¸ü (³Ì¦h¸Ë¨ì®e¶q©Î¸g¹LªºÁ`ask¤H¼Æ)
+
+¦pªG max==limit, ´N¥i¥Hµ²§ôsearch¤F, °Å§¹«á¥i¥H¨ì 0.010¬í
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m192.168.4.81 (¥x¯T¤@¤¤)[m
+
+¡¶ [1;30mseanwu [;33m§ï[m@[m2007/10/29 Mon 10:51:44[m

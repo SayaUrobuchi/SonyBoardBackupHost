@@ -1,0 +1,55 @@
+§@ªÌ: sa072686 («n¤@¤¤97¯Å¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]11103
+®É¶¡: 2006/10/02 Mon 22:43:04
+
+«Ü®e©ö·d¿ùÃD¥Øªº¤@ÃD
+
+Â½Ä¶¤@¤U
+
+¦b¤@­Ó¦r¦ê¤¤§ä¥X³Ìªøªºwff¨Ã¿é¥X¡A¤£¥²«ö·Ó¶¶§Ç
+
+wff©w¸q¦p¤U
+
+p¡Bq¡Br¡Bs¡Bt¬°wff
+
+­Yx=wff«hNx¥ç¬°wff
+
+­Yw=wff¥Bx=wff«hKwx¡BAwx¡BCwx¡BEwx¥ç¬°wff
+
+¨º±iªí¬OÄF¤Hªº¡A¨S¥Î
+
+§Ú¬O¦³¨¾¥X²{³o¤Q­Ó¦r¥À¥H¥~ªºªF¦è¡A¤£¹L¤£½T©w­n¤£­n¨¾
+
+¦]¬°«Ü²ÖÃi±oÀu¤Æ¡A¦r¦êªø«×¤]Ãi±o¥h´ú¤F¡K
+
+´N®³¨Ç´ú¸ê¤j®a¦Û¤v¸Õ¸ÕÅo¡K
+
+Sample INPUT
+
+pqpqK
+pqpqN
+NpqK
+pK
+KNNp
+
+Sample OUTPUT
+
+Kpq
+Np
+KNpq
+No WFF
+NNp
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Åµ{³]±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+

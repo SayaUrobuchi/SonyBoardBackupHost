@@ -1,0 +1,18 @@
+§@ªÌ: zenixls2 (´cÆF°h´²) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 138
+®É¶¡: 2007/04/06 Fri 12:21:36
+
+µy·L¾ã²z¤@¤U
+¥i±o2*k*k=n*(n+1)
+¦ýª½±µ¤U¥h§ä·|Ãz
+§ï¦¨k==n/k*(n-k+1)+(n-k)
+¦A³]    long float k=6,n=8;
+¿é¥X¥Hcout<<setw(10)<<long(k)<<" "<<setw(10)<<long(n)<<"\n";
+³o¼Ë´N¨S°ÝÃD¤F
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m218.165.111.120 (¤¤·Æ¤@µf)[m
+

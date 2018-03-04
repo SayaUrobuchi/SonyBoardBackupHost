@@ -1,0 +1,84 @@
+§@ªÌ: suhorng (§Ú¬O®Ñªl §Ö¥á§ÚXU) ¬ÝªO: suhorng
+¼ÐÃD: [ACM]378
+®É¶¡: 2009/07/04 Sat 16:14:36
+
+³oÃD¨S¤°»ò¤ß¾÷
+
+§Y¨Ï¼É¤O¸Ñ¥X¨âª½½u¤èµ{¦¡¦A¥Î«Y¼Æ¥[¥[´î´î¤]¥i¥H¹L
+
+ºâ¥X¨âª½½u¤èµ{¦¡¦³¤£¿ùªº¤èªk
+
+´N¬O :
+
+    °²³]ª½½u ax + by = c ¹L¨âÂI A(x1, y1)  B(x2, y2)
+
+    ¥O n = B - A = (x2-x1, y2-y1)
+
+    «h ±Nªk¦V¶q n ªºx, y­Ë¹L¨Ó¡A¨ä¤¤¤@­Ó¼Æ¥[­t¸¹
+
+    ´N¥i¥H±o¨ì«Y¼Æ a, b¤§¤@¸Ñ ¦A±a¤J A, B¥ô¤@ÂI¥iºâ¥X c
+
+    ( ¥Îªº¬O¨â««ª½¦V¶q¤º¿n¬°0 )
+
+#include <cstdio>
+
+void proc(int& dx, int& dy) {
+    int a=dx, b=dy, r;
+    while (b) {
+        r = a%b;
+        a = b;
+        b = r;
+    }
+    dx /= a;
+    dy /= a;
+    if (dx<0) {
+        dx = -dx;
+        dy = -dy;
+    }
+}
+
+int main() {
+    int n, x1, y1, x2, y2, x3, y3, x4, y4;
+    int i, j, a1, b1, c1, a2, b2, c2;
+    double px, py, d;
+    scanf("%d", &n);
+    puts("INTERSECTING LINES OUTPUT");
+    while (n--) {
+        scanf("%d%d%d%d%d%d%d%d"
+            , &x1, &y1, &x2, &y2
+            , &x3, &y3, &x4, &y4
+        );
+
+        a1 = y2 - y1;
+        b1 = x1 - x2;
+        proc(a1, b1);
+        c1 = a1*x1 + b1*y1;
+
+        a2 = y4 - y3;
+        b2 = x3 - x4;
+        proc(a2, b2);
+        c2 = a2*x3 + b2*y3;
+
+        if (a1==a2 && b1==b2) {
+            puts(c1==c2 ? "LINE" : "NONE");
+        } else {
+            d = a1*b2 - a2*b1;
+            px = (c1*b2 - c2*b1) / d;
+            py = (c1*a2 - c2*a1) / (-d);
+            printf("POINT %.2lf %.2lf\n", px, py);
+        }
+    }
+    puts("END OF OUTPUT");
+    return 0;
+}
+
+--
+[m[1;33;41m¡¸SKYLY [34;47m Ê¨ [m
+[1;33;46m¡¹SKYLY [37;45m XD [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by suhorng from [m [1m220.137.64.102 (¤¤·Æ¤@µf)[m
+

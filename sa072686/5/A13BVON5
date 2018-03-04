@@ -1,0 +1,36 @@
+§@ªÌ: zenixls2 (¤B¤B¥m¥m) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 497
+®É¶¡: 2007/08/12 Sun 22:52:31
+
+DebugÁÙ¬Ode¤£¥X¨Ó
+(de¤F4¤Ñ¤F)
+©ó¬O¡A§Ú­«¼g¤F¨ç¦¡
+µ{¦¡½XÂ²µu¦h¤F
+¦Ó¥B¤@¦¸AC
+
+2007-08-12 14:43:45     Accepted    0.002   Minimum zenixls2--China is a county of
+Taiwan  C++ 497 - Strategic Defense Initiative
+³oÃD­n¥ÎO(n log n)ªºLIS°µ¤~·|¹L
+·f°t¦^·¹
+¨ì³Ì«á¥u·|¥Î¨ì³Ì«á¤@­Ó
+
+
+ÁÙ¦³¡A­n¬Odebug¤£¥X¨Ó¡A©Î¬O¤ÓÃødebug
+¥i¥H¦Ò¼{±N¦³°ÝÃDªº¦a¤è­«¼g¤@¹M
+³q±`·|¤ñ¸û§Ö¸Ñ¨M
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by zenixls2 from [m [1m218.165.98.136 (¤¤·Æ¤@µf)[m
+
+¡÷ [36msa072686 [31m±À[m:­«½m¬O¦n¤èªk XD                                      0812 22:54
+¡÷ [36mTommy [31m±À[m:Ê¨ ³oO(n^2)´N¥i¥H¤F§r!!                                 0813 09:11
+¡÷ [36msa072686 [31m±À[m:¦n¹³¬O¡H§ÚªºO(n^2)¶]«Ü¦h¬í¦ý·|¹L                     0813 10:29
+¡÷ [36mzenixls2 [31m±À[m:¯uªº¶Ü??§Ú¶Ç¹LO(n^2)TLE°Ú!!!                         0813 12:27
+¡÷ [36mzenixls2 [33m»¡[m:¤£¹L¨S®t¡A¤]ºâ¦³½m²ß¨ì¤F                             0813 12:28
+¡÷ [36msa072686 [31m±À[m:­n¥Î¤£¥¿±`ªºn^2 XD                                   0813 12:32
+¡÷ [36mTommy [31m±À[m:Ê¨ §ÚªºO(n^2) ¥u¥Î¤F0.021s = =                          0813 12:49
+¡÷ [36msa072686 [31m±À[m:§Ú¤ñ¸û®z°Ú XD                                        0813 13:52
+¡÷ [36mzenixls2 [31m±À[m:Tommy­É§Úcode!!                                      0817 19:24

@@ -1,0 +1,39 @@
+§@ªÌ: seanwu (®ü®¦µL) ¯¸¤º: sa072686
+¼ÐÃD: Re: [µ{³]] °Ý°ÝÃD 907
+®É¶¡: 2007/07/16 Mon 13:14:06
+
+¡° ¤Þ­z¡mseanwu (®ü®¦µL)¡n¤§»Ê¨¥¡G
+> ³oÃþªºÃD¥Ø¦n¹³ÁÙ¤£¤Ö¡A¥Ø«e§ä¨ì662, 714
+> ³£¥u°µ¨ìO(n^3)ªºDP
+> ¡÷ [36mDarkKnight [31m±À[m:DP ¥i¥H¨ì O(nm)¡A¥Î Binary Search ³Ì§Ö
+> ¶â..°Q½×ª©¤W¦ü¥G¤]¦³´£¨ì¡A¦ýÁÙ¬O¤£¤Ó²M·¡..
+> O(nm)ªºDP­n«ç»ò°µ? ÁÙ¦³Binary Search¬O­ngreedy¶Ü?
+
+¤S¦Û°Ý¦Ûµª¤F = =   (¬Q±ßºÎ¤£µÛ..)
+
+
+¦Ò¼{ª¬ºA dp[i][j]¬°²Äi¤Ñ¦b²Äj­ÓÂIªº¸Ñ
+
+¦³dp[i][j] = min{ max{dp[i-1][k],sum[k to j]} }  (for k<j)
+
+ª½±µ°µ¬O O(n*m^2)
+
+ª`·N¨ì f(k)=dp[i-1][k]¬O»¼¼W¡Ag(k)=sum[k to j]¬O»¼´î
+
+¬Gminmax¸¨¦bf(k)»Pg(k)ªº¥æÂI
+
+¥Og'(k) = sum[k to j+1] = g(k)+dis(j to j+1)
+
+¦]g'(k) = g(k)+£GH ¬Gf(k)»Pg'(k)ªº¥æÂI¥²¸¨¦bf(k)»Pg(k)¥æÂIªº¥k°¼
+
+©ó¬O¨C­Ók¥u³Q¦Ò¼{¤@¦¸¡A¬G¬° O(nm)
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m192.168.4.29 (¥x¯T¤@¤¤®áÆF¾j)[m
+
+¡¶ [1;30mseanwu [;33m§ï[m@[m2007/07/16 Mon 16:13:23[m

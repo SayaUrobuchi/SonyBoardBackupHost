@@ -1,0 +1,24 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10807
+®É¶¡: 2007/12/29 Sat 10:28:15
+
+10807 - Prim
+
+µ¹§A¤@­ÓµL¦V±aÅv¹Ï (|V|<=10, |E|<=25)
+
+¦b³o­Ó¹Ï¤W§ä¨âÃä¶° E1, E2 ¨Ï±o E1¡äE2=£r¡A¥BE1³s³q©Ò¦³ªºÂI¡AE2¥çµM
+
+°ÝE1,E2¤¤ªº©Ò¦³ÃäÁ`©M³Ì¤p¥i¥H¬O¦h¤Ö?
+
+
+<Hint  E>
+[30;40m E1,E2¬Ò¬O¾ð [m
+[30;40m ¼É·jE1¡A³Ñ¤Uªº¨DMST·í°µE2¡A¼É·jÀH«K¥[¤@ÂIcut´N·|¹L¤F [m
+[30;40m ¤SÅ¥»¡³oÃDªº´ú¸ê«ÜÄê¡A©Ò¥Hrandom¿ïE1,MST°µE2¤]·|¹L¡A¦Ó¥B§ó§Ö [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-150.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+

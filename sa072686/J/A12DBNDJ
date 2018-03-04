@@ -1,0 +1,73 @@
+§@ªÌ: sa072686 (TFcis 97th¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM]11056 WA
+®É¶¡: 2006/08/06 Sun 20:16:51
+
+§Ú¦n¹³§Ñ¤F¶Kcode |||
+
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+typedef struct
+{
+    char i[21];
+    int j;
+}abc;
+int abcc(const void *p,const void *q)
+{
+    if((*(abc*)p).j==(*(abc*)q).j)
+    {
+        return strcmp((*(abc*)p).i,(*(abc*)q).i);
+    }
+    else
+    {
+        return (*(abc*)p).j-(*(abc*)q).j;
+    }
+}
+int main()
+{
+    int a,b,c,d,e,f,g,h;
+    abc k[100];
+    char x[4];
+    while(scanf("%d",&a)==1)
+    {
+        for(b=0;b<a;b++)
+        {
+            scanf("%s",&k[b].i);
+            scanf("%s",&x);
+            scanf("%d%s",&c,&x);
+            k[b].j=c*100000;
+            scanf("%d%s",&c,&x);
+            k[b].j+=c*1000;
+            scanf("%d%s",&c,&x);
+            k[b].j+=c;
+        }
+        qsort(k,a,sizeof(abc),abcc);
+        for(b=0,c=1;b<a;c++)
+        {
+            printf("Row %d\n",c);
+            for(b,d=2;b<a&&d>0;b++,d--)
+            {
+                printf("%s\n",k[b].i);
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+--
+
+TFcis 97th¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mgloompisces [31m±À[m:§AAC¤F                                            0806 20:40
+¡÷ [36mZero [31m±À[m:¦]¬°¥L¬O§Ñ°O¦P®É¶¡­n¤ñ¦W¦r¬O¤£¤À¤j¤p¼gXD                 0806 20:44
+¡÷ [36msa072686 [31m±À[m:°Ú°Ú ac«á§Ñ¤F¨Ó»¡|||                                 0806 20:44

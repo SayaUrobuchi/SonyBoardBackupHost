@@ -1,0 +1,184 @@
+§@ªÌ: sa072686 (­Ë¼Æ¡C) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 381
+®É¶¡: 2008/01/24 Thu 16:08:34
+
+¸£´ÝÃD¤@ÃD¡A¼Ð·Çªº¡uÃD¥Ø­n§A°µ¤°»ò¡A·Ó°µ´N¹ï¤F¡vµM«á§A´N·|ACªºÃD¥Ø
+
+ÃD¥Ø¦³ÂIªø¡A¼g°_¨Ó­Ë¬OÁÙ¦n¡AÁÙ¯à»´ÃP±±¨î¦b¦Ê¦æ¤º¡C
+
+----
+
+Making the Grade
+
+°µ¤À¼Æ
+
+Mr. Chips has a simple grading scheme that lends itself to automated
+computation. You will write a program that will read in his students' grades,
+bonus points, and attendance record, compute the student's grades, and output
+the average grade point of the class.
+
+Chips ¥ý¥Í¦³¤@­ÓÂ²³æªº¦¨ÁZªí¡A§Æ±æ¯à¦Û°Ê³B²z¤À¼Æ¡C§A±N­n¼g­Óµ{¦¡¡A
+
+Åª¤J¥L¯Z¤W¾Ç¥Íªº¦¨ÁZ¡B¥[¤À¥H¤Î¥X¯Ê®u°O¿ý¡AµM«á¨M©w³o­Ó¾Ç¥Íªº¦¨ÁZ¡A
+
+¨Ã¿é¥X³o­Ó¯Zªº¥­§¡¦¨ÁZ¡C
+
+Mr. Chips grades as follows. All tests are based on 100 points and all test
+grades are between 0 and 100 points. If he has given more than 2 tests then
+he will drop the lowest test grade for each student before computing student
+averages. After computing student averages he computes the overall class
+average (mean) and standard deviation (sd). The cutoff points for grades are:
+an average tex2html_wrap_inline53 one sd above the mean is an A, an average
+tex2html_wrap_inline53 the mean but < one sd above the mean is a B, an
+average tex2html_wrap_inline53 one sd below the mean but < the mean is a C,
+and an average < one sd below the mean is a D.
+
+Chips ¥ý¥Í¬O³o»ò­p¤Àªº¡G©Ò¦³ªº¦Ò¸Õº¡¤À¬° 100¡A¥B¤À¼Æ§¡¤¶©ó 0 ¨ì 100 ¤À¤§¶¡¡C
+
+¦pªG¥Lµ¹¤F¶W¹L¨â¦¸¦Ò¸Õ¡A«h¥L·|¦b­pºâ¾Ç¥Í¥­§¡¤À¼Æ¤§«e¡A±N³Ì§Cªº¤@¦¸¦Ò¸Õ¤À¼Æ
+
+µ¹±Ë±ó±¼¡C¦b­pºâ§¹¨C­Ó¾Ç¥Íªº¥­§¡¤À¼Æ«á¡A¥L·|­pºâ¯Z¯Å¥­§¡¤À¼Æ¡]mean¡^
+
+¥H¤Î¼Ð·Ç®t¡]sd¡^¡C¤À¬q¼Ð·Ç¦p¤U¡G¦pªG¥­§¡¤j©óµ¥©ó¯Z¥­§¡¥[¼Ð·Ç®t
+
+¡]average >= mean + sd¡^«h±o¨ì A¡C¦pªG¥­§¡¤p©ó¯Z¥­§¡¥[¼Ð·Ç®t¡A¦ý¤j©óµ¥©ó¯Z¥­§¡
+
+¡]mean <= average < mean + sd¡^«h±o¨ì B¡C¦pªG¥­§¡¤p©ó¯Z¥­§¡¡A¦ý¤j©óµ¥©ó
+
+¯Z¥­§¡´î¼Ð·Ç®t¡]mean - sd <= average < mean¡^«h±o¨ì C¡C¦pªG¥­§¡¤p©ó¯Z¥­§¡
+
+´î¼Ð·Ç®t¡]average < mean - sd¡^«h±o¨ì D¡C
+
+For every two bonus points accrued by a student Mr. Chips increases their
+computed average by 3 percentage points. Thus, if students have one bonus
+point, their averages are not bumped at all. If they have 4 or 5 bonus
+points, their averages are bumped by 6 percentage points, and so on. Bumping
+of averages based on bonus points takes place after the grade cutoff points
+have been determined.
+
+¨C¨â­Ó¥[¤ÀÂI¼Æ¥i¥H¼W¥[¤T¤Àªº¥­§¡¤À¼Æ¡C¦]¦¹¡A¦pªG¤@­Ó¾Ç¥Í¾Ö¦³¤@­Ó¥[¤ÀÂI¼Æ¡A
+
+«h¥Lªº¥­§¡¤À¼Æ¨Ã¤£·|¦³¥ô¦ó§ïÅÜ¡C­Y¥L­Ì¾Ö¦³¥|©Î¤­­Ó¡A«h¥­§¡¤À¼Æ¥i¥H¼W¥[¤»¤À¡A
+
+¨Ì¦¹Ãþ±À¡C¥[¤ÀÂI¼Æªº­pºâÀ³¦b­pºâ¤À¬q¼Ð·Ç¤§«á¡C
+
+Finally, for every 4 absences, students lose one letter grade (from A to B, B
+to C, C to D, and D to F). For example, if they have 9 absences they will
+lose two letter grades. Students cannot get a grade lower than F. If students
+have perfect attendance, they gain one letter grade; although they cannot get
+a grade higher than an A. During his computations, Mr. Chips always rounds
+his results to the nearest tenth. In summary, Mr. Chips drops a student's
+lowest test grade if more than 2 tests have been administered, computes each
+student's average, computes the class mean and sd, adjusts the students'
+averages based on bonus points, determines the student's unadjusted grades,
+and then adjusts the grades based on attendance.
+
+³Ì«á¡A¨C¥|¦¸¯Ê®u±N·|¦©¥h¤@­Óµ¥¯Å¡]±q A ¨ì B¡A±q B ¨ì C¡A±q C ¨ì D¡A©Î¬O
+
+±q D ¨ì F¡^¡CÁ|¨Ò¡A¦pªG¥L­Ì¾Ö¦³¤E¦¸¯Ê®u°O¿ý¡A«h±N·|³Q¦©¥h¨â­Óµ¥¯Å¡C
+
+¾Ç¥Íªºµ¥¯Å¤£·|§C©ó F¡C¦pªG¥L­Ì¾Ö¦³§¹¬üªº¥X®u°O¿ý¡A«h¥i¥H¼W¥[¤@­Óµ¥¯Å¡A
+
+ÁöµM¥L­Ì¤£¯à°÷±o¨ì¤ñ A §ó°ªªºµ¥¯Å¡C**¡]³o¦æ¬Ý¤£¤ÓÀ´¡A§Ú¬OµL±ø¥ó±Ë¥hACªº¡K¡^**
+
+Á`¦Ó¨¥¤§¡AChips ¥ý¥Í¦b¦³¨â¦¸¥H¤W¦Ò¸Õ®É¡A·|¥ý±N¨C­Ó¾Ç¥Í³Ì§Cªº¦¨ÁZ±Ë±ó±¼¡A
+
+µM«á­pºâ¨C­Ó¾Ç¥Íªº¥­§¡¤À¼Æ¡A¦A­pºâ¯Z¥­§¡¤Î¼Ð·Ç®t¡A¦A¨Ì·Ó¥[¤ÀÂI¼Æ½Õ¾ã¾Ç¥Íªº
+
+¥­§¡¤À¼Æ¡A¦A¨M©w¨C­Ó¾Ç¥Í¥¼½Õ¾ã«eªºµ¥¯Å¡A³Ì«á¨Ì¥X¯Ê®u°O¿ý½Õ¾ãµ¥¯Å¡C
+
+The average grade point (avg grd pnt) of a class is determined by using 4
+points for each A, 3 points for each B, 2 points for each C, 1 point for each
+D, and 0 points for each F. The total points for the class are added together
+and divided by the number of students in the class (which is always at least
+2).
+
+¤@­Ó¯Zªº¥­§¡¦¨ÁZ¡]avg grd pnt¡^¨Ì·Ó¥H¤U¤è¦¡­pºâ¡G¨C­Ó A ¥|¤À¡A¨C­Ó B ¤T¤À¡A
+
+¨C­Ó C ¨â¤À¡A¨C­Ó D ¤@¤À¥H¤Î¨C­Ó F ¹s¤À¡AµM«á§â¨C­Ó¯Zªº©Ò¦³¤Hªº¤À¼Æ¥[°_¨Ó¡A
+
+µM«á°£¥H¾Ç¥Í¼Æ¥Ø¡]¦Ü¤Ö¨â­Ó¡^¡C
+
+The standard deviation sd of a list of numbers tex2html_wrap_inline65 is:
+
+¼Ð·Ç®tªº­pºâ¤è¦¡¦p¤U¡G
+
+sd = sqrt(sum((average[i]-mean)^2)/n)
+
+If the calculated standard deviation is less than 1 then Mr. Chips uses 1 in
+place of the standard deviation for grade calculation.
+
+¦pªG¼Ð·Ç®t¤p©ó 1¡A«h¨Ï¥Î 1 ¥N´À¼Ð·Ç®t§@¬°­pºâ¦¨ÁZ¤§¥Î¡C
+
+Suppose Mr. Chips has 5 students and has given 3 tests. The following table
+shows the grades, number of bonuses and days absent, plus the computed
+average (with lowest test dropped), the adjusted average (with bonus), the
+unadjusted grade and the adjusted grade (with attendance). The mean and sd
+used to determine letter grade cutoffs are 69.0 and 20.1. For example, for an
+unadjusted B, one's average must be greater than or equal to 69.0 and less
+than 89.1.The avg grd pnt is 2.2
+
+°²³] Chips ¥ý¥Í¦³¤­­Ó¾Ç¥Í¡A¨Ã¥Bµ¹¤F¤T¦¸¦Ò¸Õ¡C«h¥H¤Uªºªí®æ±N¦C¥X¤À¼Æ¡B¥[¤ÀÂI¼Æ
+
+¥H¤Î¯Ê®uªº¤é¤l¡A­pºâ«áªº¥­§¡¡]¤w±Ë¥h¤À¼Æ³Ì§Cªº¤@¦¸¡^¡Aºâ¥X¥Î¥[¤ÀÂI¼Æ½Õ¾ã«á¤§
+
+¥­§¡¤À¼Æ¡A¦A­pºâ¥¼½Õ¾ã¹Lªºµ¥¯Å¥H¤Î§Q¥Î¥X¯Ê®u°O¿ý½Õ¾ã«á¤§µ¥¯Å¡C¥Î¨Ó¨M©w
+
+¤À¬q¼Ð·Ç¤§¯Z¥­§¡¤Î¼Ð·Ç®t¤À§O¬° 69.0 ¤Î 20.1¡CÁ|­Ó¨Ò¡A¥¼½Õ¾ã«áªº B ¤À¼Æ¥²¶·
+
+¤j©óµ¥©ó 69.0 ¥B¤p©ó 89.1¡C¯Z¥­§¡¦¨ÁZ¡]avg grd pnt¡^¬° 2.2¡C
+
+Input
+
+¿é¤J
+
+The first line contains an integer N between 1 and 10 describing how many of
+Mr. Chip's classes are represented in the input. The first line for each
+class contains two integers S and T. S is the number of students in the class
+(1 < S < 31) and T is the number of tests the students took (1 < T < 11). The
+next S lines will each represent one student in the class. A student line
+first lists each of their T test scores as integers between 0 and 100
+inclusive, and then lists their bonus points and their number of absences.
+
+²Ä¤@¦æ¥]§t¤@½d³ò¦b 1 ¦Ü 10 ªº¾ã¼Æ N¡Aªí¥Ü Chips ¥ý¥Í¦³´X­Ó¯Z¡C¨C­Ó¯Zªº²Ä¤@¦æ
+
+·|¦³¨â­Ó¾ã¼Æ S ¤Î T¡CS ¬O¾Ç¥Í¼Æ¡AT ¬O¦Ò¸Õ¼Æ¡C±µ¤U¨Óªº S ¦æ¨C¦æ¥Nªí¤@­Ó¾Ç¥Í¡C
+
+¨C¦æ«e T ­Ó¼Æ¦r¬°¸Ó¾Ç¥Í T ¦¸¦Ò¸Õªº¤À¼Æ¡A¬° 0 ¦Ü 100 ¶¡¡]§tÀY§À¡^ªº¾ã¼Æ¡C
+
+±µµÛ¬O¥L­Ìªº¥[¤ÀÂI¼Æ¥H¤Î¥L­Ì¯Ê®u¦¸¼Æ¡C
+
+Output
+
+¿é¥X
+
+There should be N+2 lines of output. The first line of output should read
+MAKING THE GRADE OUTPUT. There will then be one line of output for each of
+Mr. Chip's classes showing that class's average grade point. The final line
+of output should read END OF OUTPUT.
+
+¥²¶·¦³ N+2 ¦æ¿é¥X¡C²Ä¤@¦æ¬° MAKING THE GRADE OUTPUT¡A±µµÛ¨C­Ó¯Z¿é¥X¤@¦æ
+
+¥]§t¸Ó¯Z¯Åªº¥­§¡¦¨ÁZ¡C³Ì«á¤@¦æ¥²¶·¬° END OF OUTPUT¡C
+
+----
+
+¤°»ò¡H­n¸Ñªk¡H
+
+ÃD¥Ø¥»¨­´N¬O¸Ñªk¡C
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡¶ [1;30msa072686 [;33m§ï[m@[m2008/02/06 Wed 12:09:31[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2008/02/06 Wed 12:33:09[m

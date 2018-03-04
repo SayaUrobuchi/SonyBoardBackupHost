@@ -1,0 +1,35 @@
+§@ªÌ: seanwu (®ü®¦µL) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11201
+®É¶¡: 2007/08/11 Sat 16:58:37
+
+11201  The Problem of the Crazy Linguist
+
+²{¦b©w¸q¤@ºØ¦r¦êw=x1,x2,x3...xn¡A
+
+¥¦ªº²Ä©_¼Æ­Ó¦r¤¸¤@©w¬O¤l­µ¡A²Ä°¸¼Æ­Ó¦r¤¸¤@©w¬O¥À­µ
+
+©w¸qSBC(w) = sum[ i*P(xi) ]  (i=1..n)
+
+¨ä¤¤P(x)¤¤ªºx¥Nªí¬Y­Ó¦r¤¸¡AP(x)ªº­È¨Ó¦ÛÃD¥Ø¤¤©Òªþªºªí
+
+
+²{¦bµ¹§A¤@­Ó¦r¦ês=x1,x2,x3...,xn¡A§A¥i¥Hºâ¥X¥¦ªºSBC(s)ªº­È
+
+°Ý¥¦¤ñ ¡u©Ò¦³¥Hx1¶}ÀY¡Bªø«×¬°n¡B²Å¦X¤W­z©w¸q¡vªº¦r¦êSBCªº¥­§¡­È ¤j©Î¤p
+
+
+¨Ò¦pµ¹ s=ba ¥¦ªºSBC(s)=26.480¡A²Å¦Xªº¦r¦ê¦³
+
+ba,be,bi,bo,bu
+
+¨ä¥­ÉÊ­È¬° 19.448¡A26.480>19.448 ¦]¦¹¿é¥X "above or equal"
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m203.68.21.146 (¨S¦³¬G¶m)[m
+
+¡÷ [36mgloompisces [31m±À[m:ÁÂÁÂ                                              0811 22:37
+¡÷ [36mseanwu [31m±À[m:³á¹ï¤F¡A¦¹ÃDDP                                         0813 11:59

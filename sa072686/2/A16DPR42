@@ -1,0 +1,25 @@
+§@ªÌ: suhorng (»{¯u) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 950
+®É¶¡: 2010/11/12 Fri 15:28:02
+
+§Ú­Ì©w¸q¤@­Óªø«×¬° N ªº 0-1 ¦r¦ê¬° (N, K, M) ªº Tweedle number ¦pªG
+
+1. ³o­Ó¦r¦ê¶}ÀY¬O '1'
+2. ³o­Ó¦r¦ê­è¦n¤À¦¨ K ¶ô (³sÄòªº¤@¦ê '1'¡B'0' ¬°¤@¶ô)
+3. ¦r¦ê¤¤ªº¨C¤@¶ôªø«×³£¤£¶W¹L M
+
+µ¹©w N, K, M ¥H¤Î³\¦h Tweedle number¡A
+
+¹ï©ó©Òµ¹ªº¨C­Ó Tweedle number¡A¿é¥X¥¦¦b (N, K, M) ªº Tweedle numbers ¤¤
+
+¨Ì¦r¨å§Ç±Æ±Æ²Ä´X¡C
+
+1¡ØN, K, M¡Ø33.
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by suhorng from [m [1m210.71.78.241 (¥x¥_¤@¤¤)[m
+

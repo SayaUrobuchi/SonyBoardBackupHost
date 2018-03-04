@@ -1,0 +1,24 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 718
+®É¶¡: 2007/12/29 Sat 16:39:00
+
+718 - Skyscraper Floors
+
+²{¦b¦³¤@´É¤j¼Ó (°ª«×F<50000000)¡A¦³ E ³¡¹q±è¡A
+
+¨C®y¹q±è¬O±q¤@¯S©w¼Ó¼h¶}©lY¡A©¹¤W¨CX¼Ó³£·|°±
+
+¨Ò¦p(X,Y)=(4,7)¡A«h³o³¡¹q±è·|°±ªº¼Ó¼h¦³ 7,11,15,19,23....
+
+µ¹§A F, E, A, B¡A°Ý§A¥i¤£¥i¯à±qA¼Ó·f¨ìB¼Ó (¥i¥H³z¹L¦h³¡¹q±èÂà¹F)
+
+
+<Hint  E>
+[30;40m  X¤Ó¤pª½±µ¼ÒÀÀ·|TLE¡AX¤Ó¤j¥Îºâªº·|overflow¡A©Ò¥H...  [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-150.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+

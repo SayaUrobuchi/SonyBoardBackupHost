@@ -1,0 +1,196 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [¨ç¦¡] memory.h
+®É¶¡: 2009/07/08 Wed 18:46:57
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [¨ç¦¡] memory.h
+®É¶¡: 2009/07/08 Wed 18:44:07
+
+§@ªÌ: sa072686 (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [¨ç¦¡] memory.h
+®É¶¡: 2009/07/08 Wed 18:29:23
+
+¡° ¥»¤åÂà¿ý¦Û [Programming] ¬ÝªO
+
+§@ªÌ: gba356 (º¿§Q¼Ú) ¯¸¤º: Programming
+¼ÐÃD: [¨ç¦¡] memory.h
+®É¶¡: 2008/02/16 Sat 17:53:07
+
+[m
+[m    ¦b memory.h ¤¤¡A¦³³\¦h¥H²Õ¦X»y¨¥¹ê§@ªº¨ç¦¡¡A¥i¨Ñ§Ú­Ì¹ï°O¾ÐÅé°µ§Ö³tªº¹Bºâ¡C
+[m
+[m¨Ò¦p¡A½Æ»s¡B²¾°Ê¡B¤ñ¸ûµ¥¡C¥H¤U±N¤¶²Ð memset(), memcpy(), memcmp(), memmove()¡C
+[m
+[m    ¥t¥~¡A¤Þ¤J <iostream> ©Î <string>/<string.h> ¤]¥i¥H¨Ï¥Î¥H¤U¨ç¦¡¡A¦ý¬O¤Þ¤J
+[m
+[m<memory.h> ·|¤ñ¥H¤W¨â­Ó§ó¨ã¦³¥iÅª©Ê¡C¨Ò¦p¬°¤F¨Ï¥Î memset() ¦Ó¤Þ¤J <string> ´N
+[m
+[m·|®e©öÅý¤H¤@ÀYÃú¤ô¡C
+[m
+[m
+[m[1mmemset() - memory-set[m
+[m
+[m    memset() ¬O¥|­Ó¨ç¦¡¤¤³Ì±`¨Ï¥Îªº¨ç¦¡¡C³o­Ó¨ç¦¡¥i¥H§Ö³tªº±N¤@¶ô°O¾ÐÅé¶ñº¡±ý
+[m
+[m«ü©wªº¼Æ­È¡C¥Îªk¦p¤U¡G
+[m
+[m[1m    memset ( void * ptr, int value, size_t num );[m
+[m
+[m    ¨ä¤¤ ptr ¬°±ý«ü©wªº°}¦C¦WºÙ¡A value ¬°±ý«ü©w­È¡A¥H 1 byte ¬°³æ¦ì¡Anum ¬°
+[m
+[m±ý¶ñº¡¤§¦ì¤¸²Õ¼Æ¡C
+[m
+[m¨Ò¦p¡A
+[m
+[m    char s[N],t[N];
+[m
+[m    memset( s,'0',sizeof(char)*N );
+[m
+[m³o¼Ë¤@¨Ó¡As[N] ªº¤º®e´N·|¥þ³¡³Q¼g¤J¬° '0' ¤F¡C¥t¥~¡A¤]¥i¥H³o¼Ë¼g¡G
+[m
+[m    memset( s,'0',sizeof(s) );
+[m
+[m¨âªÌ¨ã¦³¤£¦Pªº·N¸q¡A«eªÌ¬°ÈÐ±N s[] «e N ­Ó®æ¤l¶ñ¤J '0' ÈÐ¡A«áªÌ¬°ÈÐ±N s[] ¥þ³¡
+[m
+[m¼g¤J¬° '0' ÈÐ¡C¦Ó§Ú¤ñ¸û°¾¦n«áªÌ¡A¦]¬°­Y¥u·Q¼g¤J«e¤T¦ì¡A±N N §ï¦¨¤T§Y¥i¡C
+[m
+[m    ¥t¤@¤è­±¡A³o­Ó¨ç¦¡¤]¥i¥H®³¨Ó¶ñ¥R int µ¥¨ä¥L«¬ºA°}¦C¡C¦ý¥Ñ©ó value ¬O
+[m
+[m¥H byte ¬°³æ¦ìªº¡A¦Ó int ¤j¤p¬° 4 ­Ó bytes ¡A¦]¦¹ [1mÈÐ°£¤F¶ñ¤J 0 ©Î -1 ¥H¥~¡A¨ä¥L[m
+[m
+[m³£·|¥X²{¹w´Á¥~ªº­È¡CÈÐ
+[m
+[m    ¨Ò¦p¡G
+[m
+[m    int visited[N];
+[m
+[m    memset( visited,0,sizeof(int)*N );
+[m
+[m    ´N¬O±N visited[] ¥þ³¡¼g¤J¹s¡A¥i¥Î¨Óªí¥Ü¡A¥þ³¡ÂI¥¼«ô³X¹L¡A¦]¬°¹s¥i¥Hªí¥Ü
+[m
+[mfalse ¡C
+[m
+[m    ¦Ó memset( visited,-1,sizeof(int)*N ); «h¥i¥H±N¥þ³¡«ü©w¬° -1 ¡A¤]´N¬O true
+[m
+[m¡A¦]¬°¦b C/C++ ¤¤¡A¤£¬O¹sªº¼Æ­È³£³Qµø¬° true ¡C
+[m
+[m
+[m
+[m[1mmemcpy() - memory-copy[m
+[m
+[m    memcpy() ¥\¥Î¦p¦P¨ä¦W¡A½Æ»s¡C°£¤F½Æ»s¤§¥~¡A¬Y¨Ç¤H³ßÅw¥H memcpy() ¨Ó§¹¦¨³æ¯Â
+[m
+[mªº·h°Ê°Ê§@¡C³o¦b¤@¯ë±¡ªp¤U¬O¥i¥Hªº¡A¦ý¬O[1m ÈÐ¦b°_ÂI°O¾ÐÅé©M²×ÂI°O¾ÐÅé­«Å|®É¡A·|[m
+[m
+[mµo¥Í¿ù»~ÈÐ¡C¦]¦¹­Y¥u¬O³æ¯Âªº·h°Ê¡A½Ð¨Ï¥Î memmove() ¡C
+[m
+[m¨Ï¥Î¤èªk¦p¤U¡G
+[m
+[m[1m    memcpy ( void * destination, const void * source, size_t num );[m
+[m
+[m    ¨ä¤¤ destination ¬°²×ÂI°O¾ÐÅéªº°}¦C¦WºÙ¡Asource ¬°°_ÂI°O¾ÐÅéªº°}¦C¦WºÙ¡A
+[m
+[m¦Ó num ¥Nªí»Ý½Æ»sªº¦ì¤¸²Õ¼Æ¡C
+[m
+[mÁ|¨Ò¦p¤U¡G
+[m
+[m    char source[N]="Sample string.",destination[N];
+[m
+[m    memcpy( destination,source,sizeof(char)*N );
+[m
+[m³o»ò¤@¨Ó¡Adestination[N] ªº¤º®e´N·|©M source[N] §¹¥þ¤@¼Ë¤F¡C©M strcpy() ¤£¦Pªº
+[m
+[m¬O¡Astrcpy() ¥u·|½Æ»s¦b¦r¦êµ²§À '\0' «e­±ªº¦r¤¸¡A¦Ó memcpy() ·|³sµ²§À«á­±ªº¤º
+[m
+[m®e¤@°_½Æ»s¡C
+[m
+[m
+[m[1mmemmove() - memory-move[m
+[m
+[m    memmove() ªº¥Îªk©M memcpy() §¹¥þ¬Û¦P¡A¬Û²§ªº¦a¤è¦b©ó¡Amemmove() ¥i¯à·|·´¥h
+[m
+[m°_ÂI°O¾ÐÅé°Ï¶ôªº¤º®e¡A¦Ó memcpy() ¤£·|¡C¥t¥~¤@­Ó¤£¦Pªº¦a¤è¬O¡Amemmove() ¥i¥H³B
+[m
+[m²z°_ÂI©M²×ÂI°O¾ÐÅé°Ï¶ô­«Å|ªº±¡ªp¡C¨Ï¥Î¤èªk¦p¤U¡G
+[m
+[m[1m    memmove ( void * destination, const void * source, size_t num );[m
+[m
+[mÁ|¨Ò¨Ó»¡¡A­Y·Q±N¥H¤U¦r¦ê s[] ¤¤ªº "TRASH-" «e­±³o¬q¦h¾lªº¦r¦ê¥h±¼ªº¸Ü¡A«K¥i¥H³o
+[m
+[m¼Ë¼g¡A¨ä¤¤ &s[0] ¬° "Sample" ±ý²¾¨ìªº²×ÂI s[0]¡A s[6] ¬° "Sample" ­ì¨Óªº¦ì¸m¡A
+[m
+[m¦Ó²¾°Ê¤C­Ó¦ì¤¸²Õ«h¬O "Sample" ¥[¤Wµ²§À '\0' ªº¤j¤p¡G
+[m
+[m    char s[N]="TRASH-Sample";
+[m
+[m    memmove( &s[0],&s[6],sizeof(char)*7 );
+[m
+[m³o»ò¤@¨Ó¡A­Y¿é¥X s[] ªº¸Ü¡A«K¥i¥H±o¨ì "Sample" ¤F¡C
+[m
+[m
+[m[1mmemcmp() - memory-compare[m
+[m
+[m    memcmp() ¥i¥H§Ö³tªº¤ñ¸û¨â¶ô°O¾ÐÅé¬O§_¬Û¦P¡A¥Ñ©ó¬O¥H²Õ¦X»y¨¥¹ê°µ¦Ó¦¨¥B¤£¥²
+[m
+[m¤ñ¸û¦r¨å§Ç¤j¤p¡A¦]¦¹­Y¥u¬O³æ¯Â¤ñ¸û¬O§_¬Ûµ¥¡A·|¤ñ strcmp() §Ö¤W³\¦h¡C
+[m
+[m    ©M strcmp() ¤@¼Ë¡A¦^¶Ç¹sªí¥Ü¬Ûµ¥¡A¨ä¾lªí¹F¤£µ¥¡C
+[m
+[m¥Îªk¦p¤U¡G
+[m
+[m[1m    memcmp ( const void * ptr1, const void * ptr2, size_t num );[m
+[m
+[m    ¨ä¤¤ ptr1, ptr2 ¬°±ý¤ñ¸ûªº¨â°}¦C¦WºÙ¡A¦Ó num ¬°¤j¤p¡C
+[m
+[mÁ|¨Ò¦p¤U¡A½d¨Òµ{¦¡¥i´ú¸Õ memcpy()/memmove() ¬O§_·|·´¥h°_ÂI°O¾ÐÅé°Ï¶ôªº¤º®e¡C
+[m
+[m
+[m    char source[N]="SampleString";
+[m
+[m    char destination[N];
+[m
+[m
+[m    memcpy( destination,source,sizeof(char)*N );        /* ´ú¸Õ memcpy() */
+[m
+[m    if(  memcmp( source,destination,sizeof(char)*N )==0  )
+[m        cout<<"Equal."<<endl;
+[m    else
+[m        cout<<"Unequal."<<endl;
+[m
+[m
+[m    memset( destination,'\0',sizeof(char)*N );
+[m
+[m        /* Âk¹s destination[] */
+[m
+[m
+[m
+[m    memmove( destination,source,sizeof(char)*N );       /* ´ú¸Õ memmove() */
+[m
+[m    if(  memcmp( source,destination,sizeof(char)*N )==0  )
+[m        cout<<"Equal."<<endl;
+[m    else
+[m        cout<<"Unequal."<<endl;
+[m
+[m    ¦Óµ²ªG¬O¡A¨âªÌ³£¤£·|·´¥h¡C
+[m
+[m
+[m
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40mgba356      	  		      	[1;30mfrom_[;32;40m125.232.233.174(HiNet)[m
+¡÷ [36mAikoSenoo [31m±À[m¡G±À¤@­Ó ¦n¸Ô²Ó¡¬¡¾`)                                  08/02/16
+¡÷ [36mghostleader [31m±À[m¡G¦n´ÎªºÁ¿¸q  §Þ¯à²ß±o  §V¤O½m²ß                     08/02/16
+¡÷ [36mgba356 [31m±À[m¡Gµo¦b¾aÃä Homework28th ªº­ì¤å³£¨S¤H¬Ý...                 08/02/16
+¡÷ [36msa072686 [31m±À[m¡G¾Ç§Ì¬ã¨s±o¯u³zº«XD                                    08/02/16
+¡÷ [36megg123 [31m±À[m¡G­ø...                                                   08/02/17
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:46:57 [m
+£p [1;30myuscvscv [0;36mÂà[m:¨ì [yuscvscv] ¬ÝªO¡A¤_ 2009/07/17 Fri 09:42:49 [m
+£p [1;30malfar01 [0;36mÂà[m:¨ì [alfar01] ¬ÝªO¡A¤_ 2012/01/16 Mon 22:32:30 [m

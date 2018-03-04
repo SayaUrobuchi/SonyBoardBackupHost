@@ -1,0 +1,85 @@
+§@ªÌ: gloompisces (§V¤O°µ¨ì³Ì¦n¡C) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]10688
+®É¶¡: 2006/11/13 Mon 23:01:05
+
+ACM 10688 : The Poor Giant
+
+¦b¤@­Ó®à¤l¤W¦³nÁûÄ«ªG¡A²ÄiÁû­«k+i (1<=i<=n)
+
+ex:k=3,n=4®É¡A¦³¥|ÁûÄ«ªG¡A­«¶q¤À§O¬O4,5,6,7
+
+¦b³o¨ÇÄ«ªG¤¤¡A¥u¦³¤@­Ó¬O²¢ªº¡A¤ñ³oÁû­«ªº³£¬O»Äªº¡A¤ñ³oÁû»´ªº³£¬O­Wªº
+
+²{¦b¦³¤@­Ó¥¨¤H·Q§ä¥X²¢ªºÄ«ªG¬O­þ¤@Áû¡A½Ð°Ý¥Lªº"­Ë·°«ü¼Æ"³Ì¤p¬O¦h¤Ö?
+
+­Ë·°«ü¼Æ«ç»òºâ©O? °²³]²{¦b¦³4Áû­«¶q¬O1¡B2¡B3¡B4ªºÄ«ªG
+
+¦pªG¥¨¤H¥ý¦Y²Ä¤GÁû
+
+(1)¬O»Äªº => ²¢ªº¬O²Ä¤@Áû
+
+(2)¬O²¢ªº => ²¢ªº¬O²Ä¤GÁû
+
+(3)¬O­Wªº => ¥L­n¦A¦Y²Ä¤TÁûÄ«ªG¤~¯à¤À¥X­þÁû¬O²¢ªº
+
+¦¹®É #1=sweet : 2
+     #2=sweet : 2
+     #3=sweet : 2+3=5
+     #4=sweet : 2+3=5
+        total = 14
+
+¤]´N¬O¥Lªº­Ë·°«ü¼Æ¬O14
+
+¦ý¦pªG¥L¥ý¦Y²Ä¤@Áû¡A¦³¿ù¦A¦Y²Ä¤TÁû©O?
+
+§AÀ³¸Ó¯à±À¥X
+
+     #1=sweet : 1
+     #2=sweet : 1+3=4
+     #3=sweet : 1+3=4
+     #4=sweet : 1+3=4
+        total = 13
+
+¥Lªº­Ë·°«ü¼Æ¥u¦³13¡A¨Æ¹ê¤W¡A³o¤]¬O³Ì¤pªº­Ë·°«ü¼Æ
+
+´ú¸Õ¸ê®Æªº²Ä¤@¦C¦³¤@­Ó¼Æ¦rt¡A¬O´ú¸Õ¸ê®ÆªºÁ`¦C¼Æ (t<=100)
+
+±µ¤U¨Óªºt¦æ¦U¦³¨â­Ó¼Æn,k (1<=n+k<=500)
+
+Sample Inputs:
+
+5
+2 0
+3 0
+4 0
+5 0
+10 20
+
+Sample Outputs:
+
+Case 1: 2
+Case 2: 6
+Case 3: 13
+Case 4: 22
+Case 5: 605
+
+
+[1;30m//How nice a problem it is![m
+--
+[1;35mI always bring the [41mlovely smile[m [1;35mwhich you gave[m
+[1;36;44mGoing ahead to find my [5;33mlosing precious[m
+[1;37;47mIf the tears slide down because of my careless[m
+[1;31mI will use the hand which you held to wipe off[m
+                                            [1;32;42mAngla Chung --  Losing Precious[m    [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.116.144.53 (¤£¥¢±Ñ¤j¾Ç)[m
+
+¡÷ [36mPG [31m±À[m:À³¸Ó¬OHow nice a problem©Î¬OWhat a nice problem            1114 08:29
+¡÷ [36mPG [31m±À[m:                        \it is    (©ñ¦b"©Î¬O"«e­±)         1114 08:30
+¡÷ [36msa072686 [31m±À[m:¦L¶H¤¤¬OHow nice the problem is....                  1114 12:52
+¡÷ [36mgloompisces [31m±À[m:= =....§Úªº­^¤å...                                1114 21:48
+¡¶ [1;30mgloompisces [;33m§ï[m@[m2006/11/14 Tue 21:49:57[m

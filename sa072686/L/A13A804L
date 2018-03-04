@@ -1,0 +1,33 @@
+§@ªÌ: chensc (¤£ÅU½Ò·~ªº°ª¤sçx) ¬ÝªO: sa072686
+¼ÐÃD: [Âà¿ý] [µ§°O] ¦b RoR ¸Ì¨Ï¥Î utf-8
+®É¶¡: 2007/07/23 Mon 09:12:54
+
+¡° ¥»¤åÂà¿ý¦Û [chensc] ¬ÝªO
+
+§@ªÌ: chensc (¤£ÅU½Ò·~ªº°ª¤sçx) ¬ÝªO: chensc
+¼ÐÃD: [µ§°O] ¦b RoR ¸Ì¨Ï¥Î utf-8
+®É¶¡: 2007/07/23 Mon 09:12:14
+
+Rails¤¤¤å°ÝÃD¸Ñ¨M(UTF-8)
+
+[¸ê®Æ®w¶Ã½X]
+©ódatabase.yml¤ºªº¤T­Ó¸ê®Æ®w³£¥[¤J
+encoding: utf8
+
+[¦r¦êµô¤Á°ÝÃD]
+¦pªG¨Ï¥Î¹³¬Ouser.name[0,10]¡A³Ì«á¤@­Ó¤¤¤å¦r¦³·¥¤jªº¥i¯à³Æµô¤Á¥¢»~¦Ó¶Ã½X
+environment.rb
+²Ä¤@¦æ¥[¤J
+$KCODE = 'u'
+(®ÄªGµ¥¦P©óRuby -Kuªº°õ¦æ¤è¦¡)
+¤§«á±Nuser.name[0,10]§ï¦¨user.name.chars[0,10]
+¥i³ß¥i¶P¥i³ß¥i¶P
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by chensc from [m [1m192.168.4.14 (¥x¯T¤@¤¤®áÆF¾j)[m
+
+£p [1;30mchensc [0;36mÂà[m:±q [chensc] ¬ÝªO¡A¤_ 2007/07/23 Mon 09:12:53 [m
+£p [1;30msa072686 [0;36mÂà[m:¨ì [¬YÁôÂÃ] ¬ÝªO¡A¤_ 2007/07/23 Mon 09:20:56 [m

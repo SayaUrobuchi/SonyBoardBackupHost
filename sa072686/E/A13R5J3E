@@ -1,0 +1,40 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 515
+®É¶¡: 2008/02/13 Wed 18:54:38
+
+515 - King
+
+
+¤@­Ó¦³N­Ó¼Æªº¾ã¼Æ§Ç¦C:
+
+a1, a2, a3, a4, ... , an
+
+µ¹§AN©M¤@¨Ç±ø¥ó¦¡¡A°Ý²Å¦X©Ò¦³±ø¥ó¦¡ªº§Ç¦C¦s¤£¦s¦b?
+
+±ø¥ó¦¡ªº§Î¦¡¦³¨âºØ:
+
+    x y "gt" z  =>  a(x) + a(x+1) + a(x+2) +...+ a(x+y) > z
+
+©Î  x y "lt" z  =>  a(x) + a(x+1) + a(x+2) +...+ a(x+y) < z
+
+
+¦pªG²Å¦X±ø¥óªºN¶µ¾ã¼Æ§Ç¦C¦s¦b¡A¿é¥X "lamentable kingdom"¡A
+
+¦pªG¤£¦s¦b¡A«h¿é¥X "successful conspiracy"
+
+
+<Hint  E>
+[30;40m ©w¸q s(x) = s(x-1)+a(x), s(0) = 0                                  [m
+[30;40m «h±ø¥ó¦¡"lt"¥i¼g¬° s(x+y)-s(x-1)<=(z-1)¡A"gt"¥i¥[¤W­t¸¹Âà¬°"lt"    [m
+[30;40m «Ø¥ß¤@­Ó¦³ n+1 ­ÓÂIªº¹ÏG¡A³»ÂI½s¸¹¬° 0~n                           [m
+[30;40m ¦pªG¦³±ø¥ó¦¡ s(v)-s(u)<=w¡A«hG¤¤¦s¦bÃä (u,v)=w                     [m
+[30;40m ¦pªG¹Ï¤¤¦³­t°é¡A«h§Ç¦C¤£¦s¦b¡A¤Ï¤§§Ç¦C¦³¸Ñ                         [m
+[30;40m (¹ï©ó(u,v)¦h­«Ãäªº³B²z¡A¥i¥Hª½±µ¨ú(u,v)=min(each w))               [m
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1mpc21-154.hwai.edu.tw.21.68.203.in-addr.arpa (¤¤µØÂå¨Æ¾Ç°|)[m
+

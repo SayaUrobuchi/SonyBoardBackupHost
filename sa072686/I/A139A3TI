@@ -1,0 +1,135 @@
+§@ªÌ: gloompisces (Àþ¶¡©M¥Ã»·) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 2007/2008 ACM International Collegiate Programming Contest
+®É¶¡: 2007/07/12 Thu 01:13:22
+
+2007/2008 ACM International Collegiate Programming Contest
+     University of Ulm Local Contest(ÃD¸¹11230~11238)
+
+
+
+
+Problem A: Annoying painting tool (11230)
+
+µ¹§A¤@­Ó n*m ªºªø¤è§Î¡A¨C¦¸§A¯à±N r*c ªº¤pªø¤è§Î´«ÃC¦â (0->1  1->0)
+
+( 1<=r<=n<=100 , 1<=c<=m<=100 )
+
+¨D±q¥þ³¡³£¬O0´«¦¨ÃD¥Ø­n¨D¤§¹Ï§Î³Ì¤Öªº¨B¼Æ¡A©ÎªÌ¿é¥X-1ªí¥ÜµLªk°µ¨ì
+
+
+
+
+Problem B: Black and white painting (11231)
+
+µ¹§A¤@­Ó n*m ªº´Ñ½L (8<=m,n<=40000)¡A²Ä¤T­Ó¼Æ¦r¬°¥k¤U¨¤¬O¶Â¦â(0)©Î¥Õ¦â(1)
+
+°Ý´Ñ½L¤¤¦³¦h¤Ö­Ó8*8¡A¥k¤U¨¤¬°¥Õ¦âªº´Ñ½L
+
+
+
+
+Problem C: Cylinder (11232)
+
+µ¹§A¤@±i w*h ªº¯È (1<=w<=h<=100)¡A§A¥²¶·§â¥L¤Á¦¨¨â¤ù(¤Á¤f©Mw¥­¦æ)
+
+¨ä¤¤¤@¤ùµô¥X¤@­Ó¶ê§Î¡A¥t¤@¤ùµô¥X¤@­Ó¶ê¬Wªº°¼­±(©M¨º­Ó¶ê§Î­n¦X±o°_¨Ó)
+
+¨D¦X°_¨Ó«á³o­Ó¶ê¬Wªº³Ì¤jÅé¿n
+
+
+
+
+Problem D: Deli Deli (11233)
+
+§A¥²¶·§â¤@¨Ç³æ¼Æ¦Wµü´«¦¨½Æ¼Æ¡AÀu¥ý¶¶§Ç¦p¤U
+
+(1) ¦pªG¦r¨å¦³³o­Ó¦r¡A¥H¦r¨å¬°·Ç
+
+(2) ­Yµ²§À¬O¤l­µ+y¡A¥hy+ies
+
+(3) ­Yµ²§À¬O"o", "s", "ch", "sh" ©Î "x"¡A¥[es
+
+(4) ¨ä¥L±¡ªp+s
+
+input ªº²Ä¤@¦æ¦³¨â­Ó¾ã¼Æ L ©M N (0 <= L <= 20, 1 <= N <= 100)
+
+¥Nªí¦r¨å¸Ì³æ¦rªº­Ó¼Æ©Minputªº­Ó¼Æ¡A¥t¥~³æ¦r§¹¥þ¬O¥Ñ¤p¼g¦r¥À²Õ¦¨
+
+
+
+
+Problem E: Expressions (11234)
+
+§A¥²¶·§â¤@´Ê¾ðªí¥Ü¥X¨Ó
+
+input¬O¤@¦êªø«×<=10000ªº¦r¦ê¡A¤p¼g¦r¥Àªí¥Ü³»ÂI¡A¤j¼g¦r¥À³sµ²¨â­Ó¤¸¯À
+
+ex: xyPzwIM        M            abcABdefgCDEF             F
+                  / \                                   /   \
+                 P   I                                 B     E
+                / \ / \                               / \   / \
+               x  y z  w                             a  A   d  D
+                                                       / \    / \
+                                                      b   c  e   C
+¿é¥X¶¶§Ç¦ü¥G¬O¥Ñ¥k¨ì¥ª¡A¥Ñ¤U¨ì¤W                                / \
+                                                               f   g
+
+
+
+
+Problem F: Frequent values (11235)
+
+¨C²Õ´ú¸ê¥H¨â­Ó¥¿¾ã¼Æ n,q ¶}ÀY(n,q<=100000)
+
+²Ä¤G¦æ¬On­Ó¼Æ¡Aµ´¹ï­È³£<=100000¡A¨Ã¥B¤w¸g±Æ¦¨»¼¼W¼Æ¦C
+
+±µ¤U¨Ó¦³q¦æ¡A¨C¦æ¦³¨â­Ó¼Æi©Mj¡A°Ý±q²Äi­Ó¼Æ¨ì²Äj­Ó¼Æ¤¤¡A¥X²{³Ì¦h¦¸ªº¼Æ¥X²{´X¦¸
+
+
+
+
+Problem G: Grocery store (11236)
+
+¦³¤@®aÂø³f©±½æªºªF¦è³£¬O0.01ªº­¿¼Æ¡A¨D©Ò¦³ªº¥|­Ó»ù¿ú¡A¥L­Ìªº©M<=20.00
+
+¥B¥L­Ìªº¿n=¥L­Ìªº©M¡A¨D©Ò¦³²Å¦X±ø¥óªº»ù¿ú (¥u¬O»ù¿ú¶¶§Ç½Õ´«ºâ¦P¤@²Õ)
+
+§A¥i¥H¥H¥ô·Nªº¶¶§Ç¿é¥X©Ò¦³²Å¦Xªº»ù¿ú²Õ
+
+
+
+
+Problem H: Halloween treats (11237)
+
+¦³c­Ó¤p«Ä©Mn¤á¤H®a (1<=c<=n<=100000)¡A²Ä¤G¦æªºn­Ó¼Æ¬O¨C¤á¤H®aµ¹¤p«Äªº¿}ªG¼Æ
+
+°Ý¤p«Ä­n¥h­þ´X®a¤~¯à±o¨ì¥i¥HÅý¥L­Ì¥­¤Àªº¿}ªG
+
+¿é¥X¥ô¤@²Õ¸Ñ§Y¥i¡A­Y°µ¤£¨ì¿é¥X "no sweets"
+
+
+
+
+Problem I: Innumerous bowling games (11238)
+
+¦b³o¸Ì¡AÄ¶ªÌ°²³]§Aª¾¹D«OÄÖ²yªº­p¤À³W«h¡C
+
+ÃD¥Ø·|µ¹¤@¨Ç¾ã¼Æ(0<=n<=300)¡A¨D¥X¥´§¹¤@³õ¤ñÁÉ­è¦n±o¨ìn¤À¦³´XºØ±¡ªp
+
+·ín=-1®Éµ²§ô¡Aµª®×³£¥i¥H¥Î long long int ªí¥Ü
+--
+[1;30;44m¤@­Ó¤H[32m½ñ¤W¤£¯àÄâ±a¦a¹Ïªº®È¦æ[m
+[1;33;47m¶}©l¤Ó¹L¦n©_§Ñ¤FÁÙ¦³[1;31m®£Äß[m
+[37mµM«á[35m¸ôÅÜ¦±§é[36m©]ÅÜº©ªø[32m¨ì¤£¤F[37m¤][33m¦^¤£¥h[m
+[1;33;43m°í«ùµÛ[1;36m¤£Å¥§O¤H¬Æ¦Ü¦Û¤vªºÃhºÃ[m
+[1;30;46m²×©ó¨Ó¨ì[35m¼e±o¯à¨g©bªº[32m¯ó¦a[m
+[1;36;45m¦³¤H¸Ø§Ú«i´±[m[33;41m¤@ª½³£¦b·L¯ºªº§Ú©¿µM¬y¤U²\ºw[m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.116.144.74 (¤£¥¢±Ñ¤j¾Ç)[m
+
+£p [1;30mzenixls2 [0;36mÂà[m:¨ì [zenixls2] ¬ÝªO¡A¤_ 2007/07/12 Thu 08:57:23 [m
+¡¶ [1;30mgloompisces [;33m§ï[m@[m2007/07/12 Thu 15:48:06[m

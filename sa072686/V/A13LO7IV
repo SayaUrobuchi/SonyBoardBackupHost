@@ -1,0 +1,53 @@
+§@ªÌ: sa072686 (·¥¤j¦a¡C) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] TLE--762
+®É¶¡: 2007/12/10 Mon 00:57:03
+
+¦³¡C
+
+¤£©Ç§A¡C
+
+while(scanf("%d", &k))
+
+¥¦·|¥X¨Æ¡C
+
+scanf() ªº¦^¶Ç­È¬O¡A¦¨¥\¦aÅª¨ì¤F´X­Ó¡C
+
+¤£¹L¡A¦pªG EOF «h·|¦^¶Ç EOF¡A¤]´N¬O -1
+
+¦]¦¹¡A¥i¥H¼g§@
+
+while(scanf("%d", &k) == 1)
+
+©Î¬O
+
+while(scanf("%d", &k) != EOF)
+
+©Î¬O
+
+while(scanf("%d", &k) != -1)
+
+¦ý¬O¼g
+
+while(scanf("%d", &k))
+
+´N·Ç³Æ¬µ§a¡K¥X¤£¥hºw
+
+¡° ¤Þ­z¡mzenixls2 (¤B¤B¥m¥m)¡n¤§»Ê¨¥¡G
+> http://src.wtgstudio.com/?qTeyt4
+> ¥i¯à¬O¦³ªF¦è§Ú¨S·Q¨ì
+> ­n¤£µM´N¬O¨SÀu¤Æ
+> ¤Ï¥¿¤£ª¾¬°¤°»ò·|TLE-->Ãø±o¥Î¯ÂC¼g
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+

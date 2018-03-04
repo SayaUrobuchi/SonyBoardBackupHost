@@ -1,0 +1,94 @@
+§@ªÌ: dust (°¨¯÷¡E¤Î³Øº¸©N) ¯¸¤º: sa072686
+¼ÐÃD: [µo°Ý] ½Ð±Ð±jªÌSA--130¥ÎÃìµ²¦ê¦C¸Ñ¡A«o¤@ª½Runtime Error
+®É¶¡: 2007/03/08 Thu 17:07:38
+
+¤§«e¼g130(http://luckycat.kshs.kh.edu.tw/homework/q130.htm)
+¥ÎÀRºA°}¦C¦¨¥\¹L¡A«á¨Ó¹Á¸Õ¥ÎÃìµ²¦ê¦C¼g
+¸Õ¤F«Ü¦h¦¸³£Runtime Error(sighal 11)
+¬ÝACM±H¨Óªº«H¬OInvalid memory reference
+Before crash, it ran during 0.000 seconds.
+§ä¤F«Ü¤[³£§ä¤£¨ì­ì¦]¡A¦Ó¥B´¿¥Î¹L3¥x¹q¸£(XP)´ú¸Õ³£¨S²§±`²×¤î
+
+¬G¤p§Ì«e¨Ó½Ð±ÐSA¾Çªø
+
+--------¥H¤U¬Oµ{¦¡½X---------
+
+#include"stdio.h"
+#include"stdlib.h"
+
+typedef struct Node{
+    int no;
+    struct Node* next;
+}node;
+node *head,*now;
+int n,k,const_n;
+
+node* create(int data){ //«Ø¥ß¸`ÂI
+    node* product;
+    product=(node*)malloc(sizeof(node));
+    product->no=data;
+    product->next=NULL;
+    return product;
+}
+void insert(node* target,int data){ //³Ð³y¥X¤@­Ó¸`ÂI¨Ã´¡¦b¬Y¸`ÂI«e
+    node *ins=create(data),tmp;
+    ins->next=ins;
+    tmp=*ins;
+    *ins=*target;
+    *target=tmp;
+}
+void del(node* target){ //§R°£¸`ÂI
+    node* record=target->next;
+    *target=*record;
+    if(record==head){
+        head=target;
+    }
+    free(record);
+}
+
+int main(){
+    int i,step;
+    node* temp;
+    while(1){
+        scanf("%d %d",&n,&k);
+        if(n==0) break;
+        head=create(1);
+        temp=head;
+        for(i=2;i<=n;i++){
+            temp->next=create(i);
+            temp=temp->next;
+        }
+        temp->next=head;
+        const_n=n;
+        now=head;
+        while(n!=1){
+            for(step=1;step<k;step++){
+                now=now->next;
+            }
+            del(now);
+            temp=now;
+            for(step=1;step<k;step++){
+                now=now->next;
+            }
+            insert(temp,now->no);
+            del(now);
+            now=temp->next;
+            n--;
+        }
+        printf("%d\n",const_n-(head->no)+2>const_n?1:const_n-(head->no)+2);
+        free(head);
+        head=NULL;
+    }
+}
+----------
+«ô°U¾Çªø¤F
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by dust from [m [1m210.60.107.237 (¤@¦ê°ª¤¤)[m
+
+¡÷ [36mchensc [31m±À[m:¨}¤ßªº«ØÄ³¡A¸ü¼ÐÀY®É¥Î¡G#include <stdio.h> ·|¤ñ¸û¦n... 0308 19:11
+¡÷ [36mchensc [31m±À[m:¥t¥~¤@­Ó«ØÄ³¡A¥ÎSTL«Ü¤è«K...#inclue<list> «á´N¥Î²n²nXD 0308 19:12
+¡÷ [36mchensc [33m»¡[m:                            ^^^^^^^ -> #include        0308 19:12

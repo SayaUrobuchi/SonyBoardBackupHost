@@ -1,0 +1,149 @@
+§@ªÌ: seanwu (®ü®¦) ¯¸¤º: sa072686
+¼ÐÃD: Re: ¤@¯ë¹Ï¤Ç°tªºÃD¥Ø???
+®É¶¡: 2008/11/09 Sun 14:07:21
+
+
+³o¬Oural 1099ªºcode¡A­«·s¼g¹L¡A§Æ±æ·|¤ñ¸û²M·¡¤@ÂI
+
+
+#include <stdio.h>
+
+int map[300][300];          map[i][j]==1 ªí¥ÜÂIi,j¤§¶¡¦³Ãä
+int path[300][300],pp[300]; path[x]°O¿ý¤Froot¨ìÂIxªº¥æ¿ù¸ô¡App[x]ªí¦³´X­ÓÂI
+int mt[300];                mt[x]¬O»P x¤Ç°tªºÂI¡A¦pªGmt[x]==-1ªí¥Ü x¥¼¤Ç°t
+int flag[300];              flag[x]ªº­È¥i¥H¬°0,1,-1¡Aªí¥¼³B²z,¥~ÂI,¤ºÂI
+int que[300];               ¦s©ñ¥N³B²z¥~ÂIªºqueue
+int n;                      ¹ÏªºÂI¼Æ¡AÂIªº½s¸¹¬°0,1,2,...,n-1
+
+int match() {
+   int i,j,k,h,p,q,w,x,y,f; i,j,k,h°j°é­p¼Æ¡Ap>=q queue­p¼Æ¡Aw,x,yÂI¡AfºX¼Ð
+   for( i=0; i<n; i++ ) {
+      mt[i] = -1;           ªì©l¤Æ©Ò¦³ÂI¥¼¤Ç°t
+   }
+   while(1) {
+      w = -1;
+      for( i=0; i<n; i++ ) {
+         if(mt[i]==-1) {
+            w = i;          ´M§ä¤@­ÓªÅÂIw
+            break;
+         }
+      }
+      if(w==-1) break;      §ä¤£¨ìªÅÂI¡A«h¤w¹F³Ì¤j¤Ç°t¡Aµ²§ô
+      p = 0;
+      q = -1;
+      for( i=0; i<n; i++ ) {
+         flag[i] = 0;       ªì©l©Ò¦³ÂI¥¼³B²z
+      }
+      flag[w] = 1;          ¼ÐªÅÂIw¬°¥~ÂI
+      path[w][0] = w;       ¨Ã³]¸m¦npath
+      pp[w] = 1;
+      que[0] = w;           ¥á¤Jqueue¤¤
+      f = 1;                ºX¼Ðf¨M©w©ó¬O§_§ä¨ì¼W¼s¸ô¡A§ä¨ì«h¬°0
+      while(p!=q && f) {
+         x = que[++q];      ¥Ø«e³B²zªºÂIx
+         for( i=0; i<n; i++ ) {
+            if(map[x][i]) {
+               if(flag[i]==0) {
+                  if(mt[i]==-1) {     1.§ä¨ìªÅÂI => ±o¨ì¼W¼s¸ô
+                     for( j=1; j<pp[x]; j+=2 ) {
+                        mt[path[x][j-1]] = path[x][j]; ªu¥ý«e°O¿ýªºpath­×§ï¤Ç°t
+                        mt[path[x][j]] = path[x][j-1];
+                     }
+                     mt[x] = i; °O±o¥]¬A³o­ÓªÅÂIi
+                     mt[i] = x;
+                     f = 0;
+                     break;
+                  }else {             2.§ä¨ì¥¼³B²zªº¤w¤Ç°tÂI
+                     flag[i] = -1;    ¼Ði¬°¤ºÂI¡A©Ò¤Ç°tªºmt[i]¬°¥~ÂI
+                     flag[mt[i]] = 1;
+                     for( j=0; j<pp[x]; j++ ) {
+                        path[mt[i]][j] = path[x][j]; ³]¸m¦n¥~ÂImt[i]ªºpath
+                     }
+                     path[mt[i]][pp[x]] = i;
+                     path[mt[i]][pp[x]+1] = mt[i];
+                     pp[mt[i]] = pp[x]+2;
+                     que[++p] = mt[i];  ±N¥~ÂImt[i]¥á¤Jqueue
+                  }
+               }else if(flag[i]==1) { 3.§ä¨ì¤w³B²zªº¥~ÂI
+                  for( j=0; path[x][j]==path[i][j]; j++ ); §äLCA(path[x][j-1])
+                  for( k=j-1; k<pp[x]; k++ ) {
+                     y = path[x][k];
+                     if(flag[y]==-1) { ¦bpath[x]¤W±qLCA¨ìx¤§¶¡ªº¤ºÂI¬ÒÅÜ¬°¥~ÂI
+                        flag[y] = 1;
+                        pp[y] = 0;
+                        for( h=0; h<pp[i]; h++ ) {
+                           path[y][pp[y]++] = path[i][h]; ¥Ñ¤Ï¦Vªºpath[i]¤U¥h
+                        }
+                        for( h=pp[x]-1; h>=k; h-- ) {
+                           path[y][pp[y]++] = path[x][h]; ¦b¥Ñpath[x]Â¶¤W¨Ó
+                        }
+                        que[++p] = y;
+                     }
+                  }
+                  for( k=j-1; k<pp[i]; k++ ) {
+                     y = path[i][k];
+                     if(flag[y]==-1) { ¦bpath[i]¤W±qLCA¨ìi¤§¶¡ªº¤ºÂI¬ÒÅÜ¬°¥~ÂI
+                        flag[y] = 1;
+                        pp[y] = 0;
+                        for( h=0; h<pp[x]; h++ ) {
+                           path[y][pp[y]++] = path[x][h]; ¥Ñ¤Ï¦Vªºpath[x]¤U¥h
+                        }
+                        for( h=pp[i]-1; h>=k; h-- ) {
+                           path[y][pp[y]++] = path[i][h]; ¦b¥Ñpath[i]Â¶¤W¨Ó
+                        }
+                        que[++p] = y;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      if(f) {
+         mt[w] = w; ±qw°µ¬°°_ÂI§ä¤£¨ì¼W¼s¸ô¡A©ó¬O±Nw¼Ð°O±¼¡A¤U¦¸¤£¦A¥Hw°µ¬°root
+      }             ³o¸ò®³±¼¾ã­Ó¦I¤ú§Q¾ð¬O¤@¼Ëªº§@¥Î¡A¤£¹L«Ü©úÅã¡A³o¼Ë®e©öªº¦h
+   }
+   return 0;
+}
+
+int main() {
+   int i,j,x,y,s;
+   scanf("%d",&n);
+   for( i=0; i<n; i++ ) {
+      for( j=0; j<n; j++ ) {
+         map[i][j] = 0;
+      }
+   }
+   while(scanf("%d %d",&x,&y)==2) {
+      x--;
+      y--;
+      map[x][y] = map[y][x] = 1;
+   }
+   match();
+   s = n;
+   for( i=0; i<n; i++ ) {
+      if(mt[i]==i) {
+         s--;
+      }
+   }
+   printf("%d\n",s);
+   for( i=0; i<n; i++ ) {
+      if(i<mt[i]) {
+         printf("%d %d\n",i+1,mt[i]+1);
+      }
+   }
+   return 0;
+}
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m61.62.49.220 (©Ò¥H¤º¯S)[m
+
+¡÷ [36myuscvscv [31m±À[m:¦]¬°¬Ý¤£À´ ©Ò¥H¦n¯«~                                 1109 14:12
+¡÷ [36mDJWS [31m±À[m:¬Ý°_¨Óªº½T¬O¦³O(V^3)ªº·PÄ±                               1109 20:51
+¡÷ [36mseanwu [31m±À[m:¨ä¹ê³o¥÷¨S¦³..¦]¬°±½LCA³Ì¦h¦n¹³¦³O(E)¦¸ªº¼Ë¤l..        1109 20:55
+¡÷ [36mDJWS [31m±À[m:¶â¶â...§A»¡ªº¹ï  ©Ò¥H¬OO(V^4)                            1109 21:12
+¡÷ [36mDJWS [31m±À[m:¨º»ò§A»¡ªº¸¹ºÙ50¦æªºµ{¦¡½X¬O«ç»ò¼g¥X¨Óªº... @@"          1109 21:12
+¡÷ [36mseanwu [31m±À[m:´N¬O..§â¤£¸Ó®³±¼ªº®³±¼¡AÀ£¤@À£..                       1110 21:03

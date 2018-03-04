@@ -1,0 +1,1547 @@
+§@ªÌ: seanwu (®ü®¦§d)
+¼ÐÃD: [µ{³]] Hash
+®É¶¡: 2007/09/13 Thu 21:11:00
+
+¡° ¥»¤åÂà¿ý¦Û [seanwu] «H½c
+
+§@ªÌ: seanwu.bbs@newkshs.twbbs.org (®ü®¦§d)
+¼ÐÃD: [ºâªk] Hash
+®É¶¡: 2007/09/13 Thu 21:09:28
+
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: P_seanwu
+¼ÐÃD: [ºâªk] Hash
+®É¶¡: 2007/09/05 Wed 22:55:30
+
+
+§Ú¯uªº¤£ª¾¹DHash·F¹À°Êµe...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+                                  Hash
+
+                               -by seanwu-
+
+
+
+
+
+
+
+
+
+-
+
+
+        ¦n°Õ¡A¥ýÁ¿Á¿hash¬O·F¹À¥Îªº¡C°ò¥»¤W¡Ahash¬O¤@ºØ¸ê®Æµ²ºc¡A
+
+        ¥¦¤ä´©¤FO(1)ªº·j´M¡B´¡¤J¸ê®Æªº°Ê§@ (§R°£§Ú¤£ª¾¹D³á ^^;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+        ¦n°Õ¡A¥ýÁ¿Á¿hash¬O·F¹À¥Îªº¡C°ò¥»¤W¡Ahash¬O¤@ºØ¸ê®Æµ²ºc¡A
+
+        ¥¦¤ä´©¤FO(1)ªº·j´M¡B´¡¤J¸ê®Æªº°Ê§@ (§R°£§Ú¤£ª¾¹D³á ^^;
+
+
+        ¥¦ªº¹B§@­ì²z¬OÂÇ¥Ñ§Aªº·Q¹³¤O³Ð³y¥X¨Óªº¤@­Ó¶Ã¤C¤KÁVhash¨ç¦¡¡A
+
+        ±N§Aªº¸ê®Æ¸g¹L¤@¨Ç­pºâ¡Aºâ¥X¥Nªí¸Óµ§¸ê®Æªº­È¡A¥B¸¨¦b¥iÀx¦sªº½d³ò¤º
+
+¡@¡@¡@¡@©ó¬O´N¥i¥Hª½±µ±N¸Ó¸ê®Æ¦s¦bºâ¥Xªº¹ïÀ³¦ì¸m¤W¤F
+
+
+
+
+
+
+
+
+
+-
+
+
+        ¦n°Õ¡A¥ýÁ¿Á¿hash¬O·F¹À¥Îªº¡C°ò¥»¤W¡Ahash¬O¤@ºØ¸ê®Æµ²ºc¡A
+
+        ¥¦¤ä´©¤FO(1)ªº·j´M¡B´¡¤J¸ê®Æªº°Ê§@ (§R°£§Ú¤£ª¾¹D³á ^^;
+
+
+        ¥¦ªº¹B§@­ì²z¬OÂÇ¥Ñ§Aªº·Q¹³¤O³Ð³y¥X¨Óªº¤@­Ó¶Ã¤C¤KÁVhash¨ç¦¡¡A
+
+        ±N§Aªº¸ê®Æ¸g¹L¤@¨Ç­pºâ¡Aºâ¥X¥Nªí¸Óµ§¸ê®Æªº­È¡A¥B¸¨¦b¥iÀx¦sªº½d³ò¤º
+
+        ©ó¬O´N¥i¥Hª½±µ±N¸Ó¸ê®Æ¦s¦bºâ¥Xªº¹ïÀ³¦ì¸m¤W¤F
+
+
+        ¨Ò¦p: §A¦³¤@µ§¸ê®Æ: 643142165464 ¡A¦Ó§Aªºtable¤j¤p¥u¦³ 831221
+
+        ¦pªG§A§âhash¨ç¦¡³]­p¦¨ (x+12345)%831221 (ª`·N¥¦ªº½d³ò¤@©w¦b§Aªºtable¤º)
+
+        ©ó¬O¸Óµ§¸ê®Æ´N·|³Q©ñ¦b (643142165464+12345) % 831221=722258 ³o­Ó¯Á¤Þ¤F
+
+
+-
+
+
+        ¦ý«Ü¤£©¯ªº¡A³q±`¦Ó¨¥hash¨ç¦¡«ÜÃø³]­p¦¨¤@¹ï¤@ªº¬M®g..
+
+        ¦^¨ì­è­èªº¨Ò¤l¡A(643142165464+12345) % 831221 = 722258
+
+        ¦ý (709913+12345) % 831221 = 722258 ¤]¬M®g¨ì¬Û¦Pªº¦ì¸m¤W¤F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+        ¦ý«Ü¤£©¯ªº¡A³q±`¦Ó¨¥hash¨ç¦¡«ÜÃø³]­p¦¨¤@¹ï¤@ªº¬M®g..
+
+        ¦^¨ì­è­èªº¨Ò¤l¡A(643142165464+12345) % 831221 = 722258
+
+        ¦ý (709913+12345) % 831221 = 722258 ¤]¬M®g¨ì¬Û¦Pªº¦ì¸m¤W¤F
+
+
+        ³oºØ±¡ªpºÙ¬°hit¡A¸Ñ¨Mªº¤è®×¬O¬°µo¥Íhitªº­È§ä­ÓªÅ¶¡¦w¸m¡A
+
+¡@¡@¡@¡@±`¥Îªº¤èªk¦³¨âºØ¡G¶}©ñ©w§} ©Î Ãìµ²¦ê¦C
+
+¡@¡@¡@¡@¶}©ñ©w§}¤¤±`¥Îªº¤S¦³ ½u©Ê±´´ú ©Î ¥­¤è©w§}
+
+
+
+
+
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G
+
+
+¡@¡@¡@  ¦pªGµo¥Í¸I¼²¡A´N©¹¤U¤@­ÓªÅ¦ì¥á¡Aª½¨ì¤£µo¥Í¸I¼²¬°¤î
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G
+
+¡@¡@¡@  §Ú­Ìªºhash¨ç¦¡©w¬° index = data % 11
+
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x [1;33m90[m ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x    ¢x    ¢x    ¢x    ¢x    ¢x [1;33m30[m ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x    ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x [1;33m47[m ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8   ªí®æ¸Ì¦³ªF¦è...½Ä¨ì°Õ¡A¸I¼²°Õ
+
+                                                         ¢x
+                                                         ¢x
+                                                         ¢x
+                                                         ¢x
+                                                         ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x [1;31m30[m ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8   ¶â¡A§â¥¦©¹¤U¤@­Ó¦ì¤l¥á  ¢{
+                                                               ¢x
+                                                               ¢x
+                                                               ¢x
+                                                               ¢x
+                                                               ¢x
+                                                               ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x    ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8   good¬OªÅªº¡A¨º´N©ñ¶i¨Ó  ¢{
+                                                               ¢x
+                                                               ¢x
+                                                               ¢x
+                                                               ¢x
+                                                               ¢x
+                                                               ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x [1;33m19[m ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2   ¶â¡Aµo¥Í¸I¼²
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x [1;31m90[m ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2   ©¹¤U¤@­Ó¦ì¸m¬Ý¬Ý
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2   ÁÙ¬O¸I¼²¡A¤µ¤Ñ¦³°÷Áö¤p...
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x [1;31m47[m ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2   ¦A©¹¤U¤@­Ó¦ì¸m
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x    ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2   ¶â¡A¬OªÅªº¡A©ñ¶i¨Ó
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x [1;33m57[m ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        Á¿¤F³o»ò¦h¼o¸Ü¡AÁÙ¨S»¡«ç»ò°µFind°Ç
+
+        ¨ä¹ê«ÜÂ²³æ¡A¨Ì¾Ú§A¥[¤Jhashªíªº¤èªk¡A¥h¨º­Ó¦ì¸m§ä§ä¬Ý
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8   ¥h¨º­Ó¦ì¸m§ä§ä¬Ý
+
+                                            ¢­
+                                              ¢­
+                                                ¢­
+                                                  ¢­
+        ¡@                                          ¢­
+                                                      ¢­
+                                                        ¢­
+                                                         ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8   ­ü§r¡A´N¬O30¹À¡A¯u¬O¥i³ß¥i¶P°Ú
+
+                                            ¢­
+                                              ¢­
+                                                ¢­
+                                                  ¢­
+        ¡@                                          ¢­
+                                                      ¢­
+                                                        ¢­
+                                                         ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x [1;32m30[m ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2   ¿ù°Õ
+
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¢x
+                     ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x [1;31m90[m ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2   ÁÙ¬O¤£¹ï
+
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¢x
+                           ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x [1;31m47[m ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2   ¶â¡A§ä¨ì°Õ
+
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¢x
+                                 ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x [1;32m57[m ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9
+
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9   ¶â¡A¤£¬O
+
+                                                     ¢­
+                                                     ¡@¢­
+                                                    ¡@¡@ ¢­
+                                                    ¡@¡@ ¡@¢­
+                                                    ¡@¡@¡@¡@ ¢­
+                                                              ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x [1;31m19[m ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9   ´«¤U¤@­Ó
+
+                                                           ¢­
+                                                           ¡@¢­
+                                                          ¡@¡@ ¢­
+                                                          ¡@¡@ ¡@¢­
+                                                          ¡@¡@¡@¡@ ¢­
+                                                                    ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9   ³Þ¡A¬OªÅªº
+
+                                                           ¢­
+                                                           ¡@¢­
+                                                          ¡@¡@ ¢­
+                                                          ¡@¡@ ¡@¢­
+                                                          ¡@¡@¡@¡@ ¢­
+                                                                    ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9   ¤£­n»¨Ïm§Ú
+
+                                                           ¢­
+                                                           ¡@¢­
+                                                          ¡@¡@ ¢­
+                                                          ¡@¡@ ¡@¢­
+                                                          ¡@¡@¡@¡@ ¢­
+                                                                    ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9   ©ú©ú´N¨S¦³64ÁÙ®³¨Ó·j
+
+                                                           ¢­
+                                                           ¡@¢­
+                                                          ¡@¡@ ¢­
+                                                          ¡@¡@ ¡@¢­
+                                                          ¡@¡@¡@¡@ ¢­
+                                                                    ¡õ
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+
+        ¦n°Õ¡A½u©Ê±´´ú´N¬O³o¼Ë¡A¤£Ãø
+
+        ¤£¹L¥¦¦³­Ó¯ÊÂI¡A´N¬O¦]¬°¨C¦¸³£ª½±µÂ\¦b¤U¤@­Ó¡A©Ò¥H¸ê®Æ®e©ö»E¦¨¤@¹Î¹Îªº
+
+
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+
+        ¦n°Õ¡A½u©Ê±´´ú´N¬O³o¼Ë¡A¤£Ãø
+
+        ¤£¹L¥¦¦³­Ó¯ÊÂI¡A´N¬O¦]¬°¨C¦¸³£ª½±µÂ\¦b¤U¤@­Ó¡A©Ò¥H¸ê®Æ®e©ö»E¦¨¤@¹Î¹Îªº
+
+        µM«á·í§A­n·jªº¸ê®Æ­è¦n¦b³o¤@¹Îªº³Ì«á­±¡A§A´N±o±½¹L¾ã¹Î¤~§ä±o¨ì
+
+        ©ó¬O¡A´NÃz¬µ¤F
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        ¶}©ñ©w§}(¥H½u©Ê±´´ú¬°¨Ò)¡G            hash¨ç¦¡: index = data % 11
+
+
+        ¤@­Ó¸Ñ¨M¤è®×¬O§ï±Ä¡@¥­¤è©w§}
+
+¡@¡@¡@¡@½u©Ê±´´ú¬Oª½±µ©¹¤U¤@­Ó©ñ¡A¥­¤è©w§}«h¬O¥H
+
+¡@¡@¡@¡@1, 4, 9, 16, 25, 36....  ªº¶¡¹j¨Ó¸õªº
+
+        ³o¥i¥H¤j´T­°§C¸s»Eªºµo¥Í¾÷·|
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+      ¢z¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢s¢w¢w¢{
+data  ¢x    ¢x    ¢x 90 ¢x 47 ¢x 57 ¢x    ¢x    ¢x    ¢x 30 ¢x 19 ¢x    ¢x
+      ¢|¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢r¢w¢w¢}
+
+
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+
+        ©ÎªÌ¡A°£¶}©ñ©w§}¤§¥~¡A§A¤]¥i¥H¿ï¾Ü¥[¶}Ãìµ²¦ê¦C¨ÓÁ×§K¸I¼²
+
+¡@¡@¡@¡@¤èªk§óÂ²³æ¤F¡A¦pªG¸I¼²¡A´N¥Î¦ê¦C³s¥X¥h¡A¦p¦¹¦Ó¨o
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+
+
+
+
+
+
+
+
+
+
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý
+                     ¡õ
+                   [1;33m¢~¢w¢¡[m
+                   [1;33m¢x90¢x[m
+                   [1;33m¢¢¢w¢£[m
+
+
+
+
+
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              [1;33m¢~¢w¢¡[m
+                   ¢x90¢x                              [1;33m¢x30¢x[m
+                   ¢¢¢w¢£                              [1;33m¢¢¢w¢£[m
+
+
+
+
+
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡[1;33m¢~¢w¢¡[m                        ¢~¢w¢¡
+                   ¢x90¢x[1;33m¢x47¢x[m                        ¢x30¢x
+                   ¢¢¢w¢£[1;33m¢¢¢w¢£[m                        ¢¢¢w¢£
+
+
+
+
+
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                                                         ¡ý
+                                                         ¡õ
+                                                       [1;33m¢~¢w¢¡[m
+                                                       [1;33m¢x19¢x[m
+                                                       [1;33m¢¢¢w¢£[m
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¥[¤J 90: index = 90 % 11 = 2
+        ¥[¤J 30: index = 30 % 11 = 8
+        ¥[¤J 47: index = 47 % 11 = 3
+        ¥[¤J 19: index = 19 % 11 = 8
+        ¥[¤J 57: index = 57 % 11 = 2
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   [1;33m¢~¢w¢¡[m                              ¢~¢w¢¡
+                   [1;33m¢x57¢x[m                              ¢x19¢x
+                   [1;33m¢¢¢w¢£[m                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¶â¦n¡A¬Ý¬Ý·j´M
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     [1;33m8[m     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        [1;33m¢~¢w¢¡[m
+                   ¢x90¢x¢x47¢x                        [1;33m¢x30¢x[m
+                   ¢¢¢w¢£¢¢¢w¢£                        [1;33m¢¢¢w¢£[m
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+[m-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8   §ä¨ì¤F
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        [1;32m¢~¢w¢¡[m
+                   ¢x90¢x¢x47¢x                        [1;32m¢x30¢x[m
+                   ¢¢¢w¢£¢¢¢w¢£                        [1;32m¢¢¢w¢£[m
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+
+
+
+index     0     1     [1;33m2[m     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   [1;33m¢~¢w¢¡[m¢~¢w¢¡                        ¢~¢w¢¡
+                   [1;33m¢x90¢x[m¢x47¢x                        ¢x30¢x
+                   [1;33m¢¢¢w¢£[m¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+[m-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2   ¶â¡A¨Ã¤£¬O
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   [1;31m¢~¢w¢¡[m¢~¢w¢¡                        ¢~¢w¢¡
+                   [1;31m¢x90¢x[m¢x47¢x                        ¢x30¢x
+                   [1;31m¢¢¢w¢£[m¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+[m-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   [1;33m¢~¢w¢¡[m                              ¢~¢w¢¡
+                   [1;33m¢x57¢x[m                              ¢x19¢x
+                   [1;33m¢¢¢w¢£[m                              ¢¢¢w¢£
+[m-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2   Done
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   [1;32m¢~¢w¢¡[m                              ¢~¢w¢¡
+                   [1;32m¢x57¢x[m                              ¢x19¢x
+                   [1;32m¢¢¢w¢£[m                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9
+
+
+
+index     0     1     2     3     4     5     6     7     8     [1;33m9[m    10
+                     ¡ý    ¡ý                            ¡ý
+                     ¡õ    ¡õ                            ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ´M§ä 30: index = 30 % 11 = 8
+        ´M§ä 57: index = 57 % 11 = 2
+        ´M§ä 64: index = 64 % 11 = 9   ·í¤w¸g«ü¦VNULL®É´N¬O§ä¤£¨ì¤F
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý    [1;31m¢x[m
+                     ¡õ    ¡õ                            ¡õ    [1;31m¡õ[m
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        Ãìµ²¦ê¦C¡G                            hash¨ç¦¡: index = data % 11
+
+        ¦n°Õ¡A°ò¥»¤W´N¬O³o¼Ë¡A°O±otable¥Î«ü¼Ð¤£­n¹êÅé¡A¤£µM°O¾ÐÅé«Ü¶Ë
+
+
+
+
+
+index     0     1     2     3     4     5     6     7     8     9    10
+                     ¡ý    ¡ý                            ¡ý    ¢x
+                     ¡õ    ¡õ                            ¡õ    ¡õ
+                   ¢~¢w¢¡¢~¢w¢¡                        ¢~¢w¢¡
+                   ¢x90¢x¢x47¢x                        ¢x30¢x
+                   ¢¢¢w¢£¢¢¢w¢£                        ¢¢¢w¢£
+                     ¡ý                                  ¡ý
+                     ¡õ                                  ¡õ
+                   ¢~¢w¢¡                              ¢~¢w¢¡
+                   ¢x57¢x                              ¢x19¢x
+                   ¢¢¢w¢£                              ¢¢¢w¢£
+-
+
+
+        ³Ì«á¬O¤@¨Ç©ÔÂø
+
+        tableªº¤j¤p³Ì¦n¬O½è¼Æ¡AµM«á¤£ºÞ§Aªºhash¬O«ç¼Ë¡A³Ì«á°O±o %(ªíªº¤j¤p)
+
+        ¤j¤p¬O½è¼Æ¥i¥H­°§C¸I¼²ªº¾÷²v
+
+
+        hash¨ç¦¡¥i¥HÀH«K¼g¡A¨Ò¦p (data*prime)%table_size ´N«Ü¦n¥Î¤F
+
+        ¦r¦ê¥Î for( x+=x*p+str[i]*q ) (p,q prime) ´N°÷¤F
+
+        ©ÎªÌ§A¥i¥Hgoogle¤@¤UELFlashºâªk
+
+
+        ÁÙ¦³¡AÁöµM½u©Ê±´´úÅ¥°_¨Ó¦³ÂI¦MÀI¡A¦ý§ÚÁÙ¨STLE¹L¡A
+
+        ¤£¹L«ØÄ³ÁÙ¬O§âÃìµ²¦ê¦Cªº¼gªk½m¼ô¡A¥¦¤]¤ñ¸ûÃ­©w
+
+
+-
+
+
+
+
+
+
+
+
+
+                       ³á¡A²Ö¦º¤F¡A©¼±o§A­nµ¹§Ú¤°»ò?
+
+
+
+
+
+
+
+
+
+
+
+-(END)
+
+--
+[4;30;41m  |   |   |   |   |   |   | [;1;37m¢z¢w¢w¢w¢w¢w¢w¢{[;4;30;41m|   |   |   |   |   |   |   |   | [m
+[30;41m   |   |   |   |   |   |   |[;1m¢x[33m·s[37m¡D[31m¬õ¼Ó¿v¹Ú[37m¢x[;30;41m   |   |   |   |   |   |   |   |  [m
+ [1;33mOrigin: [37mNewKSHS.twbbs.org  ¢|¢w¢w¢w¢w¢w¢w¢}[33mFrom: [37m203.68.21.160[m
+[33msilentvow [31m»¡[m¡Gpuyo                                                 [35m[07/09/05][m
+[33mcsftwpt [31m»¡[m¡G³Þ¡A¬OªÅªº¡A¤£­n»¨Ïm§Ú¡C                               [35m[07/09/05][m
+[33mTommy [31m»¡[m¡G§Ú´N¬O¥ÎLinked Listªº= =                                 [35m[07/09/06][m
+
+£p [1;30mseanwu [0;36mÂà[m:±q [seanwu] «H½c¡A¤_ 2007/09/13 Thu 21:11:00 [m
+¡¶ [1;30mseanwu [;33m§ï[m@[m2007/09/13 Thu 21:11:49[m
+¡÷ [36msa072686 [31m±À[m:­ì po °Êµe°µ¤WÅ}¤FXDD                                0913 21:14
+¡÷ [36mseanwu [31m±À[m:©¼±o¦ùªº¡A©Ò¥H¥L¤í§Úpuyo xD                            0913 21:15
+¡÷ [36msa072686 [31m±À[m:«ç»ò­Ó¤íªk¡HXDD                                      0913 21:18
+¡÷ [36mappolloford [31m±À[m:§ÚÁÙ¬O¤£À´                                        0913 23:07
+¡÷ [36mben196888 [31m±À[m:­ÉÂà~                                               0913 23:34
+£p [1;30mben196888 [0;36mÂà[m:¨ì [ben196888] ¬ÝªO¡A¤_ 2007/09/13 Thu 23:34:14 [m
+¡÷ [36mAikoSenoo [31m±À[m:­ÉÂà¨ì§Ú­Ì®a¤p¥±m(_ _)m(«ô)                         0209 22:50
+¡÷ [36msb283 [31m±À[m:­ÉÂà!                                                   0911 17:02
+£p [1;30msb283 [0;36mÂà[m:¨ì [sb283] ¬ÝªO¡A¤_ 2010/09/11 Sat 17:02:12 [m

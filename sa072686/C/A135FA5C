@@ -1,0 +1,74 @@
+§@ªÌ: seanwu ( ) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]10990
+®É¶¡: 2007/05/25 Fri 23:03:28
+
+
+phi(n)¬O»¡1~n¤¤»Pn¤¬½èªº¥¿¾ã¼Æ­Ó¼Æ(1¤]ºâ¤¬½è)
+
+²{¦b©w¸qdepthphi(n)...
+
+phi(13)=12 ...... step 1
+phi(12)=4 ...... step 2
+phi(4)=2 ...... step 3
+phi(2)=1 ...... step 4
+
+­n°µ4¦¸¤~µ²§ô¡A©Ò¥Hdepthphi(13) = 4
+
+°ÝSODF(m,n) = depthphi(m) + depthphi(m+1) +....+ depthphi(n)ªºÁ`©M
+
+
+
+
+©³¤U¬O¸Ñªk
+
+
+
+­º¥ý¡A§Ú­Ìª¾¹D·í n=(p1^x1) * (p2^x2) .... (pk^xk) ¡A
+
+¨C­Ópi³£¬O½è¼Æ¡Axi¬O»¡´X¦¸¤è¡A¦³
+
+   phi(n) = n/(p1*p2...pk) * (p1-1) * (p2-1) ... (pk-1)                  (1)
+
+
+1.·í m = n*p ¡Ap¬O½è¼Æ¡An¬O¤£¥]§tpªº¼Æ¡A¦³
+
+   phi(m) = (n*p)/(p1*p2...pk * p) * (p1-1) * (p2-1) ... (pk-1) * (p-1)  (2)
+
+±q(2)¤¤´£¥X(1)
+
+   phi(m) = phi(n) * (p/p) * (p-1)                                      (2.1)
+          = phi(n) * (p-1)
+
+2.·í m = n*p ¡Ap¬O½è¼Æ¡An¬O¥]§tpªº¼Æ¡A¦³
+
+   phi(m) = (n*p)/(p1*p2...pk) * (p1-1) * (p2-1) ... (pk-1)              (3)
+
+±q(3)¤¤´£¥X(1)
+
+   phi(m) = phi(n) * p                                                  (3.1)
+
+
+
+¸Ñªk¡G
+
+1.¥ý¥Î¿zªk¡A°µ¥X¨C­Ón§t¦³ªº½è¼Æp (¥ô·N¤@­Ó)
+
+
+2.¦A¥Ñ(2.1),(3.1)°µDP¡An = m/p¡A¥ýÀË¬dn¬O§_¥i¥H³Qp¾ã°£¡A¦A¨M©w­n¥Î­þ¤@­Ó
+
+
+3.±µµÛdepthphi(n) = depthphi(phi(n))+1
+
+
+4.°µF(n) = F(n-1) + depthphi(n)
+
+¥OSODF(m,n) = F(n) - F(m-1)¡A§Y±o
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m203.68.21.160 (¨S¦³¬G¶m)[m
+
+¡÷ [36msa072686 [31m±À[m:¦b¯¸¤§¤U                                             0526 11:25

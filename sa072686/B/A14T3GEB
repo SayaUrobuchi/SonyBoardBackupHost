@@ -1,0 +1,43 @@
+§@ªÌ: suhorng (¨º­Ó¤èªk¦n¯«§®...) ¯¸¤º: sa072686
+¼ÐÃD: Re: [°Q½×] ACM #10410 Tree Reconstruction
+®É¶¡: 2009/03/31 Tue 14:09:37
+
+¡° ¤Þ­z¡msa072686 (AC Island ¶}µo¤¤)¡n¤§»Ê¨¥¡G
+> §Ú¤£²M·¡§Aªººâªkªø«ç¼Ë¡KXD
+> §Úªº code ¿é¥X©M§A±µªñ¡A¦ý¬O¬O 5: 4 3 2 1
+> ¤]³\§A¥i¥HÀË¬d¤@¤U§A§Q¥Î¼h¼ÆÃö«Yªº¤èªk¡A½Õ¾ã¤@¤U¥ý«á¶¶§ÇXD
+
+À³¸Ó¬O¦P¤@­Óºâªk¤F...
+
+¦ý¬O³o¼Ë©Ç©ÇªºQ_____Q
+
+ÃD¥Ø»¡¡G
+
+Note that when a parent was expanded the children were traversed in ascending
+order.
+
+¥H¤Î
+
+Each line should start with the node number followed by a colon followed by a
+list of children in ascending order.
+
+©Ò¥H³oµ§À³¸Ó¬O
+
+1:
+2: 1
+3: 2
+4: 3
+5: 4
+
+ªº¼Ë¤l¡C
+
+§Ú§â¥¦¥ý±Æ§Ç¤~¿é¥X... ¤~¶]¥X 5: 1 2 3 4
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by suhorng from [m [1m140.122.61.163 (¥xÆW®v½d¤j¾Ç)[m
+
+¡¶ [1;30msuhorng [;33m§ï[m@[m2009/03/31 Tue 14:10:43[m
+¡÷ [36msa072686 [31m±À[m:¦³¹D²z¡K§Ú¬O¥HBFS¬°¥D¤~³o¼Ë¡A¤]³\­n¥HDFS¬°¥D¡H       0331 15:10

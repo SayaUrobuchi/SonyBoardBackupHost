@@ -1,0 +1,65 @@
+§@ªÌ: seanwu ( ) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]300
+®É¶¡: 2007/05/21 Mon 19:02:31
+
+Â²³æÃD
+
+°¨¶®¦³¨âºØ¾äªk¡A¤@ºØ¥s°µHaab¡A¥t¤@ºØ¥s°µTzolkin¡A­n§A§âHaabÂà¦¨Tzolkin
+
+
+
+
+   Haab¡A¤@¦~¦³365¤Ñ¡A19­Ó¤ë¡A¨C­Ó¤ë¦³¦WºÙ
+
+{"pop", "no", "zip", "zotz", "tzec", "xul", "yoxkin", "mol",
+ "chen", "yax", "zac", "ceh", "mac", "kankin", "muan", "pax",
+  "koyab", "cumhu", "uayet"};
+
+//À°§A§â¦r¦ê·Ç³Æ¦n¤F XD..
+
+¨ä¤¤1~18¤ë¦U¦³20¤Ñ¡A¥H¼Æ¦r0~19ªí¥Ü¡A²Ä19¤ë¥u¦³5¤Ñ¡A¥H0~5ªí¥Ü
+
+®æ¦¡¬°¡G  ¤é´Á. ¤ë¥÷ ¦~¥÷  ==> 10. zac 1995
+
+
+
+
+   Tzolkin¡A¦³ÂI¹³¤Ñ¤z¦a¤ä¹B§@ªº¤è¦¡¡A§Ú»¡¤Ñ¤zÅÜ¦¨20­Ó¦U¦³¦WºÙ
+
+{"imix", "ik", "akbal", "kan", "chicchan", "cimi", "manik",
+ "lamat", "muluk", "ok", "chuen", "eb", "ben", "ix", "mem", "cib",
+  "caban", "eznab", "canac", "ahau"};
+
+¦a¤äÅÜ¦¨13­Ó¬°¼Æ¦r 1~13¡A¨âªÌ¦P®É½ü¡A½ü¤@°é¦^¨Ó«á¬O¤@¥Ò¤l¡A¹³³o¼Ë
+
+1 imix, 2 ik, 3 akbal, 4 kan, 5 chicchan, 6 cimi, 7 manik, 8 lamat,
+9 muluk, 10 ok, 11 chuen, 12 eb, 13 ben, 1 ix, 2 mem, 3 cib, 4 caban,
+5 eznab, 6 canac, 7 ahau, and again in the next period 8 imix, 9 ik ...
+
+®æ¦¡¬°¡G  ¦a¤ä ¤Ñ¤z ¥Ò¤l
+
+
+
+
+¥@¬Éªº²Ä0¤Ñ¬°
+
+Haab: 0. pop 0
+
+Tzolkin: 1 imix 0
+
+
+
+<Hint  ½Ð«ö¤jE>
+
+[30;40m  ´«¦¨¥@¬Éªº²Ä´X¤Ñ«á¦AÂà´«  [m
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m203.68.21.160 (¨S¦³¬G¶m)[m
+
+¡÷ [36mseanwu [33m»¡[m:¾¾...°O±o¿é¥X¶µ¼Æ...                                   0521 19:03
+¡÷ [36msa072686 [31m±À[m:¦³chen­C¡K¡]sc¦nµo¡^ÁÙ¦³ik XDDD                      0521 19:10
+¡÷ [36metetet91 [33m»¡[m:ÁÙ¦³ik­C¡K¬ì¬ì                                       0524 00:03

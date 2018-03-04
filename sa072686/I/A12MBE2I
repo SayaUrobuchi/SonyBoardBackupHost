@@ -1,0 +1,323 @@
+§@ªÌ: sa072686 («n¤@¤¤¤E¤C¯Å¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [µ§°O]³Æ§Ñ
+®É¶¡: 2006/11/23 Thu 23:03:46
+
+°ò¥»ÃD¡G
+
+ÃD¥Ø¡G¤E¤E¤E­¼ªk¡I¡H
+
+¤º®e¡G
+
+¤E¤E­¼ªkªí¡H¤p¾Ç¥Í¦b­Iªº
+
+¥ÎC¼g¤E¤E­¼ªkªí¡H¤p¾Ç¥Í¦b¼gªº¡K°Ú¡A¤£¬OXD¡Aªì¾ÇªÌ¦b¼gªº
+
+¶â¡A¦pªG¹ï±_ª¬°j°éªºµ²ºc°÷¼ôÀ³¸Ó¥i¥H±À¼s¤@¤U¤£¦¨°ÝÃD
+
+µ¹§A¤T¼Æa¡Bb¡Bc¨Dabc­¼ªk¡]0 < a¡Ab¡Ac < 10
+
+Sample input
+
+2 3 5
+
+Sample output
+
+1*1*1=1
+1*1*2=2
+1*1*3=3
+1*1*4=4
+1*1*5=5
+1*2*1=2
+1*2*2=4
+¡K
+2*3*4=24
+2*3*5=30
+
+
+»¼°jÃD¡G
+
+ÃD¥Ø¡G­^ªü¤¬´«¡I¡H
+
+¤º®e¡G
+
+¶â¡A©Î³\³o¹ï§A¦Ó¨¥«ÜÂ²³æ¡A¦ý¹ï¹q¸£©O¡H¤£¹L¨SÃö«Y¡A¦³Áo©úªº§A¹ÀXD
+
+¬Ý¤£À´ÃD¥Ø¶Ü¡H¬Ýsample input¦n¤F¡A¼Æ¦r«OÃÒ¤£¤j©ó2147483647
+
+Sample input
+
+eight hundred sixty thousand seventy one
+
+Sample output
+
+860070
+
+
+½è¼ÆÃD¡G
+
+ÃD¥Ø¡GSA RPG¡I¡H
+
+¤º®e¡G
+
+¤µ¤Ñ¦³¤@´Ú·s¹CÀ¸SA RPG¡]Super A RPG¡K¡H·íµM¤£¬OXDDD¡^
+
+¤£¹L©O¡A¥¦ªºÅ]ªk§ðÀ»¶Ë®`­pºâ¤è¦¡«Ü©Ç¡A¤]¨S¦³©Ò¿×Å]ªk¨¾¿m¤Oªº°ÝÃD
+
+³]Å]ªk¤O¬°i¡AÅ]ªk§ðÀ»¤O¬°j
+
+¶Ë®`¤½¦¡¡G²Äi­Ó½è¼Æ * j¤§©Ò¦³¦]¼Æ©M
+
+¦]¬°Å]ªk§ðÀ»¤O¦³­Ó«Ü©Çªº¯S©Ê¡A´N¬O¤j¤£¤@©w¦n¡A¨Ò¦p9´N¨S¦³8ªº¦n
+
+¡]1+3+9=13<1+2+4+8=15¡^
+
+©Ò¥H»Ý­n¼g­Óµ{¦¡¨Ó­pºâ¤@¤U¡Aµ¹§AÅ]ªk¤O©MÅ]ªk§ðÀ»¤O¡A¨D¶Ë®`¡H
+
+Sample input
+
+5 8
+
+Sample output
+
+165
+
+
+ÃD¥Ø¡G¯x§Î¤Á³Î°ÝÃD
+
+¤º®e¡G
+
+¹ï©ó¤@­Ó¯x§Î¡A¥Ñ©óSA¤ñ¸û³ßÅw¤è§Î¡A©Ò¥H­n¨D§A§â¥¦­Ì¤Á¦¨¤è§Î¡]¥|Ãä³£¤@¼Ëªø¡^
+
+ÁöµM¦³³ÌÂ²³æªº¤èªk¡A´N¬O¥þ¤Á¦¨1*1¡A¤£¹L¨º¼Ë´N¤ÓµL²á¤F
+
+¸Õ¸Õ¬Ý¨C¦¸³£¤Á³Ì¤j¶ôªº¡A¯à¤Á¥X´X¶ô¡H¤S¡A­Y±N¨ä¤Á¦¨¬Û¦P¤j¤pªº¤p¥¿¤è§Î
+
+³Ì¤Ö¯à¤Á¥X´X¥÷¡HÁöµM³o¤Á°_¨Ó«Ü®e©ö¡A¥i¬O·í¯x§Î¤Ó¤j´N³Â·Ð¤F
+
+©Ò¥H§A·Q¼g­Óµ{¦¡ª½±µ¸Ñ¨M¥¦¡C¸Õ¸Õ§a¡I
+
+Sample input
+
+7 5
+14 21
+
+Sample output
+
+5 35
+3 6
+
+
+¼É¤OÃD
+
+ÃD¥Ø¡G¾î¦¡»Pª½¦¡®Ñ¼gªºÂà´«¡I¡H
+
+¤º®e¡G
+
+§Ú·Q¾î¦¡»Pª½¦¡®Ñ¼gÀ³¸Ó´N¤£¥Î¦h°µ»¡©ú¤F§a¡H¸ÕµÛÂà´«¥¦­Ì§a
+
+½Ðª`·N¦æ¥½¤£­n¥X²{¥ô¦ó¦h¾lªºªÅ¥Õ¡A¦ý­Y©ó­ì¤å¦³¥X²{«h«O¯d
+
+Sample input
+
+Hello!
+I like ACM.
+
+Sample output
+
+IH
+ e
+ll
+il
+ko
+e!
+
+A
+C
+M
+.
+
+
+ÃD¥Ø¡G99¡K9¡]n­Ó¡^­¼ªk
+
+¤º®e¡G
+
+µ¹§A¤@¤p©ó10ªºn¤În­Ó¼Æa1¡Ba2¡B¡Kan¡A¨Da1a2a3¡Kan­¼ªk
+
+Sample input
+
+4
+6 1 7 4
+
+Sample output
+
+1*1*1*1=1
+1*1*1*2=2
+¡K
+2*1*7*4=56
+3*1*1*1=3
+¡K
+6*1*7*4=168
+
+
+DFS¡]DP¡I¡H¡^ÃD¡G
+
+ÃD¥Ø¡Gidj+k¡I¡H
+
+¤º®e¡G
+
+À³¸Ó¦h¤Ö¬Ý¹L1d2+3³oºØªF¦è§a¡H³o¥Nªí¥á¤@¦¸2­±»ë¡A¥X¨ÓªºÂI¼Æ¦A¥[3
+
+³o¤@¯ë¥Î¦b¹CÀ¸¤¤°µ¬°¤½¦¡¨Ï¥Î¡A¥¦ªº¦n³B¬O¥áªº»ë¤l¶V¦h¤À§G´N¶V¥­§¡
+
+²{¦b¡A¥ô°È«ÜÂ²³æ¡Gµ¹§Ai¡Bj©Mk¡A¨Dnªº¥X²{²v¬O¦h¤Ö¡A½Ð°O±o%²Å¸¹
+
+Sample input
+
+1 2 3
+2
+2 3 0
+4
+
+Sample output
+
+0%
+33%
+
+¦r¦êÃD¡G
+
+ÃD¥Ø¡G¦r¨åªº¬d¸ß
+
+¤º®e¡G
+
+¤µ¤Ñ§A±o¨ì¥P¤H¶Ç±Â¤@¥»Å]ªk®Ñ¡A¦ý¤W­±³£¬O¨Ç¬Ý¤£À´ªº¤å¦r¡A©¯¦n¦³ªþ¦r¨å
+
+¥i¬O¬d§ä¦r¨å«o«Ü¬O³Â·Ð¡A¦]¬°¸Ó¦r¨å¨Ã¥¼¨Ì¥ô¦ó¶¶§Ç±Æ§Ç¡]¦³°Õ¡A¨Ì¥P¤Hªº¤ß±¡¡^
+
+¬°¤F¤è«K¡A§A­n¼g¤@­Óµ{¦¡±N¦r¨å¿é¤J¹q¸£¡A¤§«á¿é¤JÅ]ªk®Ñªº¤º¤åÅý¥¦¦Û°ÊÂ½Ä¶
+
+­Y¥¼¦b¦r¨å¤¤¥X²{½Ð¿é¥X­ì¤å¡A¤å³¹µ²§ô«e¤£­nÂ_¦æ
+
+Sample input
+
+abcc function
+bcaa function2nd
+sa weakprogrammer
+abc struct
+#
+abcc abcc abc bcaa abc sa sa sa as sa abc abccc
+abc     abc accepted sa
+#
+
+Sample output
+
+function function struct function2nd struct weakprogrammer weakprogrammer
+weakprogrammer as weakprogrammer struct abccc struct struct accepted
+weakprogrammer
+
+
+BFSÃD¡G
+
+ÃD¥Ø¡G°¨ªº°ÝÃD
+
+¤º®e¡G
+
+¶â¡AÁöµMÃD¥Ø°á°_¨Ó¤£«ç»ò¦nÅ¥¡A¥i¬O¥¦«o¬O­Ó¦n°ÝÃD
+
+¤µ¤Ñµ¹§A¤@­Ó¼Ð·Ç¶H´Ñ´Ñ½L¡A¨Ã§i¶D§A¦³´XÁû´Ñ¤l¦b´Ñ½L¤W¡A¤Î¨ä¦ì¸m
+
+¨Ãµ¹§A¤@°¦°¨©M¨eªº¦ì¸m¡A½Ð±N¨e¥H³Ì¤Ö¨B¼Æ²¾¦Ü«ü©w¦ì¸m
+
+¨Ã¿é¥X³Ì¤p¨B¼Æ¤Î¨ä¸ô®|¡C½Ð°O±o¶H´Ñ´Ñ½L¬O10*9ªº¤j¤p
+
+¥Ñ¥k¨ì¥ª½s¸¹1~9¡A½Ð¥H¼Ð·Ç´ÑÃÐ¤è¦¡¡]·íµM¡A¤£¥Î¥Î¤¤¤å¡^¿é¥X¸ô®|
+
+¬°¨¾¤£À´«ç»ò¨«ªº¡A´£¨Ñ¤@¤U¨«ªk©M´ÑÃÐ¿é¥X¤è¦¡
+
+01234    ­Y°¨¦bc¡A«h¥i¥H¨«¨ì1¡B3¡B5¡Bf¡Bl¡Bn¡B9¡Bj³o¤K®æ
+56789
+abcde    §Y|£Gx|+|£Gy|=3¥B|£Gx|¡A|£Gy|>0¡A¦ý¦³©ä°¨¸}ªº±¡§Î
+fghij
+klmno    ­Y|£Gx|>|£Gy|«hµø¬°¨«xªº¤è¦V¡A¤Ï¤§«h¬°y¤è¦V
+
+«h°¨ªº«e¤è¤£±o¦³¤l¡A§Y¨«1¡B3«h7¤£±o¦³¤l¡A¨«5¡Bf«hb¤£±o¦³¤l
+
+´ÑÃÐ°Oªk«ÜÂ²³æ¡A±q½s¸¹m¨ì½s¸¹n¡A¥u¦³°¨m¶in©M°¨m°hn¨âºØ±¡§Î
+
+¦b¦¹Â²¤Æ°O°µ¡Gh m f n©Mh m b n´N¥i¥H¤F¡A¥t¥~°¨¤£±o¦Y¤l
+
+Sample input
+
+«Ý²£
+
+Sample output
+
+«Ý²£
+
+
+ÃD¥Ø¡G¦æ°Ê¤O°ÝÃD
+
+¤º®e¡G
+
+³\¦h¾Ô´Ñ¦¡ªº¹CÀ¸³£·|¦³¦æ°Ê¤O³oªF¦è¡A§PÂ_¥D¨¤­Ì¤@¦^¦X¥i¨«ªº®æ¼Æ
+
+¦ý¦³ªº¹CÀ¸¨Ã¤£³æ¯Â¡A¤£¬O4´N¬O4®æ¡A¦Ó¬O¦a§Î¦³¨äªý¤O¡]¡H¡^
+
+­Y¦æ°Ê¤O¤£¨¬ªý¤O´N¤£¯à°÷¨«¨ì¸Ó®æ¡A¦æ°Ê¤O¤£¨¬®É¤]µLªk¶i¦æ¬Y¨Ç°Ê§@¦p±j¤O¼C§Þ
+
+¥B§ó½ÆÂøªº¬O¥Ñ©ópathªº¤£¦P¡A±q¬Y®æ¥Xµo¨ì¬Y¤@®æ®Éªº´Ý¾l¦æ°Ê¤O¤]¤£¬Û¦P
+
+µ¹§A¦a¹Ï¤j¤p¡B¥D¨¤©Ò¦b¦a©M¦æ°Ê¤O¤Î¸Ó¦a¹Ï¨C®æ©Ò¦©¤§¦æ°Ê¤O
+
+¨D¦b¬Y®y¼Ð¤W´Ý¾l¤§¦æ°Ê¤O¤Î²¾°Ê¸ô®|
+
+Sample input
+
+µ¥Sample code¡K
+
+Sample output
+
+¦P¤W
+
+
+¥[¤ÀÃD¡G
+
+ÃD¥Ø¡G¼Æ¿W
+
+¤º®e¡G
+
+ÅU¦W«ä¸q¡A¼Æ¿W´N¬O¼Æ¦r¿W¦r¥X²{¡A¬G½Ð¿é¥X©Ò¦³¥u¦³¤@­Ó¦ì¼Æªº¼Æ¦r¡K°Ú¡A¤£¬O
+
+µ¹§A¤@±i9*9ªºªí¡A¨ä¤¤¨C¤@¦æ¦C¬Ò»Ý¶ñ¤J1~9ªº¼Æ¦r¡A¥B¤£±o­«ÂÐ¥X²{
+
+¥t¡A±N¨ä¤À¦¨9­Ó3*3ªº¤E®c®æ¡A¤E®c®æ¤¤¤]»Ý¶ñ¤J1~9ªº¼Æ¦r¥B¤£±o¦³­«ÂÐªº±¡§Î¥X²{
+
+µ¹§A¤@±iªí¡A0ªí¥ÜªÅ®æ¡A½Ð§¹¦¨¥¦¡A¤£·|¦³¦h²Õ¸Ñ©ÎµL¸Ñ±¡§Î²£¥Í
+
+Sample input
+
+¡K|||
+
+Sample output
+
+¡K|||
+
+
+ÃB¥~¥[¤ÀÃD¡G
+
+ACM 989 && 10957
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Åµ{³]±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡¶ [1;30msa072686 [;33m§ï[m@[m2006/11/23 Thu 23:57:51[m
+¡¶ [1;30msa072686 [;33m§ï[m@[m2006/11/25 Sat 11:18:02[m

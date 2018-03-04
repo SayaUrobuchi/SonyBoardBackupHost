@@ -1,0 +1,36 @@
+§@ªÌ: chensc (chensc) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] SA¥Í¤é
+®É¶¡: 2008/12/07 Sun 22:24:53
+
+¡÷ [0;36mmp607 [0;31m±À[0m:³o¤°»ò°­...       //strings°µ¤°»ò¥Îªº?[m
+¡÷ [0;36myuscvscv [0;31m±À[0m:¯à§_¸Ô­z¤@¤U³o­Ó«ü¥O?[m
+
+chensc@Venus:~$ man strings
+
+STRINGS(1)                                      GNU Development Tools                                      STRINGS(1)
+
+NAME
+       strings - print the strings of printable characters in files.
+
+SYNOPSIS
+       strings [-afov] [-min-len]
+               [-n min-len] [--bytes=min-len]
+               [-t radix] [--radix=radix]
+               [-e encoding] [--encoding=encoding]
+               [-] [--all] [--print-file-name]
+               [-T bfdname] [--target=bfdname]
+               [--help] [--version] file...
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by chensc from [m [1m220.134.18.57 (¤¤·Æ¤@µf)[m
+¡¶ [1;30mchensc [;33m§ï[m@[m2008/12/07 Sun 22:25:56[m
+¡¶ [1;30mchensc [;33m§ï[m@[m2008/12/07 Sun 22:26:26[m
+¡÷ [36myuscvscv [31m±À[m:| grep shutdown ¬O?                                  1207 22:40
+¡÷ [36mhrs113355 [31m±À[m:man grep                                            1207 23:21
+¡÷ [36msuhorng [31m±À[m:|ºÞ½u    grep´M§ä¦r¦ê                                 1208 08:24
+£p [1;30mr51303 [0;36mÂà[m:¨ì [r51303] ¬ÝªO¡A¤_ 2008/12/08 Mon 13:05:16 [m
+¡÷ [36myuscvscv [31m±À[m:³o¥i¥Hª½±µÅªµ{¦¡³á= =?                               1208 19:45

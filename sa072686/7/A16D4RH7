@@ -1,0 +1,111 @@
+§@ªÌ: suhorng (»{¯u) ¬ÝªO: sa072686
+¼ÐÃD: [Âà¿ý] [¸êµ²] Suffix Array
+®É¶¡: 2010/11/04 Thu 16:26:15
+
+¡° ¥»¤åÂà¿ý¦Û [suhorng] «H½c
+
+§@ªÌ: suhorng.bbs@fgisc.twbbs.org (to the sky)
+¼ÐÃD: Re: [¸êµ²] Suffix Array
+®É¶¡: 2010/11/04 Thu 16:25:35
+
+§@ªÌ: suhorng (®Ñªl(ªü®Ñ)) ¯¸¤º: Programming
+¼ÐÃD: Re: [¸êµ²] Suffix Array
+®É¶¡: 2010/02/14 Sun 15:43:21
+
+OK¡A¦b«Øºc¥X Suffix Array ¤§«á¡A§Ú­Ì¤w¸g¥i¥H§¹¦¨¬Y¨Ç¯«©_ªº¨Æ±¡¡C
+
+¦ý¬O³o½g¤¤¡A­n¦A¤¶²Ð¥t¤@­Ó©M Suffix Array ¦³ÃöªºªF¦è -- Depth Array ªº«Øºc
+
+1.«e´£ (¤@¨ÇÂ²ºÙ)
+
+    ¿é¤Jªº¦r¦ê s[0 ... len-1] ¼g¬° s
+
+    ¦Ó s+i ¥Nªí s[i ... len-1]  (±q s[i] ¶}©lªº suffix¡A¤]¬O­Ó¦r¦ê)
+
+    Longest Common Prefix (³Ì±`¤½¦@«eºó) Â²¼g¬° LCP
+
+    Suffix Array ±NÂ²ºÙ¬° SA
+
+    SA ªº¬Û¤Ï«hºÙ¬° Rank (§Y¡ARank[SA[i]] = i)
+
+    Depth Array ±NÂ²¼g¬° DA
+
+    ¦Ó¹ï©ó¥ô·N 0 < i < n ¡ADA[i] «ü LCP( s+SA[i-1], s+SA[i] ) ªºªø«×
+
+    §Ú­Ì©w¸q DA[0] = 0
+
+    Á|¨Ò¨Ó»¡¡AXDXDXDrz ªº©Ò¦³«áºó¬°
+
+    s+0     XDXDXDrz
+    s+1     DXDXDrz
+    s+2     XDXDrz
+    s+3     DXDrz
+    s+4     XDrz
+    s+5     Drz
+    s+6     rz
+    s+7     z
+
+    «h XDXDXDrz ªº (¦b¦¹°²³]¤j¼g¦r¥À < ¤p¼g¦r¥À)
+
+    i     s+i     Rank[i]   SA[i]   s+SA[i]    DA[i]
+    0  XDXDXDrz     3        1     DXDXDrz      0
+    1  DXDXDrz      0        3     DXDrz        3
+    2  XDXDrz       4        5     Drz          1
+    3  DXDrz        1        0     XDXDXDrz     0
+    4  XDrz         5        2     XDXDrz       4
+    5  Drz          2        4     XDrz         2
+    6  rz           6        6     rz           0
+    7  z            7        7     z            0
+
+
+2.©w²z (ÃÒ©ú²¤¥h)
+
+    DA[Rank[i]] >= DA[Rank[i-1]] - 1
+
+3.«Øºc Depth Array
+
+¨C­Ó DA[Rank[i]] ¨ä¹ê´N¬O¦b°Ý s+i ©M s+SA[Rank[i]-1] ªº LCP ªø«×
+
+                               ^^^^^^^^^^^^ s+i ±Æ¦b Rank[i]¡A©Ò¥H±Æ
+                                            ¦b s+i «e¤@­Óªº«áºó´N¬O
+                                            s + SA[  Rank[i]-1  ]
+
+¦ý¬O§Ú­Ì¦³ DA[Rank[i]] >= DA[Rank[i-1]] - 1
+
+¤]´N¬O LCP( s+i, s+SA[Rank[i]-1] ) ªºªø«×³Ì¤Ö¬O DA[Rank[i-1]-1
+
+´«¥y¸Ü»¡¡A¥L­Ì³Ì¤Ö¦³«e DA[Rank[i-1]]-1 ­Ó¦r¤¸¬O¬Û¦Pªº¡A¥i¥H¤£¥Î¤ñ¸û
+
+¦]¦¹¡A§Ú­Ì¦b¤ñ¸û s+i ©M s+SA[Rank[i]-1] ®É (½T©w DA[Rank[i]] ®É)
+
+¥i¥Hª½±µ±q (s+i) + DA[Rank[i-1]]-1 ¶}©l¤ñ¸û
+
+¥Ñ¦¹¯S©Ê¡A¦pªG§Ú­Ì¦bºc³y DA ®É¥Î DA[Rank[0]] ... DA[Rank[n-1]] ªº¶¶§Ç¨Óºc³y
+
+¨C¦¸¦bºc³y DA[Rank[i]] ®É¡A§Ú­Ì¥u­n¤ñ¸û DA[Rank[i]] - DA[Rank[i-1]] + 2 ­Ó¦r¤¸
+
+¨º»ò¡AÁ`ªº¤ñ¸û¦¸¼Æ±N¤£·|¶W¹L 4n
+
+©Ò¥H®É¶¡½ÆÂø«×¬° O(n)
+
+¥t¥~ª`·N¨â­ÓÃä¬É±ø¥ó¡G
+
+    i = 0 ®É§Ú­Ì±N±qÀY¶}©l¤ñ¸û ( ¨S¦³«e¤@­Ó DA[Rank[i-1]] ¥i¥H°Ñ¦Ò)
+
+    Rank[i] = 0 ªº®É­Ô§Ú­Ì©w¸q DA[0] = 0 ( ¨S¦³«e¤@­Ó«áºó¡A¤]´N¨S¦³ LCP )
+
+[1;30m* §ó¸Ô²Óªº¸ê®Æ½Ð°Ñ¾\ 2004 ¦~ °ê®a¶°°V¶¤½×¤å³\´¼½U ¡m«áºó¼Æ²Õ¡n[m
+
+// ¶â¡K¡K ¦³¬Y¨Ç¤p²Ó¸`¦³Á¿¿ù XDrz
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40msuhorng                  [1;30mfrom_[;32;40m218.167.131.200(HiNet)[m
+¡÷ [36msuhorng [33m»¡[m¡G¹ï¤F!! ¦³¤F SA ©M DA¡A§Ú­ÌÁÙ¯à°÷¤ñ¸ûÂ²³æªº¦b O(n)    [m0214 18:13
+¡÷ [36msuhorng [33m»¡[m¡Gªº®É¶¡¤º«Øºc¥X¤@´Ê Suffix Tree (Trie) !!             [m0214 18:13
+
+£p [1;30msuhorng [0;36mÂà[m:±q [suhorng] «H½c¡A¤_ 2010/11/04 Thu 16:26:15 [m

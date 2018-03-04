@@ -1,0 +1,73 @@
+§@ªÌ: Zero (³Ç¬¥) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]WA±¼ªº10374 XD
+®É¶¡: 2006/08/03 Thu 20:04:18
+
+¦]¬°³oÃä±jªÌ¦n¦h
+Åý§Ú¶Ã¤@¤Uª©XD
+
+#include<vector>
+#include<iostream>
+#include<string>
+#include<map>
+using namespace std;
+
+int main()
+{
+    int cases;
+    cin >> cases;
+    for(int z=0;z<cases;z++)
+    {
+        string tt;
+        map<string,string> cand;
+        map<string,int> party;
+        int n;
+        cin >> n;
+        getline(cin,tt);
+        for(int i=0;i<n;i++)
+        {
+            string a,b;
+            getline(cin,a);
+            getline(cin,b);
+            cand[a]=b;
+        }
+
+        cin >> n;
+        getline(cin,tt);
+        for(int i=0;i<n;i++)
+        {
+            string a;
+            getline(cin,a);
+            party[cand[a]]++;
+        }
+
+        string maxParty="";int maxVotes=-1;
+        bool tie=false;
+        for(map<string,int>::iterator itr=party.begin();itr!=party.end();itr++)
+        {
+            if (itr->second > maxVotes)
+            {
+                maxVotes = itr->second;
+                maxParty = itr->first;
+                tie=false;
+            }
+            else if (itr->second == maxVotes)
+            {
+                tie=true;
+            }
+        }
+
+        if (tie) cout << "tie";
+        else cout << maxParty;
+        cout << endl;
+    }
+}
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by Zero from [m [1m203.70.105.237 (ºØ¤l¹q«H)[m
+
+¡÷ [36msa072686 [31m±À[m:¹à±Ð¾Ç¬Ý¤£À´map~*                                    0803 20:06
+¡÷ [36mMacaca [31m±À[m:¬°¤°»ò§Aªºcode³o»ò½ÆÂøorz...                           0803 20:08

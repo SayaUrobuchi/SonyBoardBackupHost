@@ -1,0 +1,136 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [±Ð¾Ç] ¥_¤@¤k¤¤¶°°V¥Î¡EDFS  part 4
+®É¶¡: 2009/07/08 Wed 18:46:59
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [±Ð¾Ç] ¥_¤@¤k¤¤¶°°V¥Î¡EDFS  part 4
+®É¶¡: 2009/07/08 Wed 18:44:19
+
+§@ªÌ: sa072686 (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [±Ð¾Ç] ¥_¤@¤k¤¤¶°°V¥Î¡EDFS  part 4
+®É¶¡: 2009/07/08 Wed 18:33:47
+
+¡° ¥»¤åÂà¿ý¦Û [Programming] ¬ÝªO
+
+§@ªÌ: AikoSenoo (Maktub.) ¯¸¤º: Programming
+¼ÐÃD: [±Ð¾Ç] ¥_¤@¤k¤¤¶°°V¥Î¡EDFS  part 4
+®É¶¡: 2008/07/27 Sun 15:20:54
+
+¥»½g¬O¤Þ¾É¦¡«ä¦Ò¡A±Ä¥Î¨ÒÃD¬°ACM Q441- Lotto
+
+
+1. ¬Ý¨ìÃD¥Ø¡A©p¦p¦ó¥h§â³oÃD¨Ï¥ÎDFS¨Ó°µ¡H
+
+    (½ÐÄÄ­z·Qªk¡A¤£»Ý­n¼g¥X¥ô¦óªºµ{¦¡½X¡C)
+
+    ¨C¤@­Ó¼Æ¦r³£¬O¸`ÂI¡A¥Ñ¤p¦Ó¤j¦a¨Ó¶]DFS¡C
+
+
+
+2. ¦p¦ó»¼°j¡H
+
+    (1) ¤°»ò±¡ªp¤U­nreturn¡H
+
+            1. ²`«×¤w¹F6
+            2. µL¸ô¥i¨«®É
+
+    (2) ¦p¦ó¬ö¿ý¹Lµ{¤¤¨«¹LªºÂI¡H
+
+            ¶}¤@­Ó°}¦C¦s©ñ
+
+    (3) ¦p¦ó¼Ð°O¥X¹Lµ{¤¤¨«¹LªºÂI¡H
+
+            ¶}¤@­Ó°}¦C¥Î¨Ó¼Ð°O¡A¥¼¨«¹L¼Ð1¡A¨«¹L¼Ð0
+
+            ·j´M®É¨«¹LªºÂI¤£¨«
+
+    (4) ¦p¦ó¥h¨«¤ñ¦Û¤v¤jªºÂI¡H
+
+            for°j°é±q¤ñ¦Û¤v¤jªºÂI¶}©l¨«
+
+    (5) »¼°jÀ³¸Ó­n¶Ç¤J­þ¨Ç°Ñ¼Æ­È¡H
+
+            ¥Ø«e©Ò¦bªºÂI¬OLucky Number½s¸¹²Ä´X­Ó¡A¥Ø«eªº²`«×
+
+
+3. ½Ð¦C¥X¥²­nªºÅÜ¼Æ¤Î°}¦C
+
+        ÅÜ¼Æ¡G
+                k¡B¶Ç¤J­Èªºn(¤W¤@­ÓLucky Number½s¸¹)©Mlen(¥Ø«e²`«×)
+                i(for°j°é¥Î)
+
+        °}¦C¡Gluckynum[] ¡Bans[](©ñ¨«¹LªºÂI)¡Bcheck[](¼Ð°OÂI¥Î)
+
+
+4. ½Ð¸ÕµÛ«ö·Ó¤W­±ªº¸ê®Æ¡A¼¶¼gµ{¦¡½X¡C
+
+#include<stdio.h>
+int k;
+int lunum[15], ans[15], check[15];
+
+void visit(int n, int len)
+{
+    int i;
+    if(len >= 6)
+    {
+        printf("%d", ans[0]);
+        for(i=1; i<6; i++)
+            printf(" %d", ans[i]);
+        printf("\n");
+    }
+    else
+    {
+        for(i=n+1; i<k; i++)
+        {
+            if(check[i] == 1)
+            {
+                ans[len] = lunum[i];
+                check[i] = 0;
+                visit(i, len+1);
+                check[i] = 1;
+            }
+        }
+    }
+}
+
+int main()
+{
+    int i, cnt = 1;
+    while(1)
+    {
+        scanf("%d", &k);
+        if(k == 0) break;
+        if((cnt++) != 1) printf("\n");
+        for(i=0; i<k; i++)
+        {
+            scanf("%d", &lunum[i]);
+            check[i] = 1;
+        }
+        visit(-1, 0);
+
+
+    }
+    getchar();
+    return 0;
+}
+
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40mAikoSenoo                       [1;30mfrom_[;32;40m122.116.50.107(HiNet)[m
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40mAikoSenoo      	  		      	[1;30mfrom_[;32;40m122.116.50.107(HiNet)[m
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:46:59 [m

@@ -1,0 +1,150 @@
+§@ªÌ: seanwu ( ) ¬ÝªO: seanwu
+¼ÐÃD: [¶ø¸q] ³Ì¤p¾ð§Î¹Ï
+®É¶¡: 2007/05/31 Thu 21:38:22
+
+³Ì¤p¾ð§Î¹Ï¡A§A¥i¥H§â¥¦µø¬°¦³¦V¹Ï¤Wªº³Ì¤p¥Í¦¨¾ð
+
+¦b¦³¦V¹Ï¤W´M§ä¤@MST¡APrim©ÎKruskal±N¤£¾A¥Î¡A¦]¬°·í§A¿ï¤F¬Y­ÓÃä«á¡A
+
+¦³¥i¯à¾É­P¹Ï§Î³¡¤À¤£³s³q¡A¨Ïgreedyªº°µªk¥¢±Ñ¡C
+
+©³¤U»¡©ú§ä³Ì¤p¾ð§Î¹Ïªººtºâªk¡G
+
+
+1.¹ï¹Ï¤Wªº¨C­ÓÂIi¡A§ä¥X«ü¤J¥¦ªº³Ì¤pÃäin[i]¡A·í°µ³s¦^¾ð¤¤ªº¤÷¸`ÂIªºÃä¡C
+
+2.¦pªG©Ò¦³ªº³Ì¤pÃä¨S¦³§Î¦¨Àô°é¡A«h¥Ø«e§ä¨ìªº¾ð´N¬O³Ì¤p¾ð¡C
+
+3.¦pªG¦³Àô°é¡A¨º»ò§â³o­ÓÀô°é¦¬ÁY¦¨¤@­ÓÂInew¡A¥Bµ¥»ù©ó­ì¨Óªº¹Ï¡C
+
+¡@¤èªk¬O¹ï©ó¨C¤@±ø«ü¤JÀô°é¤¤¥ô¤@ÂIvªºÃä<u,v>¡A§ï¦¨«ü¦V¦¬ÁY¦¨ªº·sÂInew¡A
+
+  ¨Ã§â³o­ÓÃäªº­È´î¥hin[v]­È¡C±qÀô°é¤¤«ü¥XªºÃä<u,v>§ï¬°±q·sÂInew«ü¥X¡A­È¤£ÅÜ¡C
+
+    «ü¤JÀô°éªºÃä¡G <u,v>,(w)  ==>  <u,new>,(w-in[v])
+    «ü¥XÀô°éªºÃä¡G <u,v>,(w)  ==>  <new,v>,(w)
+
+4.ÁY±¼Àô°é«á¡A¦^¨ì1.Ä~Äò¡A¥i¯à¤S¥X²{Àô°é¡A´NÄ~Äò­«°µÁY°éª½¨ì¨S°é¬°¤î¡C
+
+
+
+©³¤U§Úªº¹ê§@¤èªk¬Oµ¹¨S¦³©T©w¾ð®Úªº¡C¦pªG·Q­n©T©w¾ð®Ú¡A´N§â©Ò¦³«ü¤J®ÚªºÃä®³
+
+±¼¡A³o¼Ë¥¦´N«D±o¬O¾ð®Ú¤£¥i¤F¡C
+
+
+0.ªì©l¤Æ¨C­ÓÂIªºset[i]=iªí¥¦ÄÝ©ó­þ­ÓÀô°é¶°¦X¡Aexist[i]=1ªí¥¦¦s¦b§_¡C
+
+  set[i]=i¬O±N¤@¶}©lªº¨C­ÓÂIµø¬°¤@­Ó¿W¥ßªºÀô°é¡C
+
+
+1.³]¨C­ÓÂI¤JÃäin[i]=¡Û¡A¨Ã³]³Ì¤p¤JÃä¨Ó·½pre[i]=i¡A§Y°²³]¬°¤@­Ó¥u§t¦Û¤vªºÀô¡C
+
+  ±½¹L©Ò¦³ªºÃä<u,v>,(w)¡A¨Ó´M§ä¨C­ÓÂIªº³Ì¤p¤JÃä¡C¦pªGvÁÙ¨S¦³¤JÃä©ÎªÌw<in[v]¡A
+
+  ´N§ó·s¥¦¡A¨Ã¨Ó·½ÂI³]¬°pre[v]=u¡C
+
+
+2.ÀË¬d¨C­ÓÂIªºin[i]¡A¦pªG¶W¹L¤@­ÓÂIªºin[i]==¡Û¡A³o¬O»¡¨S¦³Ãä¥i¥H«ü¤J¥¦¡A·N§Y
+
+¡@¥²¶·¦³¶W¹L¤@­Óªº¾ð®Ú¡A§Y³Ì¤p¾ð§Î¹Ï¤£¦s¦b¡C
+
+¡@­pºâ¨C­ÓÂIªºout-degree¡A³o¥i¥H¥Î¹ï¨C­ÓÂIpre[i]ªºout-degree++¨Ó¹F¦¨
+
+
+3.±N¨C­ÓÂIªºcycle[i]ªì©l¤Æ¬°1¡A¥Î¨Óªí¥Ü¥¦¬O§_¦bÀô°é¤¤¡C±½¹L¨C­ÓÂI¡A
+
+  ¦pªG¦³out-degree==0ªºÂI¡A¥¦¤@©w¤£ÄÝ©ó°é¡A§â¥¦³]¬°«DÀô°écycle[i]=0
+
+
+4.±½¹L¨C­ÓÂI¡A¦pªG¥¦cycle[i]==1«h©¹¥¦ªºpre¦^·¹¨C­ÓÂIp¡A§â³o¨ÇÂIªºset[p]
+
+  ³]¬°i¥NªíÄÝ©ói³o­Ó°é¡]·íµM¡A¤w°µ¹L³Q§ì¶iset[i]ªºÂI´N¤£­n­«ÂÐ°µ¤F¡^¡C
+
+
+5.±½¹L¨C±øÃä<u,v>,w¡A¦pªG³o±øÃäset[u]==set[v]ªí¥Ü¥¦¸Ó³QÁY¶i¤@­ÓÂI¤¤¡A
+
+¡@´N¤£­n¦AºÞ³o­ÓÃä¤F¡C§_«h§â³o±øÃäªºw¡Aw=w-in[v]¡A´î±¼¶i¤JÂIªº¤JÃä­È¡A
+
+¡@¨Ã­«³]u=set[u]¡Av=set[v]¡A¬°¤F±NÀô°éÁY¦¨¤@­ÓÂI«á­«Ãä­n­«·s«ü¦V¡C
+
+
+6.ÀË¬d©Ò¦³ªºÂI¦pªGset[i]!=i¡A´Nªí¥Ü¥¦³QÁY¨ìÀô°é¸Ì­±¡A§â¥¦ªºexist[i]=0²M°£¥¦¡A
+
+  ¦^¨ì1.Ä~Äò¡C
+
+
+
+©³¤U¬OµêÀÀ½X¡G
+
+  //virtual-code for directed-MST without decided root
+  //input : a directed-graph (by a set of edge)
+  //output: the cost of the directed-MST
+
+  sum = 0
+
+  for each vertex v
+    v.set   := v
+    v.exist := true
+
+
+  do
+    for each exist vertex v
+      v.pre := i
+      v.in  := ¡Û
+
+    for each edge e <u,v>,w
+      if w < v.in then
+        v.in  := w
+        v.pre := v
+
+    if there are more than one vertex's v.in = ¡Û then
+      no solution
+
+    for each exist vertex v
+      if v.cycle = true and v.out-degree = 0 then
+        do backtracing to its pre-vertex
+          v.out-degree := v.out-degree - 1
+          v.cycle      := false
+        until v.out-degree != 0
+
+    for each exist vertex v
+      if v.cycle = true and v.set = v then
+        // "v.set = v" makes others vertex in
+        // the same cycle will not be found again
+        do backtracing to its pre-vertex to find all vertex t in the cycle
+          t.set := i
+          //that is. if a vertex has been found, its set would not be same
+          //as its index. next time when the vertex be scan, this "v.set = v"
+          //will check it for sure.
+          sum   := sum + t.in
+          //these vertex will be contract, you shold add their cost
+
+    if cycle_count = 1 then
+      it has been a directed-MST, don't forget to add the cost of each
+      in-edge in this tree.
+
+    for each edge e <u,v>,w
+      if u.set = v.set then
+        delete the edge
+        //to delete the edge in an array, you may exchange the egde with
+        //the last edge, and delete the last one
+      otherwise
+        if v.cycle = true then
+          w := w - v.in
+        u = u.set
+        v = v.set
+
+    for each exist vertex v
+      if v.set != v then
+        v.exist = false
+
+  until done
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m203.68.21.160 (¨S¦³¬G¶m)[m
+

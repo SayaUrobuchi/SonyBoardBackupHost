@@ -1,0 +1,29 @@
+§@ªÌ: seanwu (®ü®¦§d) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10264
+®É¶¡: 2007/07/01 Sun 22:24:28
+
+¦]¬°³oÃD¤ÓªÅµê¤F¡A­É¥d®¦ªºÂ½Ä¶..
+
+[m[34;47m §@ªÌ [37;44m tmt514 (tomato)                                     [34;47m ¬ÝªO [37;44m EverydayACM [m
+[34;47m ¼ÐÃD [37;44m [ACM¡¹¡¸¡¸¡¸] 10264-The Most Potent Corner                             [m
+[34;47m ®É¶¡ [37;44m Thu Jun 21 15:03:18 2007                                               [m
+[36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+
+10264 The Most Potent Corner
+
+¤@­ÓN(1<N<15)­Óºû«×ªºcube·í¤¤ªº¨C­Ó¨¤¸¨(corner)³£¦³¤@­ÓÅv­«¡A
+§Ú­Ì»¡¨â­Ócorner¬Û¾F­Y¥B°ß­Y³o¨â­Ócorner¦³¤@±øÃä³s±µ¡C
+¨C¤@­Ócorner³£¦³¤@­Ó¤O¶q­È(potency)¡A³o­Ócornerªºpotency¨ú¨M©ó
+¸Ócornerªº©Ò¦³¾F©~ªºÅv­«Á`©M¡C
+½Ð§A§ä¥X¨â­Ó¬Û¾Fªºcorner¥¦­ÌªºpotencyÁ`©M³Ì¤j¡C
+
+<...>
+[30;40m   Xor with 2^i  [m
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by seanwu from [m [1m203.68.21.160 (¨S¦³¬G¶m)[m
+

@@ -1,0 +1,116 @@
+§@ªÌ: sa072686 (AC Island ¶}µo¤¤) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [µ§°O] ºë±K­p®É - clock()
+®É¶¡: 2009/07/08 Wed 18:46:57
+
+¡° ¥»¤åÂà¿ý¦Û [sa072686] «H½c
+
+§@ªÌ: sa072686.bbs@fgisc.twbbs.org (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [µ§°O] ºë±K­p®É - clock()
+®É¶¡: 2009/07/08 Wed 18:44:09
+
+§@ªÌ: sa072686 (¤H¥Í´N¬O¤@¦¸¦¸ªº¦¬¥d)
+¼ÐÃD: Fw: [µ§°O] ºë±K­p®É - clock()
+®É¶¡: 2009/07/08 Wed 18:30:48
+
+¡° ¥»¤åÂà¿ý¦Û [Programming] ¬ÝªO
+
+§@ªÌ: gba356 (º¿§Q¼Ú) ¯¸¤º: Programming
+¼ÐÃD: [µ§°O] ºë±K­p®É - clock()
+®É¶¡: 2008/02/19 Tue 22:23:06
+
+
+­ì¤å½Ð¨£¾aÃä¯¸ Homework28th ªO¡C
+
+[m[1;34m[§@ªÌ][37m gba356 (º¿§Q¼Ú)                                     [34m[¬ÝªO][36m Homework28th[m
+[m[1;34m[¼ÐÃD][37m [µ§°O] ºë±K­p®É - clock()[m
+[m[1;34m[®É¶¡][37m Tue Feb 19 22:21:02 2008[m
+[m[1;34m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+[m
+[m
+[m    ¦bºtºâªk»P¸ê®Æµ²ºc³oªù¾Ç¬ì¤¤¡A½ÆÂø«×¤ÀªR¬O¤Q¤À­«­nªº½ÒÃD¡C¦Ó³z¹L¹ï°õ¦æ®É¶¡
+[m
+[mªºÆ[¹î¡A§Ú­Ì¥i¥H³Ìª½±µ¦a·P¨ü¨ì½ÆÂø«×ªº¼vÅT¡C¦]¦¹­p®É¤@µ{¦¡¡A©Î¬O¨ä¤¤ªº¤@¹Dµ{§Ç
+[m
+[m¡A¬O¤Q¤À¥²­nªº¡C
+[m
+[m
+[m    ¦Ó¦b C/C++ ¤¤¡A<time.h>/<ctime> ´£¨Ñ¤F¤Q¤À§¹¾ãªº®É¶¡¬ÛÃö¨ç¦¡¡C¤µ¤Ñªº½ÒÃD¥u
+[m
+[m¦³¤@­Ó¡A­p®É¡C
+[m
+[m
+[m    ¦bÁ¿¸Ñ clock() ¤§«e¡A­n¥ýÁ¿¸Ñ¤@ºØ·s©w¸qªº«¬ºA¡Aclock_t ¡C clock_t ¬O
+[m
+[m<time.h>/<ctime> ¤¤¥H typedef ©w¸qªº«¬ºA¡A¥Î¥H[1m¬ö¿ý ÈÐµ{¦¡¶}©l°õ¦æ¦Ü¤µªº²@¬í¼Æ[m
+[m
+[m[1mÈÐ[m¡A¥¦ªº«¬ºA­ì«¬¬O long int ¡C
+[m
+[m
+[m    clock() ªº¨Ï¥Î¤èªk¤Q¤ÀÂ²³æ¡A»yªk¦p¤U¡G
+[m
+[m[1m        clock_t clock ( void );[m
+[m
+[m    ¬JµM¨Ï¥Î clock() ¥i¥H±oª¾µ{¦¡°õ¦æ«áªº¬Û¹ï®É¶¡¡A§Ú­Ì«K¥i¥H¦b±ý­p®Éªºµ{§Ç«e
+[m
+[m«á°O¿ý clock() ­È¡A¶i¦Óºâ¥X¸Óµ{§Ç©Ò¨Ï¥Îªº®É¶¡¡C
+[m
+[m    ½d¨Ò¦p¤U¡A½Ð¾\Åªµù¸Ñ¡A<algorithm> ¤¤ªº sort() ¨ç¦¡´N¤£»¡©ú¤F¡A³o¤ä¤pµ{¦¡¥i
+[m
+[m¥H­pºâ¥H <algorithm> ¤¤ªº sort() ±Æ§Ç n ­Ó¶Ã¼Æ»Ý­nªº®É¶¡¡C
+[m
+[m#include<iostream>
+[m#include<algorithm>     /* ¤Þ¤J sort() */
+[m#include<ctime>         /* ¤Þ¤J clock(), time(), rand() */
+[m#define N 4000000
+[musing namespace std;
+[m
+[m    int n,s[N];         /* n: ±ý±Æ§Çªº­Ó¼Æ */
+[m    clock_t start,stop; /* ½Xªíªº¶}©lÂI»Pµ²§ôÂI */
+[m
+[mint main()
+[m{
+[m    srand(  time( NULL )  );    /* ³]©w rand() ¥Îªº¶Ã¼ÆºØ¤l */
+[m
+[m    while( cin>>n )
+[m    {
+[m        for( int i=0;i<n;i++ )  /* ¼g¤J n ­Ó¶Ã¼Æ */
+[m            s[i] = rand()%N;
+[m
+[m        start = clock();        /* ­p®É¶}©l */
+[m        sort( s,s+n );          /* ±Æ§Ç¡A§Y±ý­p®Éªºµ{§Ç */
+[m        stop = clock();         /* ­p®Éµ²§ô */
+[m
+[m        cout<<"Sorting "<<n<<" element(s) needs "
+[m            <<(  stop-start  ) <<" millisecond(s)."<<endl;
+[m
+[m        /* £Gt = stop-start (ms) */
+[m    }
+[m}
+[m
+[m¥t¥~¡Aclock() ¥i¥H°µ­Ë¼Æ­p®Éªº¨ç¦¡¡A¥H«á¦³ªÅ·|Á¿¸Ñ¡C
+[m
+[m
+[m--
+[m       [1;33mOrigin [37mStandAway.twbbs.org ¡m203.64.26.27¡n        [36m«Ø¤¤¹q¬ã[37m¡À[36m¾aÃä¯¸[m
+[m  ¢i¢p¢i¢i[1;47m¡E[;30;47m¢j[m¢i¢p[30;47m¢j[m¢i[30;47m¢j¢j[m¢i¢©[30;47m¢j[m¢i¢i[30;47m¢j¢j¢j¢j[m¢i¢i[30;47m¢j[40m  [1;37;47m¡D[40m  ¢zùöùöùöùöùöùöùöùö¢{[m
+[m  ¢i¢h¢h[30;47m¢j[40m  [47m¢j[m¢h[1;5;47m¡E[;30;47m¢j¢j¢j¢j[m¢p[1;47m¡E[;30;47m¢j[m¢h[1;5;47m¡E[;30;47m¢j¢j¢j¢j[m¢h[1;47m¡E[;30;47m¢j[m¢i[1;5;47m¡E[40m   [;1;37;40m)   ckeisc.org   ¢x[m
+[m  ¢h¢h[1;5;47m£»[;30;47m¢j[40m  [47m¢j[40m  [1;37;47m£»[;30;47m¢j¢j[1;37m¡E[;30;47m¢j[m¢i[1;47m¡E[;30;47m¢j[40m  [1;37;47m£»[;30;47m¢j[m¢i[1;47m¡E[;30;47m¢j[40m  [m¢p¢h¢h[1;47m£»[40m  ¢|ùðùðùðùðùðùðùðùð¢}[m
+[m       [1;33mFrom [37m218-161-125-187.dynamic.hinet.net( ¦Y¤HªºHiNet )[m
+
+
+
+
+--
+                         [1mùùùáùáùù¢¡£» ¡î   ¡O [m¡¸       [1;30morigin_[;33;40mfgisc.twbbs.org[m
+                       [1m¢~ùùùáùáùù¢£ ¡D   ¡C                  [;34;40m¢¨¢«  ¢¨¢«[m
+  [44m   [1m¥_¤@¸ê¬ã¡CFGISC   ¢¢ùùùáùáùù¢¡ [30m °ò ´µ ¯S                [;34;40m¢©¢ª[44m  [40m¢©¢ª[44m        [m
+  [36m¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{ [1;37m¢£ùø  ¢£[;36;40m¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w[m
+         [1;30mby_[;32;40mgba356      	  		      	[1;30mfrom_[;32;40m218.161.125.187(HiNet)[m
+¡÷ [36mAikoSenoo [31m±À[m¡G±À¤@­Ó ¾Ç§ÌGJ!                                       08/02/19
+¡÷ [36mgba356 [31m±À[m¡GÁÂÁÂ¾Ç©n >///<                                          08/02/19
+¡÷ [36mSKYLY [31m±À[m¡G°¨¨û¦n±j¤j!!! <(_ _)>                                    08/02/19
+¡÷ [36msa072686 [31m±À[m¡G¾Ç§Ì¦n¼F®` >////<                                     08/02/20
+¡÷ [36megg123 [31m±À[m¡GÁÂÁÂº¿¨ûm(_ _)m                                         08/02/20
+¡÷ [36mvanillagirl [31m±À[m¡G¥Î¨ì¤F:)ÁÂÁÂ¾Çªø~!                                 08/06/16
+
+£p [1;30msa072686 [0;36mÂà[m:±q [sa072686] «H½c¡A¤_ 2009/07/08 Wed 18:46:57 [m

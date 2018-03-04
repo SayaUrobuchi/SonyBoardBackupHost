@@ -1,0 +1,50 @@
+§@ªÌ: SKYLY (´ÂµÛ¥Ø¼ÐÁÚ¶i¡C) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 11015 - 05-2 Rendezvous
+®É¶¡: 2008/05/11 Sun 15:48:00
+
+ACM 11015 - 05-2 Rendezvous
+
+Ãø©ö«×¡G5
+
+ÃD¥Ø¡G
+
+    ­ì¤å¡Ghttp://icpcres.ecs.baylor.edu/onlinejudge/external/110/11015.html
+
+    ¤¤Ä¶¡G¸Ô¨£ Lucky Cat ªº ACM ¶é¦a
+          ( http://luckycat.kshs.kh.edu.tw/homework/q11015.htm )
+
+¿é¤J¡G ¸Ô¨£¤¤Ä¶¡C
+
+¿é¥X¡G ¸Ô¨£¤¤Ä¶¡C
+
+´£¥Ü¡G ¹Ï½× (graph) ¤§ ¨D³Ìµu¸ô®|ªø (shortest path)¡C
+
+
+
+¸Ô¸Ñ¡G
+
+    µ¹¤H¦W¸ò¶ZÂ÷­n§ä³Ì¤ÖªºÁ`¯Ó¶O¶q (¨ä¹ê´N¬O¤@ÂI¹ï¨ä¥LÂI¤§³ÌµuÁ`¶ZÂ÷) ¡A¬G§Ú
+
+­Ì¥i¥H¨Ï¥Î Floyd-Warshall ºtºâªk¨Ó¨D¨C¤@ÂI¹ï¦UÂI¤§³Ìµu¸ô®|ªø¡C
+
+    §Úªº°µªk¬O¥ý±N¤H¦W¥Î¤@­Ó¦r¦ê (string) °}¦C¤À§O°O¿ý¤U¨Ó¡AµM«á¦A§Q¥Î Floyd-
+
+Warshall ºtºâªk±N¨C¤@ÂI¤§¶¡ªº³Ìµu¸ô®|ªø¨D¥X¨Ó¡C¦Ó©Ò¿× A ªºÁ`¯Ó¶O¶q¡A´N¬O A ¨ì
+
+¨ä¥LÂIªº¶ZÂ÷Á`©M¡A¬G¥u­n§ä¥X³Ì¤pÁ`¯Ó¶O¶qªººÝÂI¡A¦A¦L¥X¬Û¹ïÀ³ªº¤H¦W§Y¥i¡C
+
+
+¹ê»Ú°õ¦æ®É¶¡¡G 0.000 sec.
+
+Rank¡G 7 / 526
+
+
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by SKYLY from [m [1m123-194-150-166.dynamic.kbronet.com.tw (¨S¦³¬G¶m)[m
+
+¡¶ [1;30mSKYLY [;33m§ï[m@[m2008/05/11 Sun 18:46:14[m

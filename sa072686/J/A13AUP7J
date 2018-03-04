@@ -1,0 +1,86 @@
+§@ªÌ: gloompisces (Àþ¶¡©M¥Ã»·) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 10207
+®É¶¡: 2007/08/01 Wed 00:36:03
+
+10207 - The Unreal Tournament
+
+¦³¤@¤Ñ¡A¦³¨â­Ó¤HA©MB¦b¤ñÁÉ¡AA¥u­n¦A®³i³õ³Ó§Q´NÄ¹¤F¡AB«h­n¦A®³j³õ³Ó§Q´NÄ¹¤F
+
+(0<=i,j<=1000)¡A¦b¨C¤@³õ¤ñÁÉ¤¤Aªº³Ó²v¬Op¡ABªº³Ó²v¬Oq (q·íµM=1-p)
+
+A¥i¥HÄ¹ªº¾÷²v¥i¥H¥Î¥H¤U¨ç¦¡ªí¥Ü
+
+Function P(i,j)
+
+      if i = 0 then return 1
+
+      else if j = 0 then return 0
+
+      else return pP(i-1,j) + qP(i,j-1)
+
+Input¤¤¦³¼Æ²Õ´ú¸ê¡A¨C²Õ²Ä¤@¦æ¦³¤@­Ó¯BÂI¼Æp©M¤@­Ó¥¿¾ã¼ÆN (N<=1000)¡AN=0¥Nªíµ²§ô
+
+©³¤UN¦æ¨C¦æ¦³¨â­Ó¾ã¼Æi,j
+
+¹ï©ó¨C­Ói,j¡A½Ð¿é¥XAÄ¹ªº¾÷²v©M§A©I¥s³o­Ó¨ç¦¡ªº¦¸¼Æ
+
+(¦pªGi©Mj³£=0¡A«h¿é¥X-1.00000©M0)
+
+
+
+<Hint 1> (Pagedown)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¤£­n©M§Ú¤@¼Ë²Â¨ìª½±µ¥h¶]¨º­Ó¨ç¦¡¡A¤£µM´Nºâ timelimit ³]¤@¤ÑÀ³¸ÓÁÙ¬O·|TLE
+
+³oÃD°¾¦Vmath¦ý¤£¬O«Ü¯Âºéªºmath¡A«e­±¨º­Ó¯BÂI¼Æ(À³¸Ó)¤ñ¸û¦n°µ
+
+¤½¦¡±À¥X¨Ó«á¥Î¤£·| overflow ªº¤èªk°µ
+
+«á­±¨º­Ó BigInt ¤ñ¸û³Â·Ð¡A³Ì¤jµª®×¦b600¦ì¥ª¥k¡Aª½±µ«ØªíDP²z½×¤W·|MLE
+
+§Ú¬O§â«e´X¶µ§Ë¥X¨Ó§ä³W«ß¡A¤£¹L§ä¤F¤@­Ó¤U¤Èorz
+
+«á­±ªºªF¦è¤j·§·|­é¹Ü§A«ä¦Òªº¼Ö½ìXD¡A­nÄ~Äò¬Ý¤U¥hªº´N«öE§aXD
+
+
+<Hint 2> (E)
+
+[30m ¹ï©ó¨º­Ó¯BÂI¼Æ§Ú¬O¥Îlog¡A¸Ô²Ó¤½¦¡§Ú§Ñ¤F... [m
+
+[30m »~®t..À³¸Ó¤£¥Î¾á¤ß (¯uªº¸I¨ì¤F¦A»¡§aorz) [m
+
+[30m ¤£¹L¦pªG¦³¥Î¨ìlog(m)©MmÂà¨ÓÂà¥hªº­n¤p¤ßdoubleªºoverflow [m
+
+[30m ¹ï¤F¹q¸£ªºlog¦n¹³¬O¥Îe¬°©³ (e¤j¬ù¬O2.7182818284) [m
+
+[30m ¨º­ÓBigInt§Ú¤]¬O°¸µMµo²{ªº¡A¥ý¼g¦n¤@­Ó¤Ú´µ¥d¤T¨¤§Î [m
+
+[30m Âà45«×¡A¦A§â¨C­Ó¼Æ¥ý´î1¦A­¼2¡A¦ü¥G´N±o¨ìÃD¥Ø­nªº [m
+
+[30m µM«á±jªÌseanwu»¡¤Ú´µ¥d¤T¨¤§Îªº¨C¤@¶µ¦n¹³³£¥i¥H¼g¦¨C´X¨ú´X [m
+
+[30m §Q¥Î³o­Ó¥[¤WBigInt´N¥i¥H¨D¥Xµª®×¤F [m
+
+[30m ¥H¤W..¦³°ÝÃD¦A±À¤å©Î¦^¤å°Q½×§a [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.116.142.109 (¤£¥¢±Ñ¤j¾Ç)[m
+
+¡¶ [1;30mgloompisces [;33m§ï[m@[m2007/08/01 Wed 17:38:31[m

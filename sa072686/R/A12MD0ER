@@ -1,0 +1,167 @@
+§@ªÌ: sa072686 («n¤@¤¤¤E¤C¯Å¤p±Ð¾Ç~*) ¯¸¤º: sa072686
+¼ÐÃD: [¬ö©À] >///< ¤£µ¹§A­Ì¬Ý
+®É¶¡: 2006/11/24 Fri 13:23:39
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,g,h,i,j;
+    char k[9][9],l[10],m[81][2];
+    g=0;
+    while(scanf("%d",&k[0][0])==1)
+    {
+        for(a=0,b=1,j=0;a<9;a++)
+        {
+            for(b;b<9;b++)
+            {
+                scanf("%d",&k[a][b]);
+                if(!k[a][b])
+                {
+                    m[j][0]=a;
+                    m[j++][1]=b;
+                }
+            }
+            b=0;
+        }
+        for(a=0;a<9;a++)
+        {
+            for(b=1;b<10;b++)
+            {
+                l[b]=0;
+            }
+            for(b=0;b<9;b++)
+            {
+                if(k[a][b])
+                {
+                    if(l[k[a][b]])
+                    {
+                        break;
+                    }
+                    l[k[a][b]]=1;
+                }
+            }
+            if(b<9)
+            {
+                break;
+            }
+        }
+        if(a<9)
+        {
+            printf("Case %d: Illegal.\n",++g);
+            continue;
+        }
+        for(a=0;a<9;a++)
+        {
+            for(b=1;b<10;b++)
+            {
+                l[b]=0;
+            }
+            for(b=0;b<9;b++)
+            {
+                if(k[b][a])
+                {
+                    if(l[k[b][a]])
+                    {
+                        break;
+                    }
+                    l[k[b][a]]=1;
+                }
+            }
+            if(b<9)
+            {
+                break;
+            }
+        }
+        if(a<9)
+        {
+            printf("Case %d: Illegal.\n",++g);
+            continue;
+        }
+        for(a=0;a<9;a+=3)
+        {
+            for(b=0;b<9;b+=3)
+            {
+                for(c=1;c<10;c++)
+                {
+                    l[c]=0;
+                }
+                for(c=a,d=a+3,f=b+3;c<d;c++)
+                {
+                    for(e=b;e<f;e++)
+                    {
+                        if(k[c][e])
+                        {
+                            if(l[c][e])
+                            {
+                                break;
+                            }
+                            l[c][e]=1;
+                        }
+                    }
+                    if(e<f)
+                    {
+                        break;
+                    }
+                }
+                if(c<d)
+                {
+                    break;
+                }
+            }
+            if(b<9)
+            {
+                break;
+            }
+        }
+        if(a<9)
+        {
+            printf("Case %d: Illegal.\n",++g);
+            continue;
+        }
+        h=1;
+        while(1)
+        {
+            for(c=0;c<j;c++)
+            {
+                a=m[c][0];
+                b=m[c][1];
+                for(d=1;d<10;d++)
+                {
+                    l[d]=1;
+                }
+                for(d=0;d<a;d++)
+                {
+                    if(k[a][d])
+                    {
+                        l[k[a][d]]=0;
+                    }
+                }
+                for(d=0;d<a;d++)
+                {
+                    if(k[d][b])
+                    {
+                        l[k[d][b]]=0;
+                    }
+                }
+            }
+        }
+    }
+    return 0;
+}
+
+
+
+--
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Åµ{³]±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m192.168.4.17 (¥x¯T¤@¤¤®áÆF¾j)[m
+
+¡÷ [36mgloompisces [31m±À[m:== ==                                             1124 19:48

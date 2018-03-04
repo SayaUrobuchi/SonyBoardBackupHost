@@ -1,0 +1,225 @@
+§@ªÌ: sa072686 (sa072686) ¯¸¤º: sa072686
+¼ÐÃD: [ACM] 577
+®É¶¡: 2008/01/31 Thu 12:42:32
+
+¶â¡A¤£Ãø°µªº¼ÒÀÀÃD¡A¨S¤°»ò¯S®í±¡§Î¡C
+
+----
+
+WIMP
+
+A window manager takes care of the details of creating, displaying, moving,
+and resizing a collection of windows in a graphical user interface. It also
+handles input events (like mouse clicks) related to these window management
+tasks. Your project is to write a WIndow Manager Program (WIMP).
+
+¤@­Óµøµ¡ºÞ²zµ{¦¡¥²¶·­n¯à°÷³B²z¨Ï¥ÎªÌ¹Ï§Î¤¶­±¤Wªº¡A³\¦hµøµ¡ªº²£¥Í¡BÅã¥Ü¡B²¾°Ê¡B
+
+¥H¤ÎÅÜ§ó¤j¤p¡C¥¦¥²¶·¯à°÷³B²z»Pµøµ¡¬ÛÃöªº¿é¤Jªº¨Æ¥ó¡]¹³¬O·Æ¹«ÂIÀ»¡^¡C§Aªº±M®×
+
+¬O­n¼g¤@­Óµøµ¡ºÞ²zµ{¦¡¡]WIMP¡^¡C
+
+The WIMP controls a screen of size $1024 \times 1024$ (measured in pixels),
+with the upper left-hand pixel at (0,0). The x-coordinates range from 0 at
+the left edge of the screen to 1023 at the right edge, and the y-coordinates
+range from 0 at the top of the screen to 1023 at the bottom. All coordinates
+are integers. The user can create and manipulate rectangular windows by
+moving the mouse and clicking the mouse button. A window has 4 distinct areas:
+
+WIMP ±±¨î¤@­Ó¤j¤p¬° 1024 * 1024 ¹³¯À¤j¤pªºµe­±¡A¥ª¤W¨¤¬°¡]0¡A0¡^¡CX ®y¼Ð½d³ò
+
+¦Û¥ª¦Ü¥k¬° 0 ¨ì 1023¡AY ®y¼Ð«h¬O¦Û¤W¦Ü¤U 0 ¨ì 1023¡C©Ò¦³®y¼Ð¬Ò¬°¾ã¼Æ¡C¨Ï¥ÎªÌ
+
+¥i¥H³z¹L²¾°Ê©MÂIÀ»·Æ¹«¨Ó¶}±Ò©M³B²z³o¨Ç¯x§Îµøµ¡¡C¤@­Óµøµ¡¦³¥|­Ó°Ï°ì¡G
+
+Area    Location and Size
+Close box   upper left hand corner of the window ( $25 \times 25$ pixels)
+Zoom box    upper right hand corner of the window ( $25 \times 25$ pixels)
+Motion bar  fills the top 25 pixels of the window, excluding zoom and close
+boxes
+Data area   remainder of the window
+
+Ãö³¬«ö¶s¡G¥ª¤W¨¤ 25 * 25 ¤j¤pªº°Ï°ì
+
+ÁY©ñ«ö¶s¡G¥k¤W¨¤ 25 * 25 ¤j¤pªº°Ï°ì
+
+¼ÐÃD¦C¡G°£¤FÃö³¬«ö¶s¤ÎÁY©ñ«ö¶s¥~¡A¦û¾Ú³Ì³»ºÝªº 25 ¹³¯Àªº°Ï°ì
+
+¸ê®Æ°Ï¡Gµøµ¡¤¤³Ñ¾lªº°Ï°ì
+
+A window will always be at least $51 \times 26$ so that all four areas are
+nonempty. Each window is assigned a unique integer identifier, starting at 0
+(the first window created has id 0, the second one created has id 1, and so
+on). Identifiers are not reused.
+
+¤@­Óµøµ¡¦Ü¤Ö¦³ 51 * 26 ªº¤j¤p¡A¦]¦¹¥|­Ó°Ï°ì¬Ò¤£¬°ªÅ¡C¨C­Óµøµ¡±N·|³Q½á¤©¤@­Ó
+
+°ß¤@ªº¾ã¼Æ¥Nªí¨­¥÷¡A±q 0 ¶}©l¡]²Ä¤@­Ó¶}±Òªºµøµ¡¬° 0¡A²Ä¤G­Ó¬° 1¡A¨Ì¦¹Ãþ±À¡^
+
+¨Ã¥B³o¨Ç¤£·|³Q­«ÂÐ¨Ï¥Î¡C
+
+The WIMP accepts the following events:
+
+WIMP ±µ¨ü¥H¤Uªº¨Æ¥ó¡G
+
+Event   Meaning
+DN x y  user pressed mouse button at location (x,y)
+UP x y  user released mouse button at location (x,y)
+AT x y  user moved mouse to location (x,y)
+CR l t r b  create new window with positions left, top, right, and bottom
+RE  redraw all windows from back to front
+ZZ  exit the WIMP
+
+DN x y  ¨Ï¥ÎªÌ¦b¡]x¡Ay¡^«ö¤U¤F·Æ¹«¥ªÁä
+UP x y  ¨Ï¥ÎªÌ¦b¡]x¡Ay¡^©ñ¶}¤F·Æ¹«¥ªÁä
+AT x y  ¨Ï¥ÎªÌ±N·Æ¹«²¾¨ì¤F¡]x¡Ay¡^
+CR l t r b  ¦b left¡Atop¡Aright¡Abottom ³B¶}±Ò¤@µøµ¡¡C
+RE  ¦Û«á¦Ó«e­«Ã¸©Ò¦³µøµ¡¡C
+ZZ  Â÷¶} WIMP
+
+The values x, y, l, t, r and b are all nonnegative integers within the
+dimensions of the screen.
+
+x¡By¡Bl¡Bt¡Br¡Bb ¬Ò¬°«D­t¾ã¼Æ¡A¨Ã¥B¦bµe­±½d³ò¤¤¡C
+
+The CR event always generates a properly formed window. Because windows can
+overlap, on a RE event they must be redrawn from back (least recently on top)
+to front (most recently on top). This ensures that they appear correctly
+overlapped to the user.
+
+CR ¨Æ¥ó¥Nªí¶}±Ò¤@­Óµøµ¡¡C¥Ñ©óµøµ¡¥i¥H­«Å|¡A¦b RE ¨Æ¥ó®É¥²¶·±q«á¤è¡]³Ì¤[¨S³Q
+
+©ñ¨ì³Ì«e­±¡^¦Ü«e¤è¡]³Ì±ß³Q©ñ¨ì³Ì«e­±¡^­«Ã¸¤@¦¸©Ò¦³µøµ¡¡C³o½T»{¥¦­Ì³Q¥¿½T¦a
+
+­«Å|¡C
+
+It is the job of the WIMP to keep track of all windows, even if some are
+overlapping. The rules it uses are:
+
+WIMP ªº¤u§@¬OºÞ²z©Ò¦³µøµ¡¡A§Y¨Ï¥¦­Ì¦³¨Ç¤w³Q»\¦í¡C³W«h¦p¤U¡G
+
+1.
+    A new window is always completely visible (`on top' of all other windows).
+
+¤@¡B·sµøµ¡Á`¬O¯à³Q§¹¾ã¦aÅã¥Ü¡]¦b©Ò¦³µøµ¡ªº³Ì«e¤è¡^¡C
+
+2.
+    A DN event anywhere on a visible part of a window selects that window and
+puts it on top, making the entire window visible. A DN event that is not in
+the visible part of any window does not affect the currently selected window.
+
+¤G¡BDN ¨Æ¥ó¯àÅý³QÂI¿ï¨ìªºµøµ¡²¾¨ì³Ì«e¤è¡A¨Ï±o¾ã­Óµøµ¡³£¬O¥i¨£ªº¡C¹ï©ó¨S¦³³Q
+
+ÂI¿ï¨ì¥ô¦ó¥i¨£³¡¥÷ªºµøµ¡¤£²£¥Í¥ô¦ó¼vÅT¡C
+
+3.
+    Closing and zooming both require a DN event followed by an UP event in
+the appropriate box. There may be one or more AT events in between. The DN
+and UP events must be in the same box, but they don't have to be in the exact
+same location.
+
+¤T¡BÃö³¬©MÁY©ñ³£¥²¶·­n¦³¤@­Ó DN ¨Æ¥ó±µµÛ¤@­Ó UP ¨Æ¥ó¡AÂI¦b¦P¤@­Ó«ö¶s¤W¡C¤]¥i¯à
+
+·|¦³¤@­Ó©Î¦h­Ó AT ¨Æ¥ó¦b¨â¨Æ¥ó¤§¶¡¡CDN ©M UP ¨Æ¥ó¥²¶·¦b¦P¤@­Ó«ö¶s¤W¡A¦ý¤£¤@©w
+
+­n¦b¦P¤@­ÓÂI¡C
+
+4.
+    Closing a window removes it from the screen.
+
+¥|¡BÃö³¬¤@­Óµøµ¡¡A±N·|±qµe­±¤¤²¾°£¥¦¡C
+
+5.
+    Zooming is a toggle that either makes the window occupy the entire
+screen, or returns the window to its initial size.
+
+¤­¡BÁY©ñ¥iÅý¤@­Ó¯¬µ¡¦û¾Ú¾ã­Óµe­±¡A©Î¬O±N¨ä«ì´_¦Üªì©l¤j¤p¡C
+
+6.
+    A DN event in the motion bar allows the window to be relocated. The
+motion stops with an UP event. The window moves the same distance and
+direction that the mouse moved between the DN and UP events.
+
+¤»¡BDN ¨Æ¥ó¦pªGÂI¦b¼ÐÃD¦C¡A«h¥iÅý¸Óµøµ¡²¾°Ê¡C²¾°Ê±N¦b UP ¨Æ¥ó¤¤µ²§ô¡C¦b³o´Á¶¡
+
+µøµ¡±N²¾°Ê»P·Æ¹«²¾°Ê¬Û¦Pªº¤è¦V¥H¤Î¶ZÂ÷¡C
+
+7.
+    AT events while moving a window must output the window's current
+position. AT events at any other time do not generate any output.
+
+¤C¡B¦b²¾°Ê¤¤¡AAT ¨Æ¥ó¥²¶·¦^³øµøµ¡¥Ø«e¦ì¸m¡C¨ä¥¦ª¬ªp¤U AT ¨Æ¥ó¤£¥²¿é¥X¥ô¦óªF¦è
+
+8.
+    Windows occupying the full screen cannot be moved.
+
+¤K¡B¥þµe­±ª¬ºA¤Uªºµøµ¡¤£¯à²¾°Ê¡C
+
+9.
+    Windows can partially move off the visible screen.
+
+¤E¡Bµøµ¡¥i¥H¦³³¡¥÷²¾¥Xµe­±¡C
+
+10.
+    AT events happen.
+
+¡]³o¥y¬Ý¤£À´¡A°ò¥»¤W¤£¼vÅT¸ÑÃD¡K¡^
+
+Input
+The input file contains one or more lines, each of which contains a single
+event. A ZZ event signals the end of the input. The events are all part of
+the same session.
+
+¿é¤J·|¦³¤@©Î¦h¦æ¡C¨C¦æ¬O¤@­Ó³æ¿Wªº¨Æ¥ó¡A¥H ZZ ¨Æ¥ó¬°¿é¤Jµ²§ô¡C©Ò¦³¨Æ¥ó³£¬O
+
+¦P¤@¦¸°õ¦æ¡C
+
+Output
+For each user action, output the corresponding message. On an RE event, the
+location of all windows must be output from back-to-front using the format
+shown.
+
+¹ï©ó¨Ï¥ÎªÌ¨C­Ó°Ê§@¡A¿é¥X¬Û¹ïÀ³ªº°T®§¡C¦b RE ¨Æ¥ó¡A©Ò¦³µøµ¡³£¥²¶·¨Ì«á¦Ü«eªº¶¶§Ç
+
+¤@¤@¿é¥X¥¦­Ìªº¦ì¸m¡C
+
+Action  Message
+Create window   ` Created window n at l, t, r, b'
+
+¶}±Òµøµ¡
+
+Select window   ` Selected window n'
+
+¿ï¨úµøµ¡
+
+Close window    ` Closed window n'
+
+Ãö³¬µøµ¡
+
+Move window     ` Moved window n to l, t, r, b'
+
+²¾°Êµøµ¡
+
+Zoom window     ` Resized window n to l, t, r, b'
+
+ÁY©ñµøµ¡
+
+Redraw  ` Window n at l, t, r, b'
+
+­«Ã¸
+
+----
+
+¥x«n¤@¤¤¸ê°TªÀ¤E¤C¯Å§C½Õ®`²Ûªº¤p±Ð¾Ç~*
+
+ACM±b¸¹¡G11557
+
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by sa072686 from [m [1m203.204.38.30 (©M«H¶W¨S«~)[m
+
+¡÷ [36mducksteven [31m±À[m:Å¥»¡¦³¤H©ú¤Ñ­n¦Ò¸Õ= =+                             0131 13:55
+¡÷ [36msa072686 [31m±À[m:¥¿­n¥h¬Ý¦Ò³õ¡K°Ú«¢«¢«¢¡]¤ßµê¡^                       0131 14:17

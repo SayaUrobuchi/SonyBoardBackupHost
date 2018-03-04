@@ -1,0 +1,92 @@
+§@ªÌ: sa072686 (·¥¤j¦a¡C) ¯¸¤º: sa072686
+¼ÐÃD: [Âà¿ý] [µ{³]]printf("%*d",i,123);
+®É¶¡: 2007/12/09 Sun 00:38:49
+
+¡° ¥»¤åÂà¿ý¦Û [PG] ¬ÝªO
+
+§@ªÌ: PG (¨x«ü¼Æ¤W¤É¤¤¡ã¡¸) ¯¸¤º: PG
+¼ÐÃD: [Âà¿ý] [µ{³]]printf("%*d",i,123);
+®É¶¡: 2007/12/09 Sun 00:22:18
+
+¡° ¥»¤åÂà¿ý¦Û [YiPo] ¬ÝªO
+
+§@ªÌ: YiPo (¥¿¦b¬ã¨s conio2.h) ¯¸¤º: YiPo
+¼ÐÃD: [µ{³]]printf("%*d",i,123);
+®É¶¡: 2007/12/08 Sat 23:58:21
+
+¨S·Q¨ì¥­±`·Q¼gªº³o¼Ë¡G
+
+    printf("%8d",123);
+
+ÁÙ¥i¥H¼g¦¨³o¼Ë¡G
+
+    printf("%*d\n",8,123);
+
+¤£¥u¬O %d ³á¡A%f¡B%s¡B... ²Î²Î¥i¥H¥Î¡G
+
+¡° code¡G
+---
+[m[35m#include <stdio.h>[m
+
+[1;36mint[m main() {
+    printf([1;35m"%8d\n"[m,123);
+    printf([1;35m"%*d\n"[m,8,123);
+
+    printf([1;35m"%8.2f\n"[m,3.14);
+    printf([1;35m"%*.*f\n"[m,8,2,3.14);
+
+    printf([1;35m"%8s\n"[m,"XDrz");
+    printf([1;35m"%*s\n"[m,8,"Xdrz");
+
+    [1;36mreturn[m 0;
+}
+
+¡° output¡G
+---
+     123
+     123
+    3.14
+    3.14
+    XDrz
+    Xdrz
+
+©Ò¥H¡A­n³o¼Ë´N¥i¥H«Ü¤è«K°Õ¡G
+
+¡° code¡G
+---
+[m[35m#include <stdio.h>[m
+
+[1;36mint[m main() {
+    [1;36mint[m i;
+    [1;36mfor[m (i=0;i<8;i++) printf([1;35m"%*s\n"[m,i+4,[1;35m"XDrz"[m);
+    [1;36mreturn[m 0;
+}
+
+¡° output¡G
+---
+XDrz
+ XDrz
+  XDrz
+   XDrz
+    XDrz
+     XDrz
+      XDrz
+       XDrz
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by YiPo from [m [1m203.68.127.1 (¥x¥_¤j¾Ç)[m
+
+¡÷ [36mducksteven [31m±À[m:Maple ¸Ì­±¤j¶q¨Ï¥Î³o©Û¡A¦]¬°¦³®É­Ô¤£ª¾¹D¦³´X®æXD   1208 23:59
+¡÷ [36mYiPo [31m±À[m:¬O§r?!§Ú¤µ¤Ñ¤~ª¾¹Dªº...¨þ                                1209 00:01
+¡÷ [36mYiPo [33m»¡[m:¨Ó·½¡Gblog.roodo.com/thinkingmore/archives/554197.html   1209 00:02
+¡÷ [36mPG [31m±À[m:­ÉÂà XD                                                    1209 00:22
+£p [1;30mPG [0;36mÂà[m:±q [YiPo] ¬ÝªO¡A¤_ 2007/12/09 Sun 00:22:18 [m
+¡÷ [36msa072686 [31m±À[m:­ÉÂàXDD                                              1209 00:38
+£p [1;30msa072686 [0;36mÂà[m:±q [PG] ¬ÝªO¡A¤_ 2007/12/09 Sun 00:38:49 [m
+¡÷ [36mdust [31m±À[m:³o¬q§Ú­è¦n¬Q¤Ñ¤~¦bmaple¤¤¬Ý¨ì XD"                        1209 16:06
+¡÷ [36msa072686 [31m±À[m:­ì¥»·Q»¡­n¦Û¤v¥Îsprintf()³y®æ¦¡¤Æ¦r¦êªºXD            1209 18:32
+¡÷ [36mben196888 [31m±À[m:­ÉÂà~                                               1209 20:18
+£p [1;30mben196888 [0;36mÂà[m:¨ì [ben196888] ¬ÝªO¡A¤_ 2007/12/09 Sun 20:18:26 [m

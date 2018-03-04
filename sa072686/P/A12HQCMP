@@ -1,0 +1,39 @@
+§@ªÌ: csftwpt (Eric) ¯¸¤º: sa072686
+¼ÐÃD: [ACM]838
+®É¶¡: 2006/09/29 Fri 20:02:10
+
+³oÃDªº°µªk¬O DFS, ¤£¹L­n¥ÎÂI cut ¥[§Ö³t«×.
+
+¦]¬°°_ÂI¤£©T©w, ©Ò¥H¥H¨C­ÓÂI³£·í°_ÂI¥h·j·j¬Ý.
+
+²{¦b°²³] MaxLen ¬O¥Ø«e¬°¤î§ä¨ì³Ìªøªºªø«×.
+
+void dfs(int y,int x,int len){
+    if(len+CalcMaxExistLen()<=MaxLen)
+        return;
+    ......
+}
+
+len ¬O DFS ¨ì (y,x) ¬°¤î¨«¹Lªºªø«×,
+
+¦Ó CalcMaxExistLen() ¬O¦ô­p¦¹«á³Ì¦hÁÙ¦³¥i¯à¨«´X¨B.
+
+¦p¦¹¤@¨Ó³t«×´N°÷§Ö¤F. (¦Ü©ó¨º­Ó¦ô­p¨ç¼Æ¶Ã¼g¶Ã¦ôÀ³¸Ó³£¥i¥H...)
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by csftwpt from [m [1m61.64.254.127 (©Ò¥H¤º¯S)[m
+
+¡÷ [36mbruce3557 [31m±À[m:®`§Ú§Ô¤£¦í¼g¤FACM...                                0929 20:22
+¡÷ [36msilentvow [31m±À[m:¼gªü                                                0929 20:26
+¡÷ [36mDarkKnight [33m»¡[m:ÃöÁä¬O¤W¥k¤U¥ª                                     0929 22:51
+¡÷ [36mcsftwpt [31m±À[m:¯uªº­C XD" ¦³¯S©w¨«ªk·| TLE, ¤@¨Ç·| AC                0930 08:26
+¡÷ [36msa072686 [31m±À[m:§Ú¥Î¤W¥k¤U¥ªµ²ªGÃz¤FXDDD ¦³cut©M¨Scut³£¸Õ¹L¤F        1001 12:07
+¡÷ [36mgloompisces [31m±À[m:¦ô­p³Ì¦h´X¦¸«Ü­«­n¡AÅý§Ú±qTLEÅÜWA..               1001 12:54
+¡÷ [36mbruce3557 [31m±À[m:¤W¥k¤U¥ª½T¹ê¥i¥H¹L¡A¦Ó¥B«Ü§Ö                        1001 13:03
+¡÷ [36msa072686 [31m±À[m:¥Î¤W¥k¤U¥ªÁÙ¬Otle°Ú¡K«á¨Ó¸òbruceªº¶¶§ÇÁÙ¬Otle¡K      1002 12:50
+¡÷ [36msa072686 [33m»¡[m:§Ú¤]³£¦³¥Îcs´£¨Ñªº¤èªk¦ô¡K                           1002 12:50
+¡÷ [36mbruce3557 [31m±À[m:¬Ý§ÚªO¤Wªº838¨º½g§a                                 1002 13:20
+¡÷ [36msa072686 [31m±À[m:²×©ó¬O¹L¤F Ê¨¡Ktle¦n¤[                               1002 21:10

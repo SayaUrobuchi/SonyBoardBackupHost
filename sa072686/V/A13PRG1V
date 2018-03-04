@@ -1,0 +1,40 @@
+§@ªÌ: gloompisces (ÅÜ¦¨¤F«í¬P ¥Ã¤£·|ÅÜ) ¯¸¤º: sa072686
+¼ÐÃD: Re: [ACM] IIUC Online Contest
+®É¶¡: 2008/01/28 Mon 19:45:03
+
+problem F : The Sultan¡¦s Feast
+
+§A·QÁ|¿ì¤@­Ó®b·|¡A¦³¥i¯à¥X®uªº¦³N­Ó¤H (N<=100)
+
+¦ý¬O§A¹ï¨C­Ó¤Hªº³ßÅwµ{«×¤£¦P¡A±q -10000 ¨ì 10000 ¤£µ¥
+
+¦Ó¨C­Ó«È¤H³£¦³¦U¦ÛªºªB¤Í¡A¦pªG¥L¥X®u¡A¥L·|§â¥L©Ò¦³ªºªB¤Í³£©Ô¨Ó
+
+
+
+Input ªº²Ä¤@¦æ¬O T (T<=100) ¥Nªí¦³T²Õ´ú¸ê
+
+¨C¤@²Õ´ú¸êªº²Ä¤@¦æ¬ON
+
+±µ¤U¨Ó¦³N¦æ¡A¨C¤@¦æªº²Ä¤@­Ó¼Æ¦r¬O§A¹ï¨º­Ó¤Hªº³ßÅwµ{«×
+
+²Ä¤G­Ó¼Æ¦rR¥Nªí¥L¦³R­ÓªB¤Í¡A±µ¤U¨ÓªºR­Ó¼Æ¦r¬O¥LªºªB¤Íªº½s¸¹
+
+
+§A§Æ±æÁÜ½Ð¯àÅý"³ßÅwµ{«×"³Ì¤jªº¤@¨Ç¤H¡A°Ý³Ì¤jªº³ßÅwµ{«×¬O¦h¤Ö
+
+¦pªG¤£ºÞ§A«ç»òÁÜ½Ð³ßÅwµ{«×¥²<0¡A¿é¥X : Alas, sultan can't invite anyone!
+
+
+<Hint E>
+
+[30m  backtracking  [m
+
+[30m  §Ú¦³¥t¥~«Ø¤@­Óªí¦s "¦pªG¬Y¤H³QÁÜ½Ð¡A¦³½Ö·|¤@°_¨Ó"  [m
+
+--
+[1m               [42m¢q[40m¢w¢¡                  ¢~¢w¢w¢w¢w¢w¢w¢w¢¡[m
+[1m               ¢x  ¢x[1m¥[mx«[1mn¤@¤[m¤¡D¯[1mÁ¥§¤[mp¯[1m¸[m¡ý[1msony.TFcis.org¢x  ¢x[m
+[1m                   ¢¢¢w¢w¢w¢w¢w¢w¢w¢w¢w¢£              ¢¢¢w[42m¢q[m
+[1m               by gloompisces from [m [1m140.116.142.226 (¤£¥¢±Ñ¤j¾Ç)[m
+
